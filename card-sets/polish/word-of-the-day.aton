@@ -1,0 +1,1816 @@
+
+@@BEGIN:	CARDLIST
+
+@TITLE:		Polish word of the day
+@TITLEURL:	http://www.transparent.com/word-of-the-day/today/polish.html
+@DESCRIPTION:	Words from www.transparent.com/word-of-the-day/today/polish.html?date=04-16-2016
+
+@@BEGIN:	OPTIONS
+@BACKGROUND:		#333333
+@CATEGORY_BACKGROUND:	#2a2a2a
+@DEFAULT_SIDE:		1
+@@END:		OPTIONS
+
+@@BEGIN:	ABBR
+@PONS:		http://en.pons.com/translate/polish-english/
+@@END:		ABBR
+
+@@BEGIN:	SIDES
+
+@@BEGIN:	SIDE
+@TITLE:		Polish
+@TEMPLATE:	<div style="margin-top: 60px">
+			{{{hyperlink POLISH "ABBR@PONS" POLISH}}}
+		{{{audio AUDIO}}}
+		</div>
+		{{#if RUSSIAN}}
+			<div style="margin-top: 100px">
+				<span style="color:#aaa;">Russian:</span>
+				{{{RUSSIAN}}}
+			</div>
+		{{/if}}
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		English
+@TEMPLATE:	{{{imageorword IMAGE ENGLISH}}}
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		Usage
+@TEMPLATE:	{{{usage USAGE}}}
+@@END:		SIDE
+
+@@END:		SIDES
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	animals
+@ENGLISH:	butterfly
+@POLISH:	motyl
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00084_polish_word.mp3
+@PHONETIC:	motill
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/d/d2/Tagpfauenauge.jpg
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		20160417
+
+@@BEGIN:	USAGE
+@POLISH:	Zobaczyłam bardzo rzadkiego motyla siedzącego na kaktusie.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00084_polish_sentence.mp3
+@ENGLISH:	I saw a very rare butterfly sitting on a cactus.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	office
+@ENGLISH:	letter
+@POLISH:	list
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00083_polish_word.mp3
+@PHONETIC:	least
+@IMAGE:		https://pixabay.com/static/uploads/photo/2014/09/05/18/33/old-letters-436501_960_720.jpg
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		20160417
+
+@@BEGIN:	USAGE
+@POLISH:	Jego fanclub otrzymuje codziennie setki listów.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00083_polish_sentence.mp3
+@ENGLISH:	His fanclub receives hundreds of letters every day.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	clothes
+@ENGLISH:	shirt
+@POLISH:	koszula
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00082_polish_word.mp3
+@PHONETIC:	koshoola
+@WICTIONARY:	https://en.wiktionary.org/wiki/koszula
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/8/8c/Hawaiian_Shirt.jpg
+@GENDER:	f
+@PARTOFSPEECH:	noun
+@DATE:		20160416
+
+@@BEGIN:		USAGE
+@POLISH:	Nie cierpię prasować koszul.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00082_polish_sentence.mp3
+@ENGLISH:	I hate ironing shirts.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@ENGLISH:	remedy, medicine
+@POLISH:	lek
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00081_polish_word.mp3
+@PHONETIC:	lek
+@WICTIONARY:	
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		20160415
+
+@@BEGIN:		USAGE
+@POLISH:	Przyjaźń to cudowny lek na samotność.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00081_polish_sentence.mp3
+@ENGLISH:	Friendship is a wonderful remedy for loneliness.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@ENGLISH:	pain
+@POLISH:	ból
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00080_polish_word.mp3
+@PHONETIC:	boul
+@WICTIONARY:	https://en.wiktionary.org/wiki/b%C3%B3l#Polish
+@GENDER:	m
+@PARTOFSPEECH:	noun
+@DATE:		20160414
+
+@@BEGIN:		USAGE
+@POLISH:	Narzekał na silny ból brzucha.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00080_polish_sentence.mp3
+@ENGLISH:	He complained of a severe abdominal pain.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	clothes
+@ENGLISH:	hat
+@POLISH:	kapelusz
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/c/c5/BoaterStrawHat_wb.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00079_polish_word.mp3
+@PHONETIC:	kapeloosh
+@GENDER:	f
+@PARTOFSPEECH:	noun
+@DATE:		20160413
+
+@@BEGIN:		USAGE
+@POLISH:	Widząc mnie, uchylił kapelusza.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00079_polish_sentence.mp3
+@ENGLISH:	As he saw me, he tipped his hat.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	food
+@ENGLISH:	sandwich
+@POLISH:	kanapka
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/f/f4/Norwegian.open.sandwich-01.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00078_polish_word.mp3
+@PHONETIC:	kanapka
+@GENDER:	f
+@PARTOFSPEECH:	noun
+@DATE:		20160412
+
+@@BEGIN:	USAGE
+@POLISH:	Podałam mu kanapki z szynką i serem.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00078_polish_sentence.mp3
+@ENGLISH:	I served him ham and cheese sandwiches.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	school
+@ENGLISH:	dictionary
+@POLISH:	słownik
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/4/49/Dict_German-AGreek_small.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00077_polish_word.mp3
+@PHONETIC:	suovnik
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		20160411
+
+@@BEGIN:	USAGE
+@POLISH:	Tłumacze często korzystają ze słowników.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00077_polish_sentence.mp3
+@ENGLISH:	Translators often use dictionaries.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	food
+@ENGLISH:	cake
+@POLISH:	tort
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/2/24/841_food.JPG
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00076_polish_word.mp3
+@PHONETIC:	tort
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		20160410
+
+@@BEGIN:	USAGE
+@POLISH:	Ich tort ślubny zawalił się przed ich oczami.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00076_polish_sentence.mp3
+@ENGLISH:	Their wedding cake collapsed in front of their eyes.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@ENGLISH:	picture
+@POLISH:	zdjęcie
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/9/9d/NSAPINY9_EXTR.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00075_polish_word.mp3
+@PHONETIC:	zdiowncha
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		20160409
+
+@@BEGIN:	USAGE
+@POLISH:	Zgubiłam wszystkie moje ślubne zdjęcia.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00075_polish_sentence.mp3
+@ENGLISH:	I lost all of my wedding pictures.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	food
+@ENGLISH:	mug
+@POLISH:	kubek
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/0/02/Iznik_Mug.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00074_polish_word.mp3
+@PHONETIC:	kubek
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		20160408
+
+@@BEGIN:	USAGE
+@POLISH:	Jestem znanym kolekcjonerem kubków.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00074_polish_sentence.mp3
+@ENGLISH:	I'm a renowned collector of mugs.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	animals
+@ENGLISH:	sheep
+@POLISH:	owca
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/1/1f/Schaf_bei_Woodhenge1.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00073_polish_word.mp3
+@PHONETIC:	ovftsa
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		20160407
+
+@@BEGIN:	USAGE
+@POLISH:	Na polu pasło się stado owiec.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00073_polish_sentence.mp3
+@ENGLISH:	A flock of sheep was grazing in the field.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	geology
+@ENGLISH:	mountain
+@POLISH:	góra
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/6/60/Matterhorn_from_Domh%C3%BCtte_-_2.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00072_polish_word.mp3
+@PHONETIC:	goora
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		20160406
+
+@@BEGIN:	USAGE
+@POLISH:	Rysy to najwyższa góra w Polsce.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00072_polish_sentence.mp3
+@ENGLISH:	Rysy is the highest mountain in Poland.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	clothes
+@ENGLISH:	glasses
+@POLISH:	okulary
+@IMAGE:		https://pixabay.com/static/uploads/photo/2013/07/13/11/50/glasses-158789_960_720.png
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00071_polish_word.mp3
+@PHONETIC:	okulareh
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		20160405
+
+@@BEGIN:	USAGE
+@POLISH:	Lekarz zalecił mi noszenie okularów.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00071_polish_sentence.mp3
+@ENGLISH:	The doctor recommended that I wear glasses.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	house
+@ENGLISH:	key
+@POLISH:	klucz
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/1/1f/Car_keys_with_keychain.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00070_polish_word.mp3
+@PHONETIC:	kloosh
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		20160404
+
+@@BEGIN:	USAGE
+@POLISH:	Oto klucz do rozwiązania tej zagadki.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00070_polish_sentence.mp3
+@ENGLISH:	This is the key to solving this mystery.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	house, office
+@ENGLISH:	office
+@POLISH:	biuro
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/e/ed/City%2C_crowded_office_space_%282899334278%29.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00069_polish_word.mp3
+@PHONETIC:	biuro
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		20160403
+
+@@BEGIN:	USAGE
+@POLISH:	Jestem w biurze codziennie od 9 do 17.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00069_polish_sentence.mp3
+@ENGLISH:	I'm at the office from 9 to 5 every day.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	animals, food
+@ENGLISH:	fish
+@POLISH:	ryba
+@RUSSIAN:	рыба
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/b/b7/Gullfiskur.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00068_polish_word.mp3
+@PHONETIC:	riba
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		20160402
+
+@@BEGIN:	USAGE
+@POLISH:	Nie umie śpiewać, ale pływa jak ryba.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00068_polish_sentence.mp3
+@ENGLISH:	He can't sing, but he swims like a fish.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	office
+@ENGLISH:	account
+@POLISH:	konto
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00067_polish_word.mp3
+@PHONETIC:	konto
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		20160401
+
+@@BEGIN:	USAGE
+@POLISH:	Czy chciałby pan otworzyć konto?
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00067_polish_sentence.mp3
+@ENGLISH:	Would you like to open an account?
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	office
+@ENGLISH:	envelope
+@POLISH:	koperta
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/f/f0/Envelop.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00066_polish_word.mp3
+@PHONETIC:	konto
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		20160331
+
+@@BEGIN:	USAGE
+@POLISH:	Musisz dokładnie zakleić kopertę.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00066_polish_sentence.mp3
+@ENGLISH:	You have to seal the envelope very carefully.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	phantom
+@POLISH:	upiór
+@IMAGE:		http://i.telegraph.co.uk/multimedia/archive/00997/460-phantom_997209c.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00065_polish_word.mp3
+@PHONETIC:	konto
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		20160330
+
+@@BEGIN:	USAGE
+@POLISH:	Znam "Upiora w Operze" na pamięć.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00065_polish_sentence.mp3
+@ENGLISH:	I know "The Phantom of the Opera" by heart.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	house
+@ENGLISH:	candle
+@POLISH:	świeca
+@IMAGE:		http://kwanzaaguide.com/wp-content/uploads/2012/11/Red-Candle3.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00064_polish_word.mp3
+@PHONETIC:	konto
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		20160329
+
+@@BEGIN:	USAGE
+@POLISH:	Świeca zamrugała złowieszczo.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00064_polish_sentence.mp3
+@ENGLISH:	The candle flickered ominously.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	time
+@ENGLISH:	evening
+@POLISH:	wieczór
+@IMAGE:		http://i.telegraph.co.uk/multimedia/archive/02367/Seine_2367408b.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00063_polish_word.mp3
+@PHONETIC:	veechour
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		20160328
+
+@@BEGIN:	USAGE
+@POLISH:	Wieczorem lubię czytać straszne opowiadania.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00063_polish_sentence.mp3
+@ENGLISH:	In the evening, I like to read spooky stories.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	people
+@ENGLISH:	child
+@POLISH:	dziecko
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/3/3f/Ni%C3%B1os_del_Cuzco.JPG
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00062_polish_word.mp3
+@PHONETIC:	jedzsko
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		20160327
+
+@@BEGIN:	USAGE
+@POLISH:	Dzieci mojej sąsiadki są bardzo hałaśliwe.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00062_polish_sentence.mp3
+@ENGLISH:	My neighbor's children are very noisy.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	crossword puzzle
+@POLISH:	krzyżówka
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/6/61/Crossword_puzzle_with_lady_in_black_coat.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00061_polish_word.mp3
+@PHONETIC:	k-shizhovfka
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		20160326
+
+@@BEGIN:	USAGE
+@POLISH:	Mogę rozwiązać 5 krzyżówek dziennie.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00061_polish_sentence.mp3
+@ENGLISH:	I can do five crossword puzzles a day.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	house
+@ENGLISH:	chair
+@POLISH:	krzesło
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/3/37/Dining_chair_1939.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00060_polish_word.mp3
+@PHONETIC:	kchess-wo
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		20160325
+
+@@BEGIN:	USAGE
+@POLISH:	Składane krzesła są niewygodne.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00060_polish_sentence.mp3
+@ENGLISH:	Folding chairs are not comfortable.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	house, office, school
+@ENGLISH:	book
+@POLISH:	książka
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/8/87/Old_book_bindings.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00059_polish_word.mp3
+@PHONETIC:	kshaown-shka
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		20160324
+
+@@BEGIN:	USAGE
+@POLISH:	Uwielbiam czytać książki.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00059_polish_sentence.mp3
+@ENGLISH:	I love reading books.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	transportation
+@ENGLISH:	car
+@POLISH:	samochód
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/9/90/Polski_126p-el_yellow_F.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00058_polish_word.mp3
+@PHONETIC:	samo-CHoot
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		20160323
+
+@@BEGIN:	USAGE
+@POLISH:	Wczoraj umyłam mój nowy samochód.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00058_polish_sentence.mp3
+@ENGLISH:	Yesterday I washed my new car.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	transportation
+@ENGLISH:	train
+@POLISH:	pociąg
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/8/8c/Austria_1044_semmering.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00057_polish_word.mp3
+@PHONETIC:	pochiaownk
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		20160322
+
+@@BEGIN:	USAGE
+@POLISH:	Obawiam się, że spóźnię się na pociąg.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00057_polish_sentence.mp3
+@ENGLISH:	I'm afraid I'll be late for my train.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs
+@ENGLISH:	to be pleased
+@POLISH:	cieszyć się
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00056_polish_word.mp3
+@PHONETIC:	cheshich shaown
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160321
+
+@@BEGIN:	USAGE
+@POLISH:	Cieszę się, że wróciłeś.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00056_polish_sentence.mp3
+@ENGLISH:	I'm pleased you came back.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs
+@ENGLISH:	to be surprised
+@POLISH:	dziwić się
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/a/ae/Ava_Surprised.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00055_polish_word.mp3
+@PHONETIC:	jiveech shaown
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160320
+
+@@BEGIN:	USAGE
+@POLISH:	Bardzo się dziwię twojemu zachowaniu.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00055_polish_sentence.mp3
+@ENGLISH:	I'm very surprised by your behavior.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs
+@ENGLISH:	to shine
+@POLISH:	świecić
+@IMAGE:		http://d39ya49a1fwv14.cloudfront.net/wp-content/uploads/2014/11/sunshine-forest-treetop.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00054_polish_word.mp3
+@PHONETIC:	svietchich
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160319
+
+@@BEGIN:	USAGE
+@POLISH:	Słońce świeciło zza chmur.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00054_polish_sentence.mp3
+@ENGLISH:	The sun shone through the clouds.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs
+@ENGLISH:	to convince
+@POLISH:	przekonywać
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00053_polish_word.mp3
+@PHONETIC:	p-sheykonivach
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160318
+
+@@BEGIN:	USAGE
+@POLISH:	Nie musiał mnie przekonywać, że mówił prawdę.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00053_polish_sentence.mp3
+@ENGLISH:	He didn't have to convince me that he was telling the truth.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs
+@ENGLISH:	to march
+@POLISH:	maszerować
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/f/f5/Chinese_honor_guard_in_column_070322-F-0193C-014.JPEG
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00052_polish_word.mp3
+@PHONETIC:	masherovach
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160317
+
+@@BEGIN:	USAGE
+@POLISH:	Demonstranci maszerowali ulicami Warszawy.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00052_polish_sentence.mp3
+@ENGLISH:	The demonstrators marched down the streets of Warsaw.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs
+@ENGLISH:	to adapt
+@POLISH:	dostosować się
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00051_polish_word.mp3
+@PHONETIC:	dostosovach shauwn
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160316
+
+@@BEGIN:	USAGE
+@POLISH:	Dinozaury nie dostosowały się do nowych warunków.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00051_polish_sentence.mp3
+@ENGLISH:	The dinosaurs didn't adapt to the new conditions.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs
+@ENGLISH:	to trample, tread
+@POLISH:	deptać
+@IMAGE:		https://pixabay.com/static/uploads/photo/2015/05/25/23/22/trample-784060_960_720.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00050_polish_word.mp3
+@PHONETIC:	deptach
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160315
+
+@@BEGIN:	USAGE
+@POLISH:	Dlaczego depczesz po kwiatach?
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00050_polish_sentence.mp3
+@ENGLISH:	Why are you trampling the flowers?
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs, food
+@ENGLISH:	to bake
+@POLISH:	piec
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/3/3d/Cornish_Pasties_in_the_Oven.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00049_polish_word.mp3
+@PHONETIC:	pee-ates
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160314
+
+@@BEGIN:	USAGE
+@POLISH:	Moja mama w każdą niedzielę piekła ciasto jabłkowe.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00049_polish_sentence.mp3
+@ENGLISH:	My mom baked an apple cake every Sunday.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs
+@ENGLISH:	to celebrate
+@POLISH:	świętować
+@IMAGE:		https://pixabay.com/static/uploads/photo/2014/04/03/10/54/celebrate-311709_960_720.png
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00048_polish_word.mp3
+@PHONETIC:	schvian-tovach
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160313
+
+@@BEGIN:	USAGE
+@POLISH:	W sobotę moi rodzice świętowali 30 rocznicę ślubu.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00048_polish_sentence.mp3
+@ENGLISH:	On Saturday my parents celebrated their 30th wedding anniversary.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs
+@ENGLISH:	to translate
+@POLISH:	tłumaczyć
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Translate_button_icon.svg/2000px-Translate_button_icon.svg.png
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00047_polish_word.mp3
+@PHONETIC:	too-maut-tich
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160312
+
+@@BEGIN:	USAGE
+@POLISH:	Już od 5 lat tłumaczę na język polski wiersze angielskich poetów.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00047_polish_sentence.mp3
+@ENGLISH:	I've been translating poems by English poets into Polish for five years now.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs
+@ENGLISH:	to scratch
+@POLISH:	drapać
+@IMAGE:		https://pixabay.com/static/uploads/photo/2015/05/02/18/24/cat-750259_960_720.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00046_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160311
+
+@@BEGIN:	USAGE
+@POLISH:	Nie powinieneś tego drapać, jeśli lekarz tak powiedział.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00046_polish_sentence.mp3
+@ENGLISH:	You shouldn't scratch it if the doctor said so.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs
+@ENGLISH:	to compose
+@POLISH:	komponować
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00045_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160310
+
+@@BEGIN:	USAGE
+@POLISH:	Chopin komponował głównie utwory na fortepian.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00045_polish_sentence.mp3
+@ENGLISH:	Chopin composed mainly piano pieces.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs
+@ENGLISH:	to refuse
+@POLISH:	odmawiać
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00044_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160309
+
+@@BEGIN:	USAGE
+@POLISH:	Odmawiałam odpowiedzi na wszystkie jego pytania.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00044_polish_sentence.mp3
+@ENGLISH:	I have been refusing to answer any of his questions.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs
+@ENGLISH:	to suffer
+@POLISH:	cierpieć
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00043_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160308
+
+@@BEGIN:	USAGE
+@POLISH:	Ona cierpi w ciszy.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00043_polish_sentence.mp3
+@ENGLISH:	She suffers in silence.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs
+@ENGLISH:	to pass
+@POLISH:	mijać
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00042_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160307
+
+@@BEGIN:	USAGE
+@POLISH:	Czas mija bardzo szybko, jeśli jesteś zajęta.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00042_polish_sentence.mp3
+@ENGLISH:	Time passes very quickly if you are busy.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs
+@ENGLISH:	to dream
+@POLISH:	marzyć
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00041_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160306
+
+@@BEGIN:	USAGE
+@POLISH:	Zawsze marzyłam o zostaniu aktorką.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00041_polish_sentence.mp3
+@ENGLISH:	I have always dreamed of becoming an actress.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs
+@ENGLISH:	to try
+@POLISH:	próbować
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00040_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160305
+
+@@BEGIN:	USAGE
+@POLISH:	On próbuje mnie zdenerwować.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00040_polish_sentence.mp3
+@ENGLISH:	He is trying to get me angry.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs
+@ENGLISH:	to worry
+@POLISH:	martwić się
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00039_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160304
+
+@@BEGIN:	USAGE
+@POLISH:	Naprawdę martwię się o ciebie.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00039_polish_sentence.mp3
+@ENGLISH:	I really worry about you.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs
+@ENGLISH:	to solve
+@POLISH:	rozwiązywać
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00038_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160303
+
+@@BEGIN:	USAGE
+@POLISH:	W szkole średniej ona rozwiązywała za mnie zadania z matematyki.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00038_polish_sentence.mp3
+@ENGLISH:	She used to solve math problems for me in high school.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs
+@ENGLISH:	to take place
+@POLISH:	odbyć się
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00037_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160302
+
+@@BEGIN:	USAGE
+@POLISH:	Mecz odbył się w zeszłym tygodniu.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00037_polish_sentence.mp3
+@ENGLISH:	The match took place last week.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs
+@ENGLISH:	to discover, to uncover
+@POLISH:	odkrywać
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00036_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160301
+
+@@BEGIN:	USAGE
+@POLISH:	W końcu odkryłam jak to działa.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00036_polish_sentence.mp3
+@ENGLISH:	Finally I discovered how it works.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs
+@ENGLISH:	to call, to phone, to ring
+@POLISH:	dzwonić
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00035_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160229
+
+@@BEGIN:	USAGE
+@POLISH:	Mój kierownik zawsze dzwoni do mnie z głupimi pytaniami.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00035_polish_sentence.mp3
+@ENGLISH:	My boss always calls me with stupid questions.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs
+@ENGLISH:	to praise
+@POLISH:	chwalić
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00034_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160228
+
+@@BEGIN:	USAGE
+@POLISH:	Rodzice powinni częściej chwalić swoje dzieci.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00034_polish_sentence.mp3
+@ENGLISH:	Parents should praise their children more often.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs
+@ENGLISH:	to break
+@POLISH:	łamać
+@IMAGE:		https://i.ytimg.com/vi/gYqnytDQWMc/maxresdefault.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00033_polish_word.mp3
+@PHONETIC:	wa-match
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160227
+
+@@BEGIN:	USAGE
+@POLISH:	Setki narciarzy łamią nogi każdego roku.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00033_polish_sentence.mp3
+@ENGLISH:	Hundreds of skiers break legs every year.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs
+@ENGLISH:	to visit
+@POLISH:	odwiedzać
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00032_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160226
+
+@@BEGIN:	USAGE
+@POLISH:	W każdą niedzielę odwiedzam moją mamę.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00032_polish_sentence.mp3
+@ENGLISH:	Every Sunday I visit my mother.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs, food
+@ENGLISH:	to eat
+@POLISH:	jeść
+@IMAGE:		http://img03.deviantart.net/0f86/i/2011/268/3/e/i_love_to_eat_by_jenfoxd-d4ay1cd.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00031_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160225
+
+@@BEGIN:	USAGE
+@POLISH:	Jestem wegetarianką, nie jem mięsa.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00031_polish_sentence.mp3
+@ENGLISH:	I'm a vegetarian, I don't eat meat.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	adjectives, food
+@ENGLISH:	fresh
+@POLISH:	świeży
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00030_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	adjective
+@DATE:		20160224
+
+@@BEGIN:	USAGE
+@POLISH:	Uwielbiam zapach świeżego chleba.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00030_polish_sentence.mp3
+@ENGLISH:	I love the smell of fresh bread.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	adjectives
+@ENGLISH:	honest
+@POLISH:	uczciwy
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00029_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	adjective
+@DATE:		20160223
+
+@@BEGIN:	USAGE
+@POLISH:	Uczciwy taksówkarz zwrócił moją torebkę.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00029_polish_sentence.mp3
+@ENGLISH:	An honest taxi driver returned my purse.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	adjectives
+@ENGLISH:	young
+@POLISH:	młody
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00028_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	adjective
+@DATE:		20160222
+
+@@BEGIN:	USAGE
+@POLISH:	Oni są za młodzi, aby to pamiętać.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00028_polish_sentence.mp3
+@ENGLISH:	They are too young to remember it.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	adjectives, food
+@ENGLISH:	hungry
+@POLISH:	głodny
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00027_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	adjective
+@DATE:		20160221
+
+@@BEGIN:	USAGE
+@POLISH:	On jest zawsze głodny.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00027_polish_sentence.mp3
+@ENGLISH:	He is always hungry.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	adjectives
+@ENGLISH:	strange
+@POLISH:	dziwny
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00026_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	adjective
+@DATE:		2016020
+
+@@BEGIN:	USAGE
+@POLISH:	Ta instrukcja obsługi jest bardzo dziwna.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00026_polish_sentence.mp3
+@ENGLISH:	This user's manual is very strange.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	adjectives
+@ENGLISH:	interesting
+@POLISH:	ciekawy
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00025_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	adjective
+@DATE:		2016019
+
+@@BEGIN:	USAGE
+@POLISH:	Szukam ciekawej pracy.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00025_polish_sentence.mp3
+@ENGLISH:	I am looking for an interesting job.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	adverbs
+@ENGLISH:	often
+@POLISH:	często
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00024_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	adverb
+@DATE:		2016018
+
+@@BEGIN:	USAGE
+@POLISH:	Często odwiedzam moją mamę.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00024_polish_sentence.mp3
+@ENGLISH:	I often visit my mother.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	people
+@ENGLISH:	visitor, guest
+@POLISH:	gość
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00023_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		2016017
+
+@@BEGIN:	USAGE
+@POLISH:	Będziemy mieć gości dziś wieczorem.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00023_polish_sentence.mp3
+@ENGLISH:	We'll have guests tonight.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	people, health
+@ENGLISH:	doctor
+@POLISH:	lekarz
+@IMAGE:		https://c1.staticflickr.com/9/8585/16068674648_383d653ccb_b.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00022_polish_word.mp3
+@PHONETIC:	laykarsh
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		2016016
+
+@@BEGIN:	USAGE
+@POLISH:	Lekarze nie mają pojęcia jak jej pomóc.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00022_polish_sentence.mp3
+@ENGLISH:	The doctors have no clue how to help her.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	health, buildings
+@ENGLISH:	hospital
+@POLISH:	szpital
+@IMAGE:		https://pixabay.com/static/uploads/photo/2015/08/26/12/37/hospital-908437_960_720.png
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00021_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		2016015
+
+@@BEGIN:	USAGE
+@POLISH:	To najlepszy szpital w całym kraju.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00021_polish_sentence.mp3
+@ENGLISH:	This is the best hospital in the whole country.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	transportation
+@ENGLISH:	bicycle
+@POLISH:	rower
+@IMAGE:		https://pixabay.com/static/uploads/photo/2015/01/24/01/58/bicycle-609652_960_720.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00020_polish_word.mp3
+@PHONETIC:	rover
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		2016014
+
+@@BEGIN:	USAGE
+@POLISH:	Ona nie umie jeździć na rowerze.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00020_polish_sentence.mp3
+@ENGLISH:	She can't ride a bicycle.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	office, food
+@ENGLISH:	bill, receipt, acocunt
+@POLISH:	rachunek
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/1/10/Croatia_pizza_receipt.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00019_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		2016013
+
+@@BEGIN:	USAGE
+@POLISH:	Czy mogę prosić o rachunek?
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00019_polish_sentence.mp3
+@ENGLISH:	Can I have the bill, please?
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs
+@ENGLISH:	to lend, to borrow
+@POLISH:	pożyczać
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00018_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		2016012
+
+@@BEGIN:	USAGE
+@POLISH:	On zawsze pożycza wszystkim pieniądze.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00018_polish_sentence.mp3
+@ENGLISH:	He always lends money to everybody.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs
+@ENGLISH:	to think
+@POLISH:	myśleć
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00017_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		2016011
+
+@@BEGIN:	USAGE
+@POLISH:	O czym myślisz?
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00017_polish_sentence.mp3
+@ENGLISH:	What are you thinking about?
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs, library
+@ENGLISH:	to read
+@POLISH:	czytać
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00016_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		2016010
+
+@@BEGIN:	USAGE
+@POLISH:	Właśnie czytam nową książkę tego autora.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00016_polish_sentence.mp3
+@ENGLISH:	I'm just reading a new book by this author.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs
+@ENGLISH:	to ask
+@POLISH:	pytać
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00015_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160209
+
+@@BEGIN:	USAGE
+@POLISH:	Nikt mnie nie pytał o moją opinię.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00015_polish_sentence.mp3
+@ENGLISH:	Nobody asked me about my opinion.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs
+@ENGLISH:	to play
+@POLISH:	grać
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00014_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160208
+
+@@BEGIN:	USAGE
+@POLISH:	Kto będzie grał dziś wieczorem?
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00014_polish_sentence.mp3
+@ENGLISH:	Who will play tonight?
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs
+@ENGLISH:	to watch
+@POLISH:	oglądać
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00013_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160207
+
+@@BEGIN:	USAGE
+@POLISH:	Jego dzieciaki oglądają za dużo telewizji.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00013_polish_sentence.mp3
+@ENGLISH:	His kids watch too much TV.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs, food
+@ENGLISH:	to cook, to boil
+@POLISH:	gotować
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/1/18/Kochendes_wasser02.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00012_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160206
+
+@@BEGIN:	USAGE
+@POLISH:	Co gotujesz dziś na obiad?
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00012_polish_sentence.mp3
+@ENGLISH:	What are you cooking for dinner today?
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	food
+@ENGLISH:	a piece of candy
+@POLISH:	cukierek
+@IMAGE:		https://c1.staticflickr.com/3/2014/2284882626_26876df51d_z.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00011_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		20160205
+
+@@BEGIN:	USAGE
+@POLISH:	Nie lubię cukierków w czekoladzie.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00011_polish_sentence.mp3
+@ENGLISH:	I don't like chocolate covered candies.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs
+@ENGLISH:	to wait
+@POLISH:	czekać
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00010_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160204
+
+@@BEGIN:	USAGE
+@POLISH:	Czekaliśmy na nią prawie dwie godzin
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00010_polish_sentence.mp3
+@ENGLISH:	We waited for her for almost two hours.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	adverbs
+@ENGLISH:	only
+@POLISH:	tylko
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00009_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	adverb
+@DATE:		20160203
+
+@@BEGIN:	USAGE
+@POLISH:	To był tylko żart.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00009_polish_sentence.mp3
+@ENGLISH:	It was only a joke
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	adjectives
+@ENGLISH:	serious
+@POLISH:	poważny
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00008_polish_word.mp3
+@PHONETIC:	povazshneh
+@GENDER:	
+@PARTOFSPEECH:	adjective
+@DATE:		20160202
+
+@@BEGIN:	USAGE
+@POLISH:	Moja siostra miała poważny wypadek.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00008_polish_sentence.mp3
+@ENGLISH:	My sister had a serious accident.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to buy
+@POLISH:	kupować
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00007_polish_word.mp3
+@PHONETIC:	koo-povatch
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160201
+
+@@BEGIN:	USAGE
+@POLISH:	Nie chcemy kupować nowego samochodu.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00007_polish_sentence.mp3
+@ENGLISH:	We don't want to buy a new car.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	people
+@ENGLISH:	male neighbor
+@POLISH:	sąsiad
+@IMAGE:		https://c2.staticflickr.com/6/5217/5475203373_364da49a46.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00006_polish_word.mp3
+@PHONETIC:	saun-shat
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		20160131
+
+@@BEGIN:	USAGE
+@POLISH:	Mamy bardzo miłych sąsiadów.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00006_polish_sentence.mp3
+@ENGLISH:	We have very nice neighbors.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	people
+@ENGLISH:	mother-in-law
+@POLISH:	teściowa
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/f/fd/Agnes_Moorehead_Bewitched_1969.JPG
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00005_polish_word.mp3
+@PHONETIC:	saun-shat
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		20160130
+
+@@BEGIN:	USAGE
+@POLISH:	Jej teściowa jest zaskakująco miłą osobą.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00005_polish_sentence.mp3
+@ENGLISH:	Her mother-in-law is a surprisingly nice person.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	time
+@ENGLISH:	autumn
+@POLISH:	jesień
+@IMAGE:		https://c1.staticflickr.com/3/2758/4107993637_02d8188d3a_b.jpg
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00004_polish_word.mp3
+@PHONETIC:	ye-shin
+@GENDER:	
+@PARTOFSPEECH:	noun
+@DATE:		20160129
+
+@@BEGIN:	USAGE
+@POLISH:	Jesień jest w tym roku wyjątkowo zimna.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00004_polish_sentence.mp3
+@ENGLISH:	Autumn this year is exceptionally cold.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verbs
+@ENGLISH:	to live, to stay
+@POLISH:	mieszkać
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00003_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	verb
+@DATE:		20160128
+
+@@BEGIN:	USAGE
+@POLISH:	Ona mieszka w Gdańsku.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00003_polish_sentence.mp3
+@ENGLISH:	She lives in Gdańsk.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	difficult
+@POLISH:	trudny
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00002_polish_word.mp3
+@PHONETIC:	
+@GENDER:	
+@PARTOFSPEECH:	adjective
+@DATE:		20160127
+
+@@BEGIN:	USAGE
+@POLISH:	Język polski nie jest trudnym językiem.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00002_polish_sentence.mp3
+@ENGLISH:	Polish is not a difficult language.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	adverb
+@ENGLISH:	very
+@POLISH:	bardzo
+@IMAGE:		
+@AUDIO: 	http://wotd.transparent.com/polish/level-1/sound/00001_polish_word.mp3
+@PHONETIC:	bard-zo
+@GENDER:	
+@PARTOFSPEECH:	adjective
+@DATE:		20160126
+
+@@BEGIN:	USAGE
+@POLISH:	Ostatnie wyniki były bardzo interesujące.
+@AUDIO:		http://wotd.transparent.com/polish/level-1/sound/00001_polish_sentence.mp3
+@ENGLISH:	The latest results were very interesting.
+@@END:		USAGE
+
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+@@END:		CARDLIST
+
+
+

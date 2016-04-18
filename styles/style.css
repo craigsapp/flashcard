@@ -1,0 +1,345 @@
+
+@font-face {
+	font-family:	'Flash Cards';
+	src:	url("fonts/flash_cards/flash_cards.eot");
+	src:	url("fonts/flash_cards/flash_cards.eot?#iefix") 
+			format("embedded-opentype"), 
+		url("fonts/flash_cards/flash_cards.svg#flash_cards") 
+			format("svg"), 
+		url("fonts/flash_cards/flash_cards.woff") 
+			format("woff"), 
+		url("fonts/flash_cards/flash_cards.ttf") 
+			format("truetype");
+	font-weight:	normal;
+	font-style:	normal
+}
+
+
+#deck {
+	height:		300px;
+	list-style:	none;
+	margin:		15px auto;
+	padding:	0;
+	position:	relative;
+	text-align:	center;
+	top:		80px;
+	width:		500px
+}
+
+
+.card {
+	color:			#333333;
+	display:		none;
+	font-family:		SchoolBell;
+	font-size:		30px;
+	height:			300px;
+	line-height:		60px;
+	perspective:		1600;
+	-webkit-perspective:	1600;
+	position:		relative;
+	width:			500px
+}
+
+
+.card:first-child {
+	display:		block
+}
+
+
+.side_one, .side_two {
+	-webkit-backface-visibility:	hidden;
+	backface-visibility:	hidden;
+	background-image:	-webkit-gradient(linear,  50% 0%,  50% 30,  color-stop(0%,  #ffffff),  color-stop(96.667%,  #ffffff),  color-stop(100%,  #0080ff));
+	background-image:	-webkit-linear-gradient(#ffffff 0px, #ffffff 29px, #0080ff 30px);
+	background-image:	-moz-linear-gradient(#ffffff 0px, #ffffff 29px, #0080ff 30px);
+	background-image:	-o-linear-gradient(#ffffff 0px, #ffffff 29px, #0080ff 30px);
+	background-image:	-ms-linear-gradient(#ffffff 0px, #ffffff 29px, #0080ff 30px);
+	background-image:	linear-gradient(#ffffff 0px, #ffffff 29px, #0080ff 30px);
+	-webkit-transition:	all 0.4s ease-in-out;
+	-moz-transition:	all 0.4s ease-in-out;
+	-ms-transition:		all 0.4s ease-in-out;
+	-o-transition:		all 0.4s ease-in-out;
+	transition:		all 0.4s ease-in-out;
+	background-color:	#fff;
+	background-size:	500px 30px;
+	background-position:	50%;
+	height:			inherit;
+	position:		absolute;
+	width:			inherit
+}
+
+
+.current .side_one, .current.flip .side_two {
+	box-shadow:		0 3px 5px #000
+	-moz-box-shadow:	0 3px 5px #000;
+	-webkit-box-shadow:	0 3px 5px #000;
+}
+
+
+.current.flip .side_one {
+	box-shadow:		none
+	-moz-box-shadow:	none;
+	-webkit-box-shadow:	none;
+}
+
+
+.side_one {
+	transform:			rotateX(0deg);
+	-webkit-transform:		rotateX(0deg);
+	transform-style:		preserve-3d;
+	-webkit-transform-style:	preserve-3d;
+	z-index:			900
+}
+
+
+.flip .side_one {
+	transform:		rotateX(180deg)
+	-webkit-transform:	rotateX(180deg);
+}
+
+
+.side_two {
+	transform:			rotateX(-180deg);
+	-webkit-transform:		rotateX(-180deg);
+	transform-style:		preserve-3d;
+	-webkit-transform-style:	preserve-3d;
+	z-index:			800
+}
+
+
+.flip .side_two {
+	transform:		rotateX(0deg);
+	-webkit-transform:	rotateX(0deg);
+	z-index:		1000
+}
+
+
+.card p {
+	background-image:	linear-gradient(#ffffff 0px, #ffffff 43px, #ff78b4 44px);
+	background-image:	-o-linear-gradient(#ffffff 0px, #ffffff 43px, #ff78b4 44px);
+	background-image:	-ms-linear-gradient(#ffffff 0px, #ffffff 43px, #ff78b4 44px);
+	background-image:	-moz-linear-gradient(#ffffff 0px, #ffffff 43px, #ff78b4 44px);
+	background-image:	-webkit-linear-gradient(#ffffff 0px, #ffffff 43px, #ff78b4 44px);
+	background-image:	-webkit-gradient(linear,  50% 0%,  50% 44,  color-stop(0%,  #ffffff),  color-stop(97.727%,  #ffffff),  color-stop(100%,  #ff78b4));
+	background-size:	500px 45px;
+	background-repeat:	repeat-x;
+	display:		table-cell;
+	height:			300px;
+	vertical-align:		middle;
+	width:			500px
+}
+
+
+#navigator {
+	color:		#fff;
+	/* margin-top:	-80px; */
+	margin-top:	0px;
+	margin-bottom:	-130px;
+}
+
+
+#title {
+	margin-top:	20px;
+	letter-spacing:	5px;
+	word-spacing:	8px;
+	font-size:	110%;
+}
+
+
+.icon {
+	cursor:		pointer
+}
+
+
+.icon:before {
+	content:	attr(data-icon);
+	font-family:	'Flash Cards';
+	visibility:	visible
+}
+
+
+.visuallyhidden {
+	border:		0;
+	clip:		rect(0 0 0 0);
+	height:		1px;
+	margin:		-1px;
+	overflow:	hidden;
+	padding:	0;
+	position:	absolute;
+	width:		1px
+}
+
+
+#prev:before, #next:before, #flipper:before {
+	font-size:	30px;
+	padding:	10px;
+	position:	absolute;
+	width:		40px
+}
+
+
+#prev:before {
+	left:		0
+}
+
+
+#next:before {
+	right:		0
+}
+
+
+#flipper:before {
+	left:		50%;
+	margin-left:	-30px
+}
+
+
+#categories {
+	background:	#000;
+	display:	block;
+	margin-top:	100px;
+	padding:	20px;
+	/* position:	absolute; */
+	/* left:	0; */
+	/* bottom:	0; */
+	z-index:	99999
+}
+
+
+#categories h1 {
+	text-align:	center
+}
+
+
+#categories td {
+	padding:	15px;
+	text-align:	left;
+	width:		300px
+}
+
+
+#categories td:first-child {
+	text-align:	right
+}
+
+
+.or {
+	color:		#333333;
+	padding:	0 10px
+}
+
+
+#categories_toggle {
+	cursor:		pointer;
+	position:	absolute;
+	right:		25px;
+	top:		25px
+}
+
+
+#categories_shortcuts_toggle:before {
+	border-radius:			20px;
+	-o-border-radius:		20px;
+	-ms-border-radius:		20px;
+	-moz-border-radius:		20px;
+	-webkit-border-radius:		20px;
+	background-clip:		padding-box;
+	-moz-background-clip:		padding;
+	-webkit-background-clip:	padding;
+	background:			#0080ff;
+	border:				1px solid #fff;
+	color:				#fff;
+	font-size:			25px;
+	height:				20px;
+	padding:			5px;
+	width:				20px
+}
+
+
+.no-csstransforms3d .flip .side_one, .no-csstransforms3d .side_two {
+	transition:		all 0.4s ease-in-out;
+	-o-transition:		all 0.4s ease-in-out;
+	-ms-transition:		all 0.4s ease-in-out;
+	-moz-transition:	all 0.4s ease-in-out;
+	-webkit-transition:	all 0.4s ease-in-out;
+	opacity:		0
+}
+
+
+.no-csstransforms3d .flip .side_two {
+	transition:		all 0.4s ease-in-out;
+	-o-transition:		all 0.4s ease-in-out;
+	-ms-transition:		all 0.4s ease-in-out;
+	-moz-transition:	all 0.4s ease-in-out;
+	-webkit-transition:	all 0.4s ease-in-out;
+	opacity:		1
+}
+
+
+body {
+	background:	#333333;
+	color:		#ccc;
+	font:		15px sans-serif;
+	margin:		0 auto;
+	text-align:	center;
+	width:		500px
+}
+
+
+h1 {
+	font-size:	30px
+}
+
+
+.side_one a,
+.side_two a,
+.side_one a:visited,
+.side_two a:visited {
+	color: 		#333333;
+	text-decoration: none;
+}
+
+
+.side_one a:hover,
+.side_two a:hover {
+	color: 		#999;
+	text-decoration: none;
+}
+
+
+a {
+	color:	#fff
+}
+
+
+a:visited {
+	color:	#fff
+}
+
+
+a:hover {
+	color:			#fff;
+	text-decoration:	none
+}
+
+
+span.category {
+	margin-right:	10px;
+	white-space:	nowrap; 
+}
+
+span.category:hover {
+	color:		#ffffaa;
+	cursor:		pointer;
+}
+
+
+.audio_volume_only {
+	float:		right;
+	margin-right:	10px;
+	margin-top:	16px;
+	width:		45px;
+}
+
+
+
