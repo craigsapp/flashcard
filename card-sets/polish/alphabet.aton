@@ -1,0 +1,727 @@
+
+@@BEGIN:	CARDLIST
+
+@TITLE:		Polish alphabet words
+@TITLEURL:	https://www.youtube.com/watch?v=20pDtDSqT3Y
+@DESCRIPTION:	Polish Course - Liseeon 1 by Jarek
+
+@@BEGIN:	OPTIONS
+@BACKGROUND:		#333333
+@CATEGORY_BACKGROUND:	#2a2a2a
+@DEFAULT_SIDE:		1
+@@END:		OPTIONS
+
+@@BEGIN:	ABBR
+@PONS:		http://en.pons.com/translate/polish-english/
+@@END:		ABBR
+
+@@BEGIN:	SIDES
+
+@@BEGIN:	SIDE
+@TITLE:		Polish
+@TEMPLATE:	<div style="margin-top: 60px">
+			{{{hyperlink POLISH "ABBR@PONS" POLISH}}}
+		{{{audio AUDIO}}}
+		</div>
+		{{#if RUSSIAN}}
+			<div style="margin-top: 100px">
+				<span style="color:#aaa;">Russian:</span>
+				{{{RUSSIAN}}}
+			</div>
+		{{/if}}
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		English
+@TEMPLATE:	{{{imageorword IMAGE ENGLISH}}}
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		Usage
+@TEMPLATE:	{{{usage USAGE}}}
+@@END:		SIDE
+
+@@END:		SIDES
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	A
+@ENGLISH:	mother
+@POLISH:	mama
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		0:41
+@PHONETIC:	mama
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/4/44/Mytens_Mother_with_children.jpg
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	A
+@ENGLISH:	car
+@POLISH:	auto
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		0:41
+@PHONETIC:	
+@IMAGE:		https://pixabay.com/static/uploads/photo/2015/09/23/10/20/car-953357_960_720.png
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	A
+@ENGLISH:	doll
+@POLISH:	lalka
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		0:41
+@PHONETIC:	
+@IMAGE:		https://pixabay.com/static/uploads/photo/2015/01/25/19/41/doll-611871_960_720.jpg
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	Ą
+@ENGLISH:	gadfly
+@POLISH:	bąk
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		1:09
+@PHONETIC:	
+@IMAGE:		
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	Ą
+@ENGLISH:	tooth
+@POLISH:	ząb
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		1:09
+@PHONETIC:	
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/b/b8/Lower_wisdom_tooth.jpg
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	Ą
+@ENGLISH:	beginning
+@POLISH:	początek
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		1:09
+@PHONETIC:	
+@IMAGE:		https://pixabay.com/static/uploads/photo/2014/06/14/10/02/road-368719_960_720.jpg
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	B
+@ENGLISH:	brother
+@POLISH:	brat
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		1:41
+@PHONETIC:	
+@IMAGE:		
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	B
+@ENGLISH:	pain
+@POLISH:	ból
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		1:41
+@PHONETIC:	bool
+@IMAGE:		
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	B
+@ENGLISH:	board
+@POLISH:	tablica
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		1:41
+@PHONETIC:	tablitza
+@IMAGE:		https://pixabay.com/static/uploads/photo/2014/12/21/23/30/wood-575496_960_720.png
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	C
+@ENGLISH:	something
+@POLISH:	coś
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		2:09
+@PHONETIC:	
+@IMAGE:		
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	C
+@ENGLISH:	night
+@POLISH:	noc
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		2:09
+@PHONETIC:	
+@IMAGE:		https://pixabay.com/static/uploads/photo/2015/05/07/11/50/night-sky-756365_960_720.jpg
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	C
+@ENGLISH:	hare
+@POLISH:	zając
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		2:09
+@PHONETIC:	
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/e/e5/Ethiopian_Highland_Hare_(Lepus_starcki)_running.jpg
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	Ć
+@ENGLISH:	exercise
+@POLISH:	ćwiczenie
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		2:40
+@PHONETIC:	
+@IMAGE:		https://pixabay.com/static/uploads/photo/2016/02/16/19/16/abdominal-1203880_960_720.jpg
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	Ć
+@ENGLISH:	to think
+@POLISH:	myśleć
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		2:40
+@PHONETIC:	
+@IMAGE:		https://c1.staticflickr.com/3/2026/2467667896_3be9701764_b.jpg
+@GENDER:	
+@PARTOFSPEECH:	verb
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	Ć
+@ENGLISH:	moth
+@POLISH:	ćma
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		2:40
+@PHONETIC:	
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/2/22/Siberian_silk_moth.jpg
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	D
+@ENGLISH:	house
+@POLISH:	dom
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		3:13
+@PHONETIC:	
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/c/c0/Gingerbread_House_Essex_CT.jpg
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	D
+@ENGLISH:	roof
+@POLISH:	dach
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		3:13
+@PHONETIC:	
+@IMAGE:		https://pixabay.com/static/uploads/photo/2015/05/15/16/15/cottage-768889_960_720.jpg
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	D
+@ENGLISH:	street
+@POLISH:	droga
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		3:13
+@PHONETIC:	
+@IMAGE:		https://pixabay.com/static/uploads/photo/2014/04/02/10/26/street-303862_960_720.png
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	E
+@ENGLISH:	dog
+@POLISH:	pies
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		3:42
+@PHONETIC:	
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/2/2b/Dog-sitting-pretty.jpg
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	E
+@ENGLISH:	energy
+@POLISH:	energia
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		3:42
+@PHONETIC:	
+@IMAGE:		
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	E
+@ENGLISH:	echo
+@POLISH:	echo
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		3:42
+@PHONETIC:	ae-ho
+@IMAGE:		
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	Ę
+@ENGLISH:	hand
+@POLISH:	ręka
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		4:12
+@PHONETIC:	
+@IMAGE:		http://res.freestockphotos.biz/pictures/1/1734-closeup-of-a-palm-of-a-hand-pv.jpg
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	Ę
+@ENGLISH:	meat
+@POLISH:	mięso
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		4:12
+@PHONETIC:	
+@IMAGE:		https://pixabay.com/static/uploads/photo/2013/01/08/01/18/goulash-74249_960_720.jpg
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	Ę
+@ENGLISH:	torture
+@POLISH:	męka
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		4:12
+@PHONETIC:	
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/6/64/Zelazna_dama.svg
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	F
+@ENGLISH:	physics
+@POLISH:	fizyka
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		4:46
+@PHONETIC:	
+@IMAGE:		
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	F
+@ENGLISH:	France
+@POLISH:	Francja
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		4:46
+@PHONETIC:	
+@IMAGE:		https://pixabay.com/static/uploads/photo/2013/07/13/12/48/flag-160361_960_720.png
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	F
+@ENGLISH:	factory
+@POLISH:	fabryka
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		4:46
+@PHONETIC:	
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/8/8d/Factory_1.png
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	G
+@ENGLISH:	game
+@POLISH:	gra
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		5:20
+@PHONETIC:	
+@IMAGE:		
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	G
+@ENGLISH:	mountain
+@POLISH:	góra
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		5:20
+@PHONETIC:	
+@IMAGE:		https://pixabay.com/static/uploads/photo/2015/06/08/14/52/mountain-801757_960_720.jpg
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	G
+@ENGLISH:	garage
+@POLISH:	garaż
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		5:20
+@PHONETIC:	
+@IMAGE:		https://c2.staticflickr.com/2/1173/815794802_831f9d7cb6.jpg
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	H/CH
+@ENGLISH:	character
+@POLISH:	charakter
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		5:48
+@PHONETIC:	
+@IMAGE:		
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	H/CH
+@ENGLISH:	hook
+@POLISH:	hak
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		5:48
+@PHONETIC:	
+@IMAGE:		
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	H/CH
+@ENGLISH:	password
+@POLISH:	hasło
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		5:48
+@PHONETIC:	
+@IMAGE:		
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	I
+@ENGLISH:	internet
+@POLISH:	internet
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		6:20
+@PHONETIC:	
+@IMAGE:		
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	I
+@ENGLISH:	annoying
+@POLISH:	irytujący
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		6:20
+@PHONETIC:	
+@IMAGE:		
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	I
+@ENGLISH:	instruction
+@POLISH:	instrukcja
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		6:20
+@PHONETIC:	
+@IMAGE:		
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	J
+@ENGLISH:	Jarek
+@POLISH:	Jarek
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		6:55
+@PHONETIC:	
+@IMAGE:		
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	J
+@ENGLISH:	egg
+@POLISH:	jajko
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		6:55
+@PHONETIC:	
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/0/02/Fried_egg,_sunny_side_up.jpg
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	J
+@ENGLISH:	to eat
+@POLISH:	jeść
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		6:55
+@PHONETIC:	
+@IMAGE:		
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	K
+@ENGLISH:	cow
+@POLISH:	krowa
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		7:27
+@PHONETIC:	
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Cow_female_black_white.jpg/1024px-Cow_female_black_white.jpg
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	K
+@ENGLISH:	cabbage
+@POLISH:	kapusta
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		7:27
+@PHONETIC:	
+@IMAGE:		http://www.jphotostyle.com/pictures/cabbage01-md.jpg
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	K
+@ENGLISH:	crocodile
+@POLISH:	krokodyl
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		7:27
+@PHONETIC:	
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/2/29/Pangil_Crocodile_Park_Davao_City.jpg
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	L
+@ENGLISH:	forest
+@POLISH:	las
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		7:59
+@PHONETIC:	
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/d/df/Beech_forest_vtacnik.jpg
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	L
+@ENGLISH:	leaf
+@POLISH:	liść
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		7:59
+@PHONETIC:	
+@IMAGE:		http://res.freestockphotos.biz/pictures/5/5666-a-maple-leaf-isolated-on-a-white-background-pv.jpg
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	L
+@ENGLISH:	doll
+@POLISH:	lalka
+@AUDIO:		
+@YOUTUBE:	20pDtDSqT3Y
+@TIME:		7:59
+@PHONETIC:	
+@IMAGE:		https://pixabay.com/static/uploads/photo/2015/09/01/22/30/doll-917679_960_720.jpg
+@GENDER:	
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@END:		CARDLIST
+
+
+
