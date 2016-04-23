@@ -1,0 +1,123 @@
+
+@@BEGIN:	CARDLIST
+
+@TITLE:		Polish pronouns
+@TITLEURL:	
+@DESCRIPTION:	Flashcards for learning Polish pronouns
+
+@@BEGIN:	OPTIONS
+@BACKGROUND:		#333333
+@CATEGORY_BACKGROUND:	#2a2a2a
+@DEFAULT_SIDE:		1
+@@END:		OPTIONS
+
+@@BEGIN:	SIDES
+
+@@BEGIN:	SIDE
+@TITLE:		Polish
+@TEMPLATE:	<div style="margin-top: 60px">
+			{{{hyperlink POLISH "ABBR@PONS" POLISH}}}
+		{{{audio AUDIO}}}
+		</div>
+		{{#if RUSSIAN}}
+			<div style="margin-top: 100px">
+				<span style="color:#aaa;">Russian:</span>
+				{{{RUSSIAN}}}
+			</div>
+		{{/if}}
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		English
+@TEMPLATE:	{{{imageorword IMAGE ENGLISH}}}
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		Usage
+@TEMPLATE:	{{{usage USAGE}}}
+@@END:		SIDE
+
+@@END:		SIDES
+
+
+@@@ SUBJECT PRONOUNS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	subject, 1st person
+@ENGLISH:	I
+@POLISH:	ja
+@FUNCTION:	subject, 1st person
+@PARTOFSPEECH:	pronoun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	subject, 2nd person
+@ENGLISH:	you
+@POLISH:	ty
+@FUNCTION:	subject, 2nd person
+@PARTOFSPEECH:	pronoun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	subject, 3rd person
+@ENGLISH:	he
+@POLISH:	on
+@FUNCTION:	subject, 3rd person
+@PARTOFSPEECH:	pronoun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	subject, 3rd person
+@ENGLISH:	she
+@POLISH:	ona
+@FUNCTION:	subject, 3rd person
+@PARTOFSPEECH:	pronoun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	subject, 3rd person
+@ENGLISH:	it
+@POLISH:	ono
+@FUNCTION:	subject, 3rd person
+@PARTOFSPEECH:	pronoun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	subject, 1st person plural
+@ENGLISH:	we
+@POLISH:	my
+@FUNCTION:	subject, 1st person plural
+@PARTOFSPEECH:	pronoun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	subject, 2st person plural
+@ENGLISH:	Yous
+@POLISH:	wy
+@FUNCTION:	subject, 2st person plural
+@PARTOFSPEECH:	pronoun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	subject, 3rd person plural
+@ENGLISH:	they (m)
+@POLISH:	oni
+@FUNCTION:	subject, 3rd person plural
+@PARTOFSPEECH:	pronoun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	subject, 3rd person plural
+@ENGLISH:	they (f)
+@POLISH:	one
+@FUNCTION:	subject, 3rd person plural
+@PARTOFSPEECH:	pronoun
+@@END:		CARD
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@END:		CARDLIST
+
+
+

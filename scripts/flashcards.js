@@ -203,7 +203,9 @@ function FillCardCategories(cardlist) {
 		}
 	}
 
-	clist.sort();
+	clist.sort(function(a, b) {
+		return a.localeCompare(b);
+	});
 
 	output += "<span class='category'";
 	output += " onclick='LoadCategory(\"";
