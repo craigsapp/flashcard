@@ -69,8 +69,8 @@ Handlebars.registerHelper("audio", function(url) {
 		md5sum   = CryptoJS.MD5(filename).toString(CryptoJS.enc.Hex);
 		first    = md5sum.substr(0, 1);
 		second   = md5sum.substr(0, 2);
-		url      = "https://upload.wikimedia.org/wikipedia/commons/' + first + 
-			'/' + second + '/' + filename + '"';
+		url      = "https://upload.wikimedia.org/wikipedia/commons/" + first + 
+			"/" + second + "/" + filename;
 		console.log(url);
 	}
 
