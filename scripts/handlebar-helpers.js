@@ -56,6 +56,24 @@ Handlebars.registerHelper("audio", function(url) {
 	if (url.match(/^\s*$/)) {
 		return "";
 	}
+
+	var matches;
+	var md5sum;
+   var first;
+   var second;
+   var filename;
+	if (matches = url.match(/^wiki:\s*(.*)\s*/)) {
+	   // @AUDIO:			https://upload.wikimedia.org/wikipedia/commons/e/ec/Pl-dwa.ogg
+	   // @WIKIAUDIO:		Pl-dwa.ogg
+		filename = matches[1];
+		md5sum   = CryptoJS.MD5(filename).toString(CryptoJS.enc.Hex);
+		first    = md5sum.substr(0, 1);
+		second   = md5sum.substr(0, 2);
+		url      = "https://upload.wikimedia.org/wikipedia/commons/' + first + 
+			'/' + second + '/' + filename + '"';
+		console.log(url);
+	}
+
 	var output = "";
 
 	output += "<audio class='audio_volume_only' controls>";

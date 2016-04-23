@@ -21,7 +21,11 @@
 @TITLE:		Polish
 @TEMPLATE:	<div style="margin-top: 60px">
 			{{{hyperlink POLISH "ABBR@PONS" POLISH}}}
-		{{{audio AUDIO}}}
+			{{#if WIKIAUDIO}}
+				{{{audio WIKIAUDIO}}}
+			{{else}}
+				{{{audio AUDIO}}}
+			{{/if}}
 		</div>
 		{{#if RUSSIAN}}
 			<div style="margin-top: 100px">
@@ -62,6 +66,7 @@
 @ENGLISH:	2
 @POLISH:	dwa
 @AUDIO:		https://upload.wikimedia.org/wikipedia/commons/e/ec/Pl-dwa.ogg
+@WIKIAUDIO:	Pl-dwa.ogg
 @@END:		CARD
 
 @@BEGIN:	CARD
