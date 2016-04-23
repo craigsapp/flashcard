@@ -11,6 +11,10 @@
 @DEFAULT_SIDE:		1
 @@END:		OPTIONS
 
+@@BEGIN:	ABBR
+@PONS:		http://en.pons.com/translate/polish-english/
+@@END:		ABBR
+
 @@BEGIN:	SIDES
 
 @@BEGIN:	SIDE
