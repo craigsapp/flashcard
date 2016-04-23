@@ -49,79 +49,85 @@
 @@END:		SIDES
 
 
-@@@ SUBJECT PRONOUNS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@ NOMINATIVE PRONOUNS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 @@BEGIN:	CARD
-@CATEGORY:	subject, 1st person
+@CATEGORY:	nominative, 1st person
 @ENGLISH:	I
 @POLISH:	ja
-@FUNCTION:	subject, 1st person
+@FUNCTION:	nominative, 1st person
 @PARTOFSPEECH:	pronoun
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	subject, 2nd person
+@CATEGORY:	nominative, 2nd person
 @ENGLISH:	you
 @POLISH:	ty
-@FUNCTION:	subject, 2nd person
+@FUNCTION:	nominative, 2nd person
 @PARTOFSPEECH:	pronoun
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	subject, 3rd person
+@CATEGORY:	nominative, 3rd person
 @ENGLISH:	he
 @POLISH:	on
-@FUNCTION:	subject, 3rd person
+@FUNCTION:	nominative, 3rd person
 @PARTOFSPEECH:	pronoun
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	subject, 3rd person
+@CATEGORY:	nominative, 3rd person
 @ENGLISH:	she
 @POLISH:	ona
-@FUNCTION:	subject, 3rd person
+@FUNCTION:	nominative, 3rd person
 @PARTOFSPEECH:	pronoun
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	subject, 3rd person
+@CATEGORY:	nominative, 3rd person
 @ENGLISH:	it
 @POLISH:	ono
-@FUNCTION:	subject, 3rd person
+@FUNCTION:	nominative, 3rd person
 @PARTOFSPEECH:	pronoun
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	subject, 1st person plural
+@CATEGORY:	nominative, 1st person plural
 @ENGLISH:	we
 @POLISH:	my
-@FUNCTION:	subject, 1st person plural
+@FUNCTION:	nominative, 1st person plural
 @PARTOFSPEECH:	pronoun
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	subject, 2st person plural
+@CATEGORY:	nominative, 2nd person plural
 @ENGLISH:	Yous
 @POLISH:	wy
-@FUNCTION:	subject, 2st person plural
+@FUNCTION:	nominative, 2nd person plural
 @PARTOFSPEECH:	pronoun
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	subject, 3rd person plural
+@CATEGORY:	nominative, 3rd person plural
 @ENGLISH:	they (m)
 @POLISH:	oni
-@FUNCTION:	subject, 3rd person plural
+@FUNCTION:	nominative, 3rd person plural
 @PARTOFSPEECH:	pronoun
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	subject, 3rd person plural
+@CATEGORY:	nominative, 3rd person plural
 @ENGLISH:	they (f)
 @POLISH:	one
-@FUNCTION:	subject, 3rd person plural
+@FUNCTION:	nominative, 3rd person plural
 @PARTOFSPEECH:	pronoun
 @@END:		CARD
+
+@@@ GENITIVE PRONOUNS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@@ POSSESIVE ADJECTIVES @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@@ POSSESIVE PRONOUNS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
