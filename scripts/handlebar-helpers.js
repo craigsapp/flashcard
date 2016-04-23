@@ -50,6 +50,9 @@ Handlebars.registerHelper("hyperlink", function(text, url, linkadd) {
 //
 
 Handlebars.registerHelper("audio", function(url) {
+	if (!url) {
+		return "";
+	}
 	if (url.match(/^\s*$/)) {
 		return "";
 	}
