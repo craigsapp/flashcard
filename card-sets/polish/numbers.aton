@@ -55,6 +55,7 @@
 @CATEGORY:	basic
 @ENGLISH:	1
 @POLISH:	jeden
+@AUDIO:		wiki:Pl-jeden.ogg
 @@END:		CARD
 
 @@BEGIN:	CARD
@@ -69,12 +70,14 @@
 @CATEGORY:	basic
 @ENGLISH:	3
 @POLISH:	trzy
+@AUDIO:		wiki:Pl-trzy.ogg
 @@END:		CARD
 
 @@BEGIN:	CARD
 @CATEGORY:	basic
 @ENGLISH:	4
 @POLISH:	cztery
+@AUDIO:		wiki:Pl-cztery.ogg
 @@END:		CARD
 
 @@BEGIN:	CARD
@@ -93,12 +96,14 @@
 @CATEGORY:	basic
 @ENGLISH:	7
 @POLISH:	siedem
+@AUDIO:		wiki:Pl-siedem.ogg
 @@END:		CARD
 
 @@BEGIN:	CARD
 @CATEGORY:	basic
 @ENGLISH:	8
 @POLISH:	oslem
+@AUDIO:		wiki:Pl-oslem.ogg
 @@END:		CARD
 
 @@BEGIN:	CARD
