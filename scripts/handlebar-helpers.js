@@ -57,8 +57,16 @@ Handlebars.registerHelper("audio", function(url) {
 		return "";
 	}
 	var output = "";
+
 	output += "<audio class='audio_volume_only' controls>";
-	output += "<source type='audio/mpeg' src='";
+	output += "<source";
+
+	if (url.match(/\.ogg$/)) {
+		output += " type='audio/ogg'";
+	} else {
+		output += " type='audio/mpeg'";
+	}
+	output += " src='";
 	output += url;
 	output += "'></audio>";
 	return new Handlebars.SafeString(output);
