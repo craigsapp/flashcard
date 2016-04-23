@@ -35,7 +35,7 @@
 @TITLE:		English
 @TEMPLATE:	{{{imageorword IMAGE ENGLISH}}}
 		{{#if FUNCTION}}
-			<div style="color:#dddddd; margin-top: 110px">
+			<div style="color:#dddddd; margin-top: 120px">
 				{{{FUNCTION}}}
 			</div>
 		{{/if}}
