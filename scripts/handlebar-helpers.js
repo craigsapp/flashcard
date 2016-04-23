@@ -57,6 +57,7 @@ Handlebars.registerHelper("audio", function(url) {
 		return "";
 	}
 
+console.log("URL", url);
 	var matches;
 	var md5sum;
    var first;
