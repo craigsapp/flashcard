@@ -34,6 +34,11 @@
 @@BEGIN:	SIDE
 @TITLE:		English
 @TEMPLATE:	{{{imageorword IMAGE ENGLISH}}}
+		{{#if FUNCTION}}
+			<div style="margin-top: 100px">
+				{{{FUNCTION}}}
+			</div>
+		{{/if}}
 @@END:		SIDE
 
 @@BEGIN:	SIDE
