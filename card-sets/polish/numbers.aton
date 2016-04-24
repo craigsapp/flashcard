@@ -52,14 +52,14 @@
 @@@ BASIC NUMBERS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 @@BEGIN:	CARD
-@CATEGORY:	basic
+@CATEGORY:	1's
 @ENGLISH:	1
 @POLISH:	jeden
 @AUDIO:		wiki:Pl-jeden.ogg
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	basic
+@CATEGORY:	1's
 @ENGLISH:	2
 @POLISH:	dwa
 @AUDIO:		wiki:Pl-dwa.ogg
@@ -67,63 +67,131 @@
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	basic
+@CATEGORY:	1's
 @ENGLISH:	3
 @POLISH:	trzy
 @AUDIO:		wiki:Pl-trzy.ogg
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	basic
+@CATEGORY:	1's
 @ENGLISH:	4
 @POLISH:	cztery
 @AUDIO:		wiki:Pl-cztery.ogg
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	basic
+@CATEGORY:	1's
 @ENGLISH:	5
 @POLISH:	pięć
 @AUDIO:		wiki:Pl-pięć.ogg
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	basic
+@CATEGORY:	1's
 @ENGLISH:	6
 @POLISH:	sześć
 @AUDIO:		wiki:Pl-sześć.ogg
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	basic
+@CATEGORY:	1's
 @ENGLISH:	7
 @POLISH:	siedem
 @AUDIO:		wiki:Pl-siedem.ogg
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	basic
+@CATEGORY:	1's
 @ENGLISH:	8
 @POLISH:	osiem
 @AUDIO:		wiki:Pl-osiem.ogg
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	basic
+@CATEGORY:	1's
 @ENGLISH:	9
 @POLISH:	dziewięć
 @AUDIO:		wiki:Pl-dziewięć.ogg
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	basic
+@CATEGORY:	1's
 @ENGLISH:	10
 @POLISH:	dziesięć
 @AUDIO:		wiki:Pl-dziesięć.ogg
 @@END:		CARD
 
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@ 11 to 2O @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	10's
+@ENGLISH:	11
+@POLISH:	jedenaście
+@AUDIO:		wiki:Pl-jedenaście.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	10's
+@ENGLISH:	12
+@POLISH:	dwanaście
+@AUDIO:		wiki:Pl-dwanaście.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	10's
+@ENGLISH:	13
+@POLISH:	trzynaście
+@AUDIO:		wiki:Pl-trzynaście.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	10's
+@ENGLISH:	14
+@POLISH:	czternaście
+@AUDIO:		wiki:Pl-czternaście.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	10's
+@ENGLISH:	15
+@POLISH:	piętnaście
+@AUDIO:		wiki:Pl-piętnaście.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	10's
+@ENGLISH:	16
+@POLISH:	szesnaście
+@AUDIO:		wiki:Pl-szesnaście.ogg
+
+@@BEGIN:	CARD
+@CATEGORY:	10's
+@ENGLISH:	17
+@POLISH:	siedemnaście
+@AUDIO:		wiki:Pl-siedemnaście.ogg
+
+@@BEGIN:	CARD
+@CATEGORY:	10's
+@ENGLISH:	18
+@POLISH:	osiemnaście
+@AUDIO:		wiki:Pl-osiemnaście.ogg
+
+@@BEGIN:	CARD
+@CATEGORY:	10's
+@ENGLISH:	19
+@POLISH:	dziewiętnaście
+@AUDIO:		wiki:Pl-dziewiętnaście.ogg
+
+@@BEGIN:	CARD
+@CATEGORY:	10's
+@ENGLISH:	20
+@POLISH:	dwadzieścia
+@AUDIO:		wiki:Pl-dwadzieścia.ogg
+
+@@END:		CARD
+
 
 @@END:		CARDLIST
 
