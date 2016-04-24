@@ -57,7 +57,6 @@ Handlebars.registerHelper("audio", function(url) {
 		return "";
 	}
 
-console.log("URL", url);
 	var matches;
 	var md5sum;
    var first;
@@ -72,7 +71,6 @@ console.log("URL", url);
 		second   = md5sum.substr(0, 2);
 		url      = "https://upload.wikimedia.org/wikipedia/commons/" + first + 
 			"/" + second + "/" + filename;
-		console.log(url);
 	}
 
 	var output = "";
