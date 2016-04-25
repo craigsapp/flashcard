@@ -1,0 +1,224 @@
+
+@@BEGIN:	CARDLIST
+
+@TITLE:		Polish verb być
+@TITLEURL:	
+@DESCRIPTION:	Flashcards for learning to conjugate the Polish verb "być"
+
+@@BEGIN:	OPTIONS
+@BACKGROUND:		#333333
+@CATEGORY_BACKGROUND:	#2a2a2a
+@DEFAULT_SIDE:		1
+@@END:		OPTIONS
+
+@@BEGIN:	ABBR
+@PONS:		http://en.pons.com/translate/polish-english/
+@@END:		ABBR
+
+@@BEGIN:	SIDES
+
+@@BEGIN:	SIDE
+@TITLE:		Polish
+@TEMPLATE:	<div style="margin-top: 60px">
+			{{{hyperlink POLISH "ABBR@PONS" POLISH}}}
+			{{{audio AUDIO}}}
+		</div>
+		{{#if RUSSIAN}}
+			<div style="margin-top: 100px">
+				<span style="color:#aaa;">Russian:</span>
+				{{{RUSSIAN}}}
+			</div>
+		{{/if}}
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		English
+@TEMPLATE:	{{{imageorword IMAGE ENGLISH}}}
+		{{#if CATEGORY}}
+			<div style="color:#dddddd; margin-top: 120px">
+				{{{CATEGORY}}}
+			</div>
+		{{/if}}
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		Usage
+@TEMPLATE:	{{{usage USAGE}}}
+@@END:		SIDE
+
+@@END:		SIDES
+
+
+@@@ PRESENT TENSE @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	present, 1st person singular
+@ENGLISH:	I am
+@POLISH:	jestem
+@AUDIO:		wiki:Pl-jestem.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	present, 2nd person singular
+@ENGLISH:	you are (singular)
+@POLISH:	jesteś
+@AUDIO:		wiki:Pl-jesteś.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	present, 3rd person singular
+@ENGLISH:	he is
+@POLISH:	on jest
+@AUDIO:		wiki:Pl-jest.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	present, 3rd person singular
+@ENGLISH:	she is
+@POLISH:	ona jest
+@AUDIO:		wiki:Pl-jest.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	present, 3rd person singular
+@ENGLISH:	it is
+@POLISH:	ono jest
+@AUDIO:		wiki:Pl-jest.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	present, 1st person plural
+@ENGLISH:	we are
+@POLISH:	jesteśmy
+@AUDIO:		wiki:Pl-jesteśmy.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	present, 2nd person plural
+@ENGLISH:	you are (plural)
+@POLISH:	jesteście
+@AUDIO:		wiki:Pl-jesteście.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	present, 3rd person plural
+@ENGLISH:	they are (masculine)
+@POLISH:	oni są
+@AUDIO:		wiki:Pl-są.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	present, 3rd person plural
+@ENGLISH:	they are (feminine)
+@POLISH:	one są
+@AUDIO:		wiki:Pl-są.ogg
+@@END:		CARD
+
+@@@ PAST TENSE @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@ Past tense depends more on gender                               @@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@@ MASCULINE 
+
+@@BEGIN:	CARD
+@CATEGORY:	past, 1st person singular
+@ENGLISH:	I was (masculine)
+@POLISH:	byłem
+@AUDIO:		wiki:Pl-byłem.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	past, 2nd person singular
+@ENGLISH:	you were (singular, masculine)
+@POLISH:	byłeś
+@AUDIO:		wiki:Pl-byłeś.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	past, 3rd person singular
+@ENGLISH:	he was (masculine)
+@POLISH:	on był
+@AUDIO:		wiki:Pl-był.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	past, 1st person plural
+@ENGLISH:	we were (masculine)
+@POLISH:	byliśmy
+@AUDIO:		wiki:Pl-byliśmy.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	past, 2nd person plural
+@ENGLISH:	you were (plural, masculine)
+@POLISH:	byliście
+@AUDIO:		wiki:Pl-byliście.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	past, 3rd person plural
+@ENGLISH:	they were (masculine)
+@POLISH:	oni byli
+@AUDIO:		wiki:Pl-byli.ogg
+@@END:		CARD
+
+@@@ FEMININE 
+
+@@BEGIN:	CARD
+@CATEGORY:	past, 1st person singular
+@ENGLISH:	I was (feminine)
+@POLISH:	byłam
+@AUDIO:		wiki:Pl-byłam.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	past, 2nd person singular
+@ENGLISH:	you were (singular, feminine)
+@POLISH:	byłaś
+@AUDIO:		wiki:Pl-byłaś.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	past, 3rd person singular
+@ENGLISH:	she was (feminine)
+@POLISH:	ona była
+@AUDIO:		wiki:Pl-była.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	past, 1st person plural
+@ENGLISH:	we were (feminine)
+@POLISH:	byłiśmy
+@AUDIO:		wiki:Pl-byłiśmy.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	past, 2nd person plural
+@ENGLISH:	you were (plural, feminine)
+@POLISH:	byłiście
+@AUDIO:		wiki:Pl-byłiście.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	past, 3rd person plural
+@ENGLISH:	they were (feminine)
+@POLISH:	one byli
+@AUDIO:		wiki:Pl-byli.ogg
+@@END:		CARD
+
+@@@ NEUTER 
+
+@@BEGIN:	CARD
+@CATEGORY:	past, 3rd person plural
+@ENGLISH:	it was (neuter)
+@POLISH:	ono było
+@AUDIO:		wiki:Pl-było.ogg
+@@END:		CARD
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@END:		CARDLIST
+
+
+
