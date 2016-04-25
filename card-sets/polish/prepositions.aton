@@ -117,14 +117,6 @@
 
 @@BEGIN:	CARD
 @CATEGORY:	
-@ENGLISH:	at
-@POLISH:	w
-@AUDIO:		wiki:Pl-w.ogg
-@PARTOFSPEECH:	preposition
-@@END:		CARD
-
-@@BEGIN:	CARD
-@CATEGORY:	
 @ENGLISH:	before
 @POLISH:	przed
 @AUDIO:		wiki:Pl-przed.ogg
@@ -143,7 +135,7 @@
 @CATEGORY:	
 @ENGLISH:	below
 @POLISH:	poniżej
-@AUDIO:		wiki:Pl-poniżej.ogg
+@XAUDIO:		wiki:Pl-poniżej.ogg
 @PARTOFSPEECH:	preposition
 @@END:		CARD
 
@@ -207,7 +199,7 @@
 @CATEGORY:	
 @ENGLISH:	down
 @POLISH:	w dół
-@AUDIO:		wiki:Pl-w%20dół.ogg
+@XAUDIO:		wiki:Pl-w%20dół.ogg
 @PARTOFSPEECH:	preposition
 @@END:		CARD
 
@@ -237,14 +229,6 @@
 
 @@BEGIN:	CARD
 @CATEGORY:	
-@ENGLISH:	from
-@POLISH:	z
-@AUDIO:		wiki:Pl-z.ogg
-@PARTOFSPEECH:	preposition
-@@END:		CARD
-
-@@BEGIN:	CARD
-@CATEGORY:	
 @ENGLISH:	in
 @POLISH:	na
 @AUDIO:		wiki:Pl-na.ogg
@@ -261,7 +245,7 @@
 
 @@BEGIN:	CARD
 @CATEGORY:	
-@ENGLISH:	into
+@ENGLISH:	into, at
 @POLISH:	w
 @AUDIO:		wiki:Pl-w.ogg
 @PARTOFSPEECH:	preposition
@@ -285,7 +269,7 @@
 
 @@BEGIN:	CARD
 @CATEGORY:	
-@ENGLISH:	of
+@ENGLISH:	of, from, with
 @POLISH:	z
 @AUDIO:		wiki:Pl-z.ogg
 @PARTOFSPEECH:	preposition
@@ -303,7 +287,7 @@
 @CATEGORY:	
 @ENGLISH:	opposite
 @POLISH:	naprzeciwko
-@AUDIO:		wiki:Pl-naprzeciwko.ogg
+@XAUDIO:		wiki:Pl-naprzeciwko.ogg
 @PARTOFSPEECH:	preposition
 @@END:		CARD
 
@@ -335,7 +319,7 @@
 @CATEGORY:	
 @ENGLISH:	plus
 @POLISH:	plus
-@AUDIO:		wiki:Pl-plus.ogg
+@XAUDIO:		wiki:Pl-plus.ogg
 @PARTOFSPEECH:	preposition
 @@END:		CARD
 
@@ -343,7 +327,7 @@
 @CATEGORY:	
 @ENGLISH:	round
 @POLISH:	naokoło
-@AUDIO:		wiki:Pl-naokoło.ogg
+@XAUDIO:		wiki:Pl-naokoło.ogg
 @PARTOFSPEECH:	preposition
 @@END:		CARD
 
@@ -423,7 +407,7 @@
 @CATEGORY:	
 @ENGLISH:	up
 @POLISH:	w górę
-@AUDIO:		wiki:Pl-w%20górę.ogg
+@XAUDIO:		wiki:Pl-w%20górę.ogg
 @PARTOFSPEECH:	preposition
 @@END:		CARD
 
@@ -437,17 +421,9 @@
 
 @@BEGIN:	CARD
 @CATEGORY:	
-@ENGLISH:	with
-@POLISH:	z
-@AUDIO:		wiki:Pl-z.ogg
-@PARTOFSPEECH:	preposition
-@@END:		CARD
-
-@@BEGIN:	CARD
-@CATEGORY:	
 @ENGLISH:	within
 @POLISH:	w ciągu
-@AUDIO:		wiki:Pl-w%20ciągu.ogg
+@XAUDIO:		wiki:Pl-w%20ciągu.ogg
 @PARTOFSPEECH:	preposition
 @@END:		CARD
 
@@ -463,7 +439,7 @@
 @CATEGORY:	
 @ENGLISH:	according to
 @POLISH:	zgodnie z
-@AUDIO:		wiki:Pl-zgodnie%20z.ogg
+@XAUDIO:		wiki:Pl-zgodnie%20z.ogg
 @PARTOFSPEECH:	preposition
 @@END:		CARD
 
@@ -471,7 +447,7 @@
 @CATEGORY:	
 @ENGLISH:	because of
 @POLISH:	z powodu
-@AUDIO:		wiki:Pl-z powodu.ogg
+@XAUDIO:		wiki:Pl-z powodu.ogg
 @PARTOFSPEECH:	preposition
 @@END:		CARD
 
@@ -479,7 +455,7 @@
 @CATEGORY:	
 @ENGLISH:	close to
 @POLISH:	w pobliżu
-@AUDIO:		wiki:Pl-w%20pobliżu.ogg
+@XAUDIO:		wiki:Pl-w%20pobliżu.ogg
 @PARTOFSPEECH:	preposition
 @@END:		CARD
 
@@ -487,7 +463,7 @@
 @CATEGORY:	due to
 @ENGLISH:	due to
 @POLISH:	ze względu na
-@AUDIO:		wiki:Pl-ze%20względu%20na.ogg
+@XAUDIO:		wiki:Pl-ze%20względu%20na.ogg
 @PARTOFSPEECH:	preposition
 @@END:		CARD
 
@@ -495,7 +471,7 @@
 @CATEGORY:	
 @ENGLISH:	except for
 @POLISH:	z wyjątkiem
-@AUDIO:		wiki:Pl-z%20wyjątkiem.ogg
+@XAUDIO:		wiki:Pl-z%20wyjątkiem.ogg
 @PARTOFSPEECH:	preposition
 @@END:		CARD
 
@@ -503,7 +479,7 @@
 @CATEGORY:	
 @ENGLISH:	far from
 @POLISH:	z dala od
-@AUDIO:		wiki:Pl-z%20dala%20od.ogg
+@XAUDIO:		wiki:Pl-z%20dala%20od.ogg
 @PARTOFSPEECH:	preposition
 @@END:		CARD
 
@@ -559,7 +535,7 @@
 @CATEGORY:	
 @ENGLISH:	as far as
 @POLISH:	o ile
-@AUDIO:		wiki:Pl-o%20ile.ogg
+@XAUDIO:		wiki:Pl-o%20ile.ogg
 @PARTOFSPEECH:	preposition
 @@END:		CARD
 
@@ -591,7 +567,7 @@
 @CATEGORY:	
 @ENGLISH:	in spite of
 @POLISH:	wbrew
-@AUDIO:		wiki:Pl-wbrew.ogg
+@XAUDIO:		wiki:Pl-wbrew.ogg
 @PARTOFSPEECH:	preposition
 @@END:		CARD
 
@@ -607,7 +583,7 @@
 @CATEGORY:	
 @ENGLISH:	on behalf of
 @POLISH:	na rzecz
-@AUDIO:		wiki:Pl-na%20rzecz
+@XAUDIO:		wiki:Pl-na%20rzecz
 @PARTOFSPEECH:	preposition
 @@END:		CARD
 
@@ -615,7 +591,7 @@
 @CATEGORY:	
 @ENGLISH:	on top of
 @POLISH:	na szczycie
-@AUDIO:		wiki:Pl-na%20szczycie.ogg
+@XAUDIO:		wiki:Pl-na%20szczycie.ogg
 @PARTOFSPEECH:	preposition
 @@END:		CARD
 
@@ -647,7 +623,7 @@
 @CATEGORY:	
 @ENGLISH:	those
 @POLISH:	tych
-@AUDIO:		wiki:Pl-tych.ogg
+@XAUDIO:		wiki:Pl-tych.ogg
 @PARTOFSPEECH:	preposition
 @@END:		CARD
 

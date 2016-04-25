@@ -20,6 +20,7 @@ var CARDLIST = {};
 //
 
 function randomizeCards(list) {
+console.log("RANDOMIZED CARDS");
 	if (!list) {
 		list = CARDLIST.CARD
 	}
@@ -134,6 +135,8 @@ function GetCategoryCards(name, cardlist) {
 //
 
 function LoadCategory(name) {
+	name = name.replace(/SINGLEQUOTE/, "'", "g");
+	name = name.replace(/DOUBLEQUOTE/, '"', "g");
 	var cards = GetCategoryCards(name);
 	$('#deck').cycle('destroy');
    ShowCardDeck(cards);
@@ -157,7 +160,7 @@ function onBefore() {
 
 //////////////////////////////
 //
-// onBefore -- What to do when changing slides in cycle.
+// onAfter -- What to do when changing slides in cycle.
 //
 
 function onAfter() {
@@ -194,7 +197,7 @@ function showNextCard() {
 //
 
 function flipCurrentCard() {
-	$('.current').toggleClass('flip');
+	$('.card.current').toggleClass('flip');
 }
 
 
@@ -236,7 +239,10 @@ function toggleCategoryDisplay() {
 //
 
 function playCurrentCardAudio() {
-	document.querySelector(".current audio").play();
+	var audio = document.querySelector(".current audio");
+	if (audio) {
+		audio.play();
+	}
 }
 
 

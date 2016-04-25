@@ -75,7 +75,7 @@ Handlebars.registerHelper("audio", function(url) {
 
 	var output = "";
 
-	output += "<audio class='audio_volume_only' controls>";
+	output += "<audio preload='none' class='audio_volume_only' controls>";
 	output += "<source";
 
 	if (url.match(/\.ogg$/)) {

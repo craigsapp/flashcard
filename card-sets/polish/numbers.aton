@@ -116,7 +116,7 @@
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	1's
+@CATEGORY:	1's, 10's
 @ENGLISH:	10
 @POLISH:	dziesięć
 @AUDIO:		wiki:Pl-dziesięć.ogg
@@ -143,7 +143,7 @@
 @CATEGORY:	10's
 @ENGLISH:	13
 @POLISH:	trzynaście
-@AUDIO:		wiki:Pl-trzynaście.ogg
+@AUDIO:		http://media.surfacelanguages.com/polish/Numbers1to20/12.mp3
 @@END:		CARD
 
 @@BEGIN:	CARD
@@ -157,7 +157,7 @@
 @CATEGORY:	10's
 @ENGLISH:	15
 @POLISH:	piętnaście
-@AUDIO:		wiki:Pl-piętnaście.ogg
+@AUDIO:		http://media.surfacelanguages.com/polish/Numbers1to20/14.mp3
 @@END:		CARD
 
 @@BEGIN:	CARD

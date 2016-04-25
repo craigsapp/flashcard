@@ -1,3 +1,7 @@
+/*
+ * Based on http://curtisblackwell.github.io/flash_cards
+ */
+
 
 @font-face {
 	font-family:	'Flash Cards';
@@ -46,6 +50,70 @@
 }
 
 
+
+.current .side_one, 
+.current.flip .side_two {
+	box-shadow:		0 3px 5px #000
+	-moz-box-shadow:	0 3px 5px #000;
+	-webkit-box-shadow:	0 3px 5px #000;
+}
+
+
+.current.flip .side_one {
+	box-shadow:		none
+	-moz-box-shadow:	none;
+	-webkit-box-shadow:	none;
+}
+
+
+.side_one {
+	transform:			rotateX(0deg);
+	-webkit-transform:		rotateX(0deg);
+	transform-style:		preserve-3d;
+	-webkit-transform-style:	preserve-3d;
+	z-index:			800
+}
+
+
+.flip .side_one {
+	transform:		rotateX(180deg)
+	-webkit-transform:	rotateX(180deg);
+}
+
+
+.side_two {
+	transform:			rotateX(-180deg);
+	-webkit-transform:		rotateX(-180deg);
+	transform-style:		preserve-3d;
+	-webkit-transform-style:	preserve-3d;
+	z-index:			900
+}
+
+
+.flip .side_two {
+	transform:		rotateX(0deg);
+	-webkit-transform:	rotateX(0deg);
+	z-index:		1000
+}
+
+
+.card p,
+div.redline,
+div.redline {
+	background-image:	linear-gradient(#ffffff 0px, #ffffff 43px, #ff78b4 44px);
+	background-image:	-o-linear-gradient(#ffffff 0px, #ffffff 43px, #ff78b4 44px);
+	background-image:	-ms-linear-gradient(#ffffff 0px, #ffffff 43px, #ff78b4 44px);
+	background-image:	-moz-linear-gradient(#ffffff 0px, #ffffff 43px, #ff78b4 44px);
+	background-image:	-webkit-linear-gradient(#ffffff 0px, #ffffff 43px, #ff78b4 44px);
+	background-image:	-webkit-gradient(linear,  50% 0%,  50% 44,  color-stop(0%,  #ffffff),  color-stop(97.727%,  #ffffff),  color-stop(100%,  #ff78b4));
+	background-size:	500px 45px;
+	background-repeat:	repeat-x;
+	display:		table-cell;
+	/* height:			300px; */
+	vertical-align:		middle;
+	width:			500px
+}
+
 .side_one, .side_two {
 	-webkit-backface-visibility:	hidden;
 	backface-visibility:	hidden;
@@ -66,67 +134,6 @@
 	height:			inherit;
 	position:		absolute;
 	width:			inherit
-}
-
-
-.current .side_one, .current.flip .side_two {
-	box-shadow:		0 3px 5px #000
-	-moz-box-shadow:	0 3px 5px #000;
-	-webkit-box-shadow:	0 3px 5px #000;
-}
-
-
-.current.flip .side_one {
-	box-shadow:		none
-	-moz-box-shadow:	none;
-	-webkit-box-shadow:	none;
-}
-
-
-.side_one {
-	transform:			rotateX(0deg);
-	-webkit-transform:		rotateX(0deg);
-	transform-style:		preserve-3d;
-	-webkit-transform-style:	preserve-3d;
-	z-index:			900
-}
-
-
-.flip .side_one {
-	transform:		rotateX(180deg)
-	-webkit-transform:	rotateX(180deg);
-}
-
-
-.side_two {
-	transform:			rotateX(-180deg);
-	-webkit-transform:		rotateX(-180deg);
-	transform-style:		preserve-3d;
-	-webkit-transform-style:	preserve-3d;
-	z-index:			800
-}
-
-
-.flip .side_two {
-	transform:		rotateX(0deg);
-	-webkit-transform:	rotateX(0deg);
-	z-index:		1000
-}
-
-
-.card p {
-	background-image:	linear-gradient(#ffffff 0px, #ffffff 43px, #ff78b4 44px);
-	background-image:	-o-linear-gradient(#ffffff 0px, #ffffff 43px, #ff78b4 44px);
-	background-image:	-ms-linear-gradient(#ffffff 0px, #ffffff 43px, #ff78b4 44px);
-	background-image:	-moz-linear-gradient(#ffffff 0px, #ffffff 43px, #ff78b4 44px);
-	background-image:	-webkit-linear-gradient(#ffffff 0px, #ffffff 43px, #ff78b4 44px);
-	background-image:	-webkit-gradient(linear,  50% 0%,  50% 44,  color-stop(0%,  #ffffff),  color-stop(97.727%,  #ffffff),  color-stop(100%,  #ff78b4));
-	background-size:	500px 45px;
-	background-repeat:	repeat-x;
-	display:		table-cell;
-	height:			300px;
-	vertical-align:		middle;
-	width:			500px
 }
 
 

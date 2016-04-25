@@ -12,7 +12,7 @@
 
 // Preferred card face to display:
 var SIDEVIEW = -1;
-
+var RANDOMIZE = 1;
 
 
 //////////////////////////////
@@ -47,7 +47,9 @@ function prepareCards(cardlist) {
 		return;
 	}
 	var set = cardlist.CARDLIST;
-	set.CARD = randomizeCards(set.CARD);
+   //if (RANDOMIZE) {
+	//	set.CARD = randomizeCards(set.CARD);
+	//}
 	CARDLIST = set;
 	FillCardCategories();
    ShowCardDeck(set.CARD);
@@ -61,6 +63,13 @@ function prepareCards(cardlist) {
 //
 
 function ShowCardDeck(carddeck) {
+	var tempcards = [];
+   for (var j=0; j<carddeck.length; j++) {
+		tempcards.push(carddeck[j]);
+	}
+   if (RANDOMIZE) {
+		tempcards = randomizeCards(tempcards);
+	}
 	var deck = document.querySelector("div.deck");
 	if (!deck) {
 		console.log("Error: no deck div found");
@@ -93,8 +102,8 @@ function ShowCardDeck(carddeck) {
 	var output = "";
 	output += '<div class="deck">\n';
 	output += '<ul id="deck">\n';
-	for (var i = 0; i<carddeck.length; i++) {
-		output += printCard(carddeck[i], side1, side2);
+	for (var i = 0; i<tempcards.length; i++) {
+		output += printCard(tempcards[i], side1, side2);
 	}
 	output += '</ul>\n';
 	output += '</div>\n';
@@ -160,10 +169,14 @@ function printCard(object, side1, side2) {
 	var output = "";
 	output += '<li class="card">\n';
 	output += '<div class="side_one">\n';
+	output += '<div class="redline">';
 	output += side1(object);
+	output += "</div>";
 	output += '</div>\n';
 	output += '<div class="side_two">\n';
+	output += '<div class="redline">';
 	output += side2(object);
+	output += "</div>";
 	output += '</div>\n';
 	output += '</li>\n';
 	return output;
@@ -210,7 +223,9 @@ function FillCardCategories(cardlist) {
 	output += "<span class='category'";
 	output += " onclick='LoadCategory(\"";
 	output += "all" + "\");'" + " >" +  "all";
-	output += " (" + sum + ")";
+	output += " (";
+	output += CARDLIST.CARD.length;
+	output += ")";
 	output += "</span> ";
 
 	var count = 0;
@@ -221,7 +236,8 @@ function FillCardCategories(cardlist) {
 		}
 		output += "<span class='category'";
 		output += " onclick='LoadCategory(\"";
-		output += clist[i] + "\");'" + " >" +  clist[i];
+		output += clist[i].replace(/'/, "SINGLEQUOTE", "g");
+		output += "\");'" + " >" +  clist[i];
 		output += " (" + categories[clist[i]] + ")";
 		output += "</span> ";
 	}

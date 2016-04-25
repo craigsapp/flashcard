@@ -37,6 +37,21 @@ document.addEventListener("DOMContentLoaded", function() {
 
 window.addEventListener("keydown", function(event) {
 	var CKey      = 67;
+	var DKey      = 68;
+	var EKey      = 69;
+	var FKey      = 70;
+	var GKey      = 71;
+	var HKey      = 72;
+	var IKey      = 73;
+	var JKey      = 74;
+	var KKey      = 75;
+	var LKey      = 76;
+	var MKey      = 77;
+	var NKey      = 78;
+	var OKey      = 79;
+	var PKey      = 80;
+	var QKey      = 81;
+	var RKey      = 82;
 	var OneKey    = 49;
 	var TwoKey    = 50;
 	var LeftKey   = 37;
@@ -46,6 +61,10 @@ window.addEventListener("keydown", function(event) {
 	var EnterKey  = 13;
 	var SpaceKey  = 32;
 	var SlashKey  = 191;
+
+   if (event.metaKey) {
+		return;
+	}
 
 	switch (event.keyCode) {
 
@@ -83,6 +102,12 @@ window.addEventListener("keydown", function(event) {
 
 		case CKey:
 			toggleCategoryDisplay();
+			event.preventDefault();
+			break;
+
+		case RKey:
+			RANDOMIZE = !RANDOMIZE;
+			console.log("RAND", RANDOMIZE);
 			event.preventDefault();
 			break;
 
