@@ -55,6 +55,7 @@
 @CATEGORY:	nominative, 1st person
 @ENGLISH:	I
 @POLISH:	ja
+@AUDIO:		wiki:Pl-ja.ogg
 @FUNCTION:	nominative, 1st person
 @PARTOFSPEECH:	pronoun
 @@END:		CARD
@@ -63,6 +64,7 @@
 @CATEGORY:	nominative, 2nd person
 @ENGLISH:	you
 @POLISH:	ty
+@AUDIO:		wiki:Pl-ty.ogg
 @FUNCTION:	nominative, 2nd person
 @PARTOFSPEECH:	pronoun
 @@END:		CARD
@@ -71,6 +73,7 @@
 @CATEGORY:	nominative, 3rd person
 @ENGLISH:	he
 @POLISH:	on
+@AUDIO:		wiki:Pl-on.ogg
 @FUNCTION:	nominative, 3rd person
 @PARTOFSPEECH:	pronoun
 @@END:		CARD
@@ -79,6 +82,7 @@
 @CATEGORY:	nominative, 3rd person
 @ENGLISH:	she
 @POLISH:	ona
+@AUDIO:		wiki:Pl-ona.ogg
 @FUNCTION:	nominative, 3rd person
 @PARTOFSPEECH:	pronoun
 @@END:		CARD
@@ -87,6 +91,7 @@
 @CATEGORY:	nominative, 3rd person
 @ENGLISH:	it
 @POLISH:	ono
+@AUDIO:		wiki:Pl-ono.ogg
 @FUNCTION:	nominative, 3rd person
 @PARTOFSPEECH:	pronoun
 @@END:		CARD
@@ -95,6 +100,7 @@
 @CATEGORY:	nominative, 1st person plural
 @ENGLISH:	we
 @POLISH:	my
+@AUDIO:		wiki:Pl-my.ogg
 @FUNCTION:	nominative, 1st person plural
 @PARTOFSPEECH:	pronoun
 @@END:		CARD
@@ -103,6 +109,7 @@
 @CATEGORY:	nominative, 2nd person plural
 @ENGLISH:	Yous
 @POLISH:	wy
+@AUDIO:		wiki:Pl-wy.ogg
 @FUNCTION:	nominative, 2nd person plural
 @PARTOFSPEECH:	pronoun
 @@END:		CARD
@@ -111,6 +118,7 @@
 @CATEGORY:	nominative, 3rd person plural
 @ENGLISH:	they (m)
 @POLISH:	oni
+@AUDIO:		wiki:Pl-oni.ogg
 @FUNCTION:	nominative, 3rd person plural
 @PARTOFSPEECH:	pronoun
 @@END:		CARD
@@ -119,6 +127,7 @@
 @CATEGORY:	nominative, 3rd person plural
 @ENGLISH:	they (f)
 @POLISH:	one
+@AUDIO:		wiki:Pl-one.ogg
 @FUNCTION:	nominative, 3rd person plural
 @PARTOFSPEECH:	pronoun
 @@END:		CARD
