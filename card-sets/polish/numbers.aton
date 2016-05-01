@@ -33,7 +33,10 @@
 
 @@BEGIN:	SIDE
 @TITLE:		English
-@TEMPLATE:	{{{imageorword IMAGE ENGLISH}}}
+@TEMPLATE:	
+		<div style="font-size:150%">
+			{{{imageorword IMAGE ENGLISH}}}
+		</div>
 		{{#if FUNCTION}}
 			<div style="color:#dddddd; margin-top: 120px">
 				{{{FUNCTION}}}
