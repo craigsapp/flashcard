@@ -12,6 +12,7 @@
 
 // storage for loaded cards:
 var CARDLIST = {};
+var CATEGORY = "";
 
 
 //////////////////////////////
@@ -138,10 +139,14 @@ function LoadCategory(name) {
 	name = name.replace(/SINGLEQUOTE/, "'", "g");
 	name = name.replace(/DOUBLEQUOTE/, '"', "g");
 	var cards = GetCategoryCards(name);
+   CATEGORY = name;
 	$('#deck').cycle('destroy');
    ShowCardDeck(cards);
 	if (SIDEVIEW == 2) {
 		showFaceTwo();
+	}
+   if (WORDLIST) {
+		displayCategoryWordList(name);
 	}
 }
 

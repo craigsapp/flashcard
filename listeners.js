@@ -52,6 +52,14 @@ window.addEventListener("keydown", function(event) {
 	var PKey      = 80;
 	var QKey      = 81;
 	var RKey      = 82;
+	var SKey      = 83;
+	var TKey      = 84;
+	var UKey      = 85;
+	var VKey      = 86;
+	var WKey      = 87;
+	var XKey      = 88;
+	var YKey      = 89;
+	var ZKey      = 90;
 	var OneKey    = 49;
 	var TwoKey    = 50;
 	var LeftKey   = 37;
@@ -102,6 +110,15 @@ window.addEventListener("keydown", function(event) {
 
 		case CKey:
 			toggleCategoryDisplay();
+			event.preventDefault();
+			break;
+
+		case WKey:
+         if (!WORDLIST) {
+				displayCategoryWordList(CATEGORY);
+			} else {
+				clearWordList();
+			}
 			event.preventDefault();
 			break;
 

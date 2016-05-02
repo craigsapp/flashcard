@@ -205,6 +205,7 @@ div.redline {
 	background:	#000;
 	display:	block;
 	margin-top:	100px;
+        margin-bottom:  100px;
 	padding:	20px;
 	/* position:	absolute; */
 	/* left:	0; */
@@ -348,5 +349,17 @@ span.category:hover {
 	width:		45px;
 }
 
+
+#wordlist table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+
+#wordlist td {
+	padding: 6px;
+	vertical-align: top;
+	text-align: left !important;
+}
 
 

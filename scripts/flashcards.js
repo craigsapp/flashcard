@@ -13,6 +13,7 @@
 // Preferred card face to display:
 var SIDEVIEW = -1;
 var RANDOMIZE = 1;
+var WORDLIST = false;
 
 
 //////////////////////////////
@@ -83,6 +84,10 @@ function ShowCardDeck(carddeck) {
 			if (titleurl) {
 				var output = "";
 				output += "<a style='text-decoration:none;";
+            if (title.length > 30) {
+					output += "letter-spacing:	1px;";
+					output += "word-spacing:	1px;";
+				}
 				output += " cursor:pointer;' target='new' href='";
 				output += titleurl;
 				output += "'>";
@@ -285,4 +290,67 @@ function showFaceOne() {
 	}
 	SIDEVIEW = 0;
 }
+
+
+
+//////////////////////////////
+//
+// displayCategoryWordList --
+//
+
+function displayCategoryWordList(name) {
+   if (!name) {
+      name = CATEGORY;
+   }
+   if (!name) {
+      name = "all";
+   }
+   var cards = GetCategoryCards(name);
+   console.log("Cards", cards);
+   var wordlist = document.querySelector("#wordlist");
+   if (!wordlist) {
+      var categories = document.querySelector("#categories");
+      if (!categories) {
+         console.log("Could not find category list section");
+         return;
+      }
+      var newelement = document.createElement("div");
+      newelement.id = "wordlist";
+      categories.appendChild(newelement);
+      wordlist = newelement;
+   }
+	var wordlisttemplate = "";
+   wordlisttemplate += "<h1 style='margin-top:50px;'>Word list</h1>\n";
+   wordlisttemplate += "<table>";
+	wordlisttemplate += "{{#each this}}";
+	wordlisttemplate += "<tr><td>{{{POLISH}}}</td>";
+	wordlisttemplate += "<td>{{{ENGLISH}}}</td></tr>";
+	wordlisttemplate += "{{/each}}";
+	wordlisttemplate += "</table>";
+   var listtable = Handlebars.compile(wordlisttemplate);
+	var output = listtable(cards);
+	wordlist.innerHTML = output;
+   WORDLIST = true;
+}
+
+
+
+//////////////////////////////
+//
+// clearWordlist --
+//
+
+function clearWordList() {
+	var list = document.querySelector("#wordlist");
+	if (list) {
+		list.innerHTML = "";
+		WORDLIST = false;
+	}
+}
+
+
+
+
+
+
 

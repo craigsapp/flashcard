@@ -128,3 +128,32 @@ Handlebars.registerHelper("plural", function(word) {
 
 
 
+//////////////////////////////
+//
+// forvo Handlebars helper --
+//
+
+Handlebars.registerHelper("forvo", function(word) {
+	var output = "";
+	if (!word) {
+		return new Handlebars.SafeString(output);
+	}
+   var clean = word.replace(/[.,:;?!]/g, "");
+   var words = clean.split(/[.,:]?\s+/);
+   if (words.length > 7) {
+		return new Handlebars.SafeString(output);
+   }
+   output += '<div style="position:absolute; right:10px; bottom:0px;">\n';
+   for (var i=0; i<words.length; i++) {
+		output += '<a target="new" href="http://forvo.com/word/';
+		output += words[i] + '/#pl">\n';
+		output += '<img width=40 '
+		output += 'src=http://static00.forvo.com/_presentation/img/forvo_og.png>\n';
+		output += '</a>\n';
+   }
+   output += '</div>\n';
+	return new Handlebars.SafeString(output);
+});
+
+
+

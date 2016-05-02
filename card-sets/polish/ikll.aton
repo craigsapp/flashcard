@@ -1,0 +1,726 @@
+
+@@BEGIN:	CARDLIST
+
+@TITLE:		I Kind of Like Languages: Polish lessons
+@TITLEURL:	http://labs.ikindalikelanguages.com/lesson.php?id=195
+@DESCRIPTION:	Vocabular from 5 lessons introducing Polish grammar.
+
+@@BEGIN:	OPTIONS
+@BACKGROUND:		#333333
+@CATEGORY_BACKGROUND:	#2a2a2a
+@DEFAULT_SIDE:		1
+@@END:		OPTIONS
+
+@@BEGIN:	ABBR
+@PONS:		http://en.pons.com/translate/polish-english/
+@@END:		ABBR
+
+@@BEGIN:	SIDES
+
+@@BEGIN:	SIDE
+@TITLE:		Polish
+@TEMPLATE:	<div style="margin-top: 60px">
+			{{{hyperlink POLISH "ABBR@PONS" POLISH}}}
+			{{{plural POLISHPLURAL}}}
+		{{{audio AUDIO}}}
+		</div>
+		{{{forvo POLISH}}}
+		{{#if RUSSIAN}}
+			<div style="margin-top: 100px">
+				<span style="color:#aaa;">Russian:</span>
+				{{{RUSSIAN}}}
+			</div>
+		{{/if}}
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		English
+@TEMPLATE:	{{{imageorword IMAGE ENGLISH}}}
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		Usage
+@TEMPLATE:	{{{usage USAGE}}}
+@@END:		SIDE
+
+@@END:		SIDES
+
+
+@@@ Lesson 1 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, vocabulary, pronoun
+@ENGLISH:	I
+@POLISH:	ja
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, vocabulary, pronoun
+@ENGLISH:	it
+@POLISH:	to
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, sentence
+@ENGLISH:	It is me. (It me)
+@POLISH:	To ja.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, vocabulary, noun
+@ENGLISH:	Poland
+@POLISH:	Polska
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, sentence
+@ENGLISH:	It is Poland.
+@POLISH:	To Polska.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, verb
+@ENGLISH:	I have
+@POLISH:	ja mam
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, sentence
+@ENGLISH:	I have it.
+@POLISH:	Ja to mam.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, sentence
+@ENGLISH:	Nowak has it.
+@POLISH:	Nowak to ma.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, pronoun
+@ENGLISH:	you (formal, masculine "Mister")
+@POLISH:	pan
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, pronoun
+@ENGLISH:	she
+@POLISH:	ona
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, sentence
+@ENGLISH:	He has it.
+@POLISH:	On to ma.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, pronoun
+@ENGLISH:	you (formal, feminine "Missus")
+@POLISH:	pani
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, sentence
+@ENGLISH:	You (formal, masculine) has it.
+@POLISH:	Pan to ma.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, pronoun
+@ENGLISH:	you
+@POLISH:	ty
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, sentence
+@ENGLISH:	You (formal, feminine) have it.
+@POLISH:	Pani to ma.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, vocabulary
+@ENGLISH:	no/not
+@POLISH:	nie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, pronoun, genative
+@ENGLISH:	it (genative)
+@POLISH:	tego
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, sentence
+@ENGLISH:	I don't have it.
+@POLISH:	Ja tego nie mam.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, sentence
+@ENGLISH:	You (formal, masculine) don't have it.
+@POLISH:	Pan tego nie ma.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, sentence
+@ENGLISH:	She doesn't have it.
+@POLISH:	Ona tego nie ma.
+@@END:		CARD
+
+@@@ Lesson 2 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 2, verb
+@ENGLISH:	I know
+@POLISH:	ja wiem
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 2, sen
+@ENGLISH:	I don't know it.
+@POLISH:	Ja tego nie wiem.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 2, vocabulary, adverb
+@ENGLISH:	where
+@POLISH:	gdzie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 2, sentence
+@ENGLISH:	Do you (formal, male) know where Poland is?
+@POLISH:	Pan wie gdzie Polska?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 2, vocabulary
+@ENGLISH:	like this/yes
+@POLISH:	tak
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 2, sentence
+@ENGLISH:	You don't know where Poland is.
+@POLISH:	Ty nie wiesz gdzie Polska.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 2, verb, vocabulary
+@ENGLISH:	I am
+@POLISH:	ja jestem
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 2, vocabulary, adverb
+@ENGLISH:	here
+@POLISH:	tutaj
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 2, sentence
+@ENGLISH:	I am here. (I here am)
+@POLISH:	Ja tutaj jestem.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 2, verb, vocabulary
+@ENGLISH:	he/she/it is
+@POLISH:	on/ona/ono jest
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 2, sentence
+@ENGLISH:	Where is Poland?
+@POLISH:	Gdzie jest Polska?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 2, sentence
+@ENGLISH:	Do you know where Poland is?
+@POLISH:	Pani wie gdzie jest Polska?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 2, vocabulary, noun
+@ENGLISH:	bank
+@POLISH:	bank
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 2, sentence
+@ENGLISH:	Do you (formal, male) know where the bank is?
+@POLISH:	Pan wie gdzie jest bank?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 2, sentence
+@ENGLISH:	You are here.
+@POLISH:	Ty tutaj jesteś.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 2, vocabulary, verb
+@ENGLISH:	I understand
+@POLISH:	ja rozumiem
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 2, sentence
+@ENGLISH:	I don't understand it.
+@POLISH:	Ja tego nie rozumiem.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 2, sentence
+@ENGLISH:	I understand: you don't know where Poland is.
+@POLISH:	Ja rozumiem: ty nie wiesz dgzie jest Polska.
+@@END:		CARD
+
+@@@ Lesson 3 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 3, sentence
+@ENGLISH:	I understand it.
+@POLISH:	Ja to rozumiem.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 3, verb, vocabulary
+@ENGLISH:	I am competent to
+@POLISH:	ja umiem
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 3, vocabulary, verb
+@ENGLISH:	I speak
+@POLISH:	ja mówię
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 3, phrase, vocabulary
+@ENGLISH:	in Polish
+@POLISH:	po polsku
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 3
+@ENGLISH:	I don't speak (in) Polish.
+@POLISH:	Ja nie mówię po polsku.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 3, vocabulary
+@ENGLISH:	a bit
+@POLISH:	trochę
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 3, sentence
+@ENGLISH:	I understand Polish a bit. (a bit in Polish)
+@POLISH:	Ja rozumiem trochę po polsku.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 3, verb, vocabulary
+@ENGLISH:	I do
+@POLISH:	ja robię
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 3, sentence
+@ENGLISH:	I am doing it.
+@POLISH:	Ja to robię.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 3, sentence
+@ENGLISH:	I am not doing it.
+@POLISH:	Ja tego nie robię.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 3, vocabulary, verb
+@ENGLISH:	he does
+@POLISH:	on robi
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 3, sentence
+@ENGLISH:	Do you speak (in) Polish?
+@POLISH:	Pan mówi po polsku?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 3, vocabulary, pronoun
+@ENGLISH:	what
+@POLISH:	co
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 3, sentence
+@ENGLISH:	What are you (formal, male) doing?
+@POLISH:	Co pani robi?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 3, sentence
+@ENGLISH:	What are you doing here?
+@POLISH:	Co ty tutaj robisz?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 3, vocabulary, pronoun
+@ENGLISH:	what (genative)
+@POLISH:	czego
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 3, sentence
+@ENGLISH:	What don't you understand?
+@POLISH:	Czego ty nie rozumiesz?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 3, vocabulary, verb
+@ENGLISH:	I like
+@POLISH:	ja libię
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 3, sentence
+@ENGLISH:	What don't you like?
+@POLISH:	Czego ty nie lubisz?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 3, sentence
+@ENGLISH:	I don't like it.
+@POLISH:	Ja tego nie lubię.
+@@END:		CARD
+
+@@@ Lesson 4 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 4, vocabulary, verb
+@ENGLISH:	I want
+@POLISH:	ja chcę
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 4, sentence
+@ENGLISH:	I don't want it.
+@POLISH:	Ja tego nie chcę.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 4, sentence
+@ENGLISH:	He doesn't want it.
+@POLISH:	On tego nie chce.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 4, vocabulary, preposition
+@ENGLISH:	for
+@POLISH:	dla
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 4, phrase, vocabulary
+@ENGLISH:	for it
+@POLISH:	dla tego
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 4, phrase, vocabulary
+@ENGLISH:	for what
+@POLISH:	dla czego
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 4, vocabulary, adverb
+@ENGLISH:	why
+@POLISH:	dlaczego
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 4, sentence
+@ENGLISH:	Why doesn't she want it?
+@POLISH:	Dlaczego ona tego nie chce?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 4, vocabulary, adverb
+@ENGLISH:	therefore
+@POLISH:	dlatego
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 4, sentence, hard
+@ENGLISH:	She doesn't speak Polish, therefore she doesn't understand it.
+@POLISH:	Ona nie mówi po polsku, dlatego ona tego nie rozumie.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 4, vocabulary, conjunction
+@ENGLISH:	that (conjunction)
+@POLISH:	że
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 4, vocabulary, conjunction
+@ENGLISH:	because
+@POLISH:	dlatego że
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 4, sentence
+@ENGLISH:	Why doesn't he have it?
+@POLISH:	Dlaczego on tego nie ma?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 4, sentence, hard
+@ENGLISH:	He doesn't have it because he doesn't want it.
+@POLISH:	On tego nie ma dlatego że on tego nie chce.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 4, sentence
+@ENGLISH:	What do you want?
+@POLISH:	Co ty chcesz?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 4, vocabulary, verb
+@ENGLISH:	I study
+@POLISH:	ja studiuję
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 4, sentence
+@ENGLISH:	I study here.
+@POLISH:	Ja tutaj studiuję.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 4, vocabulary
+@ENGLISH:	there
+@POLISH:	tam
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 4, sentence
+@ENGLISH:	I don't study there.
+@POLISH:	Ja tam nie studiuję.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 4, sentence
+@ENGLISH:	What do you (formal, feminine) study?
+@POLISH:	Co pani studiuje?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 4, vocabulary, verb
+@ENGLISH:	I work
+@POLISH:	ja pracuję
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 4, sentence
+@ENGLISH:	Why don't you work here?
+@POLISH:	Dlaczego ty tutaj nie pracujesz?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 4, vocabulary
+@ENGLISH:	now
+@POLISH:	teraz
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 4, sentence
+@ENGLISH:	Why aren't you working now?
+@POLISH:	Dlaczego ty teraz nie pracujesz?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 4, sentence, hard
+@ENGLISH:	I am not working now because I don't want it.
+@POLISH:	Ja teraz nie pracuję dlatego że ja tego nie chcę.
+@@END:		CARD
+
+@@@ Lesson 5 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 5, vocabulary, verb
+@ENGLISH:	I thank
+@POLISH:	ja dziękuję
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 5, sentence
+@ENGLISH:	He thanks.
+@POLISH:	On dziękuje.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 5, sentence
+@ENGLISH:	Why don't you thank?
+@POLISH:	Dlaczego ty nie dziękujesz?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 5, sentence
+@ENGLISH:	I thank (you).
+@POLISH:	Ja dziękuję.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 5, vocabulary, adverb
+@ENGLISH:	very
+@POLISH:	bardzo
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 5, vocabulary, phrase
+@ENGLISH:	thank you very much
+@POLISH:	dziękuję bardzo
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 5, vocabulary
+@ENGLISH:	well
+@POLISH:	dobrze
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 5, vocabulary, phrase
+@ENGLISH:	very well, thanks
+@POLISH:	bardzo dobrze, dziękuję
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 5, sentence
+@ENGLISH:	I speak Polish very well.
+@POLISH:	Ja mówię bardzo dobrze po polsku.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 5, sentence
+@ENGLISH:	You (formal, feminine) have it.
+@POLISH:	Pani to ma.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 5, sentence
+@ENGLISH:	You have it.
+@POLISH:	Ty to masz.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 5, vocabulary
+@ENGLISH:	how
+@POLISH:	jak
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 5
+@ENGLISH:	How are you doing it?
+@POLISH:	Jak ty to robisz?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 5, vocabulary
+@ENGLISH:	self
+@POLISH:	się
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 5, sentence
+@ENGLISH:	How are you having yourself?
+@POLISH:	Jak ty się masz?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 5
+@ENGLISH:	How are (you) having yourself? (How are you?)
+@POLISH:	Jak się masz?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 5
+@ENGLISH:	very well, thanks.
+@POLISH:	bardzo dobrze, dziękuję.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 5, vocabulary
+@ENGLISH:	honor (hi, bye)
+@POLISH:	cześć
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 5, vocabulary, conjunction
+@ENGLISH:	and
+@POLISH:	i
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 5
+@ENGLISH:	hi and bye!
+@POLISH:	cześć i cześć!
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 5, sentence
+@ENGLISH:	Hi, how are you?
+@POLISH:	Cześć, jak się masz?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 5, sentence
+@ENGLISH:	Very well, thank you very much.  What are you doing here?
+@POLISH:	Bardzo dobrze, dziękuję bardzo. Co ty tutaj robisz?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 5
+@ENGLISH:	I work here.  What do you do now?
+@POLISH:	Ja tutaj pracuję. Co ty teraz robisz?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 5, sentence
+@ENGLISH:	I study.  You now speak Polish very well.
+@POLISH:	Ja studiuję. Ty teraz bardzo dobrze mówisz po polsku.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 5, sentence
+@ENGLISH:	Thanks.  I understand well and I like it.
+@POLISH:	Dziękuję. Tak, Ja dobrze rozumiem i ja to lubię.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 5, sentence
+@ENGLISH:	Do you know where the bank is?
+@POLISH:	Ty wiesz gdzie jest bank?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 5, sentence
+@ENGLISH:	Yes, th bank is there! See you.
+@POLISH:	Tak, bank jest tam! Cześć.
+@@END:		CARD
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+@@END:		CARDLIST
+
+
+
