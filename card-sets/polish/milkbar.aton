@@ -1,0 +1,557 @@
+
+@@BEGIN:	CARDLIST
+
+@TITLE:		Milk Bar menu items
+@TITLEURL:	http://students.sras.org/milk-bars-how-to-survive-in-warsaw
+@DESCRIPTION:	Milk bar menu items
+
+@@BEGIN:	OPTIONS
+@BACKGROUND:		#333333
+@CATEGORY_BACKGROUND:	#2a2a2a
+@DEFAULT_SIDE:		1
+@@END:		OPTIONS
+
+@@BEGIN:	ABBR
+@PONS:		http://en.pons.com/translate/polish-english/
+@@END:		ABBR
+
+@@BEGIN:	SIDES
+
+@@BEGIN:	SIDE
+@TITLE:		Polish
+@TEMPLATE:	<div style="margin-top: 60px">
+			{{{hyperlink POLISH "ABBR@PONS" POLISH}}}
+			{{{plural POLISHPLURAL}}}
+		{{{audio AUDIO}}}
+		</div>
+		<div style="position:absolute; right:10px; bottom:0px;">
+		<a target="new" href="http://forvo.com/word/{{POLISH}}/#pl">
+			<img width=40 src=http://static00.forvo.com/_presentation/img/forvo_og.png>
+		</a>
+		</div>
+		{{#if RUSSIAN}}
+			<div style="margin-top: 100px">
+				<span style="color:#aaa;">Russian:</span>
+				{{{RUSSIAN}}}
+			</div>
+		{{/if}}
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		English
+@TEMPLATE:	{{{imageorword IMAGE ENGLISH}}}
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		Usage
+@TEMPLATE:	{{{usage USAGE}}}
+@@END:		SIDE
+
+@@END:		SIDES
+
+
+@@@ Flour dishes @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	Dania mączne (flour dishes)
+@ENGLISH:	Polish dumplings filled with meat
+@POLISH:	pierogi z mięsem
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Dania mączne (flour dishes)
+@ENGLISH:	Polish dumplings filled with sauerkraut and usually mushrooms
+@POLISH:	pierogi z kapustą
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Dania mączne (flour dishes)
+@ENGLISH:	“Russian” pierogi: the most classic Polish dumplings filled with a mixture of potato and farmer’s cheese.
+@POLISH:	pierogi ruskie
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	Dania mączne (flour dishes)
+@ENGLISH:	Polish dumplings filled with fruit. Sweet and dusted with powdered sugar and potentially cinnamon. The two most popular are blubrry and strawberry.
+@POLISH:	pierogi z owocami
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Dania mączne (flour dishes)
+@ENGLISH:	Polish dumplings filled with blueberries. A classic.
+@POLISH:	pierogi z jagodami
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Dania mączne (flour dishes)
+@ENGLISH:	Polish dumplings filled with strawberries.
+@POLISH:	pierogi z truskawkami 
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Dania mączne (flour dishes)
+@ENGLISH:	“lazy pierogi”: have no filling and usually in the shape of a rectangle; made of flour & farmer’s cheese & topped with sugar and cream.
+@POLISH:	pierogi leniwe 
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Dania mączne (flour dishes)
+@ENGLISH:	a Polish take on crepes that are filled with farmer’s cheese and topped with sugar and cream.
+@POLISH:	naleśniki z serem
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Dania mączne (flour dishes)
+@ENGLISH:	Polish crepes filled with apples and topped with sweet cream and sugar.
+@POLISH:	Naleśniki z jabłkami 
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Dania mączne (flour dishes)
+@ENGLISH:	Polish crepes filled with cherries and topped with cream and sugar.
+@POLISH:	Naleśniki z wiśniami 
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@ Soups @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+@@BEGIN:	CARD
+@CATEGORY:	Zupy (soups)
+@ENGLISH:	Polish sour rye soup, filled with meat, potatoes, and boiled eggs
+@POLISH:	Żurek z jajkiem i kielbasą
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Zupy (soups)
+@ENGLISH:	Red beet soup with small, mushroom-filled dumplings
+@POLISH:	Barszcz czerwone z uszkami
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Zupy (soups)
+@ENGLISH:	tomato soup with either noodles/rice
+@POLISH:	Pomidorowa z makaronem/ryżem
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Zupy (soups)
+@ENGLISH:	chicken noodle soup
+@POLISH:	Rosół z makaronem
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Zupy (soups)
+@ENGLISH:	mushroom soup
+@POLISH:	Pieczarkowa
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Zupy (soups)
+@ENGLISH:	beef tripe soup (made from intestines), an acquired taste
+@POLISH:	Flaki wołowe
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Zupy (soups)
+@ENGLISH:	soup made of sauerkraut with potato, carrot, and often sausage
+@POLISH:	Kapuśniak
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+
+@@@ Meat dishes @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	Danie mięsne (meat dishes)
+@ENGLISH:	breaded pork cutlet, similar to Wiener Schnitzel
+@POLISH:	Kotlet schabowy
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Danie mięsne (meat dishes)
+@ENGLISH:	ground pork cutlet (breaded)
+@POLISH:	Kotlet mielony
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Danie mięsne (meat dishes)
+@ENGLISH:	
+@POLISH:	
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Danie mięsne (meat dishes)
+@ENGLISH:	
+@POLISH:	
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	Danie mięsne (meat dishes)
+@ENGLISH:	fried chicken legs and thighs
+@POLISH:	Udka (kurczak smażony)
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Danie mięsne (meat dishes)
+@ENGLISH:	beef roulades stuffed with pickles and bacon
+@POLISH:	Zrazy
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Danie mięsne (meat dishes)
+@ENGLISH:	“pigeons in tomato sauce,” actually meat and rice wrapped in boiled cabbage leaves
+@POLISH:	Gołąbki w sosie pomidorowym
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Danie mięsne (meat dishes)
+@ENGLISH:	stewed cabbage with carrots, onions, and meat
+@POLISH:	Bigos
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@ Sides / extras @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	Dodatki (sides/extras)
+@ENGLISH:	potatoes
+@POLISH:	Ziemniaki
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Dodatki (sides/extras)
+@ENGLISH:	sauerkraut
+@POLISH:	Kapusta
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Dodatki (sides/extras)
+@ENGLISH:	small salad of mixed vegetables, usually pickled, sometimes served with a sauce
+@POLISH:	Surówka
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Dodatki (sides/extras)
+@ENGLISH:	bread roll
+@POLISH:	Bułka
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+
+@@@ Drinks @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	Napoje (drinks)
+@ENGLISH:	homemade fruit juice, often with pieces of fruit at the bottom
+@POLISH:	Kompot
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Napoje (drinks)
+@ENGLISH:	tea
+@POLISH:	Herbata
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Napoje (drinks)
+@ENGLISH:	cultured, jogurty milk drink
+@POLISH:	Kefir
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Napoje (drinks)
+@ENGLISH:	coffee
+@POLISH:	Kawa
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@ Phrases @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	phrases
+@ENGLISH:	please, one time dumplings with meat
+@POLISH:	proszę jeden raz pierogi z mięsem
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrases
+@ENGLISH:	please
+@POLISH:	proszę
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrases
+@ENGLISH:	times
+@POLISH:	raz
+@POLISHPLURAL:	razy
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrases
+@ENGLISH:	for here?
+@POLISH:	na miejscu?
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrases
+@ENGLISH:	for takeaway
+@POLISH:	na wynos
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrases
+@ENGLISH:	To wszystko?
+@POLISH:	Is that everything?
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrases
+@ENGLISH:	and
+@POLISH:	i
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrases
+@ENGLISH:	tak
+@POLISH:	yes
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrases
+@ENGLISH:	nie
+@POLISH:	no
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+
+@@@ Vocabulary @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	milk bar vocabulary
+@ENGLISH:	flour
+@POLISH:	mączne
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	milk bar vocabulary
+@ENGLISH:	dishes
+@POLISH:	dania
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	milk bar vocabulary
+@ENGLISH:	apple
+@POLISH:	jabłko
+@POLISHPLURAL:	jabłkami
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	milk bar vocabulary
+@ENGLISH:	blueberry
+@POLISH:	jagoda
+@POLISHPLURAL:	jagody
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	milk bar vocabulary
+@ENGLISH:	cabbage, sauerkraut
+@POLISH:	kapustą
+@POLISHPLURAL:	
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	milk bar vocabulary
+@ENGLISH:	lazy
+@POLISH:	leniwy
+@IMAGE:		
+@PARTOFSPEECH:	adjective
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	milk bar vocabulary
+@ENGLISH:	meat
+@POLISH:	mięso
+@POLISHPLURAL:	
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	milk bar vocabulary
+@ENGLISH:	flour
+@POLISH:	mączne
+@POLISHPLURAL:	
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	milk bar vocabulary
+@ENGLISH:	pancake, crepe
+@POLISH:	naleśnik
+@POLISHPLURAL:	naleśniki
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	milk bar vocabulary
+@ENGLISH:	fruit
+@POLISH:	owoc
+@POLISHPLURAL:	owoce
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	milk bar vocabulary
+@ENGLISH:	pierogi
+@POLISH:	pierogi
+@POLISHPLURAL:	
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	milk bar vocabulary
+@ENGLISH:	Russian (Ruthenian)
+@POLISH:	ruskie
+@POLISHPLURAL:	
+@IMAGE:		
+@PARTOFSPEECH:	adjective
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	milk bar vocabulary
+@ENGLISH:	cheese
+@POLISH:	ser
+@POLISHPLURAL:	
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	milk bar vocabulary
+@ENGLISH:	strawberry
+@POLISH:	truskawka
+@POLISHPLURAL:	truskawki
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	milk bar vocabulary
+@ENGLISH:	cherry
+@POLISH:	wiśnia
+@POLISHPLURAL:	wiśnie
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	milk bar vocabulary
+@ENGLISH:	of, with, from
+@POLISH:	z
+@IMAGE:		
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+@@END:		CARDLIST
+
+
+

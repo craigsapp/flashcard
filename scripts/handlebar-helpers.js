@@ -112,3 +112,19 @@ Handlebars.registerHelper("imageorword", function(image, word) {
 
 
 
+//////////////////////////////
+//
+// plural Handlebars helper --
+//
+
+Handlebars.registerHelper("plural", function(word) {
+	var output = "";
+	if (!word) {
+		return new Handlebars.SafeString(output);
+	}
+   output += " / " + word;
+	return new Handlebars.SafeString(output);
+});
+
+
+
