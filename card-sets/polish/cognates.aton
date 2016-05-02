@@ -1,0 +1,405 @@
+
+@@BEGIN:	CARDLIST
+
+@TITLE:		Polish/English cognates
+@TITLEURL:	http://www.macmillandictionaries.com/MED-Magazine/December2004/25-FalseFriends-Polish.htm
+@DESCRIPTION:	Words that are similar in Polish and English
+
+@@BEGIN:	OPTIONS
+@BACKGROUND:		#333333
+@CATEGORY_BACKGROUND:	#2a2a2a
+@DEFAULT_SIDE:		1
+@@END:		OPTIONS
+
+@@BEGIN:	ABBR
+@PONS:		http://en.pons.com/translate/polish-english/
+@@END:		ABBR
+
+@@BEGIN:	SIDES
+
+@@BEGIN:	SIDE
+@TITLE:		Polish
+@TEMPLATE:	<div style="margin-top: 60px">
+			{{{hyperlink POLISH "ABBR@PONS" POLISH}}}
+		{{{audio AUDIO}}}
+		</div>
+		<div style="position:absolute; right:10px; bottom:0px;">
+		<a target="new" href="http://forvo.com/word/{{POLISH}}/#pl">
+			<img width=40 src=http://static00.forvo.com/_presentation/img/forvo_og.png>
+		</a>
+		</div>
+		{{#if RUSSIAN}}
+			<div style="margin-top: 100px">
+				<span style="color:#aaa;">Russian:</span>
+				{{{RUSSIAN}}}
+			</div>
+		{{/if}}
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		English
+@TEMPLATE:	{{{imageorword IMAGE ENGLISH}}}
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		Usage
+@TEMPLATE:	{{{usage USAGE}}}
+@@END:		SIDE
+
+@@END:		SIDES
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	sycophant
+@POLISH:	sykofant
+@AUDIO:		wiki:PL-sykofant.ogg
+@PHONETIC:	siko-fant
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+
+@@@ Latin/Greek borrowings @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+@@BEGIN:	CARD
+@CATEGORY:	Latin/Greek
+@ENGLISH:	the absurd, absurdity
+@POLISH:	absurd
+@AUDIO:		
+@PHONETIC:	
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Latin/Greek
+@ENGLISH:	celibacy
+@POLISH:	celibat
+@AUDIO:		
+@PHONETIC:	
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Latin/Greek
+@ENGLISH:	censorship
+@POLISH:	cenzura
+@AUDIO:		
+@PHONETIC:	
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Latin/Greek
+@ENGLISH:	dialect
+@POLISH:	dialekt
+@AUDIO:		
+@PHONETIC:	
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Latin/Greek
+@ENGLISH:	epidemic
+@POLISH:	epidemia
+@AUDIO:		
+@PHONETIC:	
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Latin/Greek
+@ENGLISH:	epoch
+@POLISH:	epoka
+@AUDIO:		
+@PHONETIC:	
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Latin/Greek
+@ENGLISH:	horizon
+@POLISH:	horyzont
+@AUDIO:		
+@PHONETIC:	
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Latin/Greek
+@ENGLISH:	humanitarian
+@POLISH:	humanitarny
+@AUDIO:		
+@PHONETIC:	
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Latin/Greek
+@ENGLISH:	idealism
+@POLISH:	idealizm
+@AUDIO:		
+@PHONETIC:	
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Latin/Greek
+@ENGLISH:	catastrophe
+@POLISH:	katastrofa
+@AUDIO:		
+@PHONETIC:	
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Latin/Greek
+@ENGLISH:	obession
+@POLISH:	obsesja
+@AUDIO:		
+@PHONETIC:	
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Latin/Greek
+@ENGLISH:	pathology
+@POLISH:	patologia
+@AUDIO:		
+@PHONETIC:	
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Latin/Greek
+@ENGLISH:	Renaissance
+@POLISH:	renesans
+@AUDIO:		
+@PHONETIC:	
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@ English borrowings @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	English borrowing
+@ENGLISH:	happening
+@POLISH:	happening
+@AUDIO:		
+@PHONETIC:	
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	English borrowing
+@ENGLISH:	lunch
+@POLISH:	lunch
+@AUDIO:		
+@PHONETIC:	
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	English borrowing
+@ENGLISH:	notebook (computer)
+@POLISH:	notebook
+@AUDIO:		
+@PHONETIC:	
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	English borrowing
+@ENGLISH:	show
+@POLISH:	show
+@AUDIO:		
+@PHONETIC:	
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@ Adapted English borrowings @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	English adaptions
+@ENGLISH:	bridge (card game)
+@POLISH:	brydżej
+@AUDIO:		
+@PHONETIC:	
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	English adaptions
+@ENGLISH:	DJ
+@POLISH:	didżej
+@AUDIO:		
+@PHONETIC:	
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	English adaptions
+@ENGLISH:	fax
+@POLISH:	faks
+@AUDIO:		
+@PHONETIC:	
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	English adaptions
+@ENGLISH:	grapefruit
+@POLISH:	grejpfrut (or grapefruit)
+@AUDIO:		
+@PHONETIC:	
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	English adaptions
+@ENGLISH:	interface
+@POLISH:	interfejs
+@AUDIO:		
+@PHONETIC:	
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	English adaptions
+@ENGLISH:	Xerox
+@POLISH:	ksero
+@AUDIO:		
+@PHONETIC:	
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	English adaptions
+@ENGLISH:	leader
+@POLISH:	lider
+@AUDIO:		
+@PHONETIC:	
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@@ English verbs @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	English adaptions
+@ENGLISH:	to accept
+@POLISH:	akceptować
+@AUDIO:		
+@PHONETIC:	
+@IMAGE:		
+@PARTOFSPEECH:	verb
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	English adaptions
+@ENGLISH:	to decide
+@POLISH:	decydować
+@AUDIO:		
+@PHONETIC:	
+@IMAGE:		
+@PARTOFSPEECH:	verb
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	English adaptions
+@ENGLISH:	to finance
+@POLISH:	finansować
+@AUDIO:		
+@PHONETIC:	
+@IMAGE:		
+@PARTOFSPEECH:	verb
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	English adaptions
+@ENGLISH:	to format
+@POLISH:	formatować
+@AUDIO:		
+@PHONETIC:	
+@IMAGE:		
+@PARTOFSPEECH:	verb
+@@END:		CARD
+
+@@@ False cognates @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	false cognates
+@ENGLISH:	how (not yak)
+@POLISH:	jak
+@AUDIO:		wiki:PL-jak.ogg
+@PHONETIC:	yak
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	false cognates
+@ENGLISH:	elk, moose (not wash)
+@POLISH:	łoś
+@AUDIO:		
+@PHONETIC:	wash
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	false cognates
+@ENGLISH:	meadows (not wonky)
+@POLISH:	łąki
+@AUDIO:		wiki:PL-łąki.ogg
+@PHONETIC:	wonky
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	false cognates
+@ENGLISH:	night (not knots)
+@POLISH:	noc
+@AUDIO:		wiki:PL-noc.ogg
+@PHONETIC:	knots
+@IMAGE:		
+@PARTOFSPEECH:	noun
+@@END:		CARD
+
+
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+@@END:		CARDLIST
+
+
+
