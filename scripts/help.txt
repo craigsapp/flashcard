@@ -11,6 +11,7 @@ ctrl+&rarr;	Go to next card (if in quiz box).
 &larr;	Go to previous card (if not in quiz box).
 ctrl+&larr;	Go to previous card (if in quiz box).
 esc	Close help menu (and unfocus if in quiz box).
+F	Focus on quiz box (if available).
 1	Show side one of cards (if not in quiz box);
 ctrl+1	Show side one of cards (if in quiz box);
 2	Show side two of cards (if not in quiz box);
