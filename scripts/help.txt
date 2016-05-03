@@ -1,0 +1,18 @@
+<b>Keyboard commands</b>
+
+C	Show/hide category list.
+R	Randomize/sort order of cards.
+W	Show/hide word list for current category.
+?	Show/hide help menu.
+&uarr;	Show othe side of card.
+&darr;	Show othe side of card.
+&rarr;	Go to next card (if not in quiz box).
+ctrl+&rarr;	Go to next card (if in quiz box).
+&larr;	Go to previous card (if not in quiz box).
+ctrl+&larr;	Go to previous card (if in quiz box).
+esc	Close help menu (and unfocus if in quiz box).
+1	Show side one of cards (if not in quiz box);
+ctrl+1	Show side one of cards (if in quiz box);
+2	Show side two of cards (if not in quiz box);
+ctrl+2	Show side two of cards (if in quiz box);
+ctrl+H	Show hint (next letter in quiz answer).

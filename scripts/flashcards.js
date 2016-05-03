@@ -253,7 +253,7 @@ function FillCardCategories(cardlist) {
 	output += "<br><br>";
 	output += "<span class='category' onclick='showFaceOne();'>";
 	output += GetCardSideTitle(0);
-	output += " sides</a></span> <span class='category'>|</span>";
+	output += " sides</a></span> <span onclick='toggleHelpMenu();' class='category help'>?</span>";
 	output += "<span class='category' onclick='showFaceTwo();'>";
 	output += GetCardSideTitle(1);
 	output += " sides</a></span>";
@@ -306,7 +306,6 @@ function displayCategoryWordList(name) {
       name = "all";
    }
    var cards = GetCategoryCards(name);
-   console.log("Cards", cards);
    var wordlist = document.querySelector("#wordlist");
    if (!wordlist) {
       var categories = document.querySelector("#categories");
@@ -356,19 +355,173 @@ function clearWordList() {
 //
 
 function checkAnswer(element) {
-   var value = element.value;
-   var name = element.name;
- 	value = value.replace(/[.,:;"()]/g, "");
-	value = value.replace(/\s+/g, " ");
-	value = value.replace(/^\s+/g, "").replace(/\s+$/, "");
-   if (value.toLowerCase() === name.toLowerCase()) {
+   var value = cleanText(element.value);
+   var name = cleanText(element.name);
+   if (value === name) {
 		var parent = element.parentNode;
 		var quiznote = parent.querySelector(".quiz-note");
 		if (quiznote) {
 			quiznote.innerHTML = "Correct!";
 		}
-		setTimeout(function() { showNextCard(); }, 800);
+      element.value = "";
+		setTimeout(function() {
+			showNextCard();
+		}, 250);
    }
+}
+
+
+
+//////////////////////////////
+//
+// toggleHelpMenu --
+//
+
+function toggleHelpMenu(state) {
+	var help = document.querySelector("#help-container");
+   if (!help) {
+      return;
+   }
+   if (typeof state === 'undefined') {
+      state = help.style.display === 'none' ? 0 : 1;
+   	state = !state;
+   }
+
+   if (state) {
+		help.style.display = 'block';
+   } else {
+		help.style.display = 'none';
+   }
+}
+
+
+
+//////////////////////////////
+//
+// prepareHelpMenu -- Get the file "help.txt" from the server and then
+//     fill in the help window with its contents.  Entries in help.txt
+//     are in the form:
+//         key    [tab]    description
+//     other non-blank lines (such as for headings) will be echoed as is.
+//
+
+function prepareHelpMenu(selector) {
+   var request = new XMLHttpRequest();
+   request.open("GET", "/scripts/help.txt");
+   request.addEventListener("load", function() {
+      fillInHelpContainer(selector, request.responseText);
+   });
+   request.send();
+}
+
+
+
+//////////////////////////////
+//
+// fillInHelpContainer -- Convert the text file with the help
+//    contents into a table shown in the help window.
+//
+
+function fillInHelpContainer(selector, data) {
+   var lines = data.match(/[^\r\n]+/g);
+   var help = document.querySelector(selector);
+   if (!help) {
+		help = document.createElement("DIV");
+		help.id = "help-container";
+		help.style.display = "none";
+		document.body.appendChild(help);
+   }
+   var output = "";
+
+   output += '<table id="help-table">\n';
+   
+   var line; 
+   for (var i=0; i<lines.length; i++) {
+      line = lines[i];
+      var matches = line.match(/^\s*(.*)\s*\t\s*(.*)\s*$/);
+      if (matches) {
+         var key  = matches[1];
+         var desc = matches[2];
+         output += '<tr><td><b>' 
+         output += '<span style="color:#d8ab5c; cursor:pointer;"';
+         output += " onclick='processKeyCommand(";
+         output += '{keyCode: "' + key + '".charCodeAt(0)}' + ");'";
+         output += '>';
+         output += key 
+         output += '</span>';
+         output += '</b></td>';
+         output += '<td>' + desc + '</td></tr>';
+      } else if (!line.match(/^\s*$/)) {
+         output += '<tr><td colspan="2">';
+         output += line;
+			output += '</td></tr>\n';
+      }
+   }
+   output += '</table>\n';
+   help.innerHTML = output;
+}
+
+
+
+//////////////////////////////
+//
+// blurText --
+//
+
+function blurText() {
+   var inputs = document.querySelectorAll("input");
+	if (!inputs) {
+		return;
+	}
+	for (var i=0; i<inputs.length; i++) {
+		inputs[i].blur();
+	}
+}
+
+
+
+//////////////////////////////
+//
+// showHint --
+//
+
+function showHint(element) {
+   if (!element) {
+ 		return;
+	}
+	if (element.nodeName !== "INPUT") {
+		return;
+	}
+	var value = element.value;
+	var cleanvalue = cleanText(value);
+	var name = cleanText(element.name);
+	var re = new RegExp("^" + cleanvalue + "(.*)" );
+	var matches;
+	if (matches = name.match(re)) {
+		if (matches[1].length > 0) {
+			if (matches[1][0] == " ") {
+				value += matches[1][0] + matches[1][1];
+			} else {
+				value += matches[1][0];
+			}
+			element.value = value;
+		}
+	}
+}
+
+
+
+//////////////////////////////
+//
+// cleanText --
+//
+
+function cleanText(text) {
+ 	text = text.replace(/[.,:;"()]/g, "");
+	text = text.replace(/\s+/g, " ");
+	text = text.replace(/^\s+/g, "").replace(/\s+$/, "");
+	text = text.toLowerCase();
+	return text;
 }
 
 

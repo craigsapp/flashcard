@@ -21,7 +21,6 @@ var CATEGORY = "";
 //
 
 function randomizeCards(list) {
-console.log("RANDOMIZED CARDS");
 	if (!list) {
 		list = CARDLIST.CARD
 	}
@@ -177,7 +176,9 @@ function onAfter() {
    }
 	var quiz = document.querySelector(".current input");
 	if (quiz) {
-  		quiz.focus();
+		if (SIDEVIEW) {
+  			quiz.focus();
+		}
 	}
 }
 
@@ -201,6 +202,12 @@ function showPreviousCard() {
 
 function showNextCard() {
 	$('#deck').cycle('next');
+   var quiznote = document.querySelectorAll(".quiz-note");
+	if (quiznote) {
+		for (var i=0; i<quiznote.length; i++) {
+      	quiznote[i].innerHTML = "";
+   	}
+	}
 }
 
 

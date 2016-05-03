@@ -57,7 +57,7 @@
 
 @@BEGIN:	CARD
 @CATEGORY:	Lesson 1, vocabulary, pronoun
-@ENGLISH:	it
+@ENGLISH:	that/it
 @POLISH:	to
 @@END:		CARD
 
@@ -75,7 +75,7 @@
 
 @@BEGIN:	CARD
 @CATEGORY:	Lesson 1, sentence
-@ENGLISH:	It is Poland.
+@ENGLISH:	It (is) Poland.
 @POLISH:	To Polska.
 @@END:		CARD
 
@@ -147,7 +147,7 @@
 
 @@BEGIN:	CARD
 @CATEGORY:	Lesson 1, pronoun, genative
-@ENGLISH:	it (genative)
+@ENGLISH:	that/it (genative)
 @POLISH:	tego
 @@END:		CARD
 
@@ -354,7 +354,7 @@
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	Lesson 3, vocabulary, pronoun
+@CATEGORY:	Lesson 3, vocabulary, pronoun, adverb
 @ENGLISH:	what
 @POLISH:	co
 @@END:		CARD
@@ -372,7 +372,7 @@
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	Lesson 3, vocabulary, pronoun
+@CATEGORY:	Lesson 3, vocabulary, pronoun, adverb
 @ENGLISH:	what (genative)
 @POLISH:	czego
 @@END:		CARD
@@ -536,7 +536,7 @@
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	Lesson 4, vocabulary
+@CATEGORY:	Lesson 4, vocabulary, adverb
 @ENGLISH:	now
 @POLISH:	teraz
 @@END:		CARD

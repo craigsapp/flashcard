@@ -26,6 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	if (cgi.cards) {
 		loadCards(cgi.cards);
 	} 
+	prepareHelpMenu("#help-container");
 });
 
 
@@ -35,7 +36,9 @@ document.addEventListener("DOMContentLoaded", function() {
 // keydown event listener --
 //
 
-window.addEventListener("keydown", function(event) {
+window.addEventListener("keydown", processKeyCommand);
+
+function processKeyCommand(event) {
 	var CKey      = 67;
 	var DKey      = 68;
 	var EKey      = 69;
@@ -69,13 +72,23 @@ window.addEventListener("keydown", function(event) {
 	var EnterKey  = 13;
 	var SpaceKey  = 32;
 	var SlashKey  = 191;
+	var EscKey    = 27;
+	var BackKey   = 8;
+
+	if (event.keyCode == BackKey) {
+		if (event.target.nodeName !== "INPUT") {
+      	event.preventDefault();
+		}
+      return;
+   }
 
    if (event.metaKey) {
 		return;
 	}
 
-	if (!((event.keyCode == UpKey) || (event.keyCode == DownKey))) {
-		if (event.target.nodeName == "INPUT") {
+	if (!((event.keyCode == UpKey) || (event.keyCode == DownKey)
+			|| (event.keyCode == EscKey))) {
+		if (event.target && (event.target.nodeName == "INPUT")) {
       	// don't consider character a command unless the control key
       	// is also pressed:
       	if (!event.ctrlKey) {
@@ -123,6 +136,11 @@ window.addEventListener("keydown", function(event) {
 			event.preventDefault();
 			break;
 
+		case HKey:
+			showHint(document.activeElement);
+			event.preventDefault();
+			break;
+
 		case WKey:
          if (!WORDLIST) {
 				displayCategoryWordList(CATEGORY);
@@ -134,21 +152,33 @@ window.addEventListener("keydown", function(event) {
 
 		case RKey:
 			RANDOMIZE = !RANDOMIZE;
-			console.log("RAND", RANDOMIZE);
+			console.log("RANDOMISZE is", RANDOMIZE);
 			event.preventDefault();
 			break;
 
 		case FKey:
   			var quiz = document.querySelector(".current input");
-			console.log("QUIZ", quiz);
 			if (quiz) {
   				quiz.focus();
 			}
 			event.preventDefault();
 			break;
 
+		case EscKey:
+			toggleHelpMenu(0);
+			blurText();
+			event.preventDefault();
+			break;
+
+		case SlashKey:
+			if (event.target.nodeName !== "INPUT") {
+				toggleHelpMenu();
+				event.preventDefault();
+			}
+			break;
+
 	}
-});
+}
 
 
 
