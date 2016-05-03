@@ -74,6 +74,16 @@ window.addEventListener("keydown", function(event) {
 		return;
 	}
 
+	if (!((event.keyCode == UpKey) || (event.keyCode == DownKey))) {
+		if (event.target.nodeName == "INPUT") {
+      	// don't consider character a command unless the control key
+      	// is also pressed:
+      	if (!event.ctrlKey) {
+         	return;
+      	}
+		}
+	}
+
 	switch (event.keyCode) {
 
 		case TwoKey:
@@ -125,6 +135,15 @@ window.addEventListener("keydown", function(event) {
 		case RKey:
 			RANDOMIZE = !RANDOMIZE;
 			console.log("RAND", RANDOMIZE);
+			event.preventDefault();
+			break;
+
+		case FKey:
+  			var quiz = document.querySelector(".current input");
+			console.log("QUIZ", quiz);
+			if (quiz) {
+  				quiz.focus();
+			}
 			event.preventDefault();
 			break;
 

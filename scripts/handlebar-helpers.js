@@ -157,3 +157,28 @@ Handlebars.registerHelper("forvo", function(word) {
 
 
 
+//////////////////////////////
+//
+// quiz Handlebars helper --
+//
+
+Handlebars.registerHelper("quiz", function(answer, hidequiz) {
+	var output = "";
+	if (hidequiz) {
+		return new Handlebars.SafeString(output);
+	}
+
+   var clean = answer.replace(/[.,:;?!()"]/g, "").replace(/\s+/, " ");
+   output += '<div class="quiz">\n';
+	output += '<span class="answer"></span>';
+   output += '<input type="text" size="40" ';
+	output += 'placeholder="Type Polish equivalent here" ';
+	output += 'name="' + clean + '" ';
+   output += 'onkeyup="checkAnswer(this);">\n';
+	output += '<span class="quiz-note"></span>';
+   output += '</div>\n';
+	return new Handlebars.SafeString(output);
+});
+
+
+

@@ -169,7 +169,12 @@ function onBefore() {
 //
 
 function onAfter() {
+	$("document").find('.current').removeClass('current');
 	$(this).addClass('current');
+	var quiz = document.querySelector(".current input");
+	if (quiz) {
+  		quiz.focus();
+	}
 }
 
 

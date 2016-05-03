@@ -350,7 +350,26 @@ function clearWordList() {
 
 
 
+//////////////////////////////
+//
+// checkAnswer --
+//
 
+function checkAnswer(element) {
+   var value = element.value;
+   var name = element.name;
+ 	value = value.replace(/[.,:;"()]/g, "");
+	value = value.replace(/\s+/g, " ");
+	value = value.replace(/^\s+/g, "").replace(/\s+$/, "");
+   if (value.toLowerCase() === name.toLowerCase()) {
+		var parent = element.parentNode;
+		var quiznote = parent.querySelector(".quiz-note");
+		if (quiznote) {
+			quiznote.innerHTML = "Correct!";
+		}
+		setTimeout(function() { showNextCard(); }, 800);
+   }
+}
 
 
 

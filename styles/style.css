@@ -363,3 +363,26 @@ span.category:hover {
 }
 
 
+.quiz {
+	position:absolute; 
+	left:100px;
+	bottom:62px;
+}
+
+
+.quiz-note {
+	font-family: Helvetica, sans serif;
+	font-size: 50%;
+	color: #00aa00;
+	font-weight: bold;
+}
+
+
+.answer {
+	font-family: Helvetica, sans serif;
+	color: #cccccc;
+	font-size: 50%;
+}
+
+
+

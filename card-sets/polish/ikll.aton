@@ -36,6 +36,7 @@
 @@BEGIN:	SIDE
 @TITLE:		English
 @TEMPLATE:	{{{imageorword IMAGE ENGLISH}}}
+		{{{quiz POLISH QUIZOFF}}}
 @@END:		SIDE
 
 @@BEGIN:	SIDE
@@ -348,7 +349,7 @@
 
 @@BEGIN:	CARD
 @CATEGORY:	Lesson 3, sentence
-@ENGLISH:	Do you speak (in) Polish?
+@ENGLISH:	Do you (formal, masculine) speak (in) Polish?
 @POLISH:	Pan mówi po polsku?
 @@END:		CARD
 
