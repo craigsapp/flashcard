@@ -32,6 +32,9 @@
 @TEMPLATE:	
 		<div style="margin-top:100px; font-size:100pt">
 			{{{CHARACTER}}}
+			<span style="font-size:30pt; font-family: Helvetica">
+				{{{NOTE}}}
+			</span>
 		</div>
 		{{{quiz MORSE "Morse" QUIZOFF}}}
 @@END:		SIDE
@@ -70,7 +73,7 @@
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	letter, vowel, one tone, one dot
+@CATEGORY:	letter, vowel, one tone, one dot, no dashes
 @CHARACTER:	E
 @MORSE:		.
 @AUDIO:		wiki:E_morse_code.ogg
@@ -91,14 +94,14 @@
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	letter, consonant, E subset, I subset, S subset, four tones, isochronous, four dots
+@CATEGORY:	letter, consonant, E subset, I subset, S subset, four tones, isochronous, four dots, no dashes
 @CHARACTER:	H
 @MORSE:		....
 @AUDIO:		wiki:H_morse_code.ogg
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	letter, vowel, E subset, two tones, isochronous, two dots
+@CATEGORY:	letter, vowel, E subset, two tones, isochronous, two dots, no dashes
 @CHARACTER:	I
 @MORSE:		..
 @AUDIO:		wiki:I_morse_code.ogg
@@ -143,11 +146,12 @@
 @CATEGORY:	letter, vowel, T subset, M subset, three tones, isochronous, no dots, three dashes
 @CHARACTER:	O
 @MORSE:		---
+@NOTE:		(letter)
 @AUDIO:		wiki:O_morse_code.ogg
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	letter, consonant, E subset, A subset, W subset, three tones, palindrome, two dots, two dashes
+@CATEGORY:	letter, consonant, E subset, A subset, W subset, four tones, palindrome, two dots, two dashes
 @CHARACTER:	P
 @MORSE:		.--.
 @AUDIO:		wiki:P_morse_code.ogg
@@ -203,7 +207,7 @@
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	letter, consonant, T subset, N subset, D subset, three tones, palindrome, two dots, two dashes
+@CATEGORY:	letter, consonant, T subset, N subset, D subset, four tones, palindrome, two dots, two dashes
 @CHARACTER:	X
 @MORSE:		-..-
 @AUDIO:		wiki:X_morse_code.ogg
@@ -229,6 +233,7 @@
 @CATEGORY:	number, T subset, M subset, O subset, CH subset five tones, asymmetric, no dots, five dashes, isochronous
 @CHARACTER:	0
 @MORSE:		-----
+@NOTE:		(number)
 @AUDIO:		wiki:0_morse_code.ogg
 @@END:		CARD
 
@@ -298,7 +303,7 @@
 @@@ PUNCTUATION @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 @@BEGIN:	CARD
-@CATEGORY:	punctuation, E subset, I subset, U subset, Ü subset, Ð subset, five tones, asymmetric, one dot, four dashes
+@CATEGORY:	punctuation, E subset, I subset, U subset, Ü subset, Ð subset, six tones, palendrome, four dots, two dashes
 @CHARACTER:	?
 @MORSE:		..--..
 @AUDIO:		wiki:?_morse_code.ogg

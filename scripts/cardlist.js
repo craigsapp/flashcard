@@ -178,10 +178,12 @@ function onBefore() {
 function onAfter() {
 	$("document").find('.current').removeClass('current');
 	$(this).addClass('current');
-	var inputs = document.querySelector("input");
-	for (var i=0; i<inputs.length; i++) {
-      inputs.value = "";
-   }
+	var inputs = document.querySelectorAll("input");
+   if (inputs) {
+		for (var i=0; i<inputs.length; i++) {
+      	inputs.value = "";
+   	}
+	}
 	var quiz = document.querySelector(".current input");
 	if (quiz) {
 		if (SIDEVIEW) {
