@@ -140,7 +140,7 @@ Handlebars.registerHelper("forvo", function(word) {
 	}
    var clean = cleanText(word);
    var words = clean.split(/\s+/);
-   if (words.length > 7) {
+   if (words.length > 10) {
 		return new Handlebars.SafeString(output);
    }
    output += '<div style="position:absolute; right:10px; bottom:0px;">\n';

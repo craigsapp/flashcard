@@ -239,7 +239,7 @@
 
 @@BEGIN:	CARD
 @CATEGORY:	Lesson 2, sentence
-@ENGLISH:	Do you know where Poland is?
+@ENGLISH:	Do you (formal, feminine) know where Poland is?
 @POLISH:	Pani wie gdzie jest Polska?
 @@END:		CARD
 
@@ -276,7 +276,7 @@
 @@BEGIN:	CARD
 @CATEGORY:	Lesson 2, sentence
 @ENGLISH:	I understand: you don't know where Poland is.
-@POLISH:	Ja rozumiem: ty nie wiesz dgzie jest Polska.
+@POLISH:	Ja rozumiem: ty nie wiesz gdzie jest Polska.
 @@END:		CARD
 
 @@@ Lesson 3 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -386,7 +386,7 @@
 @@BEGIN:	CARD
 @CATEGORY:	Lesson 3, vocabulary, verb
 @ENGLISH:	I like
-@POLISH:	ja libię
+@POLISH:	ja lubię
 @@END:		CARD
 
 @@BEGIN:	CARD
@@ -671,8 +671,8 @@
 
 @@BEGIN:	CARD
 @CATEGORY:	Lesson 5
-@ENGLISH:	hi and bye!
-@POLISH:	cześć i cześć!
+@ENGLISH:	Hi and bye!
+@POLISH:	Cześć i cześć!
 @@END:		CARD
 
 @@BEGIN:	CARD
@@ -713,7 +713,7 @@
 
 @@BEGIN:	CARD
 @CATEGORY:	Lesson 5, sentence
-@ENGLISH:	Yes, th bank is there! See you.
+@ENGLISH:	Yes, the bank is there! See you.
 @POLISH:	Tak, bank jest tam! Cześć.
 @@END:		CARD
 
