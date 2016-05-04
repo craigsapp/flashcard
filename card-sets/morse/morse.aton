@@ -1,0 +1,312 @@
+
+@@BEGIN:	CARDLIST
+
+@TITLE:		Morse code
+@TITLEURL:	
+@DESCRIPTION:	Flashcards for learning Morse code
+
+@@BEGIN:	OPTIONS
+@BACKGROUND:		#333333
+@CATEGORY_BACKGROUND:	#2a2a2a
+@DEFAULT_SIDE:		1
+@@END:		OPTIONS
+
+@@BEGIN:	ABBR
+@@END:		ABBR
+
+@@BEGIN:	SIDES
+
+@@BEGIN:	SIDE
+@TITLE:		Morse
+@MAINCONTENT:   MORSE
+@TEMPLATE:	<div style="font-size:150pt; margin-top: 120px">
+			{{{morse MORSE}}}
+			{{{audio AUDIO}}}
+		{{{quiz CHARACTER "Character" QUIZOFF}}}
+		</div>
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		Character
+@MAINCONTENT:   CHARACTER
+@TEMPLATE:	
+		<div style="margin-top:100px; font-size:100pt">
+			{{{CHARACTER}}}
+		</div>
+		{{{quiz MORSE "Morse" QUIZOFF}}}
+@@END:		SIDE
+
+@@END:		SIDES
+
+
+@@@ LETTERS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	letter, vowel, E subset, two tones, asymmetric, one dot, one dash
+@CHARACTER:	A
+@MORSE:		.-
+@AUDIO:		wiki:A_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	letter, consonant, T subset, N subset, D subset, four tones, asymmetric, three dots, one dash
+@CHARACTER:	B
+@MORSE:		-...
+@AUDIO:		wiki:B_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	letter, consonant, T subset, N subset, K subset, four tones, repeated pair, two dots, two dashes
+@CHARACTER:	C
+@MORSE:		-.-.
+@AUDIO:		wiki:C_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	letter, consonant, T subset, N subset, three tones, asymmetric, two dots, one dash
+@CHARACTER:	D
+@MORSE:		-..
+@AUDIO:		wiki:D_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	letter, vowel, one tone, one dot
+@CHARACTER:	E
+@MORSE:		.
+@AUDIO:		wiki:E_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	letter, consonant, E subset, I subset, U subset, four tones, asymmetric, three dots, one dash
+@CHARACTER:	F
+@MORSE:		..-.
+@AUDIO:		wiki:F_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	letter, consonant, T subset, M subset, three tones, asymmetric, one dot, two dashes
+@CHARACTER:	G
+@MORSE:		--.
+@AUDIO:		wiki:G_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	letter, consonant, E subset, I subset, S subset, four tones, isochronous, four dots
+@CHARACTER:	H
+@MORSE:		....
+@AUDIO:		wiki:H_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	letter, vowel, E subset, two tones, isochronous, two dots
+@CHARACTER:	I
+@MORSE:		..
+@AUDIO:		wiki:I_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	letter, consonant, E subset, A subset, W subset, four tones, asymmetric, one dot, three dashes
+@CHARACTER:	J
+@MORSE:		.---
+@AUDIO:		wiki:J_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	letter, consonant, T subset, N subset, three tones, palindrome, one dot, two dashes
+@CHARACTER:	K
+@MORSE:		-.-
+@AUDIO:		wiki:K_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	letter, consonant, E subset, A subset, R subset, four tones, asymmetric, three dots, one dash
+@CHARACTER:	L
+@MORSE:		.-..
+@AUDIO:		wiki:L_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	letter, consonant, T subset, two tones, isochronous, no dots, two dashes
+@CHARACTER:	M
+@MORSE:		--
+@AUDIO:		wiki:M_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	letter, consonant, T subset, two tones, asymmetric, one dot, one dash
+@CHARACTER:	N
+@MORSE:		-.
+@AUDIO:		wiki:N_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	letter, vowel, T subset, M subset, three tones, isochronous, no dots, three dashes
+@CHARACTER:	O
+@MORSE:		---
+@AUDIO:		wiki:O_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	letter, consonant, E subset, A subset, W subset, three tones, palindrome, two dots, two dashes
+@CHARACTER:	P
+@MORSE:		.--.
+@AUDIO:		wiki:P_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	letter, consonant, T subset, M subset, G subset, four tones, asymmetric, one dot, three dashes
+@CHARACTER:	Q
+@MORSE:		--.-
+@AUDIO:		wiki:Q_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	letter, consonant, E subset, A subset, three tones, palindrome, two dots, one dash
+@CHARACTER:	R
+@MORSE:		.-.
+@AUDIO:		wiki:R_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	letter, consonant, E subset, I subset, three tones, isochronous, three dots, no dashes
+@CHARACTER:	S
+@MORSE:		...
+@AUDIO:		wiki:S_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	letter, consonant, one tone, no dots, one dash
+@CHARACTER:	T
+@MORSE:		-
+@AUDIO:		wiki:T_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	letter, vowel, T subset, I subset, three tones, asymmetric, two dots, one dash
+@CHARACTER:	U
+@MORSE:		..-
+@AUDIO:		wiki:U_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	letter, consonant, E subset, I subset, S subset, four tones, asymmetric, three dots, one dash
+@CHARACTER:	V
+@MORSE:		...-
+@AUDIO:		wiki:V_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	letter, consonant, E subset, A subset, three tones, asymmetric, one dot, two dashes
+@CHARACTER:	W
+@MORSE:		.--
+@AUDIO:		wiki:W_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	letter, consonant, T subset, N subset, D subset, three tones, palindrome, two dots, two dashes
+@CHARACTER:	X
+@MORSE:		-..-
+@AUDIO:		wiki:X_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	letter, consonant, T subset, N subset, K subset, four tones, asymmetric, one dot, three dashes
+@CHARACTER:	Y
+@MORSE:		-.--
+@AUDIO:		wiki:Y_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	letter, consonant, T subset, M subset, G subset, four tones, asymmetric, two dots, two dashes
+@CHARACTER:	Z
+@MORSE:		--..
+@AUDIO:		wiki:Z_morse_code.ogg
+@@END:		CARD
+
+@@@ NUMBERS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	number, T subset, M subset, O subset, CH subset five tones, asymmetric, no dots, five dashes, isochronous
+@CHARACTER:	0
+@MORSE:		-----
+@AUDIO:		wiki:0_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	number, A subset, M subset, W subset, J subset, five tones, asymmetric, one dot, four dashes, asymmetric
+@CHARACTER:	1
+@MORSE:		.----
+@AUDIO:		wiki:1_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	number, E subset, I subset, U subset, Ü subset, five tones, asymmetric, two dots, three dashes, asymmetric
+@CHARACTER:	2
+@MORSE:		..---
+@AUDIO:		wiki:2_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	number, E subset, I subset, S subset, V subset, five tones, asymmetric, three dots, two dashes, asymmetric
+@CHARACTER:	3
+@MORSE:		...--
+@AUDIO:		wiki:3_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	number, E subset, I subset, S subset, H subset, five tones, asymmetric, four dots, one dash, asymmetric
+@CHARACTER:	4
+@MORSE:		....-
+@AUDIO:		wiki:4_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	number, E subset, I subset, S subset, H subset, five tones, five dots, no dashes, isochrnous
+@CHARACTER:	5
+@MORSE:		.....
+@AUDIO:		wiki:5_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	number, T subset, N subset, D subset, B subset, five tones, asymmetric, four dots, one dash
+@CHARACTER:	6
+@MORSE:		-....
+@AUDIO:		wiki:6_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	number, T subset, M subset, G subset, Z subset, five tones, asymmetric, three dots, two dashes
+@CHARACTER:	7
+@MORSE:		--...
+@AUDIO:		wiki:7_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	number, T subset, M subset, O subset, Ö subset, five tones, asymmetric, two dots, three dashes
+@CHARACTER:	8
+@MORSE:		---..
+@AUDIO:		wiki:8_morse_code.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	number, T subset, M subset, O subset, CH subset, five tones, asymmetric, one dot, four dashes
+@CHARACTER:	9
+@MORSE:		----.
+@AUDIO:		wiki:9_morse_code.ogg
+@@END:		CARD
+
+@@@ PUNCTUATION @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	punctuation, E subset, I subset, U subset, Ü subset, Ð subset, five tones, asymmetric, one dot, four dashes
+@CHARACTER:	?
+@MORSE:		..--..
+@AUDIO:		wiki:?_morse_code.ogg
+@@END:		CARD
+
+
+
+@@END:		CARDLIST
+
+
+

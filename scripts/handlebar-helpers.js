@@ -138,8 +138,8 @@ Handlebars.registerHelper("forvo", function(word) {
 	if (!word) {
 		return new Handlebars.SafeString(output);
 	}
-   var clean = word.replace(/[.,:;?!]/g, "");
-   var words = clean.split(/[.,:]?\s+/);
+   var clean = cleanText(word);
+   var words = clean.split(/\s+/);
    if (words.length > 7) {
 		return new Handlebars.SafeString(output);
    }
@@ -162,23 +162,40 @@ Handlebars.registerHelper("forvo", function(word) {
 // quiz Handlebars helper --
 //
 
-Handlebars.registerHelper("quiz", function(answer, hidequiz) {
+Handlebars.registerHelper("quiz", function(answer, title, hidequiz) {
 	var output = "";
 	if (hidequiz) {
 		return new Handlebars.SafeString(output);
 	}
-
-   var clean = answer.replace(/[.,:;?!()"]/g, "").replace(/\s+/, " ");
+	
+	var side1title = title;
+   var clean = cleanText(answer);
    output += '<div class="quiz">\n';
 	output += '<span class="answer"></span>';
    output += '<input type="text" size="40" ';
-	output += 'placeholder="Type Polish equivalent here" ';
+	output += 'placeholder="Type ' + side1title + ' equivalent here" ';
 	output += 'name="' + clean + '" ';
    output += 'onkeyup="checkAnswer(this);">\n';
 	output += '<span class="quiz-note"></span>';
    output += '</div>\n';
 	return new Handlebars.SafeString(output);
 });
+
+
+
+//////////////////////////////
+//
+// morse Handlebars helper -- Print Morse code dots and dashes nicely.
+//
+
+Handlebars.registerHelper("morse", function(morse) {
+	if (!morse) {
+		return new Handlebars.SafeString("");
+	}
+   var output = morse.replace(/-]/g, "&ndash;").replace(/\./g, "&middot;");
+	return new Handlebars.SafeString(output);
+});
+
 
 
 

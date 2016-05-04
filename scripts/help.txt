@@ -1,7 +1,8 @@
 <b>Keyboard commands</b>
 
 C	Show/hide category list.
-R	Randomize/sort order of cards.
+R	Randomize order of cards.
+S	Sort order of cards.
 W	Show/hide word list for current category.
 ?	Show/hide help menu.
 &uarr;	Show othe side of card.

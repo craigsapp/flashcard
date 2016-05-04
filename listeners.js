@@ -75,6 +75,10 @@ function processKeyCommand(event) {
 	var EscKey    = 27;
 	var BackKey   = 8;
 
+	if (!event.preventDefault) {
+		event.preventDefault = function() { };
+   }
+
 	if (event.keyCode == BackKey) {
 		if (event.target.nodeName !== "INPUT") {
       	event.preventDefault();
@@ -151,8 +155,14 @@ function processKeyCommand(event) {
 			break;
 
 		case RKey:
-			RANDOMIZE = !RANDOMIZE;
-			console.log("RANDOMISZE is", RANDOMIZE);
+			RANDOMIZE = 1;
+			LoadCategory();
+			event.preventDefault();
+			break;
+
+		case SKey:
+			RANDOMIZE = 0;
+			LoadCategory();
 			event.preventDefault();
 			break;
 

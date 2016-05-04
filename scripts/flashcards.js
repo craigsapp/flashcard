@@ -48,6 +48,7 @@ function prepareCards(cardlist) {
 		return;
 	}
 	var set = cardlist.CARDLIST;
+	console.log(cardlist, "X", cardlist.CARDLIST);
    //if (RANDOMIZE) {
 	//	set.CARD = randomizeCards(set.CARD);
 	//}
@@ -64,6 +65,10 @@ function prepareCards(cardlist) {
 //
 
 function ShowCardDeck(carddeck) {
+	if (!carddeck) {
+		console.log("NO CARDS", carddeck);
+		return;
+	}
 	var tempcards = [];
    for (var j=0; j<carddeck.length; j++) {
 		tempcards.push(carddeck[j]);
@@ -318,12 +323,16 @@ function displayCategoryWordList(name) {
       categories.appendChild(newelement);
       wordlist = newelement;
    }
+
+	var side1key = CARDLIST.SIDES.SIDE[0].MAINCONTENT;
+	var side2key = CARDLIST.SIDES.SIDE[1].MAINCONTENT;
+
 	var wordlisttemplate = "";
    wordlisttemplate += "<h1 style='margin-top:50px;'>Word list</h1>\n";
    wordlisttemplate += "<table>";
 	wordlisttemplate += "{{#each this}}";
-	wordlisttemplate += "<tr><td>{{{POLISH}}}</td>";
-	wordlisttemplate += "<td>{{{ENGLISH}}}</td></tr>";
+	wordlisttemplate += "<tr><td>{{{" + side1key + "}}}</td>";
+	wordlisttemplate += "<td>{{{" + side2key + "}}}</td></tr>";
 	wordlisttemplate += "{{/each}}";
 	wordlisttemplate += "</table>";
    var listtable = Handlebars.compile(wordlisttemplate);
@@ -517,7 +526,11 @@ function showHint(element) {
 //
 
 function cleanText(text) {
- 	text = text.replace(/[.,:;"()]/g, "");
+   if (text.match(/[a-z0-9]/)) {
+      // only remove punctuation of there are letters or numbers
+      // (this is for the Morse code example)
+ 		text = text.replace(/[.,:;"()]/g, "");
+	}
 	text = text.replace(/\s+/g, " ");
 	text = text.replace(/^\s+/g, "").replace(/\s+$/, "");
 	text = text.toLowerCase();

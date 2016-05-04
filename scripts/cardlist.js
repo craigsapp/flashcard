@@ -135,9 +135,17 @@ function GetCategoryCards(name, cardlist) {
 //
 
 function LoadCategory(name) {
+	if (!name) {
+		name = CATEGORY;
+	}
+	if (!name) {
+		CATEGORY = "all";
+		name = CATEGORY;
+	}
 	name = name.replace(/SINGLEQUOTE/, "'", "g");
 	name = name.replace(/DOUBLEQUOTE/, '"', "g");
 	var cards = GetCategoryCards(name);
+console.log("CATEGORY", name, "CARDS", cards);
    CATEGORY = name;
 	$('#deck').cycle('destroy');
    ShowCardDeck(cards);
