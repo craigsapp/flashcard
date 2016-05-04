@@ -24,11 +24,7 @@
 			{{{plural POLISHPLURAL}}}
 		{{{audio AUDIO}}}
 		</div>
-		<div style="position:absolute; right:10px; bottom:0px;">
-		<a target="new" href="http://forvo.com/word/{{POLISH}}/#pl">
-			<img width=40 src=http://static00.forvo.com/_presentation/img/forvo_og.png>
-		</a>
-		</div>
+		{{{forvo POLISH}}}
 		{{#if RUSSIAN}}
 			<div style="margin-top: 100px">
 				<span style="color:#aaa;">Russian:</span>

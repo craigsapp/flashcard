@@ -48,7 +48,6 @@ function prepareCards(cardlist) {
 		return;
 	}
 	var set = cardlist.CARDLIST;
-	console.log(cardlist, "X", cardlist.CARDLIST);
    //if (RANDOMIZE) {
 	//	set.CARD = randomizeCards(set.CARD);
 	//}
