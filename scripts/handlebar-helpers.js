@@ -139,7 +139,7 @@ Handlebars.registerHelper("forvo", function(word) {
 		return new Handlebars.SafeString(output);
 	}
    var clean = cleanText(word);
-   var words = clean.split(/\s+/);
+   var words = clean.split(/[\s/]+/);
    if (words.length > 10) {
 		return new Handlebars.SafeString(output);
    }

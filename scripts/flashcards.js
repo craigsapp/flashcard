@@ -309,6 +309,7 @@ function displayCategoryWordList(name) {
    if (!name) {
       name = "all";
    }
+console.log("GOT HERE");
    var cards = GetCategoryCards(name);
    var wordlist = document.querySelector("#wordlist");
    if (!wordlist) {
@@ -325,6 +326,8 @@ function displayCategoryWordList(name) {
 
 	var side1key = CARDLIST.SIDES.SIDE[0].MAINCONTENT;
 	var side2key = CARDLIST.SIDES.SIDE[1].MAINCONTENT;
+console.log("SIDE1", side1key);
+console.log("SIDE2", side1key);
 
 	var wordlisttemplate = "";
    wordlisttemplate += "<h1 style='margin-top:50px;'>Word list</h1>\n";

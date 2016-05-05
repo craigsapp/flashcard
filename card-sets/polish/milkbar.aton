@@ -8,7 +8,7 @@
 @@BEGIN:	OPTIONS
 @BACKGROUND:		#333333
 @CATEGORY_BACKGROUND:	#2a2a2a
-@DEFAULT_SIDE:		1
+@DEFAULT_SIDE:		0
 @@END:		OPTIONS
 
 @@BEGIN:	ABBR
@@ -19,22 +19,18 @@
 
 @@BEGIN:	SIDE
 @TITLE:		Polish
+@MAINCONTENT: 	POLISH
 @TEMPLATE:	<div style="margin-top: 60px">
 			{{{hyperlink POLISH "ABBR@PONS" POLISH}}}
 			{{{plural POLISHPLURAL}}}
 		{{{audio AUDIO}}}
 		</div>
 		{{{forvo POLISH}}}
-		{{#if RUSSIAN}}
-			<div style="margin-top: 100px">
-				<span style="color:#aaa;">Russian:</span>
-				{{{RUSSIAN}}}
-			</div>
-		{{/if}}
 @@END:		SIDE
 
 @@BEGIN:	SIDE
 @TITLE:		English
+@MAINCONTENT: 	ENGLISH
 @TEMPLATE:	{{{imageorword IMAGE ENGLISH}}}
 @@END:		SIDE
 
@@ -66,7 +62,7 @@
 
 @@BEGIN:	CARD
 @CATEGORY:	Dania mączne (flour dishes)
-@ENGLISH:	“Russian” pierogi: the most classic Polish dumplings filled with a mixture of potato and farmer’s cheese.
+@ENGLISH:	Ruthenian pierogi: most classic dumpling filled with a mixture of potato & farmer’s cheese
 @POLISH:	pierogi ruskie
 @IMAGE:		
 @PARTOFSPEECH:	noun
@@ -75,7 +71,7 @@
 
 @@BEGIN:	CARD
 @CATEGORY:	Dania mączne (flour dishes)
-@ENGLISH:	Polish dumplings filled with fruit. Sweet and dusted with powdered sugar and potentially cinnamon. The two most popular are blubrry and strawberry.
+@ENGLISH:	dumplings filled with fruit, dusted with powdered sugar & potentially cinnamon; two most popular are blueberry & strawberry.
 @POLISH:	pierogi z owocami
 @IMAGE:		
 @PARTOFSPEECH:	noun
@@ -83,7 +79,7 @@
 
 @@BEGIN:	CARD
 @CATEGORY:	Dania mączne (flour dishes)
-@ENGLISH:	Polish dumplings filled with blueberries. A classic.
+@ENGLISH:	dumplings filled with blueberries
 @POLISH:	pierogi z jagodami
 @IMAGE:		
 @PARTOFSPEECH:	noun
@@ -91,7 +87,7 @@
 
 @@BEGIN:	CARD
 @CATEGORY:	Dania mączne (flour dishes)
-@ENGLISH:	Polish dumplings filled with strawberries.
+@ENGLISH:	dumplings filled with strawberries
 @POLISH:	pierogi z truskawkami 
 @IMAGE:		
 @PARTOFSPEECH:	noun
@@ -107,7 +103,7 @@
 
 @@BEGIN:	CARD
 @CATEGORY:	Dania mączne (flour dishes)
-@ENGLISH:	a Polish take on crepes that are filled with farmer’s cheese and topped with sugar and cream.
+@ENGLISH:	crepes filled with farmer’s cheese & topped with sugar & cream
 @POLISH:	naleśniki z serem
 @IMAGE:		
 @PARTOFSPEECH:	noun
@@ -115,16 +111,16 @@
 
 @@BEGIN:	CARD
 @CATEGORY:	Dania mączne (flour dishes)
-@ENGLISH:	Polish crepes filled with apples and topped with sweet cream and sugar.
-@POLISH:	Naleśniki z jabłkami 
+@ENGLISH:	Crepes filled with apples & topped with sweet cream & sugar
+@POLISH:	naleśniki z jabłkami 
 @IMAGE:		
 @PARTOFSPEECH:	noun
 @@END:		CARD
 
 @@BEGIN:	CARD
 @CATEGORY:	Dania mączne (flour dishes)
-@ENGLISH:	Polish crepes filled with cherries and topped with cream and sugar.
-@POLISH:	Naleśniki z wiśniami 
+@ENGLISH:	Crepes filled with cherries & topped with cream & sugar
+@POLISH:	naleśniki z wiśniami 
 @IMAGE:		
 @PARTOFSPEECH:	noun
 @@END:		CARD
@@ -135,7 +131,7 @@
 @@BEGIN:	CARD
 @CATEGORY:	Zupy (soups)
 @ENGLISH:	Polish sour rye soup, filled with meat, potatoes, and boiled eggs
-@POLISH:	Żurek z jajkiem i kielbasą
+@POLISH:	żurek z jajkiem i kielbasą
 @IMAGE:		
 @PARTOFSPEECH:	noun
 @@END:		CARD
@@ -143,7 +139,7 @@
 @@BEGIN:	CARD
 @CATEGORY:	Zupy (soups)
 @ENGLISH:	Red beet soup with small, mushroom-filled dumplings
-@POLISH:	Barszcz czerwone z uszkami
+@POLISH:	barszcz czerwone z uszkami
 @IMAGE:		
 @PARTOFSPEECH:	noun
 @@END:		CARD
@@ -151,7 +147,7 @@
 @@BEGIN:	CARD
 @CATEGORY:	Zupy (soups)
 @ENGLISH:	tomato soup with either noodles/rice
-@POLISH:	Pomidorowa z makaronem/ryżem
+@POLISH:	pomidorowa z makaronem/ryżem
 @IMAGE:		
 @PARTOFSPEECH:	noun
 @@END:		CARD
@@ -159,7 +155,7 @@
 @@BEGIN:	CARD
 @CATEGORY:	Zupy (soups)
 @ENGLISH:	chicken noodle soup
-@POLISH:	Rosół z makaronem
+@POLISH:	rosół z makaronem
 @IMAGE:		
 @PARTOFSPEECH:	noun
 @@END:		CARD
@@ -167,7 +163,7 @@
 @@BEGIN:	CARD
 @CATEGORY:	Zupy (soups)
 @ENGLISH:	mushroom soup
-@POLISH:	Pieczarkowa
+@POLISH:	pieczarkowa
 @IMAGE:		
 @PARTOFSPEECH:	noun
 @@END:		CARD
@@ -175,7 +171,7 @@
 @@BEGIN:	CARD
 @CATEGORY:	Zupy (soups)
 @ENGLISH:	beef tripe soup (made from intestines), an acquired taste
-@POLISH:	Flaki wołowe
+@POLISH:	flaki wołowe
 @IMAGE:		
 @PARTOFSPEECH:	noun
 @@END:		CARD
@@ -183,7 +179,7 @@
 @@BEGIN:	CARD
 @CATEGORY:	Zupy (soups)
 @ENGLISH:	soup made of sauerkraut with potato, carrot, and often sausage
-@POLISH:	Kapuśniak
+@POLISH:	kapuśniak
 @IMAGE:		
 @PARTOFSPEECH:	noun
 @@END:		CARD
@@ -194,7 +190,7 @@
 @@BEGIN:	CARD
 @CATEGORY:	Danie mięsne (meat dishes)
 @ENGLISH:	breaded pork cutlet, similar to Wiener Schnitzel
-@POLISH:	Kotlet schabowy
+@POLISH:	kotlet schabowy
 @IMAGE:		
 @PARTOFSPEECH:	noun
 @@END:		CARD
@@ -202,32 +198,15 @@
 @@BEGIN:	CARD
 @CATEGORY:	Danie mięsne (meat dishes)
 @ENGLISH:	ground pork cutlet (breaded)
-@POLISH:	Kotlet mielony
+@POLISH:	kotlet mielony
 @IMAGE:		
 @PARTOFSPEECH:	noun
 @@END:		CARD
-
-@@BEGIN:	CARD
-@CATEGORY:	Danie mięsne (meat dishes)
-@ENGLISH:	
-@POLISH:	
-@IMAGE:		
-@PARTOFSPEECH:	noun
-@@END:		CARD
-
-@@BEGIN:	CARD
-@CATEGORY:	Danie mięsne (meat dishes)
-@ENGLISH:	
-@POLISH:	
-@IMAGE:		
-@PARTOFSPEECH:	noun
-@@END:		CARD
-
 
 @@BEGIN:	CARD
 @CATEGORY:	Danie mięsne (meat dishes)
 @ENGLISH:	fried chicken legs and thighs
-@POLISH:	Udka (kurczak smażony)
+@POLISH:	udka (kurczak smażony)
 @IMAGE:		
 @PARTOFSPEECH:	noun
 @@END:		CARD
@@ -235,7 +214,7 @@
 @@BEGIN:	CARD
 @CATEGORY:	Danie mięsne (meat dishes)
 @ENGLISH:	beef roulades stuffed with pickles and bacon
-@POLISH:	Zrazy
+@POLISH:	zrazy
 @IMAGE:		
 @PARTOFSPEECH:	noun
 @@END:		CARD
@@ -243,7 +222,7 @@
 @@BEGIN:	CARD
 @CATEGORY:	Danie mięsne (meat dishes)
 @ENGLISH:	“pigeons in tomato sauce,” actually meat and rice wrapped in boiled cabbage leaves
-@POLISH:	Gołąbki w sosie pomidorowym
+@POLISH:	gołąbki w sosie pomidorowym
 @IMAGE:		
 @PARTOFSPEECH:	noun
 @@END:		CARD
@@ -251,7 +230,7 @@
 @@BEGIN:	CARD
 @CATEGORY:	Danie mięsne (meat dishes)
 @ENGLISH:	stewed cabbage with carrots, onions, and meat
-@POLISH:	Bigos
+@POLISH:	bigos
 @IMAGE:		
 @PARTOFSPEECH:	noun
 @@END:		CARD
@@ -261,7 +240,7 @@
 @@BEGIN:	CARD
 @CATEGORY:	Dodatki (sides/extras)
 @ENGLISH:	potatoes
-@POLISH:	Ziemniaki
+@POLISH:	ziemniaki
 @IMAGE:		
 @PARTOFSPEECH:	noun
 @@END:		CARD
@@ -269,7 +248,7 @@
 @@BEGIN:	CARD
 @CATEGORY:	Dodatki (sides/extras)
 @ENGLISH:	sauerkraut
-@POLISH:	Kapusta
+@POLISH:	kapusta
 @IMAGE:		
 @PARTOFSPEECH:	noun
 @@END:		CARD
@@ -277,7 +256,7 @@
 @@BEGIN:	CARD
 @CATEGORY:	Dodatki (sides/extras)
 @ENGLISH:	small salad of mixed vegetables, usually pickled, sometimes served with a sauce
-@POLISH:	Surówka
+@POLISH:	surówka
 @IMAGE:		
 @PARTOFSPEECH:	noun
 @@END:		CARD
@@ -285,7 +264,7 @@
 @@BEGIN:	CARD
 @CATEGORY:	Dodatki (sides/extras)
 @ENGLISH:	bread roll
-@POLISH:	Bułka
+@POLISH:	bułka
 @IMAGE:		
 @PARTOFSPEECH:	noun
 @@END:		CARD
@@ -296,7 +275,7 @@
 @@BEGIN:	CARD
 @CATEGORY:	Napoje (drinks)
 @ENGLISH:	homemade fruit juice, often with pieces of fruit at the bottom
-@POLISH:	Kompot
+@POLISH:	kompot
 @IMAGE:		
 @PARTOFSPEECH:	noun
 @@END:		CARD
@@ -304,7 +283,7 @@
 @@BEGIN:	CARD
 @CATEGORY:	Napoje (drinks)
 @ENGLISH:	tea
-@POLISH:	Herbata
+@POLISH:	herbata
 @IMAGE:		
 @PARTOFSPEECH:	noun
 @@END:		CARD
@@ -312,7 +291,7 @@
 @@BEGIN:	CARD
 @CATEGORY:	Napoje (drinks)
 @ENGLISH:	cultured, jogurty milk drink
-@POLISH:	Kefir
+@POLISH:	kefir
 @IMAGE:		
 @PARTOFSPEECH:	noun
 @@END:		CARD
@@ -320,7 +299,7 @@
 @@BEGIN:	CARD
 @CATEGORY:	Napoje (drinks)
 @ENGLISH:	coffee
-@POLISH:	Kawa
+@POLISH:	kawa
 @IMAGE:		
 @PARTOFSPEECH:	noun
 @@END:		CARD
@@ -370,8 +349,8 @@
 
 @@BEGIN:	CARD
 @CATEGORY:	phrases
-@ENGLISH:	To wszystko?
-@POLISH:	Is that everything?
+@ENGLISH:	Is that everything?
+@POLISH:	To wszystko?
 @IMAGE:		
 @PARTOFSPEECH:	noun
 @@END:		CARD
@@ -394,8 +373,8 @@
 
 @@BEGIN:	CARD
 @CATEGORY:	phrases
-@ENGLISH:	nie
-@POLISH:	no
+@ENGLISH:	no
+@POLISH:	nie
 @IMAGE:		
 @PARTOFSPEECH:	noun
 @@END:		CARD
@@ -474,7 +453,7 @@
 
 @@BEGIN:	CARD
 @CATEGORY:	milk bar vocabulary
-@ENGLISH:	pancake, crepe
+@ENGLISH:	Polish crepe
 @POLISH:	naleśnik
 @POLISHPLURAL:	naleśniki
 @IMAGE:		
