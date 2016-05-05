@@ -1,0 +1,274 @@
+
+@@BEGIN:	CARDLIST
+
+@TITLE:		Polish verb present tense conjugations
+@TITLEURL:	https://en.wikibooks.org/wiki/Polish/Conjugations_of_common_verbs
+@DESCRIPTION:	Conjugations of verbs in the present tense.
+
+@@BEGIN:	OPTIONS
+@BACKGROUND:		#333333
+@CATEGORY_BACKGROUND:	#2a2a2a
+@DEFAULT_SIDE:		1
+@@END:		OPTIONS
+
+@@BEGIN:	ABBR
+@PONS:		http://en.pons.com/translate/polish-english/
+@@END:		ABBR
+
+@@BEGIN:	SIDES
+
+@@BEGIN:	SIDE
+@TITLE:		Polish
+@MAINCONTENT:	POLISH
+@TEMPLATE:	<div style="margin-top: 60px">
+			{{{POLISHPRONOUN}}}
+			{{{hyperlink POLISH "ABBR@PONS" POLISH}}}
+		</div>
+		{{{forvo POLISH}}}
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		English
+@MAINCONTENT:	ENGLISH
+@TEMPLATE:	<div style="margin-top: 60px">
+			{{{ENGLISH}}}
+		</div>
+		{{{quiz POLISH "Polish" QUIZOFF}}}
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		Usage
+@TEMPLATE:	{{{usage USAGE}}}
+@@END:		SIDE
+
+@@END:		SIDES
+
+
+@@@ TO HAVE @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	have/mieć
+@ENGLISH:		I have
+@POLISHPRONOUN:	ja
+@POLISH:		mam
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	have/mieć
+@ENGLISH:		you have
+@POLISHPRONOUN:	ty
+@POLISH:		masz
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	have/mieć
+@ENGLISH:		he/she/it has
+@POLISHPRONOUN:	on/ona/ono
+@POLISH:		ma
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	have/mieć
+@ENGLISH:		we have
+@POLISHPRONOUN:	my
+@POLISH:		mamy
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	have/mieć
+@ENGLISH:		yous have
+@POLISHPRONOUN:	wy
+@POLISH:		mamcie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	have/mieć
+@ENGLISH:		they (m/f) have
+@POLISHPRONOUN:	oni/one
+@POLISH:		mają
+@@END:		CARD
+
+@@@ TO KNOW @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	know/wiedzieć
+@ENGLISH:		I know
+@POLISHPRONOUN:	ja
+@POLISH:		wiem
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	know/wiedzieć
+@ENGLISH:		you know
+@POLISHPRONOUN:	ty
+@POLISH:		wiesz
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	know/wiedzieć
+@ENGLISH:		he/she/it knows
+@POLISHPRONOUN:	on/ona/ono
+@POLISH:		wie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	know/wiedzieć
+@ENGLISH:		we know
+@POLISHPRONOUN:	my
+@POLISH:		wiemy
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	know/wiedzieć
+@ENGLISH:		yous know
+@POLISHPRONOUN:	wy
+@POLISH:		wiecie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	know/wiedzieć
+@ENGLISH:		they (m/f) know
+@POLISHPRONOUN:	oni/one
+@POLISH:		wiedzą
+@@END:		CARD
+
+
+@@@ TO LIKE @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	like/lubić
+@ENGLISH:		I like
+@POLISHPRONOUN:	ja
+@POLISH:		lubię
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	like/lubić
+@ENGLISH:		you like
+@POLISHPRONOUN:	ty
+@POLISH:		lubisz
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	like/lubić
+@ENGLISH:		he/she/it likes
+@POLISHPRONOUN:	on/ona/ono
+@POLISH:		lubi
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	like/lubić
+@ENGLISH:		we like
+@POLISHPRONOUN:	my
+@POLISH:		lubimy
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	like/lubić
+@ENGLISH:		yous like
+@POLISHPRONOUN:	wy
+@POLISH:		lubicie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	like/lubić
+@ENGLISH:		they (m/f) like
+@POLISHPRONOUN:	oni/one
+@POLISH:		lubią
+@@END:		CARD
+
+@@@ TO WANT @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	want/chcieć
+@ENGLISH:		I want
+@POLISHPRONOUN:	ja
+@POLISH:		chcę
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	want/chcieć
+@ENGLISH:		you want
+@POLISHPRONOUN:	ty
+@POLISH:		chcecz
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	want/chcieć
+@ENGLISH:		he/she/it wants
+@POLISHPRONOUN:	on/ona/ono
+@POLISH:		chce
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	want/chcieć
+@ENGLISH:		we want
+@POLISHPRONOUN:	my
+@POLISH:		chcemy
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	want/chcieć
+@ENGLISH:		yous want
+@POLISHPRONOUN:	wy
+@POLISH:		chcecie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	want/chcieć
+@ENGLISH:		they (m/f) want
+@POLISHPRONOUN:	oni/one
+@POLISH:		chcą
+@@END:		CARD
+
+@@@ TO MAKE @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	make/robić
+@ENGLISH:		I make
+@POLISHPRONOUN:	ja
+@POLISH:		robię
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	make/robić
+@ENGLISH:		you make
+@POLISHPRONOUN:	ty
+@POLISH:		robisz
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	make/robić
+@ENGLISH:		he/she/it makes
+@POLISHPRONOUN:	on/ona/ono
+@POLISH:		robi
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	make/robić
+@ENGLISH:		we make
+@POLISHPRONOUN:	my
+@POLISH:		robimy
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	make/robić
+@ENGLISH:		yous make
+@POLISHPRONOUN:	wy
+@POLISH:		ribicie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	make/robić
+@ENGLISH:		they (m/f) make
+@POLISHPRONOUN:	oni/one
+@POLISH:		robią
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+@@END:		CARDLIST
+
+
+
