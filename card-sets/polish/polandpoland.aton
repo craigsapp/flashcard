@@ -19,6 +19,7 @@
 
 @@BEGIN:	SIDE
 @TITLE:		Polish
+@MAINCONTENT: 	POLISH
 @TEMPLATE:	<div style="margin-top: 60px">
 			{{{hyperlink POLISH "ABBR@PONS" POLISH}}}
 			{{{plural POLISHPLURAL}}}
@@ -35,6 +36,7 @@
 
 @@BEGIN:	SIDE
 @TITLE:		English
+@MAINCONTENT: 	ENGLISH
 @TEMPLATE:	{{{imageorword IMAGE ENGLISH}}}
 		{{{ENGLISHNOTE}}}
 		{{{quiz POLISH "Polish" QUIZOFF}}}
