@@ -1,0 +1,405 @@
+
+@@BEGIN:	CARDLIST
+
+@TITLE:		Polish language lessons
+@TITLEURL:	http://polandpoland.com/polish/PolishLesson01.mp3
+@DESCRIPTION:	
+
+@@BEGIN:	OPTIONS
+@BACKGROUND:		#333333
+@CATEGORY_BACKGROUND:	#2a2a2a
+@DEFAULT_SIDE:		1
+@@END:		OPTIONS
+
+@@BEGIN:	ABBR
+@PONS:		http://en.pons.com/translate/polish-english/
+@@END:		ABBR
+
+@@BEGIN:	SIDES
+
+@@BEGIN:	SIDE
+@TITLE:		Polish
+@TEMPLATE:	<div style="margin-top: 60px">
+			{{{hyperlink POLISH "ABBR@PONS" POLISH}}}
+			{{{plural POLISHPLURAL}}}
+		{{{audio AUDIO}}}
+		</div>
+		{{{forvo POLISH}}}
+		{{#if RUSSIAN}}
+			<div style="margin-top: 100px">
+				<span style="color:#aaa;">Russian:</span>
+				{{{RUSSIAN}}}
+			</div>
+		{{/if}}
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		English
+@TEMPLATE:	{{{imageorword IMAGE ENGLISH}}}
+		{{{ENGLISHNOTE}}}
+		{{{quiz POLISH "Polish" QUIZOFF}}}
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		Usage
+@TEMPLATE:	{{{usage USAGE}}}
+@@END:		SIDE
+
+@@END:		SIDES
+
+
+@@@ Lesson 1 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1
+@ENGLISH:	excuse me
+@POLISH:	przepraszam
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1
+@ENGLISH:	English
+@ENGLISHNOTE:	(language)
+@POLISH:	angielsku
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1
+@ENGLISH:	in English
+@POLISH:	po angielsku
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1
+@ENGLISH:	you (formal, feminine) understand
+@POLISH:	pani rozumie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1
+@ENGLISH:	Do you (formal, feminine) understand English?
+@POLISH:	Pani rozumie po angielsku?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1
+@ENGLISH:	Excuse me, do you (formal, feminine) understand English?
+@POLISH:	Przepraszam, pani rozumie po angielsku?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1
+@ENGLISH:	(question marker)
+@POLISH:	Czy
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1
+@ENGLISH:	Do you (formal, feminine) understand?
+@POLISH:	Czy pani rozumie?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1
+@ENGLISH:	Excuse me, do you (formal, feminine) understand?
+@POLISH:	Przepraszam, czy pani rozumie?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1
+@ENGLISH:	no
+@POLISH:	nie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1
+@ENGLISH:	(I) understand
+@POLISH:	rozumiem
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1
+@ENGLISH:	(I) understand English.
+@POLISH:	Rozumiem po angielsku.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1
+@ENGLISH:	(I) don't understand.
+@POLISH:	Nie rozumiem
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1
+@ENGLISH:	in Polish
+@POLISH:	po polsku
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1
+@ENGLISH:	(I) understand Polish
+@POLISH:	Rozumiem po polsku.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1
+@ENGLISH:	(I) don't understand Polish
+@POLISH:	Nie rozumiem po polsku.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1
+@ENGLISH:	Do you (formale, male) understand Polish?
+@POLISH:	Czy pan rozumie po polsku?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1
+@ENGLISH:	you (formale, masculine)
+@POLISH:	pan
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1
+@ENGLISH:	No, (I) don't understand.
+@POLISH:	Nie, nie rozumiem.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1
+@ENGLISH:	a little / a bit
+@POLISH:	trochę
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1
+@ENGLISH:	(I) understand a little.
+@POLISH:	Trochę rozumiem.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1
+@ENGLISH:	(I) understand Polish a little.
+@POLISH:	Trochę rozumiem po polsku.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1
+@ENGLISH:	American
+@POLISH:	amerykaninem
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1
+@ENGLISH:	You (formal, masculine) are
+@POLISH:	pan jest
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1
+@ENGLISH:	You (formal, masculine) are American.
+@POLISH:	Pan jest amerykaninem
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1
+@ENGLISH:	Are you (formal, masculine) American?
+@POLISH:	Czy pan jest amerykaninem?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1
+@ENGLISH:	yes
+@POLISH:	tak
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1
+@ENGLISH:	Do you (formal, masculine) understand Polish?
+@POLISH:	Czy pan rozumie po polsku?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1
+@ENGLISH:	Yes, (I) understand Polish.
+@POLISH:	Tak, rozumiem po polsku.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1
+@ENGLISH:	yes, a little
+@POLISH:	tak, trochę
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1
+@ENGLISH:	(I) understand Polish a little
+@POLISH:	Trochę rozumiem po polsku.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1
+@ENGLISH:	Do you (formal, feminine) understand English?
+@POLISH:	Czy pani rozumie po angielsku?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, conversation 1
+@ENGLISH:	Excuse me, do you (formal, feminine) understand English?
+@POLISH:	Przepraszam, czy pani rozumie po angielsku?
+@AUDIO:		http://polandpoland.com/polish/PolishLesson01.mp3
+@AUDIOTIME:	23:15
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, conversation 1
+@ENGLISH:	No, (I) don't understand English.
+@POLISH:	Nie, nie rozumiem po angielsku.
+@AUDIO:		http://polandpoland.com/polish/PolishLesson01.mp3
+@AUDIOTIME:	23:18
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, conversation 1
+@ENGLISH:	(I) understand Polish a little.
+@POLISH:	Trochę rozumiem po polsku.
+@AUDIO:		http://polandpoland.com/polish/PolishLesson01.mp3
+@AUDIOTIME:	23:21
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, conversation 1
+@ENGLISH:	Are you (formal, masculine) American?
+@POLISH:	Czy pan jest amerykaninem?
+@AUDIO:		http://polandpoland.com/polish/PolishLesson01.mp3
+@AUDIOTIME:	23:24
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, conversation 1
+@ENGLISH:	Yes
+@POLISH:	Tak 
+@AUDIO:		http://polandpoland.com/polish/PolishLesson01.mp3
+@AUDIOTIME:	23:25
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, conversation 1
+@ENGLISH:	Excuse me.
+@POLISH:	Przepraszam.
+@AUDIO:		http://polandpoland.com/polish/PolishLesson01.mp3
+@AUDIOTIME:	23:52
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, conversation 1
+@ENGLISH:	Do you (formal, feminine) understand?
+@POLISH:	Czy pani rozumie?
+@AUDIO:		http://polandpoland.com/polish/PolishLesson01.mp3
+@AUDIOTIME:	24:04
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, conversation 1
+@ENGLISH:	Do you (formal, feminine) understand Polish?
+@POLISH:	Czy pani rozumie po polsku?
+@AUDIO:		http://polandpoland.com/polish/PolishLesson01.mp3
+@AUDIOTIME:	24:20
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, conversation 1
+@ENGLISH:	Do you (formal, feminine) understand English?
+@POLISH:	Czy pani rozumie po angielku?
+@AUDIO:		http://polandpoland.com/polish/PolishLesson01.mp3
+@AUDIOTIME:	24:35
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, conversation 1
+@ENGLISH:	(I) don't understand English.
+@POLISH:	Nie rozumiem po angielsku.
+@AUDIO:		http://polandpoland.com/polish/PolishLesson01.mp3
+@AUDIOTIME:	24:59
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, conversation 1
+@ENGLISH:	Do you (formal, masculine) understand Polish?
+@POLISH:	Czy pan rozumie po polsku?
+@AUDIO:		http://polandpoland.com/polish/PolishLesson01.mp3
+@AUDIOTIME:	25:14
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, conversation 1
+@ENGLISH:	No.
+@POLISH:	Nie.
+@AUDIO:		http://polandpoland.com/polish/PolishLesson01.mp3
+@AUDIOTIME:	25:25
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, conversation 1
+@ENGLISH:	(I) understand a little.
+@POLISH:	Trochę rozumiem.
+@AUDIO:		http://polandpoland.com/polish/PolishLesson01.mp3
+@AUDIOTIME:	25:31
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, conversation 1
+@ENGLISH:	Are you (formal, masculine) American?
+@POLISH:	Czy pan jest amerykaninem?
+@AUDIO:		http://polandpoland.com/polish/PolishLesson01.mp3
+@AUDIOTIME:	25:46
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, conversation 1
+@ENGLISH:	Yes.
+@POLISH:	Tak.
+@AUDIO:		http://polandpoland.com/polish/PolishLesson01.mp3
+@AUDIOTIME:	25:59
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, conversation 1
+@ENGLISH:	Do you (formal, masculine) understand English?
+@POLISH:	Czy pan rozumie po angielsku?
+@AUDIO:		http://polandpoland.com/polish/PolishLesson01.mp3
+@AUDIOTIME:	26:08
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, conversation 1
+@ENGLISH:	Yes, (I) understand English.
+@POLISH:	Tak, rozumiem po angielsku.
+@AUDIO:		http://polandpoland.com/polish/PolishLesson01.mp3
+@AUDIOTIME:	26:16
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, conversation 1
+@ENGLISH:	Do you (formal, masculine) understand Polish?
+@POLISH:	Czy pan rozumie po polsku?
+@AUDIO:		http://polandpoland.com/polish/PolishLesson01.mp3
+@AUDIOTIME:	26:27
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	Lesson 1, conversation 1
+@ENGLISH:	I understand Polish a little.
+@POLISH:	Trochę rozumiem po polsku.
+@AUDIO:		http://polandpoland.com/polish/PolishLesson01.mp3
+@AUDIOTIME:	26:38
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+@@END:		CARDLIST
+
+
+
