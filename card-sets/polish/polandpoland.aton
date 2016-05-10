@@ -129,7 +129,7 @@
 @@BEGIN:	CARD
 @CATEGORY:	Lesson 1
 @ENGLISH:	(I) don't understand.
-@POLISH:	Nie rozumiem
+@POLISH:	Nie rozumiem.
 @@END:		CARD
 
 @@BEGIN:	CARD
@@ -152,13 +152,13 @@
 
 @@BEGIN:	CARD
 @CATEGORY:	Lesson 1
-@ENGLISH:	Do you (formale, male) understand Polish?
+@ENGLISH:	Do you (formal, male) understand Polish?
 @POLISH:	Czy pan rozumie po polsku?
 @@END:		CARD
 
 @@BEGIN:	CARD
 @CATEGORY:	Lesson 1
-@ENGLISH:	you (formale, masculine)
+@ENGLISH:	you (formal, masculine)
 @POLISH:	pan
 @@END:		CARD
 

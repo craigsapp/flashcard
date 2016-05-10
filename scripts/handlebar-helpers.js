@@ -198,4 +198,28 @@ Handlebars.registerHelper("morse", function(morse) {
 
 
 
+//////////////////////////////
+//
+// paren Handlebars helper -- Print field in parentheses or other prefix/suffix.
+//
+
+Handlebars.registerHelper("paren", function(text, prefix, suffix) {
+	if (!text) {
+		return new Handlebars.SafeString("");
+	}
+   if (text.match(/^\s*$/)) {
+		return new Handlebars.SafeString("");
+	}
+	if (typeof prefix !== "string") {
+		prefix = "(";
+	}
+	if (typeof suffix !== "string") {
+		suffix = ")";
+	}
+console.log("paren: text=", text, "prefix=", prefix, "suffix=",suffix);
+   var output = prefix + text + suffix;
+	return new Handlebars.SafeString(output);
+});
+
+
 

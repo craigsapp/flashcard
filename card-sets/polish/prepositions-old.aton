@@ -1,0 +1,636 @@
+
+@@BEGIN:	CARDLIST
+
+@TITLE:		Polish prepositions
+@TITLEURL:	
+@DESCRIPTION:	Flashcards for learning Polish prepositions.
+
+@@BEGIN:	OPTIONS
+@BACKGROUND:		#333333
+@CATEGORY_BACKGROUND:	#2a2a2a
+@DEFAULT_SIDE:		1
+@@END:		OPTIONS
+
+@@BEGIN:	ABBR
+@PONS:		http://en.pons.com/translate/polish-english/
+@@END:		ABBR
+
+@@BEGIN:	SIDES
+
+@@BEGIN:	SIDE
+@TITLE:		Polish
+@TEMPLATE:	<div style="margin-top: 60px">
+			{{{hyperlink POLISH "ABBR@PONS" POLISH}}}
+			{{{audio AUDIO}}}
+		</div>
+		{{#if RUSSIAN}}
+			<div style="margin-top: 100px">
+				<span style="color:#aaa;">Russian:</span>
+				{{{RUSSIAN}}}
+			</div>
+		{{/if}}
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		English
+@TEMPLATE:	{{{imageorword IMAGE ENGLISH}}}
+		{{#if FUNCTION}}
+			<div style="color:#dddddd; margin-top: 120px">
+				{{{FUNCTION}}}
+			</div>
+		{{/if}}
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		Usage
+@TEMPLATE:	{{{usage USAGE}}}
+@@END:		SIDE
+
+@@END:		SIDES
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	about
+@POLISH:	o
+@AUDIO:		wiki:Pl-o.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	above
+@POLISH:	powyżej
+@AUDIO:		wiki:Pl-powyżej.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	across
+@POLISH:	przez
+@AUDIO:		wiki:Pl-przez.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	after
+@POLISH:	za / po
+@AUDIO:		wiki:Pl-za.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	against
+@POLISH:	przed / przeciwko
+@AUDIO:		wiki:Pl-przed.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	among
+@POLISH:	między
+@AUDIO:		wiki:Pl-między.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	around
+@POLISH:	około
+@AUDIO:		wiki:Pl-około.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	as
+@POLISH:	jako
+@AUDIO:		wiki:Pl-jako.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	before
+@POLISH:	przed
+@AUDIO:		wiki:Pl-przed.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	behind
+@POLISH:	za
+@AUDIO:		wiki:Pl-za.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	below
+@POLISH:	poniżej
+@XAUDIO:		wiki:Pl-poniżej.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	beneath
+@POLISH:	pod
+@AUDIO:		wiki:Pl-pod.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	beside
+@POLISH:	przy
+@AUDIO:		wiki:Pl-przy.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	between
+@POLISH:	między
+@AUDIO:		wiki:Pl-między.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	beyond
+@POLISH:	poza
+@AUDIO:		wiki:Pl-poza.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	but
+@POLISH:	ale
+@AUDIO:		wiki:Pl-ale.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	by
+@POLISH:	przez
+@AUDIO:		wiki:Pl-przez.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	despite
+@POLISH:	mimo
+@AUDIO:		wiki:Pl-mimo.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	down
+@POLISH:	w dół
+@XAUDIO:		wiki:Pl-w%20dół.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	during
+@POLISH:	podczas
+@AUDIO:		wiki:Pl-podczas.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	except
+@POLISH:	poza
+@AUDIO:		wiki:Pl-poza.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	for
+@POLISH:	dla
+@AUDIO:		wiki:Pl-dla.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	in
+@POLISH:	na
+@AUDIO:		wiki:Pl-na.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	inside
+@POLISH:	wewnątrz
+@AUDIO:		wiki:Pl-wewnątrz.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	into, at
+@POLISH:	w
+@AUDIO:		wiki:Pl-w.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	near
+@POLISH:	blisko
+@AUDIO:		wiki:Pl-blisko.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	next
+@POLISH:	obok
+@AUDIO:		wiki:Pl-obok.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	of, from, with
+@POLISH:	z
+@AUDIO:		wiki:Pl-z.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	on
+@POLISH:	na
+@AUDIO:		wiki:Pl-na.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	opposite
+@POLISH:	naprzeciwko
+@XAUDIO:		wiki:Pl-naprzeciwko.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	out
+@POLISH:	poza
+@AUDIO:		wiki:Pl-poza.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	over
+@POLISH:	przez
+@AUDIO:		wiki:Pl-przez.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	per
+@POLISH:	za/ na
+@AUDIO:		wiki:Pl-za.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	plus
+@POLISH:	plus
+@XAUDIO:		wiki:Pl-plus.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	round
+@POLISH:	naokoło
+@XAUDIO:		wiki:Pl-naokoło.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	since
+@POLISH:	ponieważ/ od/ odkąd
+@AUDIO:		wiki:Pl-ponieważ.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	than
+@POLISH:	niż
+@AUDIO:		wiki:Pl-niż.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	through
+@POLISH:	przez
+@AUDIO:		wiki:Pl-przez.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	till
+@POLISH:	do
+@AUDIO:		wiki:Pl-do.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	to
+@POLISH:	do
+@AUDIO:		wiki:Pl-do.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	toward
+@POLISH:	ku
+@AUDIO:		wiki:Pl-ku.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	under
+@POLISH:	pod
+@AUDIO:		wiki:Pl-pod.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	unlike
+@POLISH:	inaczej
+@AUDIO:		wiki:Pl-inaczej.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	until
+@POLISH:	do
+@AUDIO:		wiki:Pl-do.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	up
+@POLISH:	w górę
+@XAUDIO:		wiki:Pl-w%20górę.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	via
+@POLISH:	przez
+@AUDIO:		wiki:Pl-przez.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	within
+@POLISH:	w ciągu
+@XAUDIO:		wiki:Pl-w%20ciągu.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	without
+@POLISH:	bez
+@AUDIO:		wiki:Pl-bez.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	according to
+@POLISH:	zgodnie z
+@XAUDIO:		wiki:Pl-zgodnie%20z.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	because of
+@POLISH:	z powodu
+@XAUDIO:		wiki:Pl-z powodu.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	close to
+@POLISH:	w pobliżu
+@XAUDIO:		wiki:Pl-w%20pobliżu.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	due to
+@ENGLISH:	due to
+@POLISH:	ze względu na
+@XAUDIO:		wiki:Pl-ze%20względu%20na.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	except for
+@POLISH:	z wyjątkiem
+@XAUDIO:		wiki:Pl-z%20wyjątkiem.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	far from
+@POLISH:	z dala od
+@XAUDIO:		wiki:Pl-z%20dala%20od.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	inside of
+@POLISH:	wewnątrz
+@AUDIO:		wiki:Pl-wewnątrz.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	instead of
+@POLISH:	zamiast
+@AUDIO:		wiki:Pl-zamiast.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	near to
+@POLISH:	blisko
+@AUDIO:		wiki:Pl-blisko.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	next to
+@POLISH:	obok
+@AUDIO:		wiki:Pl-obok.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	outside of
+@POLISH:	poza
+@AUDIO:		wiki:Pl-poza.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	prior to
+@POLISH:	przed
+@AUDIO:		wiki:Pl-przed.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	as far as
+@POLISH:	o ile
+@XAUDIO:		wiki:Pl-o%20ile.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	as well as
+@POLISH:	oraz
+@AUDIO:		wiki:Pl-oraz.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	in addition to
+@POLISH:	oprócz
+@AUDIO:		wiki:Pl-oprócz.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	in front of
+@POLISH:	przed
+@AUDIO:		wiki:Pl-przed.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	in spite of
+@POLISH:	wbrew
+@XAUDIO:		wiki:Pl-wbrew.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	in front of
+@POLISH:	przed
+@AUDIO:		wiki:Pl-przed.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	on behalf of
+@POLISH:	na rzecz
+@XAUDIO:		wiki:Pl-na%20rzecz
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	on top of
+@POLISH:	na szczycie
+@XAUDIO:		wiki:Pl-na%20szczycie.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	this
+@POLISH:	to
+@AUDIO:		wiki:Pl-to.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	that
+@POLISH:	to
+@AUDIO:		wiki:Pl-to.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	these
+@POLISH:	te
+@AUDIO:		wiki:Pl-te.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	those
+@POLISH:	tych
+@XAUDIO:		wiki:Pl-tych.ogg
+@PARTOFSPEECH:	preposition
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+@@END:		CARDLIST
+
+
+
