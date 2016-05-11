@@ -114,13 +114,15 @@ function GetCategoryCards(name, cardlist) {
    if (name === "all") {
       return cards;
    }
+	name = name.replace(/SINGLEQUOTE/g, "'");
+	name = name.replace(/DOUBLEQUOTE/g, "'");
 	var output = [];
 	var regex = new RegExp("\\b" + name + "\\b", "i");
    for (var i=0; i<cards.length; i++) {
 		if (!cards[i].CATEGORY) {
 			continue;
 		}
-		if (cards[i].CATEGORY === name) {
+		if (cards[i].CATEGORY.match(name)) {
 			output.push(cards[i]);
 		}
 	}
@@ -135,7 +137,6 @@ function GetCategoryCards(name, cardlist) {
 //
 
 function LoadCategory(name) {
-console.log("CAT1", name);
 	if (!name) {
 		name = CATEGORY;
 	}
@@ -144,19 +145,15 @@ console.log("CAT1", name);
 		name = CATEGORY;
 	}
    CATEGORY = name;
-console.log("CAT2", name);
 	name = name.replace(/SINGLEQUOTE/, "'", "g");
 	name = name.replace(/DOUBLEQUOTE/, '"', "g");
-console.log("CAT2", name);
 	var cards = GetCategoryCards(name);
-console.log("CARDS", cards);
    // CATEGORY = name;
 	$('#deck').cycle('destroy');
    ShowCardDeck(cards);
 	if (SIDEVIEW == 2) {
 		showFaceTwo();
 	}
-console.log("WORDLIST");
    if (WORDLIST) {
 		displayCategoryWordList(CATEGORY);
 	}

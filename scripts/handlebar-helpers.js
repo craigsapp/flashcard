@@ -223,3 +223,22 @@ console.log("paren: text=", text, "prefix=", prefix, "suffix=",suffix);
 
 
 
+//////////////////////////////
+//
+// worddlistcell Handlebars helper -- For printing word list cell contents.
+//
+
+Handlebars.registerHelper("wordlistcell", function(template, that) {
+	if (!template) {
+		return new Handlebars.SafeString("");
+	}
+
+   template = CleanTemplate(template);
+   var templatefunction = Handlebars.compile(template);
+	var output = templatefunction(that);
+	return new Handlebars.SafeString(output);
+});
+
+
+
+

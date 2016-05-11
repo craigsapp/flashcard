@@ -19,6 +19,7 @@
 
 @@BEGIN:	SIDE
 @TITLE:		Polish
+@WTEMPLATE:	{{{POLISH}}}
 @TEMPLATE:	<div style="margin-top: 60px">
 			{{{hyperlink POLISH "ABBR@PONS" POLISH}}}
 		{{{audio AUDIO}}}
@@ -33,17 +34,13 @@
 
 @@BEGIN:	SIDE
 @TITLE:		English
+@WTEMPLATE:	{{{ENGLISH}}}
 @TEMPLATE:	{{{imageorword IMAGE ENGLISH}}}
 		{{#if FUNCTION}}
 			<div style="color:#dddddd; margin-top: 120px">
 				{{{FUNCTION}}}
 			</div>
 		{{/if}}
-@@END:		SIDE
-
-@@BEGIN:	SIDE
-@TITLE:		Usage
-@TEMPLATE:	{{{usage USAGE}}}
 @@END:		SIDE
 
 @@END:		SIDES

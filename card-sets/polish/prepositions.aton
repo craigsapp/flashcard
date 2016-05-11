@@ -19,7 +19,7 @@
 
 @@BEGIN:	SIDE
 @TITLE:		Polish
-@MAINCONTENT:	POLISH
+@WTEMPLATE:	{{{hyperlink POLISH "ABBR@PONS" POLISH}}}{{{paren SUFFIX}}} <span style="color:#999">{{{paren CASE "+" ""}}}</style>
 @TEMPLATE:	<div style="margin-top: 90px">
 			{{{hyperlink POLISH "ABBR@PONS" POLISH}}}{{{paren SUFFIX}}}
 			<span style="color:#dddddd">
@@ -28,12 +28,13 @@
 			</span>
 			{{{audio AUDIO}}}
 		</div>
+		{{{quiz ENGLISH "English" QUIZOFF}}}
 		{{{forvo POLISH}}}
 @@END:		SIDE
 
 @@BEGIN:	SIDE
 @TITLE:		English
-@MAINCONTENT:	ENGLISH
+@WTEMPLATE:	{{{ENGLISH}}}{{{paren ENGLISH2 ", " ""}}}
 @TEMPLATE:	<div style="margin-top: 90px">
 			{{{ENGLISH}}}{{{paren ENGLISH2 ", " ""}}}
 			<span style="color:#dddddd">

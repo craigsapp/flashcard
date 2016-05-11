@@ -19,7 +19,7 @@
 
 @@BEGIN:	SIDE
 @TITLE:		Polish
-@MAINCONTENT:	POLISH
+@WTEMPLATE:	{{{POLISH}}}
 @TEMPLATE:	<div style="margin-top: 60px">
 			{{{POLISHPRONOUN}}}
 			{{{hyperlink POLISH "ABBR@PONS" POLISH}}}
@@ -29,16 +29,11 @@
 
 @@BEGIN:	SIDE
 @TITLE:		English
-@MAINCONTENT:	ENGLISH
+@WTEMPLATE:	{{{ENGLISH}}}
 @TEMPLATE:	<div style="margin-top: 60px">
 			{{{ENGLISH}}}
 		</div>
 		{{{quiz POLISH "Polish" QUIZOFF}}}
-@@END:		SIDE
-
-@@BEGIN:	SIDE
-@TITLE:		Usage
-@TEMPLATE:	{{{usage USAGE}}}
 @@END:		SIDE
 
 @@END:		SIDES

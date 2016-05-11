@@ -309,7 +309,7 @@ function displayCategoryWordList(name) {
    if (!name) {
       name = "all";
    }
-console.log("GOT HERE");
+console.log("NAME", name);
    var cards = GetCategoryCards(name);
    var wordlist = document.querySelector("#wordlist");
    if (!wordlist) {
@@ -323,21 +323,25 @@ console.log("GOT HERE");
       categories.appendChild(newelement);
       wordlist = newelement;
    }
+	var side1value = CARDLIST.SIDES.SIDE[0].WTEMPLATE;
+	var side2value = CARDLIST.SIDES.SIDE[1].WTEMPLATE;
 
-	var side1key = CARDLIST.SIDES.SIDE[0].MAINCONTENT;
-	var side2key = CARDLIST.SIDES.SIDE[1].MAINCONTENT;
-console.log("SIDE1", side1key);
-console.log("SIDE2", side1key);
+   for (var i=0; i<cards.length; i++) {
+      cards[i].WORDLIST_SIDE1 = side1value;
+      cards[i].WORDLIST_SIDE2 = side2value;
+   }
+console.log("CARDSZ", cards);
 
-	var wordlisttemplate = "";
-   wordlisttemplate += "<h1 style='margin-top:50px;'>Word list</h1>\n";
-   wordlisttemplate += "<table>";
-	wordlisttemplate += "{{#each this}}";
-	wordlisttemplate += "<tr><td>{{{" + side1key + "}}}</td>";
-	wordlisttemplate += "<td>{{{" + side2key + "}}}</td></tr>";
-	wordlisttemplate += "{{/each}}";
-	wordlisttemplate += "</table>";
-   var listtable = Handlebars.compile(wordlisttemplate);
+	var wlt = "";
+   wlt += "<h1 style='margin-top:50px;'>Word list</h1>\n";
+   wlt += "<table>";
+	wlt += "{{#each this}}";
+	wlt += "<tr><td>{{{wordlistcell WORDLIST_SIDE1 this}}}</td>";
+	wlt += "<td>{{{wordlistcell WORDLIST_SIDE2 this}}}</td></tr>";
+	wlt += "{{/each}}";
+	wlt += "</table>";
+
+   var listtable = Handlebars.compile(wlt);
 	var output = listtable(cards);
 	wordlist.innerHTML = output;
    WORDLIST = true;

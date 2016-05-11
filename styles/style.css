@@ -2,6 +2,9 @@
  * Based on http://curtisblackwell.github.io/flash_cards
  */
 
+a {
+   text-decoration: none;
+}
 
 @font-face {
 	font-family:	'Flash Cards';
