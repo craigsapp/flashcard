@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
    // document.querySelector("#categories").addEventListener("click", function() {
 	//    $('#categories').fadeToggle();
    // });
+   setupDropZone();
 
 	var cgi = GetCgiParameters();
 	if (cgi.cards) {
