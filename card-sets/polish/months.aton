@@ -1,0 +1,215 @@
+@@BEGIN:	CARDLIST
+
+@TITLE:		Polish month
+@TITLEURL:	
+@DESCRIPTION:	Flashcards for learning Polish months.
+
+@@BEGIN:	OPTIONS
+@BACKGROUND:		#333333
+@CATEGORY_BACKGROUND:	#2a2a2a
+@DEFAULT_SIDE:		1
+@@END:		OPTIONS
+
+@@BEGIN:	ABBR
+@PONS:		http://en.pons.com/translate/polish-english/
+@@END:		ABBR
+
+@@BEGIN:	SIDES
+
+@@BEGIN:	SIDE
+@TITLE:		Polish
+@WTEMPLATE:	{{{POLISH}}}
+@TEMPLATE:	<div style="margin-top: 60px">
+			{{{hyperlink POLISH "ABBR@PONS" POLISH}}}
+			{{{audio AUDIO}}}
+		</div>
+		{{{quiz ENGLISH "English" QUIZOFF}}}
+		{{{forvo POLISH}}}
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		English
+@WTEMPLATE:	{{{ENGLISH}}}
+@TEMPLATE:	<div style="margin-top: 60px">
+			{{{ENGLISH}}}
+		</div>
+		{{{quiz POLISH "Polish" QUIZOFF}}}
+@@END:		SIDE
+
+@@END:		SIDES
+
+
+@@@ BASIC NUMBERS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	month
+@ENGLISH:	January
+@POLISH:	styczeń
+@AUDIO:		wiki:Pl-styczeń.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	month
+@ENGLISH:	February
+@POLISH:	luty
+@AUDIO:		wiki:Pl-luty.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	month
+@ENGLISH:	March
+@POLISH:	marzec
+@AUDIO:		wiki:Pl-marzec.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	month
+@ENGLISH:	April
+@POLISH:	kwiecień
+@AUDIO:		wiki:Pl-kwiecień.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	month
+@ENGLISH:	May
+@POLISH:	maj
+@AUDIO:		wiki:Pl-maj.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	month
+@ENGLISH:	June
+@POLISH:	czerwiec
+@AUDIO:		wiki:Pl-czerwiec.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	month
+@ENGLISH:	July
+@POLISH:	lipiec
+@AUDIO:		wiki:Pl-lipiec.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	month
+@ENGLISH:	August
+@POLISH:	sierpień
+@AUDIO:		wiki:Pl-sierpień.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	month
+@ENGLISH:	September
+@POLISH:	wrzesień
+@AUDIO:		wiki:Pl-wrzesień.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	month
+@ENGLISH:	October
+@POLISH:	październik
+@AUDIO:		wiki:Pl-wrzesień.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	month
+@ENGLISH:	November
+@POLISH:	listopad
+@AUDIO:		wiki:Pl-listopad.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	month
+@ENGLISH:	December
+@POLISH:	grudzień
+@AUDIO:		wiki:Pl-grudzień.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	in month
+@ENGLISH:	in January
+@POLISH:	w styczniu
+@AUDIO:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	in month
+@ENGLISH:	in February
+@POLISH:	w lutym
+@AUDIO:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	in month
+@ENGLISH:	in March
+@POLISH:	w marcu
+@AUDIO:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	in month
+@ENGLISH:	in April
+@POLISH:	w kwientniu
+@AUDIO:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	in month
+@ENGLISH:	in May
+@POLISH:	w maju
+@AUDIO:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	in month
+@ENGLISH:	in June
+@POLISH:	w czerwcu
+@AUDIO:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	in month
+@ENGLISH:	in July
+@POLISH:	w lipcu
+@AUDIO:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	in month
+@ENGLISH:	in August
+@POLISH:	w sierpniu
+@AUDIO:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	in month
+@ENGLISH:	in September
+@POLISH:	we wrześniu
+@AUDIO:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	in month
+@ENGLISH:	in October
+@POLISH:	w październiku
+@AUDIO:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	in month
+@ENGLISH:	in November
+@POLISH:	w listopadzie
+@AUDIO:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	in month
+@ENGLISH:	in December
+@POLISH:	w grudniu
+@AUDIO:		
+@@END:		CARD
+
+
+@@END:		CARDLIST
+
+

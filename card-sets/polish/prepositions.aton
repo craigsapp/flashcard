@@ -1,4 +1,3 @@
-
 @@BEGIN:	CARDLIST
 
 @TITLE:		Polish prepositions
@@ -35,6 +34,9 @@
 @@BEGIN:	SIDE
 @TITLE:		English
 @WTEMPLATE:	{{{ENGLISH}}}{{{paren ENGLISH2 ", " ""}}}
+		<span style="color:#999">
+			{{{paren ENOTE}}}
+		</span>
 @TEMPLATE:	<div style="margin-top: 90px">
 			{{{ENGLISH}}}{{{paren ENGLISH2 ", " ""}}}
 			<span style="color:#dddddd">
@@ -50,48 +52,58 @@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 @@BEGIN:	CARD
-@CATEGORY:	locative
+@CATEGORY:	locative, locative or accusative
 @ENGLISH:	about
+@ENGLISH2:	at (atim), with a characteristic
 @POLISH:	o
 @CASE:		L
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	genative
-@ENGLISH:	according to
-@POLISH:	według
-@CASE:		G
-@@END:		CARD
-
-@@BEGIN:	CARD
-@CATEGORY:	locative
-@ENGLISH:	after
-@ENGLISH2:	along, up to
-@POLISH:	po
-@CASE:		L
-@@END:		CARD
-
-@@BEGIN:	CARD
-@CATEGORY:	dative
+@CATEGORY:	accusative, locative or accusative
 @ENGLISH:	against
-@ENGLISH2:	opposed to
-@ENOTE:		
-@POLISH:	przeciw
-@SUFFIX:		ko
-@CASE:		D
-@@END:		CARD
-
-@@BEGIN:	CARD
-@CATEGORY:	accusative
-@ENGLISH:	against
-@ENGLISH2:	up against
+@ENGLISH2:	up against, for (as in "fight for")
 @ENOTE:
 @POLISH:	o
 @CASE:		A
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	genative
+@CATEGORY:	genitive, genitive only
+@ENGLISH:	according to
+@POLISH:	według
+@CASE:		G
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	locative, locative or accusative
+@ENGLISH:	after
+@ENGLISH2:	along, over (the surface of)
+@POLISH:	po
+@CASE:		L
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	accusative, locative or accusative
+@ENGLISH:	as far as
+@ENGLISH2:	up to, for after (to get, fetch)
+@ENOTE:
+@POLISH:	po
+@CASE:		A
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	dative, dative only
+@ENGLISH:	against
+@ENGLISH2:	opposed to
+@ENOTE:		
+@POLISH:	przeciw
+@SUFFIX:	ko
+@CASE:		D
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	genitive, genitive only
 @ENGLISH:	alongside
 @ENGLISH2:	next to
 @ENOTE:
@@ -100,30 +112,21 @@
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	genative
+@CATEGORY:	genitive, genitive only
 @ENGLISH:	among
-@ENGLISH2:
+@ENGLISH2:	in the midst of
 @ENOTE:
 @POLISH:	wśród
 @CASE:		G
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	genative
+@CATEGORY:	genitive, genitive only
 @ENGLISH:	around
 @ENGLISH2:	about
 @ENOTE:
 @POLISH:	około
 @CASE:		G
-@@END:		CARD
-
-@@BEGIN:	CARD
-@CATEGORY:	accusative
-@ENGLISH:	as far as
-@ENGLISH2:
-@ENOTE:
-@POLISH:	po
-@CASE:		A
 @@END:		CARD
 
 @@BEGIN:	CARD
@@ -136,25 +139,34 @@
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	genative
-@ENGLISH:	at
-@ENGLISH2:
+@CATEGORY:	genitive, genitive only
+@ENGLISH:	at (someone's)
+@ENGLISH2:near
 @ENOTE:
 @POLISH:	u
 @CASE:		G
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	locative
+@CATEGORY:	locative, locative or accusative
 @ENGLISH:	at
-@ENGLISH2:
+@ENGLISH2:	on
 @ENOTE:
 @POLISH:	na
 @CASE:		L
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	insturmental
+@CATEGORY:	accusative, locative or accusative
+@ENGLISH:	onto
+@ENGLISH2:	to (a meeting place)
+@ENOTE:
+@POLISH:	na
+@CASE:		A
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	insturmental, instrumental or accusative
 @ENGLISH:	before
 @ENGLISH2:	in front of
 @ENOTE:		
@@ -163,25 +175,44 @@
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	genative
-@ENGLISH:	besides
+@CATEGORY:	accusative, instrumental or accusative
+@ENGLISH:	to before
+@ENGLISH2:	in front of
+@ENOTE:		
+@POLISH:	przed
+@CASE:		A
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	genitive
+@ENGLISH:	from in front
 @ENGLISH2:	
 @ENOTE:		
-@POLISH:	oprócz
+@POLISH:	sprzed
 @CASE:		G
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	instrumental
+@CATEGORY:	genitive
 @ENGLISH:	besides
 @ENGLISH2:	
+@ENOTE:		
+@POLISH:	oprócz
+@PNOTE:		prócz
+@CASE:		G
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	instrumental, instrumenal only
+@ENGLISH:	besides
+@ENGLISH2:	beyond
 @ENOTE:		
 @POLISH:	poza
 @CASE:		I
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	instrumental
+@CATEGORY:	instrumental, instrumental or accusative
 @ENGLISH:	between
 @ENGLISH2:	among
 @ENOTE:		
@@ -190,16 +221,16 @@
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	instrumental
-@ENGLISH:	beyond
-@ENGLISH2:	behind
+@CATEGORY:	accusative, instrumental or accusative
+@ENGLISH:	to between
+@ENGLISH2:	among
 @ENOTE:		
-@POLISH:	za
-@CASE:		I
+@POLISH:	między
+@CASE:		A
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	genative
+@CATEGORY:	genitive, genitive only
 @ENGLISH:	despite
 @ENGLISH2:	in spite of
 @ENOTE:		
@@ -208,7 +239,7 @@
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	dative
+@CATEGORY:	dative, dative only
 @ENGLISH:	due to
 @ENGLISH2:	thanks to
 @ENOTE:		
@@ -217,7 +248,7 @@
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	genative
+@CATEGORY:	genitive
 @ENGLISH:	during
 @ENGLISH2:	
 @ENOTE:		
@@ -226,7 +257,7 @@
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	genative
+@CATEGORY:	genitive, genitive only
 @ENGLISH:	during
 @ENGLISH2:	
 @ENOTE:		
@@ -235,7 +266,7 @@
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	genative
+@CATEGORY:	genitive, genative only
 @ENGLISH:	for
 @ENGLISH2:	
 @ENOTE:		the benefit of
@@ -244,21 +275,30 @@
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	instrumental
-@ENGLISH:	for
-@ENGLISH2:	in favor of
+@CATEGORY:	instrumental, instrumental or accusative
+@ENGLISH:	beyond
+@ENGLISH2:	in favor of, behind, for
 @ENOTE:		
 @POLISH:	za
 @CASE:		I
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	accusative
-@ENGLISH:	for
-@ENGLISH2:	in exchange for
+@CATEGORY:	accusative, instrumental or accusative
+@ENGLISH:	to behind
+@ENGLISH2:	in back of, beyond, in exchange for
 @ENOTE:		
 @POLISH:	za
 @CASE:		A
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	genitive
+@ENGLISH:	from behind
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	zza
+@CASE:		G
 @@END:		CARD
 
 @@BEGIN:	CARD
@@ -271,46 +311,56 @@
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	genative
+@CATEGORY:	genitive
 @ENGLISH:	from
 @ENGLISH2:	since, than
 @ENOTE:		
 @POLISH:	od
-@SUFFIX:		e
+@SUFFIX:	e
 @CASE:		G
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	genative
+@CATEGORY:	genitive, genitive only
 @ENGLISH:	from
-@ENGLISH2:	out of
+@ENGLISH2:	out of, down from, off because of
 @ENOTE:		
 @POLISH:	z
-@SUFFIX:		e
+@SUFFIX:	e
 @CASE:		G
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	genative
+@CATEGORY:	genitive, genitive only
 @ENGLISH:	in view of
-@ENGLISH2:	
+@ENGLISH2:	toward, towards
 @ENOTE:		
 @POLISH:	wobec
 @CASE:		G
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	locative
+@CATEGORY:	locative, locative or accusative
 @ENGLISH:	in
-@ENGLISH2:	
+@ENGLISH2:	at
 @ENOTE:		
 @POLISH:	w
-@SUFFIX:		e
+@SUFFIX:	e
 @CASE:		L
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	genative
+@CATEGORY:	accusative, locative or accusative
+@ENGLISH:	into
+@ENGLISH2:	
+@ENOTE:		a large area
+@POLISH:	w
+@SUFFIX:	e
+@CASE:		A
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	genitive
 @ENGLISH:	instead of
 @ENGLISH2:	
 @ENOTE:		
@@ -319,7 +369,7 @@
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	genative
+@CATEGORY:	genitive, genative only
 @ENGLISH:	near
 @ENGLISH2:	
 @ENOTE:		
@@ -329,9 +379,9 @@
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	locative
+@CATEGORY:	locative, locative only
 @ENGLISH:	near
-@ENGLISH2:	at
+@ENGLISH2:	at, next to
 @ENOTE:		
 @POLISH:	przy
 @PNOTE:		
@@ -339,9 +389,9 @@
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	genative
+@CATEGORY:	genitive
 @ENGLISH:	off
-@ENGLISH2:	down from
+@ENGLISH2:	down from, out of, from
 @ENOTE:		
 @POLISH:	z
 @PNOTE:		
@@ -364,34 +414,44 @@
 @ENGLISH2:	from
 @ENOTE:		
 @POLISH:	z
-@SUFFIX:		e
+@SUFFIX:	e
 @CASE:		G
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	instrumental
+@CATEGORY:	instrumental, instrumental or accusative
 @ENGLISH:	over
-@ENGLISH2:	above
+@ENGLISH2:	above, on top of
 @ENOTE:		
 @POLISH:	nad
-@SUFFIX:		e
+@SUFFIX:	e
 @CASE:		I
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	accusative
+@CATEGORY:	accusative, instrumental or accusative
+@ENGLISH:	to over
+@ENGLISH2:	above, on top of
+@ENOTE:		
+@POLISH:	nad
+@SUFFIX:	e
+@CASE:		I
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	accusative, accusative only
 @ENGLISH:	through
-@ENGLISH2:	across
+@ENGLISH2:	across, due to, by (the agency of)
 @ENOTE:		
 @POLISH:	przez
-@SUFFIX:		e
+@SUFFIX:	e
 @CASE:		A
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	genative
+@CATEGORY:	genitive, genative only
 @ENGLISH:	to
-@ENGLISH2:	until
+@ENGLISH2:	as far as, until
 @ENOTE:		
 @POLISH:	do
 @PNOTE:		
@@ -399,7 +459,7 @@
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	
+@CATEGORY:	dative, dative only
 @ENGLISH:	toward
 @ENGLISH2:	towards
 @ENOTE:		
@@ -409,9 +469,9 @@
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	instrumental
+@CATEGORY:	instrumental, instrumental or accusative
 @ENGLISH:	under
-@ENGLISH2:	beneath
+@ENGLISH2:	beneath, below
 @ENOTE:		
 @POLISH:	pod
 @SUFFIX:	e
@@ -420,17 +480,39 @@
 @@END:		CARD
 
 @@BEGIN:	CARD
+@CATEGORY:	accusative, instrumental or accusative
+@ENGLISH:	to under
+@ENGLISH2:	beneath, below, during
+@ENOTE:		
+@POLISH:	pod
+@SUFFIX:	e
+@PNOTE:		
+@CASE:		A
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	genitive
+@ENGLISH:	from below
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	spod
+@PNOTE:		
+@CASE:		G
+@@END:		CARD
+
+@@BEGIN:	CARD
 @CATEGORY:	instrumental
 @ENGLISH:	with
-@ENGLISH2:	together with
+@ENGLISH2:	together with, along with
 @ENOTE:		
 @POLISH:	z
+@SUFFIX:	e
 @PNOTE:		
 @CASE:		I
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	genative
+@CATEGORY:	genitive, genitive only
 @ENGLISH:	without
 @ENGLISH2:	
 @ENOTE:		
@@ -441,63 +523,104 @@
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	
-@ENGLISH:	
+@CATEGORY:	genitive, genitive only
+@ENGLISH:	all around
 @ENGLISH2:	
 @ENOTE:		
-@POLISH:	
-@PNOTE:		
-@CASE:		
+@POLISH:	dokoła
+@PNOTE:		dookoła
+@CASE:		G
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	
-@ENGLISH:	
+@CATEGORY:	genitive, genitive only
+@ENGLISH:	according to
 @ENGLISH2:	
 @ENOTE:		
-@POLISH:	
+@POLISH:	podług
 @PNOTE:		
-@CASE:		
+@CASE:		G
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	
-@ENGLISH:	
+@CATEGORY:	genative, genative only
+@ENGLISH:	amongst
 @ENGLISH2:	
 @ENOTE:		
-@POLISH:	
+@POLISH:	pośród
 @PNOTE:		
-@CASE:		
+@CASE:		G
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	
-@ENGLISH:	
+@CATEGORY:	genitive, genitive only
+@ENGLISH:	all around
 @ENGLISH2:	
 @ENOTE:		
-@POLISH:	
+@POLISH:	naokoło
 @PNOTE:		
-@CASE:		
+@CASE:		G
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	
-@ENGLISH:	
+@CATEGORY:	genitive, genitive only
+@ENGLISH:	across from
 @ENGLISH2:	
 @ENOTE:		
-@POLISH:	
+@POLISH:	naprzeciw
+@SUFFIX:	ko
 @PNOTE:		
-@CASE:		
+@CASE:		G
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	
-@ENGLISH:	
+@CATEGORY:	genitive, genitive only
+@ENGLISH:	from among
+@ENGLISH2:	out of
+@ENOTE:		
+@POLISH:	spośród
+@PNOTE:		
+@CASE:		G
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	genitive, genitive only
+@ENGLISH:	round
+@ENGLISH2:	about
+@ENOTE:		
+@POLISH:	wokól, wokoło
+@PNOTE:		
+@CASE:		G
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	genitive, genitive only
+@ENGLISH:	as the result of
 @ENGLISH2:	
 @ENOTE:		
-@POLISH:	
+@POLISH:	wskutek
 @PNOTE:		
-@CASE:		
+@CASE:		G
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	dative, dative only
+@ENGLISH:	despite
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	wbrew
+@PNOTE:		
+@CASE:		D
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	genitive
+@ENGLISH:	from among
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	spomiędzy
+@PNOTE:		
+@CASE:		G
 @@END:		CARD
 
 

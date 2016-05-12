@@ -216,7 +216,6 @@ Handlebars.registerHelper("paren", function(text, prefix, suffix) {
 	if (typeof suffix !== "string") {
 		suffix = ")";
 	}
-console.log("paren: text=", text, "prefix=", prefix, "suffix=",suffix);
    var output = prefix + text + suffix;
 	return new Handlebars.SafeString(output);
 });

@@ -1,0 +1,401 @@
+@@BEGIN:	CARDLIST
+
+@TITLE:		Polish prepositions
+@TITLEURL:
+@DESCRIPTION:	Polish prepositions and their noun cases
+
+@@BEGIN:	OPTIONS
+@BACKGROUND:		#333333
+@CATEGORY_BACKGROUND:	#2a2a2a
+@DEFAULT_SIDE:		1
+@@END:		OPTIONS
+
+@@BEGIN:	ABBR
+@PONS:		http://en.pons.com/translate/polish-english/
+@@END:		ABBR
+
+@@BEGIN:	SIDES
+
+@@BEGIN:	SIDE
+@TITLE:		Polish
+@WTEMPLATE:	{{{hyperlink POLISH "ABBR@PONS" POLISH}}}{{{paren SUFFIX}}} <span style="color:#999">{{{paren CASE "+" ""}}}</style>
+@TEMPLATE:	<div style="margin-top: 90px">
+			{{{hyperlink POLISH "ABBR@PONS" POLISH}}}{{{paren SUFFIX}}}
+			<span style="color:#dddddd">
+				{{{paren CASE "+" ""}}}
+				{{{paren PNOTE}}}
+			</span>
+			{{{audio AUDIO}}}
+		</div>
+		{{{quiz ENGLISH "English" QUIZOFF}}}
+		{{{forvo POLISH}}}
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		English
+@WTEMPLATE:	{{{ENGLISH}}}{{{paren ENGLISH2 ", " ""}}}
+		<span style="color:#999">
+			{{{paren ENOTE}}}
+		</span>
+@TEMPLATE:	<div style="margin-top: 90px">
+			{{{ENGLISH}}}{{{paren ENGLISH2 ", " ""}}}
+			<span style="color:#dddddd">
+				{{{paren ENOTE}}}
+			</span>
+		</div>
+		{{{quiz POLISH "Polish" QUIZOFF}}}
+@@END:		SIDE
+
+@@END:		SIDES
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	although
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	chociaż
+@PNOTE:		
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	and
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	i
+@PNOTE:		a
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	as... as...
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	tak, jak...
+@PNOTE:		
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	as though
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	jak gdyby
+@PNOTE:		
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	as soon as
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	jak tylko
+@PNOTE:		
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	at the time when
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	wtedy
+@PNOTE:		kiedy...
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	because
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	dlatego, że...
+@PNOTE:		
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	before
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	zanim...
+@PNOTE:		
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	both... and...
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	i... i...
+@PNOTE:		
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	but
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	ale. a
+@PNOTE:		
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	either... or...
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	albo... albo...
+@PNOTE:		
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	for
+@ENGLISH2:	because, since
+@ENOTE:		
+@POLISH:	bo
+@PNOTE:		
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	if
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	jeśli
+@PNOTE:		
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	if... then...
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	jeśli... to...
+@PNOTE:		
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	neither... nor...
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	ani... ani...
+@PNOTE:		
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	only just
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	co dopiero
+@PNOTE:		
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	or
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	albo
+@PNOTE:		
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	since
+@ENGLISH2:	as long as
+@ENOTE:		
+@POLISH:	skoro
+@PNOTE:		
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	since
+@ENGLISH2:	for
+@ENOTE:		
+@POLISH:	ponieważ
+@PNOTE:		
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	than
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	niż
+@PNOTE:		
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	so that
+@ENGLISH2:	in order to
+@ENOTE:		
+@POLISH:	żeby
+@PNOTE:		
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	that
+@ENGLISH2:	
+@ENOTE:		subord. conj.
+@POLISH:	że
+@PNOTE:		
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	the way that
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	tak, jak...
+@PNOTE:		
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	then
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	to, wtedy
+@PNOTE:		
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	therefore
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	dlatego
+@PNOTE:		
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	until
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	dopóki nie zanim, aż
+@PNOTE:		
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	whether
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	czy
+@PNOTE:		
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	whether... or...
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	czy... czy...
+@PNOTE:		
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	
+@PNOTE:		
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	
+@PNOTE:		
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	
+@PNOTE:		
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	
+@PNOTE:		
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	
+@PNOTE:		
+@CASE:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	
+@ENGLISH2:	
+@ENOTE:		
+@POLISH:	
+@PNOTE:		
+@CASE:		
+@@END:		CARD
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+@@END:		CARDLIST
+
+
+
