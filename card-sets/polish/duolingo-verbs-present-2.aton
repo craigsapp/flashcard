@@ -372,7 +372,7 @@
 @@BEGIN:	CARD
 @CATEGORY:	lesson 4
 @ENGLISH:	Are you listening to music?
-@ENOTE:		Do you listen to music?
+@ENOTE:		Do yous listen to music?
 @POLISH:	Czy wy słuchacie muzyki?
 @@END:		CARD
 
@@ -434,14 +434,7 @@
 
 @@BEGIN:	CARD
 @CATEGORY:	lesson 4
-@ENGLISH:	Do you listen to music?
-@ENOTE:		
-@POLISH:	Czy wy słuchacie muzyki?
-@@END:		CARD
-
-@@BEGIN:	CARD
-@CATEGORY:	lesson 4
-@ENGLISH:	You listen to music.
+@ENGLISH:	Yous listen to music.
 @ENOTE:		
 @POLISH:	Wy słuchacie muzyki.
 @@END:		CARD
