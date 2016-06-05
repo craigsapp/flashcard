@@ -240,4 +240,22 @@ Handlebars.registerHelper("wordlistcell", function(template, that) {
 
 
 
+//////////////////////////////
+//
+// vspace Handlebars helper -- For printing vertical spacer.
+//
+
+Handlebars.registerHelper("vspace", function(vspace) {
+	if (!vspace) {
+		return new Handlebars.SafeString("");
+	}
+
+	var output = "<div style='margin-top:";
+	output += vspace;
+ 	output += "'></div>";
+	return new Handlebars.SafeString(output);
+});
+
+
+
 

@@ -1,0 +1,252 @@
+
+@@BEGIN:	CARDLIST
+
+@TITLE:		Tallest buildings in Warsaw
+@TITLEURL:	https://en.wikipedia.org/wiki/List_of_tallest_buildings_in_Warsaw
+@DESCRIPTION:	
+
+@@BEGIN:	OPTIONS
+@BACKGROUND:		#333333
+@CATEGORY_BACKGROUND:	#2a2a2a
+@DEFAULT_SIDE:		1
+@@END:		OPTIONS
+
+@@BEGIN:	ABBR
+@PONS:		http://en.pons.com/translate/polish-english/
+@@END:		ABBR
+
+@@BEGIN:	SIDES
+
+@@BEGIN:	SIDE
+@TITLE:		English
+@WTEMPLATE:	
+		{{{paren RANK "#" ". "}}}
+		{{{ENGLISH}}} 
+		{{{paren HEIGHTF "," ""}}}
+@TEMPLATE:	
+		{{{vspace "90px"}}}
+		{{{paren RANK "#" ". "}}}
+		{{{hyperlink ENGLISH URL ""}}}
+		{{{paren HEIGHTF "<br>" ""}}}
+		{{{paren STYLE "<br>" ""}}}
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		Polish
+@WTEMPLATE:	{{{POLISH}}}, {{{HEIGHTM}}}
+@TEMPLATE:	
+		<a target="new" href="{{{MAP}}}">
+			{{{imageorword IMAGE POLISH}}}
+		</a>
+		<br>
+		{{{HEIGHTM}}}
+@@END:		SIDE
+
+@@END:		SIDES
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	skyscraper
+@ENGLISH:	Palace of Culture and Science
+@POLISH:	Pałac Kultury i Nauki
+@HEIGHTM:	237 m
+@HEIGHTF:	778 ft
+@RANK:		1
+@YEAR:		1955
+@STYLE:		Socialist realism
+@ARCHITECT:	Lev Rudnev
+@FLOORS:	42
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/PKiN_widziany_z_WFC.jpg/300px-PKiN_widziany_z_WFC.jpg
+@URL:		https://en.wikipedia.org/wiki/Palace_of_Culture_and_Science
+@MAP:		https://www.google.com/maps/@52.2328276,21.0090842,3a,75y,241.51h,106.62t/data=!3m6!1e1!3m4!1sM86W4KpyasRSn7lHd_czvQ!2e0!7i13312!8i6656!6m1!1e1
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	skyscraper
+@ENGLISH:	Warsaw Spire
+@POLISH:	Warsaw Spire
+@HEIGHTM:	220 m
+@HEIGHTF:	720 ft
+@RANK:		2
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Warsaw_Spire_February_2016.jpg/300px-Warsaw_Spire_February_2016.jpg
+@URL:		https://en.wikipedia.org/wiki/Warsaw_Spire
+@MAP:		https://www.google.com/maps/place/Warsaw+Spire,+plac+Europejski+1,+00-844+Warszawa,+Poland/@52.2315959,20.9836849,3a,75y,46.73h,103.12t/data=!3m7!1e1!3m5!1s_GnqcszHZcSLGe0_7b9l3Q!2e0!6s%2F%2Fgeo2.ggpht.com%2Fcbk%3Fpanoid%3D_GnqcszHZcSLGe0_7b9l3Q%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D112.35098%26pitch%3D0!7i13312!8i6656!4m5!3m4!1s0x471ecc84baa5393b:0x52f498460abf56dc!8m2!3d52.2322897!4d20.9842172!6m1!1e1
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	skyscraper
+@ENGLISH:	Warsaw Trade Tower
+@POLISH:	Warsaw Trade Tower
+@HEIGHTM:	208 m
+@HEIGHTF:	682 ft
+@RANK:		3
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/La_%22Warsaw_Trade_Tower%22.jpg/180px-La_%22Warsaw_Trade_Tower%22.jpg
+@URL:		https://en.wikipedia.org/wiki/Warsaw_Trade_Tower
+@MAP:		https://www.google.com/maps/@52.2362177,20.9806023,3a,75y,123.1h,107.03t/data=!3m6!1e1!3m4!1sxHW1pNZlcODtXI8JdMnkCw!2e0!7i13312!8i6656	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	skyscraper
+@ENGLISH:	Q22
+@POLISH:	Q22
+@HEIGHTM:	195 m
+@HEIGHTF:	640 ft
+@RANK:		4
+@IMAGE:		http://thumbs.dreamstime.com/x/warsaw-poland-may-q-building-modern-office-combines-elegance-functionality-most-prestigious-office-location-71010150.jpg
+@URL:		https://en.wikipedia.org/wiki/Q22_(building)
+@MAP:		https://www.google.com/maps/@52.2356004,20.9973993,3a,75y,114.5h,106.79t/data=!3m6!1e1!3m4!1slmW6tMXnmWJohUL-SJoNmQ!2e0!7i13312!8i6656?hl=en
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	skyscraper
+@ENGLISH:	Złota 44
+@POLISH:	Złota 44
+@HEIGHTM:	192 m
+@HEIGHTF:	630 ft
+@RANK:		5
+@STYLE:		Deconstructivism
+@TYPE:		Residential
+@YEAR:		2016
+@FLOORS:	52
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Warszawa_Zlota_44_1.jpg/413px-Warszawa_Zlota_44_1.jpg
+@URL:		https://en.wikipedia.org/wiki/Z%C5%82ota_44
+@MAP:		https://www.google.com/maps/place/Z%C5%82ota+44,+Z%C5%82ota+44,+00-120+Warszawa,+Poland/@52.2312699,21.0037752,3a,75y,262.84h,120.5t/data=!3m7!1e1!3m5!1s3RqVGFPPwk_1A_577tIvEQ!2e0!6s%2F%2Fgeo2.ggpht.com%2Fcbk%3Fpanoid%3D3RqVGFPPwk_1A_577tIvEQ%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D105.63875%26pitch%3D0!7i13312!8i6656!4m5!3m4!1s0x471ecc8c49633d1d:0xaa349f21569c205!8m2!3d52.2311348!4d21.0024676!6m1!1e1?hl=en
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	skyscraper
+@ENGLISH:	Rondo 1
+@POLISH:	Rondo 1
+@HEIGHTM:	192 m
+@HEIGHTF:	630 ft
+@RANK:		6
+@ARCHITECT:	Larry Oltmanns
+@STYLE:		
+@TYPE:		Office Tower
+@YEAR:		2006
+@FLOORS:	40
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Rondo_1_Warsaw_2016.jpg/300px-Rondo_1_Warsaw_2016.jpg
+@URL:		https://en.wikipedia.org/wiki/Rondo_1
+@MAP:		https://www.google.com/maps/@52.2333834,20.9976036,3a,75y,96.75h,102.47t/data=!3m6!1e1!3m4!1sGrOJMbKMTTmSUZsBPBWuMw!2e0!7i13312!8i6656
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	skyscraper
+@ENGLISH:	Centrum LIM ("The Marriott")
+@POLISH:	Centrum LIM
+@HEIGHTM:	170 m
+@HEIGHTF:	560 ft
+@RANK:		7
+@ARCHITECT:	
+@STYLE:		International Style
+@TYPE:		Hotel, offices, retail
+@YEAR:		1989
+@FLOORS:	43
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Warsaw_Marriott_Hotel_August_2010.JPG/300px-Warsaw_Marriott_Hotel_August_2010.JPG
+@URL:		https://en.wikipedia.org/wiki/Centrum_LIM
+@MAP:		https://www.google.com/maps/@52.2283754,21.0043983,3a,75y,151.37h,124.69t/data=!3m6!1e1!3m4!1sUJsXU8ITE2FTBZzMsp5_uA!2e0!7i13312!8i6656!6m1!1e1
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	skyscraper
+@ENGLISH:	Warsaw Financial Center
+@POLISH:	Warsaw Financial Center
+@HEIGHTM:	165 m
+@HEIGHTF:	541 ft
+@RANK:		8
+@STYLE:		International Style
+@TYPE:		Hotel, offices, retail
+@YEAR:		1989
+@FLOORS:	43
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Warsaw_Financial_Center_WFC.jpg/375px-Warsaw_Financial_Center_WFC.jpg
+@URL:		https://en.wikipedia.org/wiki/Warsaw_Financial_Center
+@MAP:		https://www.google.com/maps/@52.2338635,21.0025347,3a,75y,230.42h,122.34t/data=!3m6!1e1!3m4!1sAAq9osfPUJZ6Q_m8Kq6EXQ!2e0!7i13312!8i6656!6m1!1e1?hl=en
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	skyscraper
+@ENGLISH:	InterContinental Warsaw
+@POLISH:	InterContinental Warsaw
+@HEIGHTM:	164 m
+@HEIGHTF:	538 ft
+@RANK:		9
+@STYLE:		Neomodern
+@TYPE:		Hotel
+@YEAR:		2003
+@FLOORS:	45
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/InterContinental_Warszawa.JPG/300px-InterContinental_Warszawa.JPG
+@URL:		https://en.wikipedia.org/wiki/InterContinental_Warsaw
+@MAP:		https://www.google.com/maps/@52.2334448,21.0027864,3a,75y,186.46h,115.19t/data=!3m6!1e1!3m4!1s0TAtiLpdYN8MW0wK1qbV7Q!2e0!7i13312!8i6656!6m1!1e1?hl=en
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	skyscraper
+@ENGLISH:	Cosmopolitan Twarda 2/4
+@POLISH:	Cosmopolitan Twarda 2/4
+@HEIGHTM:	160 m
+@HEIGHTF:	520 ft
+@RANK:		10
+@STYLE:		Neomodern
+@TYPE:		Residential
+@YEAR:		2014
+@FLOORS:	44
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/POL_Warszawa_Cosmopolitan_01.jpg/300px-POL_Warszawa_Cosmopolitan_01.jpg
+@URL:		https://en.wikipedia.org/wiki/Cosmopolitan_Twarda_2/4
+@MAP:		https://www.google.com/maps/@52.2342816,21.0020446,3a,75y,348.54h,112.24t/data=!3m6!1e1!3m4!1sKGY2J2uYlyXvM1EqZGgPKg!2e0!7i13312!8i6656!6m1!1e1
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	skyscraper
+@ENGLISH:	Oxford Tower
+@POLISH:	Oxford Tower
+@HEIGHTM:	150 m
+@HEIGHTF:	495 ft
+@RANK:		11
+@STYLE:		
+@TYPE:		
+@YEAR:		1978
+@FLOORS:	
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Marriott_and_oxford_tower_warsaw.JPG/300px-Marriott_and_oxford_tower_warsaw.JPG
+@URL:		https://en.wikipedia.org/wiki/Cosmopolitan_Twarda_2/://en.wikipedia.org/wiki/Oxford_Tower,_Warsaw	
+@MAP:		https://www.google.com/maps/@52.2276122,21.00165,3a,75y,186.66h,120.09t/data=!3m6!1e1!3m4!1sHHiUPHcBXUctSrjY7aektA!2e0!7i13312!8i6656!6m1!1e1?hl=en
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	skyscraper
+@ENGLISH:	Intraco I
+@POLISH:	Intraco I
+@HEIGHTM:	138 m
+@HEIGHTF:	453 ft
+@RANK:		12
+@STYLE:		
+@TYPE:		
+@YEAR:		1975
+@FLOORS:	39
+@IMAGE:		https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Intraco_I_-_radek_ko%C5%82akowski.jpg/300px-Intraco_I_-_radek_ko%C5%82akowski.jpg
+@URL:		https://en.wikipedia.org/wiki/Intraco_I
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	skyscraper
+@ENGLISH:	Spektrum
+@POLISH:	Spektrum
+@HEIGHTM:	128 m
+@HEIGHTF:	422 ft
+@RANK:		13
+@STYLE:		
+@TYPE:		
+@YEAR:		2002
+@FLOORS:	35
+@IMAGE:		http://www.urbanity.pl/photos/01/66/20166.jpg
+@URL:		https://en.wikipedia.org/wiki/Spektrum_(building)
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+@@END:		CARDLIST
+
+
+

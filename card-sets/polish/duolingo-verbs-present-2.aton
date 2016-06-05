@@ -1,0 +1,454 @@
+
+@@BEGIN:	CARDLIST
+
+@TITLE:		Duolingo verbs, present 2
+@TITLEURL:	https://www.duolingo.com/skill/pl/Verbs%3A-Present-2
+@DESCRIPTION:	Present tense verbs, set 2.
+
+@@BEGIN:	OPTIONS
+@BACKGROUND:		#333333
+@CATEGORY_BACKGROUND:	#2a2a2a
+@DEFAULT_SIDE:		1
+@@END:		OPTIONS
+
+@@BEGIN:	ABBR
+@PONS:		http://en.pons.com/translate/polish-english/
+@@END:		ABBR
+
+@@BEGIN:	SIDES
+
+@@BEGIN:	SIDE
+@TITLE:		Polish
+@WTEMPLATE:	{{{POLISH}}}
+@TEMPLATE:	<div style="margin-top: 60px">
+			{{{hyperlink POLISH "ABBR@PONS" POLISH}}}
+			{{{audio AUDIO}}}
+		</div>
+		{{{QUIZ POLISH NOQUIZ}}}
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		English
+@WTEMPLATE:	{{{ENGLISH}}}
+@TEMPLATE:	{{{imageorword IMAGE ENGLISH}}}
+		{{{paren ENOTE "," ""}}}
+		{{{QUIZ ENGLISH NOQUIZ}}}
+@@END:		SIDE
+
+@@END:		SIDES
+
+
+@@@ LESSON 1 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	house
+@ENOTE:		home
+@POLISH:	dom
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	school
+@ENOTE:		
+@POLISH:	szkoła
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	She is going.
+@ENOTE:		
+@POLISH:	Ona idzie.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	You are going.
+@ENOTE:		
+@POLISH:	Ty idziesz.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	Yous are going.
+@ENOTE:		
+@POLISH:	Wy idziecie.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	You and I are going.
+@ENOTE:		
+@POLISH:	Ty i ja idziemy
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	I am going home.
+@ENOTE:		
+@POLISH:	Idę do domu.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	This is a school.
+@ENOTE:		
+@POLISH:	To jest szkoła.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	Are you going to school?
+@ENOTE:		
+@POLISH:	Czy ty idziesz do szkoły?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	This is a house.
+@ENOTE:		
+@POLISH:	To jest dom.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	Do you see that school?
+@ENOTE:		
+@POLISH:	Widzisz tamtą szkołę?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	We are going home.
+@ENOTE:		
+@POLISH:	Idziemy do domu.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	We are going to school.
+@ENOTE:		
+@POLISH:	My idsiemy do szkoły.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	I am going home.
+@ENOTE:		
+@POLISH:	Idę do domu.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	I am going to school.
+@ENOTE:		
+@POLISH:	Idę do szkoły.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	Are yous going to school?
+@ENOTE:		
+@POLISH:	Idziecie do szkoły?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	She is going to school.
+@ENOTE:		
+@POLISH:	One Idzie do szkoły.
+@@END:		CARD
+
+
+@@@ LESSON 2 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	I am walking.
+@ENOTE:		
+@POLISH:	Ja chodzę
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	They are walking.
+@ENOTE:		
+@POLISH:	Oni chodzą.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	Yous are walking.
+@ENOTE:		
+@POLISH:	Wy chodzicie.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	We are walking.
+@ENOTE:		
+@POLISH:	My chodzimy.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	The horse is walking.
+@ENOTE:		
+@POLISH:	Koń chodzi
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	The girl is walking.
+@ENOTE:		
+@POLISH:	Dziewczynka chodzi.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	My children walk.
+@ENOTE:		
+@POLISH:	Moje dzieci chodzą.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	I walk and speak.
+@ENOTE:		
+@POLISH:	Ja chodzę i mówie.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	Do you walk?
+@ENOTE:		
+@POLISH:	Czy wy chodzicie?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	You walk.
+@ENOTE:		
+@POLISH:	Ty chodzisz.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	Their dog is walking.
+@ENOTE:		
+@POLISH:	Ich pies chodzi.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	We go to the boy.
+@ENOTE:		
+@POLISH:	My chodzimy do chłopca.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	I am walking and talking.
+@ENOTE:		
+@POLISH:	Ja chodzę i mówię.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	My children walk.
+@ENOTE:		
+@POLISH:	Moje czieci chodzą.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	He walks.
+@ENOTE:		
+@POLISH:	On chodzi.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	I walk.
+@ENOTE:		
+@POLISH:	Ja chodzę
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	My dogs walk.
+@ENOTE:		
+@POLISH:	Moje psy chodzą.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	Do you walk?
+@ENOTE:		
+@POLISH:	Czy ty chodzisz?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	He is walking.
+@ENOTE:		
+@POLISH:	On chodzi.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	You walk to school.
+@ENOTE:		You go to school.
+@POLISH:	Ty chodzisz do szkoły.
+@@END:		CARD
+
+@@@ LESSON 3 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 3
+@ENGLISH:	We need his cat.
+@ENOTE:		
+@POLISH:	Potrzbujemy jego kota.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 3
+@ENGLISH:	I need him!
+@ENOTE:		
+@POLISH:	Potrzebuję go!
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 3
+@ENGLISH:	Do you need this man?
+@ENOTE:		
+@POLISH:	Potrzebujesz tego mężczyzny?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 3
+@ENGLISH:	He needs a dog.
+@ENOTE:		
+@POLISH:	On potrzebuje psa.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 3
+@ENGLISH:	Do yous need a horse?
+@ENOTE:		
+@POLISH:	Potrzebujecie konia?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 3
+@ENGLISH:	They need a cat.
+@ENOTE:		
+@POLISH:	Oni potrzebują kota.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 3
+@ENGLISH:	We need a house.
+@ENOTE:		
+@POLISH:	Potrzebujemy domu.
+@@END:		CARD
+
+@@@ LESSON 4 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	music
+@ENOTE:		
+@POLISH:	muzyka
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	He listens.
+@ENOTE:		
+@POLISH:	On słucha
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	Are you listening to music?
+@ENOTE:		Do you listen to music?
+@POLISH:	Czy wy słuchacie muzyki?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	They are listening to music.
+@ENOTE:		
+@POLISH:	Oni słuchają muzyki.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	We are listening to music.
+@ENOTE:		
+@POLISH:	Słuchamy muzyki.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	I am listening to music.
+@ENOTE:		
+@POLISH:	Ja słucham muzyki.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	Yous are listening to music.
+@ENOTE:		
+@POLISH:	Wy słuchacie muzyki.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	Are you listening to music?
+@ENOTE:		
+@POLISH:	Czy ty sluchasz muzyki?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	He is listening.
+@ENOTE:		
+@POLISH:	On słucha.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	The large dog listens to the man.
+@ENOTE:		
+@POLISH:	Duży pies słucha mężczyzny.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	Are you listening to me?
+@ENOTE:		
+@POLISH:	Słuchasz mnie?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	Do you listen to music?
+@ENOTE:		
+@POLISH:	Czy wy słuchacie muzyki?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	You listen to music.
+@ENOTE:		
+@POLISH:	Wy słuchacie muzyki.
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@END:		CARDLIST
+
+
+
