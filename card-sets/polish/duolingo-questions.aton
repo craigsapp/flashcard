@@ -1,0 +1,305 @@
+
+@@BEGIN:	CARDLIST
+
+@TITLE:		Duolingo adverbs
+@TITLEURL:	https://www.duolingo.com/skill/pl/Adverbs
+@DESCRIPTION:	Adverbs
+
+@@BEGIN:	OPTIONS
+@BACKGROUND:		#333333
+@CATEGORY_BACKGROUND:	#2a2a2a
+@DEFAULT_SIDE:		1
+@@END:		OPTIONS
+
+@@BEGIN:	ABBR
+@PONS:		http://en.pons.com/translate/polish-english/
+@@END:		ABBR
+
+@@BEGIN:	SIDES
+
+@@BEGIN:	SIDE
+@TITLE:		Polish
+@WTEMPLATE:	{{{POLISH}}}
+@TEMPLATE:	<div style="margin-top: 60px">
+			{{{hyperlink POLISH "ABBR@PONS" POLISH}}}
+			{{{audio AUDIO}}}
+		</div>
+		{{{quiz ENGLISH "English" QUIZOFF}}}
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		English
+@WTEMPLATE:	{{{ENGLISH}}}
+@TEMPLATE:	{{{imageorword IMAGE ENGLISH}}}
+		{{{paren ENOTE "," ""}}}
+		{{{quiz POLISH "Polish" QUIZOFF}}}
+@@END:		SIDE
+
+@@END:		SIDES
+
+
+@@@ Vocabulary @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 1
+@ENGLISH:	where
+@ENOTE:		
+@POLISH:	gdzie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 1
+@ENGLISH:	when
+@ENOTE:		
+@POLISH:	kiedy
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 1
+@ENGLISH:	why
+@ENOTE:		
+@POLISH:	dlaczego
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 1
+@ENGLISH:	question
+@ENOTE:		
+@POLISH:	pytanie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 1
+@ENGLISH:	what
+@ENOTE:		
+@POLISH:	co
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 2
+@ENGLISH:	
+@ENOTE:		
+@POLISH:	czyimi
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 2
+@ENGLISH:	what
+@ENOTE:		which one, that, who, which
+@POLISH:	która
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 2
+@ENGLISH:	what
+@ENOTE:		which kind of
+@POLISH:	jakiej
+@POLISH:	feminine G,D,L
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 2
+@ENGLISH:	whose (G)
+@ENOTE:		whom (A)
+@POLISH:	kogo
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 2
+@ENGLISH:	
+@ENOTE:		
+@POLISH:	odpowiedzi
+@@END:		CARD
+
+@@@ LESSON 1 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	Why don't you speak Polish?
+@ENOTE:		
+@POLISH:	Dlaczego nie mówisz po polsku?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	Where is my dog?
+@ENOTE:		
+@POLISH:	Gdzie jest mój pies?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	What are you eating?
+@ENOTE:		
+@POLISH:	Co jesz?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	It is a good question.
+@ENOTE:		
+@POLISH:	To dobre pytanie.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	What do you like?
+@ENOTE:		
+@POLISH:	Co lubisz?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	What do you see?
+@ENOTE:		
+@POLISH:	Co widisz?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	What do yous like?
+@ENOTE:		
+@POLISH:	Co lubicie?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	What do you like?
+@ENOTE:		
+@POLISH:	Co lubisz?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	What is the boy drinking?
+@ENOTE:		
+@POLISH:	Co pije chłopiec?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	What do yous see?
+@ENOTE:		
+@POLISH:	Co widicie?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	Where is the boy?
+@ENOTE:		
+@POLISH:	Gdzie jest chłopiec?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	Why not?
+@ENOTE:		
+@POLISH:	Dlaczego nie?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	Gdzie jesteś?
+@ENOTE:		
+@POLISH:	Where are you?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	
+@ENOTE:		
+@POLISH:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	Why are you going home?
+@ENOTE:		
+@POLISH:	Dlaczego idziesz do domu?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	Where are you going?
+@ENOTE:		
+@POLISH:	Gdzie idziesz?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	Why do you eat meat?
+@ENOTE:		
+@POLISH:	Dlaczego jesz mięso?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	Where are your dogs?
+@ENOTE:		
+@POLISH:	Gdzie są towje psy?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	Where are these men?
+@ENOTE:		
+@POLISH:	Gdzie są ci mężczyźni?
+@@END:		CARD
+
+@@@ LESSON 2 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	What is your answer?
+@ENOTE:		
+@POLISH:	Jaka jest towja odpowiedź?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	Whose coat is this?
+@ENOTE:		
+@POLISH:	Czyj jest ten płaszcz?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	Who is drinking coffee?
+@ENOTE:		
+@POLISH:	Kto pije kawę?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	Which men speak Polish?
+@ENOTE:		
+@POLISH:	Którzy mężczyźni mówią po polsku?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	Which man is old?
+@ENOTE:		
+@POLISH:	Który mężczyzna jest stary?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	What is your question?
+@ENOTE:		
+@POLISH:	Jakie jest towje pytanie?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	Whose wife speaks English?
+@ENOTE:		
+@POLISH:	Czyja żona mówi po angielsku?
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@END:		CARDLIST
+
+
+

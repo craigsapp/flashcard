@@ -1,0 +1,280 @@
+
+@@BEGIN:	CARDLIST
+
+@TITLE:		Duolingo people
+@TITLEURL:	https://www.duolingo.com/skill/pl/People
+@DESCRIPTION:	People
+
+@@BEGIN:	OPTIONS
+@BACKGROUND:		#333333
+@CATEGORY_BACKGROUND:	#2a2a2a
+@DEFAULT_SIDE:		1
+@@END:		OPTIONS
+
+@@BEGIN:	ABBR
+@PONS:		http://en.pons.com/translate/polish-english/
+@@END:		ABBR
+
+@@BEGIN:	SIDES
+
+@@BEGIN:	SIDE
+@TITLE:		Polish
+@WTEMPLATE:	{{{POLISH}}}
+@TEMPLATE:	<div style="margin-top: 60px">
+			{{{hyperlink POLISH "ABBR@PONS" POLISH}}}
+			{{{audio AUDIO}}}
+		</div>
+		{{{quiz ENGLISH "English" QUIZOFF}}}
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		English
+@WTEMPLATE:	{{{ENGLISH}}}
+@TEMPLATE:	{{{imageorword IMAGE ENGLISH}}}
+		{{{paren ENOTE "," ""}}}
+		{{{quiz POLISH "Polish" QUIZOFF}}}
+@@END:		SIDE
+
+@@END:		SIDES
+
+
+@@@ LESSON 1 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	I like adult people
+@ENOTE:		
+@POLISH:	Lubię dorosłych ludzi.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	I do not see our women.
+@ENOTE:		
+@POLISH:	Nie widzę naszych kobiet.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	We are speaking about our children.
+@ENOTE:		
+@POLISH:	Mówimy o naszych dzieciach.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	We do not see our men.
+@ENOTE:		
+@POLISH:	Nie widzimy naszych mężchyzn.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	Is your girlfriend buying this house?
+@ENOTE:		
+@POLISH:	Czy twoja dziewczyna kupuje ten dom?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	Do you have a girlfriend?
+@ENOTE:		
+@POLISH:	Masz dziewczynę?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	Are you an adult?
+@ENOTE:		
+@POLISH:	Czy ty jesteś dorosła?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	I do not see my child.
+@ENOTE:		
+@POLISH:	Nie widzę mojego dziecka.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	These are adult men.
+@ENOTE:		
+@POLISH:	To są dorośli ludzie.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	He does not have a girlfriend.
+@ENOTE:		
+@POLISH:	On nie ma dziewczyny.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	I am an adult human.
+@ENOTE:		I am an adult man.
+@POLISH:	Jestem dorosłym człowiekiem.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	I am an adult.
+@ENOTE:		
+@POLISH:	Jestem dorosły.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	This gentleman is not my acquaintance.
+@ENOTE:		
+@POLISH:	Ten pan nie jest moim znajomym.
+@@END:		CARD
+
+@@@ LESSON 2 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	I am looking for a new group of friends.
+@ENOTE:		
+@POLISH:	Szukam nowej grupy przyjaciól.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	This is my enemy.
+@ENOTE:		
+@POLISH:	To mój wróg.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	colleague
+@ENOTE:		friend
+@POLISH:	Kolega
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	This lady is a secretary.
+@ENOTE:		
+@POLISH:	Ta pani jest sekretarką.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	This gentleman is not my acquaintance.
+@ENOTE:		
+@POLISH:	Ten pan nie jest moim znajomym.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	I am not your enemy!
+@ENOTE:		
+@POLISH:	Nie jestem twoim wrogiem!
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	Are you my friend?
+@ENOTE:		
+@POLISH:	Jesteś moim przyjacielem?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	That group does not like me.
+@ENOTE:		
+@POLISH:	Tamta grupa mnie nie lubi.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	Are you my colleague?
+@ENOTE:		
+@POLISH:	Jesteś moim kolegą?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	This is my friend.
+@ENOTE:		
+@POLISH:	To mój przyjaciel.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	I do not have enemies.
+@ENOTE:		
+@POLISH:	Nie mam wrogów.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	I have a group of good friends.
+@ENOTE:		
+@POLISH:	Mam groupę dobrych przyjaciół.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	They are not my friends.
+@ENOTE:		
+@POLISH:	Oni nie są moimi przyjaciółmi.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	The enemy of my enemy is my friend.
+@ENOTE:		
+@POLISH:	Wróg mojego wroga jes moim przyjacielem.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	Where is my boyfriend?
+@ENOTE:		
+@POLISH:	Gzdie jest mój chłopak?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	
+@ENOTE:		
+@POLISH:	
+@@END:		CARD
+
+@@@ LESSON 3 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 3
+@ENGLISH:	
+@ENOTE:		
+@POLISH:	
+@@END:		CARD
+
+@@@ LESSON 4 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	
+@ENOTE:		
+@POLISH:	
+@@END:		CARD
+
+@@@ LESSON 5 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 5
+@ENGLISH:	
+@ENOTE:		
+@POLISH:	
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@END:		CARDLIST
+
+
+

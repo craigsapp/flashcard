@@ -1,0 +1,831 @@
+
+@@BEGIN:	CARDLIST
+
+@TITLE:		Duolingo adverbs
+@TITLEURL:	https://www.duolingo.com/skill/pl/Adverbs
+@DESCRIPTION:	Adverbs
+
+@@BEGIN:	OPTIONS
+@BACKGROUND:		#333333
+@CATEGORY_BACKGROUND:	#2a2a2a
+@DEFAULT_SIDE:		1
+@@END:		OPTIONS
+
+@@BEGIN:	ABBR
+@PONS:		http://en.pons.com/translate/polish-english/
+@@END:		ABBR
+
+@@BEGIN:	SIDES
+
+@@BEGIN:	SIDE
+@TITLE:		Polish
+@WTEMPLATE:	{{{POLISH}}}
+@TEMPLATE:	<div style="margin-top: 60px">
+			{{{hyperlink POLISH "ABBR@PONS" POLISH}}}
+			{{{audio AUDIO}}}
+		</div>
+		{{{quiz ENGLISH "English" QUIZOFF}}}
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		English
+@WTEMPLATE:	{{{ENGLISH}}}
+@TEMPLATE:	{{{imageorword IMAGE ENGLISH}}}
+		{{{paren ENOTE "," ""}}}
+		{{{quiz POLISH "Polish" QUIZOFF}}}
+@@END:		SIDE
+
+@@END:		SIDES
+
+
+@@@ Vocabulary @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 1
+@ENGLISH:	there
+@ENOTE:		
+@POLISH:	tam
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 1
+@ENGLISH:	here
+@ENOTE:		
+@POLISH:	tutaj
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 1
+@ENGLISH:	very
+@ENOTE:		very much
+@POLISH:	bardzo
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 1
+@ENGLISH:	too
+@ENOTE:		more than enough, as in too much.
+@POLISH:	zbyt
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 1
+@ENGLISH:	often
+@ENOTE:		
+@POLISH:	często
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 1
+@ENGLISH:	rarely
+@ENOTE:		seldom
+@POLISH:	rzadko
+@@END:		CARD
+
+@CATEGORY:	vocabulary, lesson 2
+@ENGLISH:	never
+@ENOTE:		
+@POLISH:	nigdy
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 2
+@ENGLISH:	now
+@ENOTE:		nowadays
+@POLISH:	teraz
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 2
+@ENGLISH:	enough
+@ENOTE:		quite
+@POLISH:	dość
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 2
+@ENGLISH:	always
+@ENOTE:		
+@POLISH:	zawsze
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 2
+@ENGLISH:	also
+@ENOTE:		too
+@POLISH:	też
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 2
+@ENGLISH:	together
+@ENOTE:		altogether
+@POLISH:	razem
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 3
+@ENGLISH:	somewhere
+@ENOTE:		
+@POLISH:	gdzieś
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 3
+@ENGLISH:	even
+@ENOTE:		
+@POLISH:	nawet
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 3
+@ENGLISH:	still
+@ENOTE:		
+@POLISH:	wciąż
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 3
+@ENGLISH:	really
+@ENOTE:		truly
+@POLISH:	naprawdę
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 3
+@ENGLISH:	again
+@ENOTE:		anew
+@POLISH:	znowu
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 3
+@ENGLISH:	rather
+@ENOTE:		
+@POLISH:	raczej
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 4
+@ENGLISH:	yet
+@ENOTE:		still
+@POLISH:	jeszcze
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 4
+@ENGLISH:	already
+@ENOTE:		yet, anymore
+@POLISH:	już
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 4
+@ENGLISH:	especially
+@ENOTE:		particularly
+@POLISH:	zwłaszcza
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 4
+@ENGLISH:	usually
+@ENOTE:		generlly, commonly
+@POLISH:	zwykle
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 4
+@ENGLISH:	sometimes
+@ENOTE:		occasionally, from time to time
+@POLISH:	czasem
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 4
+@ENGLISH:	otherwise
+@ENOTE:		differently
+@POLISH:	inaczej
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 5
+@ENGLISH:	completely
+@ENOTE:		absolutely, all
+@POLISH:	zupełnie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 5
+@ENGLISH:	perhaps
+@ENOTE:		maybe
+@POLISH:	może
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 5
+@ENGLISH:	daily
+@ENOTE:		every day
+@POLISH:	codziennie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 5
+@ENGLISH:	absolutely
+@ENOTE:		certainly, definitely, for sure
+@POLISH:	na pewno
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 5
+@ENGLISH:	good
+@ENOTE:		well
+@POLISH:	dobrze
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 5
+@ENGLISH:	badly
+@ENOTE:		wrongly
+@POLISH:	źle
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 6
+@ENGLISH:	far
+@ENOTE:		a long distance, by far
+@POLISH:	daleko
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 6
+@ENGLISH:	late
+@ENOTE:		
+@POLISH:	późno
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 6
+@ENGLISH:	early
+@ENOTE:		
+@POLISH:	wcześnie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 6
+@ENGLISH:	slowly
+@ENOTE:		
+@POLISH:	wolno
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 6
+@ENGLISH:	quickly
+@ENOTE:		rapidly, fast
+@POLISH:	szybko
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 6
+@ENGLISH:	very well
+@ENOTE:		great
+@POLISH:	świetnie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 7
+@ENGLISH:	darkly
+@ENOTE:		sombrely
+@POLISH:	ciemno
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 7
+@ENGLISH:	clearly
+@ENOTE:		obviously
+@POLISH:	jasno
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 7
+@ENGLISH:	
+@ENOTE:		
+@POLISH:	czysto
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 7
+@ENGLISH:	
+@ENOTE:		
+@POLISH:	brudno
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 7
+@ENGLISH:	interestingly
+@ENOTE:		
+@POLISH:	ciekawie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary, lesson 7
+@ENGLISH:	boring
+@ENOTE:		
+@POLISH:	nudno
+@@END:		CARD
+
+@@@ LESSON 1 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 1
+@ENGLISH:	
+@ENOTE:		
+@POLISH:	
+@@END:		CARD
+
+@@@ LESSON 2 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 2
+@ENGLISH:	
+@ENOTE:		
+@POLISH:	
+@@END:		CARD
+
+@@@ LESSON 3 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 3
+@ENGLISH:	
+@ENOTE:		
+@POLISH:	
+@@END:		CARD
+
+@@@ LESSON 4 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	Sometimes I am sad.
+@ENOTE:		
+@POLISH:	Czasami jestem smutny.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4, vocabulary
+@ENGLISH:	Sometimes
+@ENOTE:		
+@POLISH:	Czasami
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	This waiter does it differently
+@ENOTE:		
+@POLISH:	Ten kelner robi to inaczej.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	differently
+@ENOTE:		
+@POLISH:	inaczej
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	Usually I eat bread for breakfast.
+@ENOTE:		
+@POLISH:	Zwykle jem chleb na śnaidanie.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	I like my room, especially my bed.
+@ENOTE:		
+@POLISH:	Lubię mój pokój, zwłaszcza moje łożko.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	especially
+@ENOTE:		
+@POLISH:	zwłaszcza
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	Usually I am not sad.
+@ENOTE:		
+@POLISH:	Zazwyczaj nie jestem smutna.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	Sometimes we visit our grandmother.
+@ENOTE:		
+@POLISH:	Czasami odwiedzamy naszś babcię.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	Sometimes I eat with my parents.
+@ENOTE:		
+@POLISH:	Czasami jem z moimi rodzicami.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	Usually I am not sad.
+@ENOTE:		
+@POLISH:	Zazwyczaj nie jestem smutna/smutny.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	Usually I do not visit my family.
+@ENOTE:		
+@POLISH:	Zwykle nie odwiedzam mojej rodziny.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	Sometimes I am sad.
+@ENOTE:		
+@POLISH:	Czasami jestem smutna/smutny.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	I sometimes eat with my parents.
+@ENOTE:		
+@POLISH:	Czasami jem z moimi rodzicami.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	I usually eat bread for breakfast.
+@ENOTE:		
+@POLISH:	Zwykle jem chleb na śniadanie.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	Today I am eating in a different way.
+@ENOTE:		
+@POLISH:	Dziś jem inaczej.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	My son like animals, especially ducks.
+@ENOTE:		
+@POLISH:	Mój syn lubi zwierzęta zwłaszcza kaczki.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	We cook differently
+@ENOTE:		
+@POLISH:	gotujemy inaczej.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	lubię mój pokój, zwłaszcza moje łóżko.
+@ENOTE:		
+@POLISH:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	We cook in a different way.
+@ENOTE:		
+@POLISH:	My gotujemy inaczej.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	I respect my empolyees, especially engineers.
+@ENOTE:		
+@POLISH:	Szanuję moich pracowników, zwłaszcza inżynierów.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	I am not an artist yet.
+@ENOTE:		
+@POLISH:	Jeszcze nie jestem artystą.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 4
+@ENGLISH:	Usually I am not sad.
+@ENOTE:		
+@POLISH:	Zazwyczaj nie jestem smutny.
+@@END:		CARD
+
+@@@ LESSON 5 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 5
+@ENGLISH:	Do you drink coffee every day?
+@ENOTE:		
+@POLISH:	Pijesz kawę codziennie?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 5
+@ENGLISH:	Może ona go nie kocha.
+@ENOTE:		
+@POLISH:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 5
+@ENGLISH:	Maybe she does not love him.
+@ENOTE:		
+@POLISH:	Może ona go nie kocha.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 5
+@ENGLISH:	Her husband cooks poorly.
+@ENOTE:		
+@POLISH:	Jej mąż źle gotuje.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 5
+@ENGLISH:	This cheese is completely green!
+@ENOTE:		
+@POLISH:	Ten ser jest zupełnie zielony!
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 5
+@ENGLISH:	He certainly does not like apples.
+@ENOTE:		
+@POLISH:	On na pewno nie lubi jabłek.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 5
+@ENGLISH:	This book is certainly boring.
+@ENOTE:		
+@POLISH:	Ta książka na pewno jest nudna.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 5
+@ENGLISH:	He certainly loves this man.
+@ENOTE:		
+@POLISH:	On na pewno kocha tego mężczyznę.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 5
+@ENGLISH:	Your overcoat is completely wet.
+@ENOTE:		
+@POLISH:	Twój płaszcz jest jupełnie mokry.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 5
+@ENGLISH:	Maybe she does not love him.
+@ENOTE:		
+@POLISH:	Może one go nie kocha.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 5
+@ENGLISH:	I read books every day.
+@ENOTE:		
+@POLISH:	czytam książki codziennie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 5
+@ENGLISH:	Do we work badly?
+@ENOTE:		
+@POLISH:	Czy pracujemy źle?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 5
+@ENGLISH:	Your overcoat is completely wet.
+@ENOTE:		
+@POLISH:	Twój płaszcz jest zupełnie mokry.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 5
+@ENGLISH:	Maybe he is a policeman.
+@ENOTE:		
+@POLISH:	Może on jest policjantem.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 5
+@ENGLISH:	We we visit our family every day.
+@ENOTE:		
+@POLISH:	Codziennie odwiedzamy naszą rodzinę.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 5
+@ENGLISH:	I read books every day.
+@ENOTE:		
+@POLISH:	Codziennie czytam książki.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 5
+@ENGLISH:	Maybe she does not like meat.
+@ENOTE:		
+@POLISH:	Może ona nie lubi mięsa.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 5
+@ENGLISH:	My son cooks very well.
+@ENOTE:		
+@POLISH:	Mój syn bardzo dobrze gotuje.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 5
+@ENGLISH:	Your coat is completely wet.
+@ENOTE:		
+@POLISH:	Twój płaszcz jest zupełnie mokry.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 5
+@ENGLISH:	
+@ENOTE:		
+@POLISH:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 5
+@ENGLISH:	
+@ENOTE:		
+@POLISH:	
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 6
+@ENGLISH:	Brilliant!
+@ENOTE:		Great!
+@POLISH:	Świetnie!
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 6
+@ENGLISH:	Too late.
+@ENOTE:		
+@POLISH:	Za późno.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 6
+@ENGLISH:	The girls are working quickly.
+@ENOTE:		
+@POLISH:	Dziewczynki pranują szybko.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 6
+@ENGLISH:	Why are you writing slowly?
+@ENOTE:		
+@POLISH:	Dlaczego piszecie wolno?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 6
+@ENGLISH:	The dog is lying far away from the cat.
+@ENOTE:		
+@POLISH:	Pies leży daleko od kota
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 6
+@ENGLISH:	Early in the morning and late in the evening.
+@ENOTE:		
+@POLISH:	Wcześnie rano i póżno wieczorem.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 6
+@ENGLISH:	You speak Polish brilliantly.
+@ENOTE:		
+@POLISH:	Świetnie mówisz po polsku.
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 7
+@ENGLISH:	It is boring in the evening.
+@ENOTE:		
+@POLISH:	Wieczorem jest nudno.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 7
+@ENGLISH:	It is dirty in your room.
+@ENOTE:		
+@POLISH:	W twoim pokoju jest brudno
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 7
+@ENGLISH:	This writer writes in an interesting way.
+@ENOTE:		
+@POLISH:	Ten pisarz pisze ciekawie.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 7
+@ENGLISH:	This lawyer does not speak clealy.
+@ENOTE:		
+@POLISH:	Ten prawnik nie mówi jasno.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 7
+@ENGLISH:	It is dark in my house.
+@ENOTE:		
+@POLISH:	W moim domu jest ciemno.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 7
+@ENGLISH:	It is always dark in her room.
+@ENOTE:		
+@POLISH:	W jej pokoju zawsze jest ciemno.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 7
+@ENGLISH:	It is not boring in school.
+@ENOTE:		
+@POLISH:	W szkole nie jest nudno.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 7
+@ENGLISH:	Why is it dark in here?
+@ENOTE:		
+@POLISH:	Claczego jest tu ciemno?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 7
+@ENGLISH:	Why is it dirty here?
+@ENOTE:		
+@POLISH:	Dlaczego tutaj jest brudno?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 7
+@ENGLISH:	He always speaks in an interesting way.
+@ENOTE:		
+@POLISH:	On zwasze mówi ciekawie.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 7
+@ENGLISH:	Does this student speak interestingly?
+@ENOTE:		
+@POLISH:	Czy ten uczeń mówi ciekawie?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 7
+@ENGLISH:	It is bright at our school.
+@ENOTE:		
+@POLISH:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 7
+@ENGLISH:	He always speaks in an interesting way.
+@ENOTE:		
+@POLISH:	On zawsze mówi ciekawie.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	lesson 7
+@ENGLISH:	It is clean here.
+@ENOTE:		
+@POLISH:	Tutaj jest czysto.
+@@END:		CARD
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@END:		CARDLIST
+
+
+
