@@ -20,19 +20,13 @@
 @TITLE:		Polish
 @WTEMPLATE:	{{{POLISH}}}
 @TEMPLATE:	<div style="margin-top: 60px">
-			{{{hyperlink POLISH "ABBR@PONS" POLISH}}}
+			{{NUMBER}}. {{{hyperlink POLISH "ABBR@PONS" POLISH}}}
 			{{{audio AUDIO}}}
 		</div>
 		{{#if POLISHNOTE}}
 			<div style="margin-top: 100px">
 				<span style="color:#aaa;">Note:</span>
 				{{{POLISHNOTE}}}
-			</div>
-		{{/if}}
-		{{#if RUSSIAN}}
-			<div style="margin-top: 100px">
-				<span style="color:#aaa;">Russian:</span>
-				{{{RUSSIAN}}}
 			</div>
 		{{/if}}
 @@END:		SIDE
@@ -42,7 +36,7 @@
 @WTEMPLATE:	{{{ENGLISH}}}
 @TEMPLATE:	
 		<div style="margin-top:40px; font-size:100pt">
-			{{{imageorword IMAGE ENGLISH}}}
+			{{NUMBER}}. {{{imageorword IMAGE ENGLISH}}}
 		</div>
 		{{{quiz POLISH "Polish" QUIZOFF}}}
 		{{#if FUNCTION}}
@@ -59,51 +53,58 @@
 
 @@BEGIN:	CARD
 @CATEGORY:	
-@ENGLISH:	1. nominative
-@POLISH:	1. mianownik
+@NUMBER:	1
+@ENGLISH:	nominative
+@POLISH:	mianownik
 @AUDIO:		wiki:Pl-mianownik.ogg
 @@END:		CARD
 
 @@BEGIN:	CARD
 @CATEGORY:	
-@ENGLISH:	2. genitive
-@POLISH:	2. dopełniacz
+@NUMBER:	2
+@ENGLISH:	genitive
+@POLISH:	dopełniacz
 @AUDIO:		wiki:Pl-dope%C5%82niacz.ogg
 @@END:		CARD
 
 @@BEGIN:	CARD
 @CATEGORY:	
-@ENGLISH:	3. dative
-@POLISH:	3. celownik
+@NUMBER:	3
+@ENGLISH:	dative
+@POLISH:	celownik
 @AUDIO:		wiki:Pl-celownik.ogg
 @@END:		CARD
 
 @@BEGIN:	CARD
 @CATEGORY:	
-@ENGLISH:	4. accusative
-@POLISH:	4. biernik
+@NUMBER:	4
+@ENGLISH:	accusative
+@POLISH:	biernik
 @POLISHNOTE:	Related to Polish dopełniać (“complement, complete, execute (a task)”).
 @AUDIO:		wiki:Pl-biernik.ogg
 @@END:		CARD
 
 @@BEGIN:	CARD
 @CATEGORY:	
-@ENGLISH:	5. instrumental
-@POLISH:	5. narzędnik
+@NUMBER:	5
+@ENGLISH:	instrumental
+@POLISH:	narzędnik
 @AUDIO:		wiki:Pl-narz%C4%99dnik.ogg
 @@END:		CARD
 
 @@BEGIN:	CARD
 @CATEGORY:	
-@ENGLISH:	6. locative
-@POLISH:	6. miejscownik
+@NUMBER:	6
+@ENGLISH:	locative
+@POLISH:	miejscownik
 @AUDIO:		wiki:Pl-meijscownik.ogg
 @@END:		CARD
 
 @@BEGIN:	CARD
 @CATEGORY:	
-@ENGLISH:	7. vocative
-@POLISH:	7. wołacz
+@NUMBER:	7
+@ENGLISH:	vocative
+@POLISH:	wołacz
 @AUDIO:		wiki:Pl-wo%C5%82acz.ogg
 @@END:		CARD
 
