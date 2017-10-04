@@ -1,0 +1,113 @@
+@@BEGIN:	CARDLIST
+
+@TITLE:		Polish grammatic cases
+@TITLEURL:	
+@DESCRIPTION:	Flashcards for learning the names of Polish grammatic cases.
+
+@@BEGIN:	OPTIONS
+@BACKGROUND:		#333333
+@CATEGORY_BACKGROUND:	#2a2a2a
+@DEFAULT_SIDE:		1
+@@END:		OPTIONS
+
+@@BEGIN:	ABBR
+@PONS:		http://en.pons.com/translate/polish-english/
+@@END:		ABBR
+
+@@BEGIN:	SIDES
+
+@@BEGIN:	SIDE
+@TITLE:		Polish
+@WTEMPLATE:	{{{POLISH}}}
+@TEMPLATE:	<div style="margin-top: 60px">
+			{{{hyperlink POLISH "ABBR@PONS" POLISH}}}
+			{{{audio AUDIO}}}
+		</div>
+		{{#if POLISHNOTE}}
+			<div style="margin-top: 100px">
+				<span style="color:#aaa;">Note:</span>
+				{{{POLISHNOTE}}}
+			</div>
+		{{/if}}
+		{{#if RUSSIAN}}
+			<div style="margin-top: 100px">
+				<span style="color:#aaa;">Russian:</span>
+				{{{RUSSIAN}}}
+			</div>
+		{{/if}}
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		English
+@WTEMPLATE:	{{{ENGLISH}}}
+@TEMPLATE:	
+		<div style="margin-top:40px; font-size:100pt">
+			{{{imageorword IMAGE ENGLISH}}}
+		</div>
+		{{{quiz POLISH "Polish" QUIZOFF}}}
+		{{#if FUNCTION}}
+			<div style="color:#dddddd; margin-top: 120px">
+				{{{FUNCTION}}}
+			</div>
+		{{/if}}
+@@END:		SIDE
+
+@@END:		SIDES
+
+
+@@@ CASES @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	1. nominative
+@POLISH:	1. mianownik
+@AUDIO:		wiki:Pl-mianownik.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	2. genitive
+@POLISH:	2. dopełniacz
+@AUDIO:		wiki:Pl-dope%C5%82niacz.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	3. dative
+@POLISH:	3. celownik
+@AUDIO:		wiki:Pl-celownik.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	4. accusative
+@POLISH:	4. biernik
+@POLISHNOTE:	Related to Polish dopełniać (“complement, complete, execute (a task)”).
+@AUDIO:		wiki:Pl-biernik.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	5. instrumental
+@POLISH:	5. narzędnik
+@AUDIO:		wiki:Pl-narz%C4%99dnik.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	6. locative
+@POLISH:	6. miejscownik
+@AUDIO:		wiki:Pl-meijscownik.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	7. vocative
+@POLISH:	7. wołacz
+@AUDIO:		wiki:Pl-wo%C5%82acz.ogg
+@@END:		CARD
+
+
+@@END:		CARDLIST
+
+
