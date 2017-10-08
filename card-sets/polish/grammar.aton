@@ -153,7 +153,7 @@
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	other
+@CATEGORY:	gender
 @ENGLISH:	feminine
 @ENGLISH_NOTE:  gender
 @POLISH:	rodzaj żeński
@@ -161,7 +161,7 @@
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	other
+@CATEGORY:	gender
 @ENGLISH:	masculine
 @ENGLISH_NOTE:  gender
 @POLISH:	rodzaj męski
@@ -169,7 +169,7 @@
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	other
+@CATEGORY:	gender
 @ENGLISH:	neuter
 @ENGLISH_NOTE:  gender
 @POLISH:	rodzaj nijaki
@@ -177,21 +177,21 @@
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	other
+@CATEGORY:	parts of speech
 @ENGLISH:	verb
 @POLISH:	czasownik
 @AUDIO:		
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	other
+@CATEGORY:	parts of speech
 @ENGLISH:	imperfect verb
 @POLISH:	czasownik niedokonany
 @AUDIO:		
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	other
+@CATEGORY:	parts of speech
 @ENGLISH:	perfect verb
 @POLISH:	czasownik dokonany
 @AUDIO:		
