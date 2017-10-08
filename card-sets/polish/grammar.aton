@@ -1,0 +1,251 @@
+@@BEGIN:	CARDLIST
+
+@TITLE:		Grammar vocagulary
+@TITLEURL:	
+@DESCRIPTION:	Flashcards for learning names of grammatic cases in Polish.
+@NOTE:		Page 8 of Cześć, jak się masz?
+
+@@BEGIN:	OPTIONS
+@BACKGROUND:		#333333
+@CATEGORY_BACKGROUND:	#2a2a2a
+@DEFAULT_SIDE:		1
+@@END:		OPTIONS
+
+@@BEGIN:	ABBR
+@PONS:		http://en.pons.com/translate/polish-english/
+@@END:		ABBR
+
+@@BEGIN:	SIDES
+
+@@BEGIN:	SIDE
+@TITLE:		Polish
+@WTEMPLATE:	{{{POLISH}}}
+@TEMPLATE:	<div style="margin-top: 60px">
+			{{{NUMBER}}}. {{{hyperlink POLISH "ABBR@PONS" POLISH}}}
+			{{#POLISH_NOTE}}
+				({{{POLISH_NOTE}}})
+			{{/POLISH_NOTE}}
+			{{{audio AUDIO}}}
+		</div>
+		{{{quiz ENGLISH "English" QUIZOFF}}}
+		{{{forvo POLISH}}}
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		English
+@WTEMPLATE:	{{{ENGLISH}}}
+@TEMPLATE:	<div style="margin-top: 60px">
+			{{{NUMBER}}}. {{{ENGLISH}}} 
+			{{#ENGLISH_NOTE}}
+				({{{ENGLISH_NOTE}}})
+			{{/ENGLISH_NOTE}}
+		</div>
+		{{{quiz POLISH "Polish" QUIZOFF}}}
+@@END:		SIDE
+
+@@END:		SIDES
+
+
+@@@ CASES @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	cases
+@NUMBER:	1
+@ENGLISH:	nominative
+@POLISH:	mianownik
+@AUDIO:		wiki:Pl-mianownik.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	cases
+@NUMBER:	2
+@ENGLISH:	genitive
+@POLISH:	dopełniacz
+@AUDIO:		wiki:Pl-dope%C5%82niacz.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	cases
+@NUMBER:	3
+@ENGLISH:	dative
+@POLISH:	celownik
+@AUDIO:		wiki:Pl-celownik.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	cases
+@NUMBER:	4
+@ENGLISH:	accusative
+@POLISH:	biernik
+@POLISHNOTE:	Related to Polish dopełniać (“complement, complete, execute (a task)”).
+@AUDIO:		wiki:Pl-biernik.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	cases
+@NUMBER:	5
+@ENGLISH:	instrumental
+@POLISH:	narzędnik
+@AUDIO:		wiki:Pl-narz%C4%99dnik.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	cases
+@NUMBER:	6
+@ENGLISH:	locative
+@POLISH:	miejscownik
+@AUDIO:		wiki:Pl-meijscownik.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	cases
+@NUMBER:	7
+@ENGLISH:	vocative
+@POLISH:	wołacz
+@AUDIO:		wiki:Pl-wo%C5%82acz.ogg
+@@END:		CARD
+
+
+@@@ PARTS OF SPEECH @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	parts of speech
+@ENGLISH:	adjective
+@POLISH:	przymiotnik
+@AUDIO:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	parts of speech
+@ENGLISH:	adverb
+@POLISH:	przysłówek
+@AUDIO:		
+@@END:		CARD
+
+@@@ OTHER @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	other
+@ENGLISH:	colloquial
+@POLISH:	potoczne
+@AUDIO:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	other
+@ENGLISH:	conditional mood
+@POLISH:	tryb przypuszczający
+@AUDIO:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	other
+@ENGLISH:	imperative mood
+@POLISH:	tryb rozkazujący
+@AUDIO:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	other
+@ENGLISH:	conjugation
+@POLISH:	koniugacja
+@AUDIO:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	other
+@ENGLISH:	feminine
+@ENGLISH_NOTE:  gender
+@POLISH:	rodzaj żeński
+@AUDIO:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	other
+@ENGLISH:	masculine
+@ENGLISH_NOTE:  gender
+@POLISH:	rodzaj męski
+@AUDIO:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	other
+@ENGLISH:	neuter
+@ENGLISH_NOTE:  gender
+@POLISH:	rodzaj nijaki
+@AUDIO:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	other
+@ENGLISH:	verb
+@POLISH:	czasownik
+@AUDIO:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	other
+@ENGLISH:	imperfect verb
+@POLISH:	czasownik niedokonany
+@AUDIO:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	other
+@ENGLISH:	perfect verb
+@POLISH:	czasownik dokonany
+@AUDIO:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	other
+@ENGLISH:	infinitive
+@POLISH:	bezokolicznik
+@AUDIO:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	other
+@ENGLISH:	Latin
+@POLISH:	po łacinie
+@AUDIO:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	other
+@ENGLISH:	person
+@POLISH:	osoba
+@AUDIO:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	other
+@ENGLISH:	personal
+@POLISH:	osobowy
+@AUDIO:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	other
+@ENGLISH:	plural
+@POLISH:	liczba mnoga
+@AUDIO:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	other
+@ENGLISH:	singular
+@POLISH:	liczba pojedyncza
+@AUDIO:		
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	other
+@ENGLISH:	abbreviation
+@POLISH:	skrót
+@AUDIO:		
+@@END:		CARD
+
+@@END:		CARDLIST
+
+
