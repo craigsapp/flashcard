@@ -21,14 +21,12 @@
 @TITLE:		Polish
 @WTEMPLATE:	{{{POLISH}}}
 @TEMPLATE:	<div style="margin-top: 60px">
-			{{{hyperlink POLISH "ABBR@PONS" POLISH}}}
+			{{{POLISH}}}
 			{{#if POLISH_NOTE}}
 				({{{POLISH_NOTE}}})
 			{{/if}}
-			{{{audio AUDIO}}}
 		</div>
 		{{{quiz ENGLISH "English" QUIZOFF}}}
-		{{{forvo POLISH}}}
 @@END:		SIDE
 
 @@BEGIN:	SIDE
@@ -49,35 +47,35 @@
 @@@ Nominative Singular Masculine @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 @@BEGIN:	CARD
-@CATEGORY:	nominitive singular masculine student good
+@CATEGORY:	nominitive, singular, masculine, student, good
 @ENGLISH:	good student
 @ENGLISH_NOTE:	male
 @POLISH:	dobry student
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	nominitive singular masculine student nice
+@CATEGORY:	nominitive, singular, masculine, student, nice
 @ENGLISH:	nice student
 @ENGLISH_NOTE:	male
 @POLISH:	miły student
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	nominitive singular masculine student handsome
+@CATEGORY:	nominitive, singular, masculine, student, handsome
 @ENGLISH:	handsome student
 @ENGLISH_NOTE:	male
 @POLISH:	ładny student
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	nominitive singular masculine student bad
+@CATEGORY:	nominitive, singular, masculine, student, bad
 @ENGLISH:	bad student
 @ENGLISH_NOTE:	male
 @POLISH:	zły student
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	nominitive singular masculine student ugly
+@CATEGORY:	nominitive, singular, masculine, student, ugly
 @ENGLISH:	ugly student
 @ENGLISH_NOTE:	male
 @POLISH:	brzydki student
@@ -86,35 +84,35 @@
 @@@ Genitive Singular Masculine @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 @@BEGIN:	CARD
-@CATEGORY:	genitive singular masculine student good
+@CATEGORY:	genitive, singular, masculine, student, good
 @ENGLISH:	good student
 @ENGLISH_NOTE:	male, genitive
 @POLISH:	dobrego studenta
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	genitive singular masculine student nice
+@CATEGORY:	genitive, singular, masculine, student, nice
 @ENGLISH:	nice student
 @ENGLISH_NOTE:	male, genitive
 @POLISH:	miłego studenta
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	genitive singular masculine student handsome
+@CATEGORY:	genitive, singular, masculine, student, handsome
 @ENGLISH:	handsome student
 @ENGLISH_NOTE:	male, genitive
 @POLISH:	ładnego studenta
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	genitive singular masculine student bad
+@CATEGORY:	genitive, singular, masculine, student, bad
 @ENGLISH:	bad student
 @ENGLISH_NOTE:	male, genitive
 @POLISH:	złego studenta
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	genitive singular masculine student ugly
+@CATEGORY:	genitive, singular, masculine, student, ugly
 @ENGLISH:	ugly student
 @ENGLISH_NOTE:	male, genitive
 @POLISH:	brzydkiego studenta
@@ -123,35 +121,35 @@
 @@@ Nominitive Plural Masculine @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 @@BEGIN:	CARD
-@CATEGORY:	nominative plural masculine student good
+@CATEGORY:	nominative, plural, masculine, student, good
 @ENGLISH:	good students
 @ENGLISH_NOTE:	men
 @POLISH:	dobrzy studenci
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	nominative plural masculine student nice
+@CATEGORY:	nominative, plural, masculine, student, nice
 @ENGLISH:	nice students
 @ENGLISH_NOTE:	men
 @POLISH:	mili studenci
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	nominative plural masculine student handsome
+@CATEGORY:	nominative, plural, masculine, student, handsome
 @ENGLISH:	handsome students
 @ENGLISH_NOTE:	men
 @POLISH:	ładni studenci
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	nominative plural masculine student bad
+@CATEGORY:	nominative, plural, masculine, student, bad
 @ENGLISH:	bad students
 @ENGLISH_NOTE:	men
 @POLISH:	źli studenci
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	nominative plural masculine student ugly
+@CATEGORY:	nominative, plural, masculine, student, ugly
 @ENGLISH:	ugly students
 @ENGLISH_NOTE:	men
 @POLISH:	brzydcy studenci
@@ -160,35 +158,35 @@
 @@@ Nominative Singular Feminine @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 @@BEGIN:	CARD
-@CATEGORY:	nominitive singular feminine student good
+@CATEGORY:	nominitive, singular, feminine, student, good
 @ENGLISH:	good student
 @ENGLISH_NOTE:	female
 @POLISH:	dobra studentka
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	nominitive singular feminine student nice
+@CATEGORY:	nominitive, singular, feminine, student, nice
 @ENGLISH:	nice student
 @ENGLISH_NOTE:	female
 @POLISH:	miła studentka
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	nominitive singular feminine student pretty
+@CATEGORY:	nominitive, singular, feminine, student, pretty
 @ENGLISH:	pretty student
 @ENGLISH_NOTE:	female
 @POLISH:	ładna studentka
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	nominitive singular feminine student bad
+@CATEGORY:	nominitive, singular, feminine, student, bad
 @ENGLISH:	bad student
 @ENGLISH_NOTE:	female
 @POLISH:	zła studentka
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	nominitive singular feminine student ugly
+@CATEGORY:	nominitive, singular, feminine, student, ugly
 @ENGLISH:	ugly student
 @ENGLISH_NOTE:	female
 @POLISH:	brzydka studentka
@@ -197,31 +195,31 @@
 @@@ Nominative Singular Neuter @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 @@BEGIN:	CARD
-@CATEGORY:	nominitive singular neuter child good
+@CATEGORY:	nominitive, singular, neuter, child, good
 @ENGLISH:	good child
 @POLISH:	dobre dziecko
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	nominitive singular neuter child nice
+@CATEGORY:	nominitive, singular, neuter, child, nice
 @ENGLISH:	nice child
 @POLISH:	miłe dziecko
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	nominitive singular neuter child pretty
+@CATEGORY:	nominitive, singular, neuter, child, pretty
 @ENGLISH:	pretty child
 @POLISH:	ładne dziecko
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	nominitive singular neuter child bad
+@CATEGORY:	nominitive, singular, neuter, child, bad
 @ENGLISH:	bad child
 @POLISH:	złe dziecko
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	nominitive singular neuter child ugly
+@CATEGORY:	nominitive, singular, neuter, child, ugly
 @ENGLISH:	ugly child
 @POLISH:	brzydkie dziecko
 @@END:		CARD
@@ -229,35 +227,35 @@
 @@@ Dative Singular Neuter @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 @@BEGIN:	CARD
-@CATEGORY:	dative singular neuter child good
+@CATEGORY:	dative, singular, neuter, child, good
 @ENGLISH:	good child
 @ENGLISH_NOTE:	dative
 @POLISH:	dobremu dziecku
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	dative singular neuter child nice
+@CATEGORY:	dative, singular, neuter, child, nice
 @ENGLISH:	nice child
 @ENGLISH_NOTE:	dative
 @POLISH:	miłemu dziecku
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	dative singular neuter child pretty
+@CATEGORY:	dative, singular, neuter, child, pretty
 @ENGLISH:	pretty child
 @ENGLISH_NOTE:	dative
 @POLISH:	ładnemu dziecku
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	dative singular neuter child bad
+@CATEGORY:	dative, singular, neuter, child, bad
 @ENGLISH:	bad child
 @ENGLISH_NOTE:	dative
 @POLISH:	złemu dziecku
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	dative singular neuter child ugly
+@CATEGORY:	dative, singular, neuter, child, ugly
 @ENGLISH:	ugly child
 @ENGLISH_NOTE:	dative
 @POLISH:	brzydkiemu dziecku
@@ -266,31 +264,31 @@
 @@@ Nominitive Plural Neuter @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 @@BEGIN:	CARD
-@CATEGORY:	nominative plural neuter child good
+@CATEGORY:	nominative, plural, neuter, child, good
 @ENGLISH:	good children
 @POLISH:	dobre dzieci
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	nominative plural neuter child nice
+@CATEGORY:	nominative, plural, neuter, child, nice
 @ENGLISH:	nice children
 @POLISH:	miłe dzieci
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	nominative plural neuter child pretty
+@CATEGORY:	nominative, plural, neuter, child, pretty
 @ENGLISH:	pretty children
 @POLISH:	ładne dzieci
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	nominative plural neuter child bad
+@CATEGORY:	nominative, plural, neuter, child, bad
 @ENGLISH:	bad children
 @POLISH:	złe dzieci
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	nominative plural neuter child ugly
+@CATEGORY:	nominative, plural, neuter, child, ugly
 @ENGLISH:	ugly children
 @POLISH:	brzydkie dzieci
 @@END:		CARD
