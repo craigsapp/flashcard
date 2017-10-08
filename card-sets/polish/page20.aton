@@ -21,10 +21,10 @@
 @TITLE:		Polish
 @WTEMPLATE:	{{{POLISH}}}
 @TEMPLATE:	<div style="margin-top: 60px">
-			{{{NUMBER}}}. {{{hyperlink POLISH "ABBR@PONS" POLISH}}}
-			{{#POLISH_NOTE}}
+			{{{hyperlink POLISH "ABBR@PONS" POLISH}}}
+			{{#if POLISH_NOTE}}
 				({{{POLISH_NOTE}}})
-			{{/POLISH_NOTE}}
+			{{/if}}
 			{{{audio AUDIO}}}
 		</div>
 		{{{quiz ENGLISH "English" QUIZOFF}}}
@@ -35,10 +35,10 @@
 @TITLE:		English
 @WTEMPLATE:	{{{ENGLISH}}}
 @TEMPLATE:	<div style="margin-top: 60px">
-			{{{NUMBER}}}. {{{ENGLISH}}} 
-			{{#ENGLISH_NOTE}}
+			{{{ENGLISH}}} 
+			{{#if ENGLISH_NOTE}}
 				({{{ENGLISH_NOTE}}})
-			{{/ENGLISH_NOTE}}
+			{{/if}}
 		</div>
 		{{{quiz POLISH "Polish" QUIZOFF}}}
 @@END:		SIDE
