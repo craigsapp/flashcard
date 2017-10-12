@@ -1,0 +1,332 @@
+@@BEGIN:	CARDLIST
+
+@TITLE:		Lesson 3 vocabulary
+@TITLEURL:	
+@DESCRIPTION:	Flashcards for lesson 3 vocabulary
+@NOTE:		Page 60 of Cześć, jak się masz?
+
+@@BEGIN:	OPTIONS
+@BACKGROUND:		#333333
+@CATEGORY_BACKGROUND:	#2a2a2a
+@DEFAULT_SIDE:		1
+@@END:		OPTIONS
+
+@@BEGIN:	ABBR
+@PONS:		http://en.pons.com/translate/polish-english/
+@@END:		ABBR
+
+@@BEGIN:	SIDES
+
+@@BEGIN:	SIDE
+@TITLE:		Polish
+@WTEMPLATE:	{{{POLISH}}}
+@TEMPLATE:	<div style="margin-top: 60px">
+			{{{hyperlink POLISH "ABBR@PONS" POLISH}}}
+			{{#if VERB_CASE}}
+				<span style="color:purple">
+				+ {{{VERB_CASE}}}
+				</span>
+			{{/if}}
+			{{#if ADJ_GENDER}}
+				<span style="color:green">
+				+ {{{ADJ_GENDER}}}
+				</span>
+			{{/if}}
+			{{#if POLISH_NOTE}}
+				<span style="font-size:80%; color:gray">
+				({{{POLISH_NOTE}}})
+				</span>
+			{{/if}}
+
+			{{{audio AUDIO}}}
+		</div>
+		{{{quiz ENGLISH "English" QUIZOFF}}}
+		{{{forvo POLISH}}}
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		English
+@WTEMPLATE:	{{{ENGLISH}}}
+@TEMPLATE:	<div style="margin-top: 60px">
+			{{{ENGLISH}}} 
+			{{#if ENGLISH_NOTE}}
+				<span style="font-size:80%; color:gray">
+				({{{ENGLISH_NOTE}}})
+				</span>
+			{{/if}}
+		</div>
+		{{{quiz POLISH "Polish" QUIZOFF}}}
+@@END:		SIDE
+
+@@END:		SIDES
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	dormitory
+@POLISH:	akademik
+@POLISH_NOTE:	G: akademika
+@AUDIO:		wiki:Pl-akademika.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to want
+@POLISH:	chcieć
+@VERB_CASE:	G
+@POLISH_NOTE:	chcę, chcesz. Cond. chciałbym
+@AUDIO:		wiki:Pl-chcie%C4%87.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	something
+@POLISH:	coś
+@AUDIO:		wiki:Pl-co%C5%9B.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	salutation
+@ENGLISH:	good bye
+@POLISH:	do widezenia
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to thank for
+@POLISH:	dziękować
+@VERB_CASE:	za + A
+@POLISH_NOTE:	dziękuję, dziękujesz. Imperf.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	bell
+@POLISH:	dzwonek
+@POLISH_NOTE:	G: dzwonka
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	what
+@ENGLISH_NOTE:	like, what, which
+@POLISH:	jaki
+@POLISH_NOTE:	jaka, jakie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	sometime
+@POLISH:	kiedyś
+@POLISH_NOTE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	supper
+@POLISH:	kolacja
+@POLISH_NOTE:	G: kolacji
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person
+@ENGLISH:	mummy
+@POLISH:	mamusia
+@POLISH_NOTE:	G: mamusi, V: mamusiu
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to live
+@ENGLISH_NOTE:	to stay
+@POLISH:	mieszkać
+@VERB_CASE:	w + L
+@POLISH_NOTE:	mieszkam, mieszkasz.  Imperf.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adverb
+@ENGLISH:	nice
+@ENGLISH_NOTE:	agreeably
+@POLISH:	miło
+@POLISH_NOTE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	nice to meet you
+@POLISH:	miło mi pana poznać
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	nice
+@POLISH:	miły
+@ADJ_GENDER:	-a/-e
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to be able to
+@POLISH:	móc
+@VERB_CASE:	Infin.
+@POLISH_NOTE:	mogę, możesz. Cond: mógłbym, Imperf.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	we
+@POLISH:	my
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to visit
+@ENGLISH_NOTE:	to come to see
+@POLISH:	odwiedzić
+@POLISH_NOTE:	odwiedzę, odwiedzisz. Perf.
+@VERB_CASE:	A
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	open
+@POLISH:	otwarty
+@ADJ_GENDER:	-a/-e
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	Mr. and Mrs.
+@POLISH:	państow
+@POLISH_NOTE:	G: państwa
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adverb
+@ENGLISH:	certainly
+@ENGLISH_NOTE:	for sure
+@POLISH:	pewno
+@POLISH_NOTE:	na pewno
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	later
+@ENGLISH_NOTE:	next, then
+@POLISH:	potem
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to get to know
+@ENGLISH_NOTE:	to meet
+@POLISH:	poznać
+@VERB_CASE:	A
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	later
+@POLISH:	później
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to introduce
+@POLISH:	przedstawić
+@VERB_CASE:	A
+@POLISH_NOTE:	przedstawię, przedstawisz.  Perf.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	what a pity!
+@POLISH:	jaka szkoda!
+@POLISH_NOTE:	szkoda
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	dad
+@POLISH:	tatuś
+@POLISH_NOTE:	G: tatusia, V: tatusiu
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	to enter
+@POLISH:	wejść
+@POLISH_NOTE:	wejdę, wejdziesz. Perf.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	please, come in!
+@POLISH:	proszę wejść
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	evening
+@POLISH:	wieczór
+@POLISH_NOTE:	G: wieczora
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	greeting
+@ENGLISH:	good evening
+@POLISH:	dobry wieczór
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	visiting card
+@POLISH:	wizytówka
+@POLISH_NOTE:	G: wizytówki
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	
+@ENGLISH:	for
+@POLISH:	za
+@POLISH_NOTE:	+ A
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to carry
+@ENGLISH_NOTE:	to convey
+@POLISH:	zawieźć
+@POLISH_NOTE:	szwiozę, zawieziesz. Perf.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	tired
+@POLISH:	zmęczony
+@ADJ_GENDER:	-a/-e
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to know
+@ENGLISH_NOTE:	a person
+@POLISH:	znać
+@VERB_CASE:	A
+@POLISH_NOTE:	znam, znasz, znają. Imperf.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to stay for
+@POLISH:	zostać
+@VERB_CASE:	na + A
+@POLISH_NOTE:	zostanę, zostaniesz. Perf.
+@@END:		CARD
+
+@@END:		CARDLIST
+
+
