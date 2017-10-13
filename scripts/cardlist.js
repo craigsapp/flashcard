@@ -66,7 +66,6 @@ function CleanTemplate(text) {
 //
 
 function GetCardCategories(cardlist) {
-console.log("CARDLIST", cardlist);
 	if (!cardlist) {
 		cardlist = CARDLIST;
 	}
@@ -123,7 +122,7 @@ function GetCategoryCards(name, cardlist) {
 		if (!cards[i].CATEGORY) {
 			continue;
 		}
-		if (cards[i].CATEGORY.match(name)) {
+		if (cards[i].CATEGORY.match(regex)) {
 			output.push(cards[i]);
 		}
 	}
