@@ -66,6 +66,7 @@ function CleanTemplate(text) {
 //
 
 function GetCardCategories(cardlist) {
+console.log("CARDLIST", cardlist);
 	if (!cardlist) {
 		cardlist = CARDLIST;
 	}
