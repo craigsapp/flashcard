@@ -12,7 +12,7 @@
 
 // Preferred card face to display:
 var SIDEVIEW = -1;
-var RANDOMIZE = 1;
+var RANDOMIZE = 0;
 var WORDLIST = false;
 
 
@@ -47,6 +47,11 @@ function prepareCards(cardlist) {
 		console.log("Error, no cards to load");
 		return;
 	}
+	for (var i=0; i<cardlist.CARDLIST.CARD.length; i++) {
+		if (!cardlist.CARDLIST.CARD[i]._id) {
+			cardlist.CARDLIST.CARD[i]._id = btoa(Math.random()).substring(0, 16);
+		}
+	}
 	var set = cardlist.CARDLIST;
    //if (RANDOMIZE) {
 	//	set.CARD = randomizeCards(set.CARD);
@@ -54,6 +59,12 @@ function prepareCards(cardlist) {
 	CARDLIST = set;
 	FillCardCategories();
    ShowCardDeck(set.CARD);
+	if (CGI.hide == "true") {
+		displayCategoryWordList();
+	}
+	if (CGI.wordlist == "true") {
+		displayCategoryWordList();
+	}
 }
 
 
@@ -146,6 +157,7 @@ function ShowCardDeck(carddeck) {
 // BACKGROUND == background color of page
 // CATEGORY_BACKGROUND == background color of category list
 // DEFAULT_SIDE == default side of cards to start displaying (0=front, 1=back)
+// STYLE == new style element
 //
 
 function ApplyCardOptions() {
@@ -164,6 +176,11 @@ function ApplyCardOptions() {
 		$("#categories").css("background", options.CATEGORY_BACKGROUND);
 	}
 
+	if (options.STYLE) {
+		var styleNode = document.createElement("style");
+		styleNode.innerHTML  = options.STYLE;
+		document.body.appendChild(styleNode);
+	}
 
 }
 
@@ -176,7 +193,9 @@ function ApplyCardOptions() {
 
 function printCard(object, side1, side2) {
 	var output = "";
-	output += '<li class="card">\n';
+	output += '<li ';
+	output += 'id="' + object._id + '" ';
+	output += 'class="card">\n';
 	output += '<div class="side_one">\n';
 	output += '<div class="redline">';
 	output += side1(object);
@@ -218,9 +237,9 @@ function FillCardCategories(cardlist) {
 			if (categories[prop]) {
 				sum += categories[prop];
 			}
-			if (parseInt(categories[prop]) < 2) {
-				continue;
-			}
+			//if (parseInt(categories[prop]) < 2) {
+			//	continue;
+			//}
 			clist.push(prop);
 		}
 	}
@@ -240,9 +259,9 @@ function FillCardCategories(cardlist) {
 	var count = 0;
 	for (var i=0; i<clist.length; i++) {
 		count = parseInt(categories[clist[i]]);
-		if (count < 2) {
-			continue;
-		}
+		// if (count < 2) {
+		//	continue;
+		// }
 		output += "<span class='category'";
 		output += " onclick='LoadCategory(\"";
 		output += clist[i].replace(/'/, "SINGLEQUOTE", "g");
@@ -257,10 +276,10 @@ function FillCardCategories(cardlist) {
 	output += "<br><br>";
 	output += "<span class='category' onclick='showFaceOne();'>";
 	output += GetCardSideTitle(0);
-	output += " sides</a></span> <span onclick='toggleHelpMenu();' class='category help'>?</span>";
+	output += " </a></span> <span onclick='toggleHelpMenu();' class='category help'>?</span>";
 	output += "<span class='category' onclick='showFaceTwo();'>";
 	output += GetCardSideTitle(1);
-	output += " sides</a></span>";
+	output += " </a></span>";
 
 	catel.innerHTML = output;
 }
@@ -309,8 +328,11 @@ function displayCategoryWordList(name) {
    if (!name) {
       name = "all";
    }
-console.log("NAME", name);
    var cards = GetCategoryCards(name);
+	if (RANDOMIZE) {
+		console.log("RANDOMIZING CARDS");
+		cards = randomizeCards(cards);
+	}
    var wordlist = document.querySelector("#wordlist");
    if (!wordlist) {
       var categories = document.querySelector("#categories");
@@ -330,14 +352,13 @@ console.log("NAME", name);
       cards[i].WORDLIST_SIDE1 = side1value;
       cards[i].WORDLIST_SIDE2 = side2value;
    }
-console.log("CARDSZ", cards);
 
 	var wlt = "";
-   wlt += "<h1 style='margin-top:50px;'>Word list</h1>\n";
-   wlt += "<table>";
+   // wlt += "<h1 style='margin-top:50px;'>Word list</h1>\n";
+   wlt += "<table style='margin-top:50px;'>";
 	wlt += "{{#each this}}";
-	wlt += "<tr><td>{{{wordlistcell WORDLIST_SIDE1 this}}}</td>";
-	wlt += "<td>{{{wordlistcell WORDLIST_SIDE2 this}}}</td></tr>";
+	wlt += "<tr><td><span onclick='showCard(\"{{{_id}}}\", 1);'>{{{wordlistcell WORDLIST_SIDE1 this}}}</span></td>";
+	wlt += "<td><span onclick='showCard(\"{{{_id}}}\", 2);'>{{{wordlistcell WORDLIST_SIDE2 this}}}</span></td></tr>";
 	wlt += "{{/each}}";
 	wlt += "</table>";
 

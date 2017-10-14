@@ -10,6 +10,7 @@
 // Description:   Event listeners and related code for index.html.
 //
 
+var CGI = {};
 
 //////////////////////////////
 //
@@ -23,10 +24,13 @@ document.addEventListener("DOMContentLoaded", function() {
    // });
    setupDropZone();
 
-	var cgi = GetCgiParameters();
-	if (cgi.cards) {
-		loadCards(cgi.cards);
+	CGI = GetCgiParameters();
+	if (CGI.cards) {
+		loadCards(CGI.cards);
 	} 
+	if (CGI.hide == "true") {
+		hideCards();
+	}
 	prepareHelpMenu("#help-container");
 });
 
@@ -138,6 +142,11 @@ function processKeyCommand(event) {
 
 		case CKey:
 			toggleCategoryDisplay();
+			event.preventDefault();
+			break;
+
+		case DKey:
+			toggleCards();
 			event.preventDefault();
 			break;
 

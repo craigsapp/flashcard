@@ -1,9 +1,9 @@
 @@BEGIN:	CARDLIST
 
-@TITLE:		Lesson 3 vocabulary
+@TITLE:		Lesson 2 vocabulary
 @TITLEURL:	
-@DESCRIPTION:	Flashcards for lesson 3 vocabulary
-@NOTE:		Page 60 of Cześć, jak się masz?
+@DESCRIPTION:	Flashcards for lesson 2 vocabulary
+@NOTE:		Page 44 of Cześć, jak się masz?
 
 @@BEGIN:	OPTIONS
 @BACKGROUND:		#333333
@@ -161,295 +161,414 @@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 @@BEGIN:	CARD
-@CATEGORY:	noun
-@ENGLISH:	dormitory
-@POLISH:	akademik
-@GENDER:	masculine
-@POLISH_NOTE:	G: akademika
+@CATEGORY:	verb
+@ENGLISH:	to be
+@POLISH:	być
+@IMPERFECT:	true
+@VERB_CLASS:	irregular
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adverb
+@ENGLISH:	probably
+@ENGLISH_ALT:	surely
+@POLISH:	chyba
 @@END:		CARD
 
 @@BEGIN:	CARD
 @CATEGORY:	verb
-@ENGLISH:	to want
-@POLISH:	chcieć
+@ENGLISH:	to be glad
+@ENGLISH_ALT:	to be happy
 @IMPERFECT:	true
-@VERB_CASE:	G
-@CONJUGATION:	chcę, chcesz
-@VERB_CLASS:	I chc-
-@CONDITIONAL:	chciałbym
-@@END:		CARD
-
-@@BEGIN:	CARD
-@CATEGORY:	pronoun
-@ENGLISH:	something
-@POLISH:	coś
-@@END:		CARD
-
-@@BEGIN:	CARD
-@CATEGORY:	phrase
-@ENGLISH:	good bye
-@POLISH:	do widzenia
-@@END:		CARD
-
-@@BEGIN:	CARD
-@CATEGORY:	verb
-@ENGLISH:	to thank for
-@POLISH:	dziękować
-@IMPERFECT:	true
-@VERB_CASE:	za + A
-@VERB_CLASS:	I dziękuj-
-@CONJUGATION:	dziękuję, dziękujesz
-@@END:		CARD
-
-@@BEGIN:	CARD
-@CATEGORY:	noun
-@ENGLISH:	bell
-@GENDER:	masculine
-@POLISH:	dzwonek
-@POLISH_NOTE:	G: dzwonka
+@POLISH:	cieszyć się
+@VERB_CASE:	z + G
+@CONJUGATION:	cieszę się, cieszysz się
+@VERB_CLASS:	II ciesz-
 @@END:		CARD
 
 @@BEGIN:	CARD
 @CATEGORY:	pronoun
 @ENGLISH:	what
-@ENGLISH_ALT:	like, which
-@POLISH:	jaki
-@PRONOUN_GENDER:	-a/-ie
-@POLISH_NOTE:	jaka, jakie
+@POLISH:	co
 @@END:		CARD
 
 @@BEGIN:	CARD
 @CATEGORY:	adverb
-@ENGLISH:	sometime
-@POLISH:	kiedyś
+@ENGLISH:	wonderful
+@POLISH:	cudownie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to wait for
+@POLISH:	czekać
+@VERB_CASE:	na + A
+@CONJUGATION:	czekam, czekasz
+@IMPERFECT:	true
+@VERB_CLASS:	III czek-
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	informal
+@ENGLISH:	hi
+@POLISH:	cześć
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	conjunction
+@ENGLISH:	what
+@ENGLISH_NOTE:	starting yes and no questions
+@POLISH:	czy
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	preposition
+@ENGLISH:	to
+@POLISH:	do
+@POLISH_NOTE:	+ G
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	good
+@POLISH:	dobry
+@ADJ_GENDER:	-a/-e
 @@END:		CARD
 
 @@BEGIN:	CARD
 @CATEGORY:	noun
-@ENGLISH:	supper
-@GENDER:	feminine
-@POLISH:	kolacja
-@POLISH_NOTE:	G: kolacji
-@@END:		CARD
-
-@@BEGIN:	CARD
-@CATEGORY:	family, noun
-@ENGLISH:	mommy
-@ENGLISH_ALT:	mom
-@POLISH:	mamusia
-@GENDER:	feminine
-@POLISH_NOTE:	G: mamusi, V: mamusiu
-@@END:		CARD
-
-@@BEGIN:	CARD
-@CATEGORY:	verb
-@ENGLISH:	to live
-@ENGLISH_ALT:	to stay
-@POLISH:	mieszkać
-@IMPERFECT:	true
-@VERB_CASE:	w + L
-@VERB_CLASS:	III mieszk-
-@CONJUGATION:	mieszkam, mieszkasz
-@@END:		CARD
-
-@@BEGIN:	CARD
-@CATEGORY:	adverb
-@ENGLISH:	nice
-@ENGLISH_ALT:	agreeably
-@POLISH:	miło
-@@END:		CARD
-
-@@BEGIN:	CARD
-@CATEGORY:	phrase
-@ENGLISH:	nice to meet you
-@ENGLISH_NOTE:	formal, masc.
-@POLISH:	miło mi pana poznać
-@@END:		CARD
-
-@@BEGIN:	CARD
-@CATEGORY:	adjective
-@ENGLISH:	nice
-@POLISH:	miły
-@ADJ_GENDER:	-a/-e
-@@END:		CARD
-
-@@BEGIN:	CARD
-@CATEGORY:	verb
-@ENGLISH:	to be able to
-@POLISH:	móc
-@IMPERFECT:	true
-@VERB_CASE:	Infintive
-@VERB_CLASS:	I mog-/moż-
-@CONJUGATION:	mogę, możesz
-@CONDITIONAL:	mógłbym
-@@END:		CARD
-
-@@BEGIN:	CARD
-@CATEGORY:	pronoun
-@ENGLISH:	we
-@POLISH:	my
-@@END:		CARD
-
-@@BEGIN:	CARD
-@CATEGORY:	verb
-@ENGLISH:	to visit
-@ENGLISH_ALT:	to come to see
-@POLISH:	odwiedzić
-@PERFECT:	true
-@VERB_CLASS:	II odwiedz-/owiedzi-
-@CONJUGATION:	odwiedzę, odwiedzisz
-@@END:		CARD
-
-@@BEGIN:	CARD
-@CATEGORY:	adjective
-@ENGLISH:	open
-@POLISH:	otwarty
-@ADJ_GENDER:	-a/-e
-@@END:		CARD
-
-@@BEGIN:	CARD
-@CATEGORY:	pronoun
-@ENGLISH:	Mr. and Mrs.
-@POLISH:	państwo
-@POLISH_NOTE:	G: państwa
-@@END:		CARD
-
-@@BEGIN:	CARD
-@CATEGORY:	adverb
-@ENGLISH:	certainly
-@ENGLISH_ALT:	for sure
-@POLISH:	pewno
-@POLISH_NOTE:	na pewno
-@@END:		CARD
-
-@@BEGIN:	CARD
-@CATEGORY:	adverb
-@ENGLISH:	next
-@ENGLISH_ALT:	later, then
-@POLISH:	potem
-@@END:		CARD
-
-@@BEGIN:	CARD
-@CATEGORY:	verb
-@ENGLISH:	to get to know
-@ENGLISH_ALT:	to meet
-@POLISH:	poznać
-@VERB_CLASS:	III pozn-
-@CONJUGATION:	poznam, poznasz
-@PERFECT:	true
-@@END:		CARD
-
-@@BEGIN:	CARD
-@CATEGORY:	adverb
-@ENGLISH:	later
-@POLISH:	później
-@@END:		CARD
-
-@@BEGIN:	CARD
-@CATEGORY:	verb
-@ENGLISH:	to introduce
-@POLISH:	przedstawić
-@PERFECT:	true
-@VERB_CLASS:	II przedstawi-/przedstaw-
-@CONJUGATION:	przedstawię, przedstawisz
-@@END:		CARD
-
-@@BEGIN:	CARD
-@CATEGORY:	phrase
-@ENGLISH:	what a pity
-@POLISH:	jaka szkoda
-@POLISH_NOTE:	szkoda
-@@END:		CARD
-
-@@BEGIN:	CARD
-@CATEGORY:	family, noun
-@ENGLISH:	daddy
-@ENGLISH_ALT:	dad
+@ENGLISH:	house
+@ENGLISH_ALT:	home
+@POLISH:	dom
 @GENDER:	masculine
-@POLISH:	tatuś
-@POLISH_NOTE:	G: tatusia, V: tatusiu
+@POLISH_NOTE:	G: domu, L: w domu
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	verb
-@ENGLISH:	to enter
-@POLISH:	wejść
-@PERFECT:	true
-@VERB_CLASS:	I wejd-/wejdzi-
-@CONJUGATION:	wejdę, wejdziesz
-@@END:		CARD
-
-@@BEGIN:	CARD
-@CATEGORY:	phrase
-@ENGLISH:	please come in
-@POLISH:	proszę wejść
+@CATEGORY:	adverb
+@ENGLISH:	much
+@ENGLISH_ALT:	a lot of
+@POLISH:	dużo
 @@END:		CARD
 
 @@BEGIN:	CARD
 @CATEGORY:	noun
 @GENDER:	masculine
-@ENGLISH:	evening
-@POLISH:	wieczór
-@POLISH_NOTE:	G: wieczora
+@ENGLISH:	day
+@POLISH:	dzień
+@POLISH_NOTE:	G: dnia
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	phrase
-@ENGLISH:	good evening
-@POLISH:	dobry wieczór
+@CATEGORY:	adverb
+@ENGLISH:	good
+@ENGLISH_ALT:	OK
+@POLISH:	fajnie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	interjection
+@ENGLISH:	hello
+@POLISH:	halo
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	I
+@POLISH:	ja
+@POLISH_NOTE:	G: mnie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to go
+@ENGLISH_NOTE:	by vehicle
+@POLISH:	jechać
+@CONJUGATION:	jadę, jedziesz
+@VERB_CLASS:	I jad-/jedzi-
+@IMPERFECT:	true
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	how
+@ENGLISH_ALT:	like
+@POLISH:	jak
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	conjunction
+@ENGLISH:	some
+@ENGLISH_ALT:	any
+@POLISH:	jakiś
+@GENDER:	-aś/-ieś
 @@END:		CARD
 
 @@BEGIN:	CARD
 @CATEGORY:	noun
-@GENDER: 	feminine
-@ENGLISH:	visiting card
-@POLISH:	wizytówka
-@POLISH_NOTE:	G: wizytówki
+@ENGLISH:	jazz
+@POLISH:	jazz
+@POLISH_NOTE:	G: jazzu
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	particle
+@ENGLISH:	already
+@POLISH:	już
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	darling
+@POLISH:	kochanie
+@POLISH_NOTE:	only Voc.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	airport
+@POLISH:	lotnisko
+@POLISH_NOTE:	G: lotniska
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	people
+@POLISH:	ludzie
+@POLISH_NOTE:	pl. G: ludzi
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun, family
+@ENGLISH:	mama
+@POLISH:	mama
+@GENDER:	feminine
+@POLISH_NOTE:	G: mamy
 @@END:		CARD
 
 @@BEGIN:	CARD
 @CATEGORY:	preposition
 @ENGLISH:	for
-@POLISH:	za
+@POLISH:	na
 @POLISH_NOTE:	+ A
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	verb
-@ENGLISH:	to carry
-@ENGLISH_NOTE:	to convey
-@POLISH:	zawieźć
-@IMPERFECT:	true
-@VERB_CLASS:	I zawioz-/zawiezi-
-@CONJUGATION:	zawiozę, zawieziesz
+@CATEGORY:	particle
+@ENGLISH:	no
+@ENGLISH_ALT:	not
+@POLISH:	nie
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	adjective
-@ENGLISH:	tired
-@POLISH:	zmęczony
-@ADJ_GENDER:	-a/-e
+@CATEGORY:	adverb
+@ENGLISH:	of course
+@ENGLISH_ALT:	sure
+@POLISH:	oczywiście
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to tell
+@POLISH:	opowiedzieć
+@CONJUGATION:	opowiem, opowiesz
+@PERFECT:	true
+@VERB_CLASS:	IV opowi-
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to remember
+@POLISH:	pamiętać
+@CONJUGATION:	pamiętam, pamiętasz
+@VERB_CLASS:	III pamięt-
+@IMPERFECT:	true
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to recognize
+@POLISH:	poznawać
+@CONJUGATION:	poznaję, poznajesz
+@IMPERFECT:	true
+@VERB_CLASS:	II poznaj-
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to ask
+@POLISH:	prosić
+@CONJUGATION:	proszę, prosisz
+@VERB_CLASS:	II prosz-/pros-
+@IMPERFECT:	true
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	please
+@POLISH:	proszę
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to be sorry
+@POLISH:	przepraszać
+@CONJUGATION:	przepraszam, prezepraszasz
+@VERB_CLASS:	III prezeprasz-
+@IMPERFECT:	true
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to talk
+@POLISH:	rozmawiać
+@VERB_CASE:	z + I; + o + L
+@CONJUGATION:	rozmawiam, rozmawiasz
+@IMPERFECT:	true
+@VERB_CLASS:	III rozmawi-
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	oneself
+@POLISH:	się
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	where from
+@POLISH:	skąd
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	how should I know
+@POLISH:	skąd mam wiedzieć
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to be heard
+@POLISH:	słychać
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	what's new?
+@POLISH:	co słychać?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	particle
+@ENGLISH:	yes
+@POLISH:	tak
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	over there
+@POLISH:	tam
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun, family
+@ENGLISH:	dad
+@POLISH:	tata
+@POLISH_NOTE:	G: taty, V: tato
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	particle
+@ENGLISH:	also
+@ENGLISH_ALT:	too
+@POLISH:	też
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	here
+@POLISH:	tu
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	you
+@POLISH:	ty
+@POLISH_NOTE:	G: ciebie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	preposition
+@ENGLISH:	at
+@ENGLISH_ALT:	with
+@POLISH:	u
+@POLISH_NOTE:	+ G
 @@END:		CARD
 
 @@BEGIN:	CARD
 @CATEGORY:	verb
 @ENGLISH:	to know
-@ENGLISH_NOTE:	a person
-@POLISH:	znać
+@POLISH:	wiedzieć
+@CONJUGATION:	wiem, wiesz
+@VERB_CLASS:	IV wi-
 @IMPERFECT:	true
-@VERB_CLASS:	III zn-
-@CONJUGATION:	znam, znasz
 @@END:		CARD
 
 @@BEGIN:	CARD
 @CATEGORY:	verb
-@ENGLISH:	to stay for
-@POLISH:	zostać
-@VERB_CASE:	na + A
-@PERFECT:	true
-@VERB_CLASS:	I zostan-/zostani-
-@CONJUGATION:	zostanę, zostaniesz
+@IMPERFECT:	true
+@ENGLISH:	to come back
+@POLISH:	wracać
+@CONJUGATION:	wracam, wracasz
+@VERB_CASE:	z + G
+@VERB_CLASS:	III wrac-
 @@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adverb
+@ENGLISH:	at last
+@POLISH:	wrescie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	all
+@ENGLISH_ALT:	everything
+@POLISH:	wszystko
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	everything is OK
+@POLISH:	wszystko w porządku
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	preposition
+@ENGLISH:	from
+@ENGLISH_ALT:	to
+@ENGLISH_ALT:	with
+@POLISH:	z
+@POLISH_ALT:	ze
+@POLISH_NOTE:	+ G, + i
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to see
+@POLISH:	zobaczyć
+@CONJUGATION:	zobachę, zobaczysz
+@VERB_CLASS:	II zobacz-
+@PERFECT:	true
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun, family
+@ENGLISH:	wife
+@POLISH:	żona
+@POLISH_NOTE:	G: żony, Gpl: żon
+@@END:		CARD
+
 
 @@END:		CARDLIST
 

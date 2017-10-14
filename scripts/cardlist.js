@@ -53,7 +53,8 @@ function CleanTemplate(text) {
 	while (matches = text.match(/ABBR@([A-Z0-9_-]+)/i)) {
 		var parameter = matches[1];
       var value = CARDLIST.ABBR[parameter];
-		text = text.replace(/ABBR@[A-Z0-9_-]+/gi, value);
+		var regex = new RegExp("ABBR@" +  parameter + "\\b", "g");
+		text = text.replace(regex, value);
 	}
 	return text;
 }
@@ -117,6 +118,7 @@ function GetCategoryCards(name, cardlist) {
 	name = name.replace(/SINGLEQUOTE/g, "'");
 	name = name.replace(/DOUBLEQUOTE/g, "'");
 	var output = [];
+// ggg
 	var regex = new RegExp("\\b" + name + "\\b", "i");
    for (var i=0; i<cards.length; i++) {
 		if (!cards[i].CATEGORY) {
@@ -365,6 +367,87 @@ function GetCardOptions(cardlist) {
 	}
 	return cardlist.OPTIONS ? cardlist.OPTIONS : {};
 }
+
+
+
+//////////////////////////////
+//
+// hideCards --
+//
+
+function hideCards() {
+	var cards = document.querySelector("#cards");
+	if (cards) {
+		cards.style.visibility = "hidden";
+		cards.style.display = "none";
+	}
+}
+
+
+
+//////////////////////////////
+//
+// showCards --
+//
+
+function showCards() {
+	var cards = document.querySelector("#cards");
+	if (cards) {
+		cards.style.visibility = "visible";
+		cards.style.display = "block";
+	}
+}
+
+
+
+//////////////////////////////
+//
+// toggleCards --
+//
+
+function toggleCards() {
+	var cards = document.querySelector("#cards");
+	if (!cards) {
+		return;
+	}
+	if (cards.style.visibility == "hidden") {
+		showCards();
+	} else {
+		hideCards();
+	}
+}
+
+
+
+//////////////////////////////
+//
+// showCard --
+//
+
+function showCard(id, side) {
+	console.log("GOING TO SHOW CARD", id, "SIDE", side);
+	showCards();
+	if (side == 1) {
+		showFaceOne();
+	} else {
+		showFaceTwo();
+	}
+	var deck = document.querySelectorAll("#deck > li");
+	if (!deck) {
+		return;
+	}
+	for (var i=0; i<deck.length; i++) {
+		var tid = deck[i].id;
+		if (tid == id) {
+			deck[i].classList.add("current");
+			deck[i].style.display = "block";
+		} else {
+			deck[i].classList.remove("current");
+			deck[i].style.display = "none";
+		}
+	}
+}
+
 
 
 

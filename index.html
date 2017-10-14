@@ -1,37 +1,38 @@
 <!doctype html>
-<head>
-	<meta charset="utf-8">
-	<title>Flash Cards</title>
-	<meta name="viewport" content="width=device-width">
-	<link rel="stylesheet" href="styles/style.css">
-	<link href="http://fonts.googleapis.com/css?family=Schoolbell" rel="stylesheet" type="text/css">
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
-	<script src="scripts/external/modernizr-2.5.3.min.js"></script>
-	<script src="scripts/external/aton.js"></script>
-	<script src="scripts/external/jquery.cycle.js"></script>
-	<script src="scripts/cardlist.js"></script>
-	<script src="scripts/flashcards.js"></script>
-	<script src="scripts/crypto.js"></script>
-	<script src="scripts/handlebar-helpers.js"></script>
-	<script src="scripts/drop.js"></script>
-	<script src="listeners.js"></script>
-	<script>window.jQuery || document.write('<script src="scripts/external/jquery-1.7.2.min.js"><\/script>')</script>
-</head>
-<body>
-
-
-	<div id="navigator">
+<html>
+	<head>
+		<!--
+			vim: ts=3:nowrap
+		-->
+		<meta charset="utf-8">
+		<title>Flash Cards</title>
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="styles/style.css">
+		<link href="http://fonts.googleapis.com/css?family=Schoolbell" rel="stylesheet" type="text/css">
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+		<script src="scripts/external/modernizr-2.5.3.min.js"></script>
+		<script src="scripts/external/aton.js"></script>
+		<script src="scripts/external/jquery.cycle.js"></script>
+		<script src="scripts/cardlist.js"></script>
+		<script src="scripts/flashcards.js"></script>
+		<script src="scripts/crypto.js"></script>
+		<script src="scripts/handlebar-helpers.js"></script>
+		<script src="scripts/drop.js"></script>
+		<script src="scripts/listeners.js"></script>
+		<script>window.jQuery || document.write('<script src="scripts/external/jquery-1.7.2.min.js"><\/script>')</script>
+	</head>
+	<body>
 		<div id="title"></div>
-		<span class="icon" id="prev" data-icon="<"><span class="visuallyhidden">Previous</span></span>
-		<span class="icon" onclick="FlipCurrent();" id="flipper" data-icon="/"><span class="visuallyhidden">Flip</span></span>
-		<span class="icon" id="next" data-icon=">"><span class="visuallyhidden">Next</span></span>
-	</div>
-
-	<div style="margin-top:100px;" class="deck"></div>
-
-	<div id="categories"></div>
-	<div id="dropZone"></div>
-
+		<div style="padding-bottom:90px;" id="cards">
+			<div style="padding-top:10px;" id="navigator">
+				<span title="previous card" class="icon" id="prev" data-icon="<"><span class="visuallyhidden">Previous</span></span>
+				<span title="flip card" class="icon" onclick="FlipCurrent();" id="flipper" data-icon="/"><span class="visuallyhidden">Flip</span></span>
+				<span title="next card" class="icon" id="next" data-icon=">"><span class="visuallyhidden">Next</span></span>
+			</div>
+			<div style="margin-top:100px;" class="deck"></div>
+		</div>
+		<div id="categories"></div>
+		<div id="dropZone"></div>
 </body>
 </html>

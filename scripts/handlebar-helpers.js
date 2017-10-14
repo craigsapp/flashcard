@@ -185,6 +185,37 @@ Handlebars.registerHelper("quiz", function(answer, title, hidequiz) {
 
 //////////////////////////////
 //
+// ifEqual Handlebars helper -- Boolean compare of two strings
+//
+
+Handlebars.registerHelper('ifEqual', function(a, b, opts) {
+	if (a === b)  {
+		return opts.fn(this);
+	} else {
+		return opts.inverse(this);
+	}
+});
+
+
+
+//////////////////////////////
+//
+// ifContains Handlebars helper -- If A contain the substring B, then return true.
+//
+
+Handlebars.registerHelper('ifContains', function(a, b, opts) {
+	var regex = new RegExp("\\b" + b + "\\b");
+	if (a.match(regex)) {
+		return opts.fn(this);
+	} else {
+		return opts.inverse(this);
+	}
+});
+
+
+
+//////////////////////////////
+//
 // morse Handlebars helper -- Print Morse code dots and dashes nicely.
 //
 
