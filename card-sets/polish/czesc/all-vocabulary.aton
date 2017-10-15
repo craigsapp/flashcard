@@ -1,0 +1,1167 @@
+@@BEGIN:	CARDLIST
+
+@TITLE:		All vocabulary words
+@TITLEURL:	
+@DESCRIPTION:	Flashcards for lesson 1 vocabulary
+@NOTE:		Page 28 of Cześć, jak się masz?
+
+@@BEGIN:	OPTIONS
+@BACKGROUND:		#333333
+@CATEGORY_BACKGROUND:	#2a2a2a
+@DEFAULT_SIDE:		1
+@STYLE:
+	span.verb.perfect      { color: orange;       }
+	span.verb.imperfect    { color: yellow;       }
+	span.adjective         { color: limegreen;    }
+	span.adjective.endings { color: green;        }
+	span.verb.case         { color: purple;       }
+	span.noun, span.family { color: darkcyan;     }
+	span.pronoun           { color: deepskyblue;  }
+	span.adverb            { color: darkred;      }
+	span.preposition       { color: sienna;       }
+	span.verb.class        { color: firebrick; font-size:80%; }
+	span.cardimperfect     {
+		color: goldenrod;
+		font-size: 80%; 
+		display: inline-block; 
+		margin-left: 40px;
+	}
+	span.cardperfect       {
+		color: darkorange; 
+		font-size: 80%; 
+		display: inline-block; 
+		margin-left: 40px;
+	}
+
+
+@@END:		OPTIONS
+
+@@BEGIN:	ABBR
+@PONS:		http://en.pons.com/translate/polish-english/
+@VERBCASE:	{{#if VERB_CASE}}
+			<span class="verb case">+ 
+				{{{VERB_CASE}}}
+			</span>
+		{{/if}}
+@ADJGENDER:	{{#if ADJ_GENDER}}
+			<span class="adjective endings">
+				{{{ADJ_GENDER}}}
+			</span>
+		{{/if}}
+@ENNOTE:	{{#if ENGLISH_NOTE}}
+			<span style="font-size:80%; color:gray">
+				({{{ENGLISH_NOTE}}})
+			</span>
+		{{/if}}
+@ENALT:		{{#if ENGLISH_ALT}}
+			<span style="font-size:80%; color:gray">
+				({{{ENGLISH_ALT}}})
+			</span>
+		{{/if}}
+@PLNOTE:	{{#if POLISH_NOTE}}
+			<span style="font-size:80%; color:gray">
+				({{{POLISH_NOTE}}})
+			</span>
+		{{/if}}
+@CONDITIONAL:	{{#if CONDITIONAL}}
+			<span style="font-size:80%; color:gray">
+				(<i>cond</i>: {{{CONDITIONAL}}})
+			</span>
+		{{/if}}
+@PLALT:		{{#if POLISH_ALT}}
+			<span style="font-size:80%; color:gray">
+				({{{POLISH_ALT}}})
+			</span>
+		{{/if}}
+@@END:		ABBR
+
+@@BEGIN:	SIDES
+
+@@BEGIN:	SIDE
+@TITLE:		Polish
+@WTEMPLATE:	
+		{{#ifEqual PERFECT "true"}}
+			<span title="perfect {{#if VERB_CLASS}}class {{VERB_CLASS}}{{/if}}" class="verb perfect">
+				{{{POLISH}}}
+			</span>
+		{{else ifEqual IMPERFECT "true"}}
+			<span title="imperfect {{#if VERB_CLASS}}class {{VERB_CLASS}}{{/if}}" class="verb imperfect">
+				{{{POLISH}}}
+			</span>
+		{{else ifContains CATEGORY "adjective"}}
+			<span class="adjective">
+				{{{POLISH}}}
+			</span>
+		{{else ifContains CATEGORY "noun"}}
+			<span title="{{{GENDER}}}" class="noun">
+				{{{POLISH}}}
+			</span>
+		{{else ifContains CATEGORY "family"}}
+			<span class="family">
+				{{{POLISH}}}
+			</span>
+		{{else ifContains CATEGORY "pronoun"}}
+			<span title="{{{PRONOUN_GENDER}}}" class="pronoun">
+				{{{POLISH}}}
+			</span>
+		{{else ifContains CATEGORY "adverb"}}
+			<span class="adverb">
+				{{{POLISH}}}
+			</span>
+		{{else ifContains CATEGORY "preposition"}}
+			<span class="preposition">
+				{{{POLISH}}}
+			</span>
+		{{else}}
+			{{{POLISH}}}
+		{{/ifEqual}}
+		ABBR@VERBCASE
+		ABBR@ADJGENDER
+@TEMPLATE:	<div style="margin-top: 60px">
+			{{{hyperlink POLISH "ABBR@PONS" POLISH}}}
+			ABBR@ADJGENDER
+			ABBR@VERBCASE
+			ABBR@CONDITIONAL
+			ABBR@PLNOTE
+			{{{audio AUDIO}}}
+			{{#if VERB_CLASS}}
+				<br>
+				<span class="verb class">
+					class {{{VERB_CLASS}}}
+				</span>
+			{{/if}}
+			{{#ifEqual IMPERFECT "true"}}
+				<span class="cardimperfect">
+					<i>imperf.</i>
+				</span>
+			{{/ifEqual}}
+			{{#ifEqual PERFECT "true"}}
+				<span class="cardperfect">
+					<i>perf.</i>
+				</span>
+			{{/ifEqual}}
+		</div>
+		{{{quiz this "ENGLISH" "English" QUIZOFF}}}
+		{{{forvo POLISH}}}
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		English
+@WTEMPLATE:	{{{ENGLISH}}}
+@TEMPLATE:	<div style="margin-top: 60px">
+			{{{ENGLISH}}} 
+			ABBR@ENNOTE
+		</div>
+		{{{quiz this "POLISH" "Polish" QUIZOFF}}}
+@@END:		SIDE
+
+@@END:		SIDES
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	conjunction
+@ENGLISH:	and
+@ENGLISH_NOTE:	indicates contrast
+@POLISH:	a
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	conjunction
+@ENGLISH:	but
+@POLISH:	ale
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	ambitious
+@POLISH:	ambitny
+@ADJ_GENDER:	-a/-e
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adverb
+@ENGLISH:	very
+@POLISH:	bardzo
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to be
+@POLISH:	być
+@INTRANSITIVE:	true
+@CONJUGATION:	jestem, jesteś
+@VERB_CLASS:	irregular
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	boy
+@ENGLISH_ALT:	boyfriend
+@POLISH:	chłopiec
+@POLISH_NOTE:	G: chłopca
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@GENDER:	feminine
+@ENGLISH:	economics
+@POLISH:	ekonomia
+@POLISH_NOTE:	G: ekonomii
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun, person
+@ENGLISH:	Frenchman
+@POLISH:	Francuz
+@POLISH_NOTE:	G: Francuza
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	history
+@POLISH:	historia
+@GENDER:	feminine
+@POLISH_NOTE:	G: historii
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	Spanish
+@POLISH:	hiszpański
+@ADJ_GENDER:	-a/-e
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	conjunction
+@ENGLISH:	and
+@POLISH:	i
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	intelligent
+@POLISH:	inteligentny
+@ADJ_GENDER:	-a/-e
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	language
+@POLISH:	język
+@POLISH_NOTE:	G: języka
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun, person
+@GENDER:	masculine
+@ENGLISH:	colleague
+@ENGLISH_ALT:	friend
+@POLISH:	kolega
+@POLISH_NOTE:	G: kolegi
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	who
+@POLISH:	kto
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@GENDER:	feminine
+@ENGLISH:	literatura
+@POLISH:	literatura
+@POLISH_NOTE:	G: literatury
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	pretty
+@ENGLISH_ALT:	cute
+@POLISH:	ładny
+@ADJ_GENDER:	-a/-e
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun, family
+@ENGLISH:	mother
+@POLISH:	matka
+@POLISH_NOTE:	matki
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to have
+@POLISH:	mieć
+@IMPERFECT:	true
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	she is 20 years old
+@POLISH:	ona ma 20 lat
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun, family
+@ENGLISH:	father
+@POLISH:	ojciec
+@POLISH_NOTE:	ojca
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	he
+@POLISH:	on
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	she
+@POLISH:	ona
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun, person
+@ENGLISH:	Mister
+@ENGLISH_ALT:	sir
+@ENGLISH_ALT:	you
+@POLISH:	pan
+@POLISH_NOTE:	G: pana, L: panu, NN: panowie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun, person
+@ENGLISH:	Mrs.
+@ENGLISH_ALT:	madam
+@ENGLISH_ALT:	you
+@POLISH:	pani
+@POLISH_NOTE:	G: pani, GG: pań
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	Polish
+@POLISH:	poliski
+@ADJ_GENDER:	-a/-e
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun, person
+@GENDER:	masculine
+@ENGLISH:	professor
+@POLISH:	profesor
+@POLISH_NOTE:	G: profesora
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	handsome
+@ENGLISH_ALT:	good-looking
+@POLISH:	przystojny
+@ADJ_GENDER:	-a/-e
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@GENDER:	masculine
+@ENGLISH:	year
+@POLISH:	rok
+@POLISH_NOTE:	G: roku, NN lata, GG: lat
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	student
+@ENGLISH_NOTE:	male
+@POLISH:	student
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun, person
+@ENGLISH:	student
+@ENGLISH_NOTE:	female
+@POLISH:	studentka
+@POLISH_NOTE:	G: studentki, GG: studentek
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to study
+@PERFECT:	true
+@POLISH:	studiować
+@VERB_CLASS:	I studiuj-
+@CONJUGATION:	studiuję, studiujesz
+@IMPERFECT:	true
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	likeable
+@POLISH:	sympatyczny
+@ADJ_GENDER:	-a/-e
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	art
+@POLISH:	sztuka
+@GENDER:	feminine
+@POLISH_NOTE:	G: sztuki
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	this
+@ENGLISH_ALT:	that
+@POLISH:	ten
+@POLISH_ALT:	ta
+@POLISH_ALT:	to
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adverb
+@ENGLISH:	now
+@POLISH:	teraz
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	it
+@POLISH:	to
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	preposition
+@ENGLISH:	in
+@ENGLISH_ALT:	at
+@ENGLISH_ALT:	on
+@POLISH:	w
+@POLISH_NOTE:	+ Ac, +L
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	particle
+@ENGLISH:	just
+@POLISH:	właśnie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	talented
+@ENGLISH_ALT:	clever
+@ENGLISH_ALT:	able
+@POLISH:	zdolny
+@ADJ_GENDER:	-a/-e
+@@END:		CARD
+
+@@@ LESSON 2 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to be
+@POLISH:	być
+@IMPERFECT:	true
+@VERB_CLASS:	irregular
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adverb
+@ENGLISH:	probably
+@ENGLISH_ALT:	surely
+@POLISH:	chyba
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to be glad
+@ENGLISH_ALT:	to be happy
+@IMPERFECT:	true
+@POLISH:	cieszyć się
+@VERB_CASE:	z + G
+@CONJUGATION:	cieszę się, cieszysz się
+@VERB_CLASS:	II ciesz-
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	what
+@POLISH:	co
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adverb
+@ENGLISH:	wonderful
+@POLISH:	cudownie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to wait for
+@POLISH:	czekać
+@VERB_CASE:	na + A
+@CONJUGATION:	czekam, czekasz
+@IMPERFECT:	true
+@VERB_CLASS:	III czek-
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	informal
+@ENGLISH:	hi
+@POLISH:	cześć
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	conjunction
+@ENGLISH:	what
+@ENGLISH_NOTE:	starting yes and no questions
+@POLISH:	czy
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	preposition
+@ENGLISH:	to
+@POLISH:	do
+@POLISH_NOTE:	+ G
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	good
+@POLISH:	dobry
+@ADJ_GENDER:	-a/-e
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	house
+@ENGLISH_ALT:	home
+@POLISH:	dom
+@GENDER:	masculine
+@POLISH_NOTE:	G: domu, L: w domu
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adverb
+@ENGLISH:	much
+@ENGLISH_ALT:	a lot of
+@POLISH:	dużo
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@GENDER:	masculine
+@ENGLISH:	day
+@POLISH:	dzień
+@POLISH_NOTE:	G: dnia
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adverb
+@ENGLISH:	good
+@ENGLISH_ALT:	OK
+@POLISH:	fajnie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	interjection
+@ENGLISH:	hello
+@POLISH:	halo
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	I
+@POLISH:	ja
+@POLISH_NOTE:	G: mnie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to go
+@ENGLISH_NOTE:	by vehicle
+@POLISH:	jechać
+@CONJUGATION:	jadę, jedziesz
+@VERB_CLASS:	I jad-/jedzi-
+@IMPERFECT:	true
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	how
+@ENGLISH_ALT:	like
+@POLISH:	jak
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	conjunction
+@ENGLISH:	some
+@ENGLISH_ALT:	any
+@POLISH:	jakiś
+@GENDER:	-aś/-ieś
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	jazz
+@POLISH:	jazz
+@POLISH_NOTE:	G: jazzu
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	particle
+@ENGLISH:	already
+@POLISH:	już
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	darling
+@POLISH:	kochanie
+@POLISH_NOTE:	only Voc.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	airport
+@POLISH:	lotnisko
+@POLISH_NOTE:	G: lotniska
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	people
+@POLISH:	ludzie
+@POLISH_NOTE:	pl. G: ludzi
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun, family
+@ENGLISH:	mama
+@POLISH:	mama
+@GENDER:	feminine
+@POLISH_NOTE:	G: mamy
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	preposition
+@ENGLISH:	for
+@POLISH:	na
+@POLISH_NOTE:	+ A
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	particle
+@ENGLISH:	no
+@ENGLISH_ALT:	not
+@POLISH:	nie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adverb
+@ENGLISH:	of course
+@ENGLISH_ALT:	sure
+@POLISH:	oczywiście
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to tell
+@POLISH:	opowiedzieć
+@CONJUGATION:	opowiem, opowiesz
+@PERFECT:	true
+@VERB_CLASS:	IV opowi-
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to remember
+@POLISH:	pamiętać
+@CONJUGATION:	pamiętam, pamiętasz
+@VERB_CLASS:	III pamięt-
+@IMPERFECT:	true
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to recognize
+@POLISH:	poznawać
+@CONJUGATION:	poznaję, poznajesz
+@IMPERFECT:	true
+@VERB_CLASS:	II poznaj-
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to ask
+@POLISH:	prosić
+@CONJUGATION:	proszę, prosisz
+@VERB_CLASS:	II prosz-/pros-
+@IMPERFECT:	true
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	please
+@POLISH:	proszę
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to be sorry
+@POLISH:	przepraszać
+@CONJUGATION:	przepraszam, prezepraszasz
+@VERB_CLASS:	III prezeprasz-
+@IMPERFECT:	true
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to talk
+@POLISH:	rozmawiać
+@VERB_CASE:	z + I; + o + L
+@CONJUGATION:	rozmawiam, rozmawiasz
+@IMPERFECT:	true
+@VERB_CLASS:	III rozmawi-
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	oneself
+@POLISH:	się
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	where from
+@POLISH:	skąd
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	how should I know
+@POLISH:	skąd mam wiedzieć
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to be heard
+@POLISH:	słychać
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	what's new?
+@POLISH:	co słychać?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	particle
+@ENGLISH:	yes
+@POLISH:	tak
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	over there
+@POLISH:	tam
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun, family
+@ENGLISH:	dad
+@POLISH:	tata
+@POLISH_NOTE:	G: taty, V: tato
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	particle
+@ENGLISH:	also
+@ENGLISH_ALT:	too
+@POLISH:	też
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	here
+@POLISH:	tu
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	you
+@POLISH:	ty
+@POLISH_NOTE:	G: ciebie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	preposition
+@ENGLISH:	at
+@ENGLISH_ALT:	with
+@POLISH:	u
+@POLISH_NOTE:	+ G
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to know
+@POLISH:	wiedzieć
+@CONJUGATION:	wiem, wiesz
+@VERB_CLASS:	IV wi-
+@IMPERFECT:	true
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@IMPERFECT:	true
+@ENGLISH:	to come back
+@POLISH:	wracać
+@CONJUGATION:	wracam, wracasz
+@VERB_CASE:	z + G
+@VERB_CLASS:	III wrac-
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adverb
+@ENGLISH:	at last
+@POLISH:	wrescie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	all
+@ENGLISH_ALT:	everything
+@POLISH:	wszystko
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	everything is OK
+@POLISH:	wszystko w porządku
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	preposition
+@ENGLISH:	from
+@ENGLISH_ALT:	to
+@ENGLISH_ALT:	with
+@POLISH:	z
+@POLISH_ALT:	ze
+@POLISH_NOTE:	+ G, + i
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to see
+@POLISH:	zobaczyć
+@CONJUGATION:	zobachę, zobaczysz
+@VERB_CLASS:	II zobacz-
+@PERFECT:	true
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun, family
+@ENGLISH:	wife
+@POLISH:	żona
+@POLISH_NOTE:	G: żony, Gpl: żon
+@@END:		CARD
+
+@@@ LESSON 3 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	dormitory
+@POLISH:	akademik
+@GENDER:	masculine
+@POLISH_NOTE:	G: akademika
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to want
+@POLISH:	chcieć
+@IMPERFECT:	true
+@VERB_CASE:	G
+@CONJUGATION:	chcę, chcesz
+@VERB_CLASS:	I chc-
+@CONDITIONAL:	chciałbym
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	something
+@POLISH:	coś
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	good bye
+@POLISH:	do widzenia
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to thank for
+@POLISH:	dziękować
+@IMPERFECT:	true
+@VERB_CASE:	za + A
+@VERB_CLASS:	I dziękuj-
+@CONJUGATION:	dziękuję, dziękujesz
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	bell
+@GENDER:	masculine
+@POLISH:	dzwonek
+@POLISH_NOTE:	G: dzwonka
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	what
+@ENGLISH_ALT:	like, which
+@POLISH:	jaki
+@PRONOUN_GENDER:	-a/-ie
+@POLISH_NOTE:	jaka, jakie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adverb
+@ENGLISH:	sometime
+@POLISH:	kiedyś
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	supper
+@GENDER:	feminine
+@POLISH:	kolacja
+@POLISH_NOTE:	G: kolacji
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	family, noun
+@ENGLISH:	mommy
+@ENGLISH_ALT:	mom
+@POLISH:	mamusia
+@GENDER:	feminine
+@POLISH_NOTE:	G: mamusi, V: mamusiu
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to live
+@ENGLISH_ALT:	to stay
+@POLISH:	mieszkać
+@IMPERFECT:	true
+@VERB_CASE:	w + L
+@VERB_CLASS:	III mieszk-
+@CONJUGATION:	mieszkam, mieszkasz
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adverb
+@ENGLISH:	nice
+@ENGLISH_ALT:	agreeably
+@POLISH:	miło
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	nice to meet you
+@ENGLISH_NOTE:	formal, masc.
+@POLISH:	miło mi pana poznać
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	nice
+@POLISH:	miły
+@ADJ_GENDER:	-a/-e
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to be able to
+@POLISH:	móc
+@IMPERFECT:	true
+@VERB_CASE:	Infintive
+@VERB_CLASS:	I mog-/moż-
+@CONJUGATION:	mogę, możesz
+@CONDITIONAL:	mógłbym
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	we
+@POLISH:	my
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to visit
+@ENGLISH_ALT:	to come to see
+@POLISH:	odwiedzić
+@PERFECT:	true
+@VERB_CLASS:	II odwiedz-/owiedzi-
+@CONJUGATION:	odwiedzę, odwiedzisz
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	open
+@POLISH:	otwarty
+@ADJ_GENDER:	-a/-e
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	Mr. and Mrs.
+@POLISH:	państwo
+@POLISH_NOTE:	G: państwa
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adverb
+@ENGLISH:	certainly
+@ENGLISH_ALT:	for sure
+@POLISH:	pewno
+@POLISH_NOTE:	na pewno
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adverb
+@ENGLISH:	next
+@ENGLISH_ALT:	later, then
+@POLISH:	potem
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to get to know
+@ENGLISH_ALT:	to meet
+@POLISH:	poznać
+@VERB_CLASS:	III pozn-
+@CONJUGATION:	poznam, poznasz
+@PERFECT:	true
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adverb
+@ENGLISH:	later
+@POLISH:	później
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to introduce
+@POLISH:	przedstawić
+@PERFECT:	true
+@VERB_CLASS:	II przedstawi-/przedstaw-
+@CONJUGATION:	przedstawię, przedstawisz
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	what a pity
+@POLISH:	jaka szkoda
+@POLISH_NOTE:	szkoda
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	family, noun
+@ENGLISH:	daddy
+@ENGLISH_ALT:	dad
+@GENDER:	masculine
+@POLISH:	tatuś
+@POLISH_NOTE:	G: tatusia, V: tatusiu
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to enter
+@POLISH:	wejść
+@PERFECT:	true
+@VERB_CLASS:	I wejd-/wejdzi-
+@CONJUGATION:	wejdę, wejdziesz
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	please come in
+@POLISH:	proszę wejść
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@GENDER:	masculine
+@ENGLISH:	evening
+@POLISH:	wieczór
+@POLISH_NOTE:	G: wieczora
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	good evening
+@POLISH:	dobry wieczór
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@GENDER: 	feminine
+@ENGLISH:	visiting card
+@POLISH:	wizytówka
+@POLISH_NOTE:	G: wizytówki
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	preposition
+@ENGLISH:	for
+@POLISH:	za
+@POLISH_NOTE:	+ A
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to carry
+@ENGLISH_NOTE:	to convey
+@POLISH:	zawieźć
+@IMPERFECT:	true
+@VERB_CLASS:	I zawioz-/zawiezi-
+@CONJUGATION:	zawiozę, zawieziesz
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	tired
+@POLISH:	zmęczony
+@ADJ_GENDER:	-a/-e
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to know
+@ENGLISH_NOTE:	a person
+@POLISH:	znać
+@IMPERFECT:	true
+@VERB_CLASS:	III zn-
+@CONJUGATION:	znam, znasz
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to stay for
+@POLISH:	zostać
+@VERB_CASE:	na + A
+@PERFECT:	true
+@VERB_CLASS:	I zostan-/zostani-
+@CONJUGATION:	zostanę, zostaniesz
+@@END:		CARD
+
+@@END:		CARDLIST
+
+
+

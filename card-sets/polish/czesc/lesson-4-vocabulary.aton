@@ -1,0 +1,335 @@
+@@BEGIN:	CARDLIST
+
+@TITLE:		Lesson 4 vocabulary
+@TITLEURL:	
+@DESCRIPTION:	Flashcards for lesson 4 vocabulary
+@NOTE:		Page 77 of Cześć, jak się masz?
+
+@@BEGIN:	OPTIONS
+@BACKGROUND:		#333333
+@CATEGORY_BACKGROUND:	#2a2a2a
+@DEFAULT_SIDE:		1
+@STYLE:
+	span.verb.perfect      { color: orange;       }
+	span.verb.imperfect    { color: yellow;       }
+	span.adjective         { color: limegreen;    }
+	span.adjective.endings { color: green;        }
+	span.verb.case         { color: purple;       }
+	span.noun, span.family { color: darkcyan;     }
+	span.pronoun           { color: deepskyblue;  }
+	span.adverb            { color: darkred;      }
+	span.preposition       { color: sienna;       }
+	span.verb.class        { color: firebrick; font-size:80%; }
+	span.cardimperfect     {
+		color: goldenrod;
+		font-size: 80%; 
+		display: inline-block; 
+		margin-left: 40px;
+	}
+	span.cardperfect       {
+		color: darkorange; 
+		font-size: 80%; 
+		display: inline-block; 
+		margin-left: 40px;
+	}
+
+
+@@END:		OPTIONS
+
+@@BEGIN:	ABBR
+@PONS:		http://en.pons.com/translate/polish-english/
+@VERBCASE:	{{#if VERB_CASE}}
+			<span class="verb case">+ 
+				{{{VERB_CASE}}}
+			</span>
+		{{/if}}
+@ADJGENDER:	{{#if ADJ_GENDER}}
+			<span class="adjective endings">
+				{{{ADJ_GENDER}}}
+			</span>
+		{{/if}}
+@ENNOTE:	{{#if ENGLISH_NOTE}}
+			<span style="font-size:80%; color:gray">
+				({{{ENGLISH_NOTE}}})
+			</span>
+		{{/if}}
+@ENALT:		{{#if ENGLISH_ALT}}
+			<span style="font-size:80%; color:gray">
+				({{{ENGLISH_ALT}}})
+			</span>
+		{{/if}}
+@PLNOTE:	{{#if POLISH_NOTE}}
+			<span style="font-size:80%; color:gray">
+				({{{POLISH_NOTE}}})
+			</span>
+		{{/if}}
+@CONDITIONAL:	{{#if CONDITIONAL}}
+			<span style="font-size:80%; color:gray">
+				(<i>cond</i>: {{{CONDITIONAL}}})
+			</span>
+		{{/if}}
+@PLALT:		{{#if POLISH_ALT}}
+			<span style="font-size:80%; color:gray">
+				({{{POLISH_ALT}}})
+			</span>
+		{{/if}}
+@@END:		ABBR
+
+@@BEGIN:	SIDES
+
+@@BEGIN:	SIDE
+@TITLE:		Polish
+@WTEMPLATE:	
+		{{#ifEqual PERFECT "true"}}
+			<span title="perfect {{#if VERB_CLASS}}class {{VERB_CLASS}}{{/if}}" class="verb perfect">
+				{{{POLISH}}}
+			</span>
+		{{else ifEqual IMPERFECT "true"}}
+			<span title="imperfect {{#if VERB_CLASS}}class {{VERB_CLASS}}{{/if}}" class="verb imperfect">
+				{{{POLISH}}}
+			</span>
+		{{else ifContains CATEGORY "adjective"}}
+			<span class="adjective">
+				{{{POLISH}}}
+			</span>
+		{{else ifContains CATEGORY "noun"}}
+			<span title="{{{GENDER}}}" class="noun">
+				{{{POLISH}}}
+			</span>
+		{{else ifContains CATEGORY "family"}}
+			<span class="family">
+				{{{POLISH}}}
+			</span>
+		{{else ifContains CATEGORY "pronoun"}}
+			<span title="{{{PRONOUN_GENDER}}}" class="pronoun">
+				{{{POLISH}}}
+			</span>
+		{{else ifContains CATEGORY "adverb"}}
+			<span class="adverb">
+				{{{POLISH}}}
+			</span>
+		{{else ifContains CATEGORY "preposition"}}
+			<span class="preposition">
+				{{{POLISH}}}
+			</span>
+		{{else}}
+			{{{POLISH}}}
+		{{/ifEqual}}
+		ABBR@VERBCASE
+		ABBR@ADJGENDER
+@TEMPLATE:	<div style="margin-top: 60px">
+			{{{hyperlink POLISH "ABBR@PONS" POLISH}}}
+			ABBR@ADJGENDER
+			ABBR@VERBCASE
+			ABBR@CONDITIONAL
+			ABBR@PLNOTE
+			{{{audio AUDIO}}}
+			{{#if VERB_CLASS}}
+				<br>
+				<span class="verb class">
+					class {{{VERB_CLASS}}}
+				</span>
+			{{/if}}
+			{{#ifEqual IMPERFECT "true"}}
+				<span class="cardimperfect">
+					<i>imperf.</i>
+				</span>
+			{{/ifEqual}}
+			{{#ifEqual PERFECT "true"}}
+				<span class="cardperfect">
+					<i>perf.</i>
+				</span>
+			{{/ifEqual}}
+		</div>
+		{{{quiz this "ENGLISH" "English" QUIZOFF}}}
+		{{{forvo POLISH}}}
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		English
+@WTEMPLATE:	{{{ENGLISH}}}
+@TEMPLATE:	<div style="margin-top: 60px">
+			{{{ENGLISH}}} 
+			ABBR@ENNOTE
+		</div>
+		{{{quiz this "POLISH" "Polish" QUIZOFF}}}
+@@END:		SIDE
+
+@@END:		SIDES
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	adverb
+@ENGLISH:	willingly
+@ENGLISH_ALT:	with pleasure
+@POLISH:	chętnie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	hotel
+@POLISH:	hotel
+@POLISH_NOTE:	G: hotelu
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	first name
+@POLISH:	imię
+@POLISH_NOTE:	G: imieniea
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	institute
+@POLISH:	instytut
+@POLISH_NOTE:	G: instytutu
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	other
+@ENGLISH:	if
+@POLISH:	jeśli
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	other
+@ENGLISH:	
+@POLISH:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	other
+@ENGLISH:	cafe
+@POLISH:	kawiarnia
+@POLISH_NOTE:	G: kawiarni
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to buy
+@POLISH:	kupić
+@CONJUGATION:	kupię, kupisz
+@PERFECT:	true
+@VERB_CLASS:	II kupi-/kup-
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	other
+@ENGLISH:	list
+@ENGLISH_ALT:	register
+@POLISH:	lista
+@POLISH_NOTE:	G: listy, L: na liście
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	other
+@ENGLISH:	my
+@ENGLISH_ALT:	mine
+@POLISH:	mój
+@POLISH_ALT:	moja
+@POLISH_ALT:	moje
+@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	other
+@ENGLISH:	for
+@POLISH:	na
+@POLISH_NOTE:	+ A
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	other
+@ENGLISH:	our
+@ENGLISH_ALT:	ours
+@POLISH:	nasz
+@POLISH_ALT:	nasza
+@POLISH_ALT:	nasze
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	other
+@ENGLISH:	passport
+@POLISH:	paszport
+@POLISH_NOTE:	G: paszportu
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	other
+@ENGLISH:	to drink
+@POLISH:	pić
+@CONJUGATION:	piję, pijesz
+@IMPERFECT:	true
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	other
+@ENGLISH:	beer
+@POLISH:	piwo
+@POLISH_NOTE:	G: piwa
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	other
+@ENGLISH:	to go
+@ENGLISH_NOTE:	on foot
+@POLISH:	pójść
+@CONJUGATION:	pójdę, pójdziesz
+@PERFECT:	true
+@VERB_CLASS:	I pójd-/pójdzi-
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	room
+@POLISH:	pokój
+@POLISH_NOTE:	G: pokoju
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	true
+@POLISH:	prawdziwy
+@ADJ_GENDER:	-a/-e
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	reception desk
+@POLISH:	recepcja
+@POLISH_NOTE:	G: recepcji
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	other
+@ENGLISH:	neighbor
+@POLISH:	sąsiadka
+@POLISH_NOTE:	G: sąsiadki
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	student
+@POLISH:	studencki
+@ADJ_GENDER:	-a/-e
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	other
+@ENGLISH:	university
+@POLISH:	uniwersytet
+@POLISH_NOTE:	G: uniwersytetu, L: na uniwersytecie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	closed
+@POLISH:	zamknięty
+@ADJ_GENDER:	-a/-e
+@@END:		CARD
+
+@@END:		CARDLIST
+
+
