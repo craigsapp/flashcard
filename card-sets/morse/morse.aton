@@ -22,7 +22,7 @@
 @TEMPLATE:	<div style="font-size:150pt; margin-top: 120px">
 			{{{morse MORSE}}}
 			{{{audio AUDIO}}}
-		{{{quiz CHARACTER "Character" QUIZOFF}}}
+		{{{quiz this "CHARACTER" "Character" QUIZOFF}}}
 		</div>
 @@END:		SIDE
 
@@ -36,7 +36,7 @@
 				{{{NOTE}}}
 			</span>
 		</div>
-		{{{quiz MORSE "Morse" QUIZOFF}}}
+		{{{quiz this "MORSE" "Morse" QUIZOFF}}}
 @@END:		SIDE
 
 @@END:		SIDES

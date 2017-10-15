@@ -27,7 +27,7 @@
 			</span>
 			{{{audio AUDIO}}}
 		</div>
-		{{{quiz ENGLISH "English" QUIZOFF}}}
+		{{{quiz this "ENGLISH" "English" QUIZOFF}}}
 		{{{forvo POLISH}}}
 @@END:		SIDE
 
@@ -43,7 +43,7 @@
 				{{{paren ENOTE}}}
 			</span>
 		</div>
-		{{{quiz POLISH "Polish" QUIZOFF}}}
+		{{{quiz this "POLISH" "Polish" QUIZOFF}}}
 @@END:		SIDE
 
 @@END:		SIDES

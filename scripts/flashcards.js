@@ -392,18 +392,22 @@ function clearWordList() {
 
 function checkAnswer(element) {
    var value = cleanText(element.value);
-   var name = cleanText(element.name);
-   if (value === name) {
-		var parent = element.parentNode;
-		var quiznote = parent.querySelector(".quiz-note");
-		if (quiznote) {
-			quiznote.innerHTML = "Correct!";
-		}
-      element.value = "";
-		setTimeout(function() {
-			showNextCard();
-		}, 250);
-   }
+   var name = element.name;
+	var answers = name.split(/\s*;\s*/);
+
+	for (var i=0; i<answers.length; i++) {
+   	if (value === answers[i]) {
+			var parent = element.parentNode;
+			var quiznote = parent.querySelector(".quiz-note");
+			if (quiznote) {
+				quiznote.innerHTML = "Correct!";
+			}
+      	element.value = "";
+			setTimeout(function() {
+				showNextCard();
+			}, 500);
+   	}
+	}
 }
 
 
@@ -549,7 +553,7 @@ function showHint(element) {
 
 //////////////////////////////
 //
-// cleanText --
+// cleanText -- remove spaces dots parenthese, colons, semi colons, quotes.
 //
 
 function cleanText(text) {

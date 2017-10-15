@@ -23,7 +23,7 @@
 			{{{hyperlink POLISH "ABBR@PONS" POLISH}}}
 			{{{audio AUDIO}}}
 		</div>
-		{{{quiz ENGLISH "English" QUIZOFF}}}
+		{{{quiz this "ENGLISH" "English" QUIZOFF}}}
 		{{{forvo POLISH}}}
 @@END:		SIDE
 
@@ -33,7 +33,7 @@
 @TEMPLATE:	<div style="margin-top: 60px">
 			{{{ENGLISH}}}
 		</div>
-		{{{quiz POLISH "Polish" QUIZOFF}}}
+		{{{quiz this "POLISH" "Polish" QUIZOFF}}}
 @@END:		SIDE
 
 @@END:		SIDES

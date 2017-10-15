@@ -54,9 +54,9 @@
 			</span>
 		{{/if}}
 @ENALT:		{{#if ENGLISH_ALT}}
-			<span style="font-size:80%; color:gray">
-				({{{ENGLISH_ALT}}})
-			</span>
+			<div style="margin-top:-25px; font-size:80%; color:gray">
+				{{{ENGLISH_ALT}}}
+			</div>
 		{{/if}}
 @PLNOTE:	{{#if POLISH_NOTE}}
 			<span style="font-size:80%; color:gray">
@@ -141,7 +141,7 @@
 				</span>
 			{{/ifEqual}}
 		</div>
-		{{{quiz ENGLISH "English" QUIZOFF}}}
+		{{{quiz this "ENGLISH" "English" QUIZOFF}}}
 		{{{forvo POLISH}}}
 @@END:		SIDE
 
@@ -151,8 +151,9 @@
 @TEMPLATE:	<div style="margin-top: 60px">
 			{{{ENGLISH}}} 
 			ABBR@ENNOTE
+			ABBR@ENALT
 		</div>
-		{{{quiz POLISH "Polish" QUIZOFF}}}
+		{{{quiz this "POLISH" "Polish" QUIZOFF}}}
 @@END:		SIDE
 
 @@END:		SIDES
@@ -262,6 +263,7 @@
 @@BEGIN:	CARD
 @CATEGORY:	adverb
 @ENGLISH:	good
+@ENGLISH_NOTE:	adv.
 @ENGLISH_ALT:	OK
 @POLISH:	fajnie
 @@END:		CARD
@@ -527,7 +529,7 @@
 @@BEGIN:	CARD
 @CATEGORY:	adverb
 @ENGLISH:	at last
-@POLISH:	wrescie
+@POLISH:	wreszcie
 @@END:		CARD
 
 @@BEGIN:	CARD

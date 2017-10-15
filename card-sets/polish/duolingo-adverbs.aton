@@ -24,7 +24,7 @@
 			{{{hyperlink POLISH "ABBR@PONS" POLISH}}}
 			{{{audio AUDIO}}}
 		</div>
-		{{{quiz ENGLISH "English" QUIZOFF}}}
+		{{{quiz this "ENGLISH" "English" QUIZOFF}}}
 @@END:		SIDE
 
 @@BEGIN:	SIDE
@@ -32,7 +32,7 @@
 @WTEMPLATE:	{{{ENGLISH}}}
 @TEMPLATE:	{{{imageorword IMAGE ENGLISH}}}
 		{{{paren ENOTE "," ""}}}
-		{{{quiz POLISH "Polish" QUIZOFF}}}
+		{{{quiz this "POLISH" "Polish" QUIZOFF}}}
 @@END:		SIDE
 
 @@END:		SIDES

@@ -162,14 +162,24 @@ Handlebars.registerHelper("forvo", function(word) {
 // quiz Handlebars helper --
 //
 
-Handlebars.registerHelper("quiz", function(answer, title, hidequiz) {
+Handlebars.registerHelper("quiz", function(object, answertag, title, hidequiz) {
 	var output = "";
 	if (hidequiz) {
 		return new Handlebars.SafeString(output);
 	}
-	
+	clean = cleanText(object[answertag]);
+	var newtag = answertag + "_ALT";
+	if (object[newtag]) {
+		if (typeof object[newtag] === "string") {
+			clean += "; " + cleanText(object[newtag]);
+		} else {
+			for (var i=0; i<object[newtag].length; i++) {
+				clean += "; " + cleanText(object[newtag][i]);
+			}
+		}
+	}
+
 	var side1title = title;
-   var clean = cleanText(answer);
    output += '<div class="quiz">\n';
 	output += '<span class="answer"></span>';
    output += '<input type="text" size="40" ';

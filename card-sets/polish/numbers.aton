@@ -38,7 +38,7 @@
 		<div style="margin-top:40px; font-size:100pt">
 			{{{imageorword IMAGE ENGLISH}}}
 		</div>
-		{{{quiz POLISH "Polish" QUIZOFF}}}
+		{{{quiz this "POLISH" "Polish" QUIZOFF}}}
 		{{#if FUNCTION}}
 			<div style="color:#dddddd; margin-top: 120px">
 				{{{FUNCTION}}}
@@ -116,7 +116,7 @@
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	1's, 10's
+@CATEGORY:	1's
 @ENGLISH:	10
 @POLISH:	dziesięć
 @AUDIO:		wiki:Pl-dziesięć.ogg
@@ -126,63 +126,63 @@
 @@@ 11 to 2O @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 @@BEGIN:	CARD
-@CATEGORY:	10's
+@CATEGORY:	teens
 @ENGLISH:	11
 @POLISH:	jedenaście
 @AUDIO:		wiki:Pl-jedenaście.ogg
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	10's
+@CATEGORY:	teens
 @ENGLISH:	12
 @POLISH:	dwanaście
 @AUDIO:		wiki:Pl-dwanaście.ogg
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	10's
+@CATEGORY:	teens
 @ENGLISH:	13
 @POLISH:	trzynaście
 @AUDIO:		http://media.surfacelanguages.com/polish/Numbers1to20/12.mp3
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	10's
+@CATEGORY:	teens
 @ENGLISH:	14
 @POLISH:	czternaście
 @AUDIO:		wiki:Pl-czternaście.ogg
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	10's
+@CATEGORY:	teens
 @ENGLISH:	15
 @POLISH:	piętnaście
 @AUDIO:		http://media.surfacelanguages.com/polish/Numbers1to20/14.mp3
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	10's
+@CATEGORY:	teens
 @ENGLISH:	16
 @POLISH:	szesnaście
 @AUDIO:		wiki:Pl-szesnaście.ogg
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	10's
+@CATEGORY:	teens
 @ENGLISH:	17
 @POLISH:	siedemnaście
 @AUDIO:		wiki:Pl-siedemnaście.ogg
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	10's
+@CATEGORY:	teens
 @ENGLISH:	18
 @POLISH:	osiemnaście
 @AUDIO:		wiki:Pl-osiemnaście.ogg
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	10's
+@CATEGORY:	teens
 @ENGLISH:	19
 @POLISH:	dziewiętnaście
 @AUDIO:		wiki:Pl-dziewiętnaście.ogg
@@ -193,6 +193,54 @@
 @ENGLISH:	20
 @POLISH:	dwadzieścia
 @AUDIO:		wiki:Pl-dwadzieścia.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	10's
+@ENGLISH:	30
+@POLISH:	trzydzieści
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	10's
+@ENGLISH:	40
+@POLISH:	czterdzieści
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	10's
+@ENGLISH:	50
+@POLISH:	pięćdziesiąt
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	10's
+@ENGLISH:	60
+@POLISH:	sześćdziesiąt
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	10's
+@ENGLISH:	70
+@POLISH:	siedemdziesiąt
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	10's
+@ENGLISH:	80
+@POLISH:	osiemdziesiąt
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	10's
+@ENGLISH:	90
+@POLISH:	dziewięćdziesiąt
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	100's
+@ENGLISH:	100
+@POLISH:	sto
 @@END:		CARD
 
 

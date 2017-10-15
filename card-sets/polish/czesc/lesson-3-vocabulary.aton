@@ -141,7 +141,7 @@
 				</span>
 			{{/ifEqual}}
 		</div>
-		{{{quiz ENGLISH "English" QUIZOFF}}}
+		{{{quiz this "ENGLISH" "English" QUIZOFF}}}
 		{{{forvo POLISH}}}
 @@END:		SIDE
 
@@ -152,7 +152,7 @@
 			{{{ENGLISH}}} 
 			ABBR@ENNOTE
 		</div>
-		{{{quiz POLISH "Polish" QUIZOFF}}}
+		{{{quiz this "POLISH" "Polish" QUIZOFF}}}
 @@END:		SIDE
 
 @@END:		SIDES

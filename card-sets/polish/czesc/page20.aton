@@ -26,7 +26,7 @@
 				({{{POLISH_NOTE}}})
 			{{/if}}
 		</div>
-		{{{quiz ENGLISH "English" QUIZOFF}}}
+		{{{quiz this "ENGLISH" "English" QUIZOFF}}}
 @@END:		SIDE
 
 @@BEGIN:	SIDE
@@ -38,7 +38,7 @@
 				({{{ENGLISH_NOTE}}})
 			{{/if}}
 		</div>
-		{{{quiz POLISH "Polish" QUIZOFF}}}
+		{{{quiz this "POLISH" "Polish" QUIZOFF}}}
 @@END:		SIDE
 
 @@END:		SIDES

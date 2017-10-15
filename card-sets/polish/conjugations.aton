@@ -33,7 +33,7 @@
 @TEMPLATE:	<div style="margin-top: 60px">
 			{{{ENGLISH}}}
 		</div>
-		{{{quiz POLISH "Polish" QUIZOFF}}}
+		{{{quiz this "POLISH" "Polish" QUIZOFF}}}
 @@END:		SIDE
 
 @@END:		SIDES
