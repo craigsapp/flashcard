@@ -54,9 +54,9 @@
 			</span>
 		{{/if}}
 @ENALT:		{{#if ENGLISH_ALT}}
-			<span style="font-size:80%; color:gray">
-				({{{ENGLISH_ALT}}})
-			</span>
+			<div style="margin-top:-25px; font-size:80%; color:gray">
+				{{{ENGLISH_ALT}}}
+			</div>
 		{{/if}}
 @PLNOTE:	{{#if POLISH_NOTE}}
 			<span style="font-size:80%; color:gray">
@@ -69,9 +69,9 @@
 			</span>
 		{{/if}}
 @PLALT:		{{#if POLISH_ALT}}
-			<span style="font-size:80%; color:gray">
-				({{{POLISH_ALT}}})
-			</span>
+			<div style="margin-top:-25px; font-size:80%; color:gray">
+				{{{POLISH_ALT}}}
+			</div>
 		{{/if}}
 @@END:		ABBR
 
@@ -123,6 +123,7 @@
 			ABBR@VERBCASE
 			ABBR@CONDITIONAL
 			ABBR@PLNOTE
+			ABBR@PLALT
 			{{{audio AUDIO}}}
 			{{#if VERB_CLASS}}
 				<br>
@@ -151,6 +152,7 @@
 @TEMPLATE:	<div style="margin-top: 60px">
 			{{{ENGLISH}}} 
 			ABBR@ENNOTE
+			ABBR@ENALT
 		</div>
 		{{{quiz this "POLISH" "Polish" QUIZOFF}}}
 @@END:		SIDE
@@ -212,10 +214,13 @@
 @@BEGIN:	CARD
 @CATEGORY:	pronoun
 @ENGLISH:	what
-@ENGLISH_ALT:	like, which
+@ENGLISH_NOTE:	pronoun
+@ENGLISH_ALT:	like
+@ENGLISH_ALT:	which
 @POLISH:	jaki
+@POLISH_ALT:	jaka
+@POLISH_ALT:	jakie 
 @PRONOUN_GENDER:	-a/-ie
-@POLISH_NOTE:	jaka, jakie
 @@END:		CARD
 
 @@BEGIN:	CARD
@@ -403,6 +408,7 @@
 @CATEGORY:	noun
 @GENDER: 	feminine
 @ENGLISH:	visiting card
+@ENGLISH_ALT:	business card
 @POLISH:	wizytówka
 @POLISH_NOTE:	G: wizytówki
 @@END:		CARD
@@ -417,9 +423,9 @@
 @@BEGIN:	CARD
 @CATEGORY:	verb
 @ENGLISH:	to carry
-@ENGLISH_NOTE:	to convey
+@ENGLISH_ALT:	to convey
 @POLISH:	zawieźć
-@IMPERFECT:	true
+@PERFECT:	true
 @VERB_CLASS:	I zawioz-/zawiezi-
 @CONJUGATION:	zawiozę, zawieziesz
 @@END:		CARD
