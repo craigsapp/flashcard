@@ -1,0 +1,202 @@
+
+@@@ BASIC NUMBERS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	ones
+@ENGLISH:	0
+@POLISH:	zero
+@AUDIO:		wiki:Pl-zero.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	ones
+@ENGLISH:	1
+@POLISH:	jeden
+@AUDIO:		wiki:Pl-jeden.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	ones
+@ENGLISH:	2
+@POLISH:	dwa
+@AUDIO:		wiki:Pl-dwa.ogg
+@XAUDIO:	https://upload.wikimedia.org/wikipedia/commons/e/ec/Pl-dwa.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	ones
+@ENGLISH:	3
+@POLISH:	trzy
+@AUDIO:		wiki:Pl-trzy.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	ones
+@ENGLISH:	4
+@POLISH:	cztery
+@AUDIO:		wiki:Pl-cztery.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	ones
+@ENGLISH:	5
+@POLISH:	pięć
+@AUDIO:		wiki:Pl-pięć.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	ones
+@ENGLISH:	6
+@POLISH:	sześć
+@AUDIO:		wiki:Pl-sześć.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	ones
+@ENGLISH:	7
+@POLISH:	siedem
+@AUDIO:		wiki:Pl-siedem.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	ones
+@ENGLISH:	8
+@POLISH:	osiem
+@AUDIO:		wiki:Pl-osiem.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	ones
+@ENGLISH:	9
+@POLISH:	dziewięć
+@AUDIO:		wiki:Pl-dziewięć.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	tens
+@ENGLISH:	10
+@POLISH:	dziesięć
+@AUDIO:		wiki:Pl-dziesięć.ogg
+@@END:		CARD
+
+
+@@@ 11 to 2O @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	teens
+@ENGLISH:	11
+@POLISH:	jedenaście
+@AUDIO:		wiki:Pl-jedenaście.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	teens
+@ENGLISH:	12
+@POLISH:	dwanaście
+@AUDIO:		wiki:Pl-dwanaście.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	teens
+@ENGLISH:	13
+@POLISH:	trzynaście
+@AUDIO:		http://media.surfacelanguages.com/polish/Numbers1to20/12.mp3
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	teens
+@ENGLISH:	14
+@POLISH:	czternaście
+@AUDIO:		wiki:Pl-czternaście.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	teens
+@ENGLISH:	15
+@POLISH:	piętnaście
+@AUDIO:		http://media.surfacelanguages.com/polish/Numbers1to20/14.mp3
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	teens
+@ENGLISH:	16
+@POLISH:	szesnaście
+@AUDIO:		wiki:Pl-szesnaście.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	teens
+@ENGLISH:	17
+@POLISH:	siedemnaście
+@AUDIO:		wiki:Pl-siedemnaście.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	teens
+@ENGLISH:	18
+@POLISH:	osiemnaście
+@AUDIO:		wiki:Pl-osiemnaście.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	teens
+@ENGLISH:	19
+@POLISH:	dziewiętnaście
+@AUDIO:		wiki:Pl-dziewiętnaście.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	tens
+@ENGLISH:	20
+@POLISH:	dwadzieścia
+@AUDIO:		wiki:Pl-dwadzieścia.ogg
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	tens
+@ENGLISH:	30
+@POLISH:	trzydzieści
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	tens
+@ENGLISH:	40
+@POLISH:	czterdzieści
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	tens
+@ENGLISH:	50
+@POLISH:	pięćdziesiąt
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	tens
+@ENGLISH:	60
+@POLISH:	sześćdziesiąt
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	tens
+@ENGLISH:	70
+@POLISH:	siedemdziesiąt
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	tens
+@ENGLISH:	80
+@POLISH:	osiemdziesiąt
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	tens
+@ENGLISH:	90
+@POLISH:	dziewięćdziesiąt
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	hundreds
+@ENGLISH:	100
+@POLISH:	sto
+@@END:		CARD
+

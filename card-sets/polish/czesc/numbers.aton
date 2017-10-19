@@ -10,4 +10,4 @@ permalink: /card-sets/polish/czesc/lesson-3-vocabulary.aton
 	note="Page 60 of Cześć, jak się masz?"
 %}
 
-{% include_relative lesson-3-vocabulary.txt %}
+{% include_relative numbers.txt %}

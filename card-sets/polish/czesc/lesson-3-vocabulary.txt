@@ -1,0 +1,298 @@
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	dormitory
+@POLISH:	akademik
+@GENDER:	masculine
+@POLISH_NOTE:	G: akademika
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to want
+@POLISH:	chcieć
+@IMPERFECT:	true
+@VERB_CASE:	G
+@CONJUGATION:	chcę, chcesz
+@VERB_CLASS:	I chc-
+@CONDITIONAL:	chciałbym
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	something
+@POLISH:	coś
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	good bye
+@POLISH:	do widzenia
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to thank for
+@POLISH:	dziękować
+@IMPERFECT:	true
+@VERB_CASE:	za + A
+@VERB_CLASS:	I dziękuj-
+@CONJUGATION:	dziękuję, dziękujesz
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	bell
+@GENDER:	masculine
+@POLISH:	dzwonek
+@POLISH_NOTE:	G: dzwonka
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	what
+@ENGLISH_NOTE:	pronoun
+@ENGLISH_ALT:	like
+@ENGLISH_ALT:	which
+@POLISH:	jaki
+@POLISH_ALT:	jaka
+@POLISH_ALT:	jakie 
+@PRONOUN_GENDER:	-a/-ie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adverb
+@ENGLISH:	sometime
+@POLISH:	kiedyś
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	supper
+@GENDER:	feminine
+@POLISH:	kolacja
+@POLISH_NOTE:	G: kolacji
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	family, noun
+@ENGLISH:	mommy
+@ENGLISH_ALT:	mom
+@POLISH:	mamusia
+@GENDER:	feminine
+@POLISH_NOTE:	G: mamusi, V: mamusiu
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to live
+@ENGLISH_ALT:	to stay
+@POLISH:	mieszkać
+@IMPERFECT:	true
+@VERB_CASE:	w + L
+@VERB_CLASS:	III mieszk-
+@CONJUGATION:	mieszkam, mieszkasz
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adverb
+@ENGLISH:	nice
+@ENGLISH_ALT:	agreeably
+@POLISH:	miło
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	nice to meet you
+@ENGLISH_NOTE:	formal, masc.
+@POLISH:	miło mi pana poznać
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	nice
+@POLISH:	miły
+@ADJ_GENDER:	-a/-e
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to be able to
+@POLISH:	móc
+@IMPERFECT:	true
+@VERB_CASE:	Infintive
+@VERB_CLASS:	I mog-/moż-
+@CONJUGATION:	mogę, możesz
+@CONDITIONAL:	mógłbym
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	we
+@POLISH:	my
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to visit
+@ENGLISH_ALT:	to come to see
+@POLISH:	odwiedzić
+@PERFECT:	true
+@VERB_CLASS:	II odwiedz-/owiedzi-
+@CONJUGATION:	odwiedzę, odwiedzisz
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	open
+@POLISH:	otwarty
+@ADJ_GENDER:	-a/-e
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	Mr. and Mrs.
+@POLISH:	państwo
+@POLISH_NOTE:	G: państwa
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adverb
+@ENGLISH:	certainly
+@ENGLISH_ALT:	for sure
+@POLISH:	pewno
+@POLISH_NOTE:	na pewno
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adverb
+@ENGLISH:	next
+@ENGLISH_ALT:	later, then
+@POLISH:	potem
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to get to know
+@ENGLISH_ALT:	to meet
+@POLISH:	poznać
+@VERB_CLASS:	III pozn-
+@CONJUGATION:	poznam, poznasz
+@PERFECT:	true
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adverb
+@ENGLISH:	later
+@POLISH:	później
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to introduce
+@POLISH:	przedstawić
+@PERFECT:	true
+@VERB_CLASS:	II przedstawi-/przedstaw-
+@CONJUGATION:	przedstawię, przedstawisz
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	what a pity
+@POLISH:	jaka szkoda
+@POLISH_NOTE:	szkoda
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	family, noun
+@ENGLISH:	daddy
+@ENGLISH_ALT:	dad
+@GENDER:	masculine
+@POLISH:	tatuś
+@POLISH_NOTE:	G: tatusia, V: tatusiu
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to enter
+@POLISH:	wejść
+@PERFECT:	true
+@VERB_CLASS:	I wejd-/wejdzi-
+@CONJUGATION:	wejdę, wejdziesz
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	please come in
+@POLISH:	proszę wejść
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@GENDER:	masculine
+@ENGLISH:	evening
+@POLISH:	wieczór
+@POLISH_NOTE:	G: wieczora
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	good evening
+@POLISH:	dobry wieczór
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@GENDER: 	feminine
+@ENGLISH:	visiting card
+@ENGLISH_ALT:	business card
+@POLISH:	wizytówka
+@POLISH_NOTE:	G: wizytówki
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	preposition
+@ENGLISH:	for
+@POLISH:	za
+@POLISH_NOTE:	+ A
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to carry
+@ENGLISH_ALT:	to convey
+@POLISH:	zawieźć
+@PERFECT:	true
+@VERB_CLASS:	I zawioz-/zawiezi-
+@CONJUGATION:	zawiozę, zawieziesz
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	tired
+@POLISH:	zmęczony
+@ADJ_GENDER:	-a/-e
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to know
+@ENGLISH_NOTE:	a person
+@POLISH:	znać
+@IMPERFECT:	true
+@VERB_CLASS:	III zn-
+@CONJUGATION:	znam, znasz
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to stay for
+@POLISH:	zostać
+@VERB_CASE:	na + A
+@PERFECT:	true
+@VERB_CLASS:	I zostan-/zostani-
+@CONJUGATION:	zostanę, zostaniesz
+@@END:		CARD
+
+
+

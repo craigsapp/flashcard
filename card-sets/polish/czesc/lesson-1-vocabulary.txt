@@ -1,0 +1,300 @@
+
+@@BEGIN:	CARD
+@CATEGORY:	conjunction
+@ENGLISH:	and
+@ENGLISH_NOTE:	indicates contrast
+@POLISH:	a
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	conjunction
+@ENGLISH:	but
+@POLISH:	ale
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	ambitious
+@POLISH:	ambitny
+@ADJ_GENDER:	-a/-e
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adverb
+@ENGLISH:	very
+@POLISH:	bardzo
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to be
+@POLISH:	być
+@INTRANSITIVE:	true
+@CONJUGATION:	jestem, jesteś
+@VERB_CLASS:	irregular
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	boy
+@ENGLISH_ALT:	boyfriend
+@POLISH:	chłopiec
+@POLISH_NOTE:	G: chłopca
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@GENDER:	feminine
+@ENGLISH:	economics
+@POLISH:	ekonomia
+@POLISH_NOTE:	G: ekonomii
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun, person
+@ENGLISH:	Frenchman
+@POLISH:	Francuz
+@POLISH_NOTE:	G: Francuza
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	history
+@POLISH:	historia
+@GENDER:	feminine
+@POLISH_NOTE:	G: historii
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	Spanish
+@POLISH:	hiszpański
+@ADJ_GENDER:	-a/-e
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	conjunction
+@ENGLISH:	and
+@POLISH:	i
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	intelligent
+@POLISH:	inteligentny
+@ADJ_GENDER:	-a/-e
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	language
+@POLISH:	język
+@POLISH_NOTE:	G: języka
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun, person
+@GENDER:	masculine
+@ENGLISH:	colleague
+@ENGLISH_ALT:	friend
+@POLISH:	kolega
+@POLISH_NOTE:	G: kolegi
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	who
+@POLISH:	kto
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@GENDER:	feminine
+@ENGLISH:	literatura
+@POLISH:	literatura
+@POLISH_NOTE:	G: literatury
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	pretty
+@ENGLISH_ALT:	cute
+@POLISH:	ładny
+@ADJ_GENDER:	-a/-e
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun, family
+@ENGLISH:	mother
+@POLISH:	matka
+@POLISH_NOTE:	matki
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to have
+@POLISH:	mieć
+@VERB_CLASS:	III m-
+@CONJUGATION:	mam, masz
+@IMPERFECT:	true
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	she is 20 years old
+@POLISH:	ona ma 20 lat
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun, family
+@ENGLISH:	father
+@POLISH:	ojciec
+@POLISH_NOTE:	ojca
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	he
+@POLISH:	on
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	she
+@POLISH:	ona
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun, person
+@ENGLISH:	Mister
+@ENGLISH_ALT:	sir
+@ENGLISH_ALT:	you
+@POLISH:	pan
+@POLISH_NOTE:	G: pana, L: panu, NN: panowie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun, person
+@ENGLISH:	Mrs.
+@ENGLISH_ALT:	madam
+@ENGLISH_ALT:	you
+@POLISH:	pani
+@POLISH_NOTE:	G: pani, GG: pań
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	Polish
+@POLISH:	poliski
+@ADJ_GENDER:	-a/-e
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun, person
+@GENDER:	masculine
+@ENGLISH:	professor
+@POLISH:	profesor
+@POLISH_NOTE:	G: profesora
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	handsome
+@ENGLISH_ALT:	good-looking
+@POLISH:	przystojny
+@ADJ_GENDER:	-a/-e
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@GENDER:	masculine
+@ENGLISH:	year
+@POLISH:	rok
+@POLISH_NOTE:	G: roku, NN lata, GG: lat
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	student
+@ENGLISH_NOTE:	male
+@POLISH:	student
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun, person
+@ENGLISH:	student
+@ENGLISH_NOTE:	female
+@POLISH:	studentka
+@POLISH_NOTE:	G: studentki, GG: studentek
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to study
+@PERFECT:	true
+@POLISH:	studiować
+@VERB_CLASS:	I studiuj-
+@CONJUGATION:	studiuję, studiujesz
+@IMPERFECT:	true
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	likeable
+@POLISH:	sympatyczny
+@ADJ_GENDER:	-a/-e
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	art
+@POLISH:	sztuka
+@GENDER:	feminine
+@POLISH_NOTE:	G: sztuki
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	this
+@ENGLISH_ALT:	that
+@POLISH:	ten
+@POLISH_ALT:	ta
+@POLISH_ALT:	to
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adverb
+@ENGLISH:	now
+@POLISH:	teraz
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	pronoun
+@ENGLISH:	it
+@POLISH:	to
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	preposition
+@ENGLISH:	in
+@ENGLISH_ALT:	at
+@ENGLISH_ALT:	on
+@POLISH:	w
+@POLISH_NOTE:	+ Ac, +L
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	particle
+@ENGLISH:	just
+@POLISH:	właśnie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	talented
+@ENGLISH_ALT:	clever
+@ENGLISH_ALT:	able
+@POLISH:	zdolny
+@ADJ_GENDER:	-a/-e
+@@END:		CARD
+
