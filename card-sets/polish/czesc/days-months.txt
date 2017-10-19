@@ -63,7 +63,7 @@
 
 @@BEGIN:	CARD
 @CATEGORY:	month
-@ENGLISH:	Jaunary
+@ENGLISH:	January
 @ENGLISH_NOTE:	
 @POLISH:	styczeń
 @POLISH_NOTE:	
