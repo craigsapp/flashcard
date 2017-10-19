@@ -1,0 +1,14 @@
+---
+layout: cardlist
+permalink: /card-sets/polish/czesc/days-months.aton
+---
+
+{% include_relative card-setup.txt 
+	title="Weekdays and months"
+	titleurl=""
+	description="Flashcards for learning the days of the weeks and the months of the year."
+	note="19 Oct 2017"
+%}
+
+{% include_relative days-months.txt %}
+
