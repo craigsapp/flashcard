@@ -110,7 +110,7 @@
 @@BEGIN:	CARD
 @CATEGORY:	noun
 @GENDER:	feminine
-@ENGLISH:	literatura
+@ENGLISH:	literature
 @POLISH:	literatura
 @POLISH_NOTE:	G: literatury
 @@END:		CARD
@@ -149,7 +149,7 @@
 @CATEGORY:	noun, family
 @ENGLISH:	father
 @POLISH:	ojciec
-@POLISH_NOTE:	ojca
+@POLISH_NOTE:	GA: ojca
 @@END:		CARD
 
 @@BEGIN:	CARD
