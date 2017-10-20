@@ -1,0 +1,160 @@
+
+@@BEGIN:	CARD
+@CATEGORY:	weekday
+@ENGLISH:	Monday
+@ENGLISH_NOTE:	"after Sunday"
+@POLISH:	poniedziałek
+@GENDER:	masculine
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	weekday
+@ENGLISH:	Tuesday
+@ENGLISH_NOTE:	"second day of the week"
+@POLISH:	wtorek
+@POLISH_NOTE:	from wtóry = drugi (second)
+@GENDER:	masculine
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	weekday
+@ENGLISH:	Wednesday
+@ENGLISH_NOTE:	"middle of the week"
+@POLISH:	środa
+@POLISH_NOTE:	from środek
+@GENDER:	feminine
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	weekday
+@ENGLISH:	Thursday
+@ENGLISH_NOTE:	"fourth day of the week"
+@POLISH:	czwartek
+@POLISH_NOTE:	from czwarty
+@GENDER:	masculine
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	weekday
+@ENGLISH:	Friday
+@ENGLISH_NOTE:	"fifth day of the week"
+@POLISH:	piątek
+@POLISH_NOTE:	from piąty, pronounced "piontek"
+@GENDER:	masculine
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	weekday
+@ENGLISH:	Saturday
+@ENGLISH_NOTE:	
+@POLISH:	sobota
+@POLISH_NOTE:	from Shabbat
+@GENDER:	feminine
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	weekday
+@ENGLISH:	Sunday
+@ENGLISH_NOTE:	"don't do anything"
+@POLISH:	niedziela
+@POLISH_NOTE:	from nie działa
+@GENDER:	feminine
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	month
+@ENGLISH:	January
+@ENGLISH_NOTE:	
+@POLISH:	styczeń
+@POLISH_NOTE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	month
+@ENGLISH:	February
+@ENGLISH_NOTE:	
+@POLISH:	luty
+@POLISH_NOTE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	month
+@ENGLISH:	March
+@ENGLISH_NOTE:	
+@POLISH:	marzec
+@POLISH_NOTE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	month
+@ENGLISH:	April
+@ENGLISH_NOTE:	flowers
+@POLISH:	kwiecień
+@POLISH_NOTE:	kwiecie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	month
+@ENGLISH:	May
+@ENGLISH_NOTE:	
+@POLISH:	maj
+@POLISH_NOTE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	month
+@ENGLISH:	June
+@ENGLISH_NOTE:	insect grub
+@POLISH:	czerwiec
+@POLISH_NOTE:	czerw
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	month
+@ENGLISH:	July
+@ENGLISH_NOTE:	linden tree
+@POLISH:	lipiec
+@POLISH_NOTE:	lipa
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	month
+@ENGLISH:	August
+@ENGLISH_NOTE:	sickle
+@POLISH:	sierpień
+@POLISH_NOTE:	sierp
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	month
+@ENGLISH:	September
+@ENGLISH_NOTE:	heather
+@POLISH:	wrzesień
+@POLISH_NOTE:	wrzosy
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	month
+@ENGLISH:	October
+@ENGLISH_NOTE:	flax stems
+@POLISH:	październik
+@POLISH_NOTE:	paździerz
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	month
+@ENGLISH:	November
+@ENGLISH_NOTE:	falling leaves
+@POLISH:	listopad
+@POLISH_NOTE:	padajace liscie
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	month
+@ENGLISH:	December
+@ENGLISH_NOTE:	frozen earth
+@POLISH:	grudzień
+@POLISH_NOTE:	gruda
+@@END:		CARD
+
+

@@ -14,5 +14,6 @@ permalink: /card-sets/polish/czesc/all-vocabulary.aton
 {% include_relative lesson-2-vocabulary.txt %}
 {% include_relative lesson-3-vocabulary.txt %}
 {% include_relative numbers.txt %}
+{% include_relative days-months.txt %}
 
 
