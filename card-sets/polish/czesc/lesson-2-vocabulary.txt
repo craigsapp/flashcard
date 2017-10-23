@@ -231,7 +231,7 @@
 @POLISH:	poznawać
 @CONJUGATION:	poznaję, poznajesz
 @IMPERFECT:	true
-@VERB_CLASS:	II poznaj-
+@VERB_CLASS:	I poznaj-
 @@END:		CARD
 
 @@BEGIN:	CARD

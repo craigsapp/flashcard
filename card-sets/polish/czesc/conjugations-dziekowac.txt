@@ -1,0 +1,84 @@
+
+@@@@@ Dziękować :: to thank (for) @@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, infinitive, class I infinitives, single stem
+@ENGLISH:	to thank
+@ENGLISH_ALT:	to thank for
+@POLISH:	dziękować
+@VERB_CASE:	za + A
+@VERB_CLASS:	I dziękuj-
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 1st person, singular, 1s, conjugated, single stem
+@ENGLISH_PRE:	I
+@ENGLISH:	thank
+@ENGLISH_ALT:	I thank
+@POLISH:	dziękuję
+@POLISH_ALT:	ja dziękuję
+@POLISH_PRE:	ja
+@VERB_CASE:	za + A
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 2nd person, singular, 2s, conjugated, single stem
+@ENGLISH_PRE:	you
+@ENGLISH:	thank
+@ENGLISH_ALT:	you thank
+@POLISH:	dziękujesz
+@POLISH_ALT:	ty dziękujesz
+@POLISH_PRE:	ty
+@VERB_CASE:	za + A
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 3rd person, singular, 3s, conjugated, single stem
+@ENGLISH_PRE:	he/she/it
+@ENGLISH:	thanks
+@ENGLISH_ALT:	he thanks
+@ENGLISH_ALT:	she thanks
+@ENGLISH_ALT:	it thanks
+@POLISH_PRE:	on/oni/ono
+@POLISH_ALT:	on dziękuje
+@POLISH_ALT:	oni dziękuje
+@POLISH_ALT:	one dziękuje
+@POLISH:	dziękuje
+@VERB_CASE:	za + A
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 1st person, plural, 1p, conjugated, single stem
+@ENGLISH_PRE:	we
+@ENGLISH:	thank
+@ENGLISH_ALT:	we thank
+@POLISH:	dziękujemy
+@POLISH_ALT:	my dziękujemy
+@POLISH_PRE:	my
+@VERB_CASE:	za + A
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 2nd person, plural, 2p, conjugated, single stem
+@ENGLISH_PRE:	yous
+@ENGLISH:	thank
+@ENGLISH_ALT:	yous thank
+@POLISH:	dziękujecie
+@POLISH_ALT:	wy dziękujecie
+@POLISH_PRE:	wy
+@VERB_CASE:	za + A
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 3rd person, plural, 3p, conjugated, single stem
+@ENGLISH_PRE:	they
+@ENGLISH:	thank
+@ENGLISH_ALT:	they thank
+@POLISH:	dziękują
+@POLISH_ALT:	oni dziękują
+@POLISH_ALT:	one dziękują
+@POLISH_PRE:	oni/one
+@VERB_CASE:	za + A
+@@END:		CARD
+
+

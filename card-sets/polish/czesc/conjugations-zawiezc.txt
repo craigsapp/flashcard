@@ -1,0 +1,85 @@
+
+@@@@@ Zawieźć :: to drive @@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, infinitive, class I infinitives, dual stem
+@ENGLISH:	to drive
+@ENGLISH_ALT:	to transport
+@ENGLISH_ALT:	to carry
+@POLISH:	zawieźć
+@VERB_CASE:	
+@VERB_CLASS:	I zawioz-/zawiezi-
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 1st person, singular, 1s, conjugated, dual stem
+@ENGLISH_PRE:	I
+@ENGLISH:	drive
+@ENGLISH_ALT:	I drive
+@POLISH:	zawiozę
+@POLISH_ALT:	ja zawiozę
+@POLISH_PRE:	ja
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 2nd person, singular, 2s, conjugated, dual stem
+@ENGLISH_PRE:	you
+@ENGLISH:	drive
+@ENGLISH_ALT:	you drive
+@POLISH:	zawieziesz
+@POLISH_ALT:	ty zawieziesz
+@POLISH_PRE:	ty
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 3rd person, singular, 3s, conjugated, dual stem
+@ENGLISH_PRE:	he/she/it
+@ENGLISH:	drives
+@ENGLISH_ALT:	he drives
+@ENGLISH_ALT:	she drives
+@ENGLISH_ALT:	it drives
+@POLISH_PRE:	on/oni/ono
+@POLISH:	zawiezie
+@POLISH_ALT:	on zawiezie
+@POLISH_ALT:	oni zawiezie
+@POLISH_ALT:	ono zawiezie
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 1st person, plural, 1p, conjugated, dual stem
+@ENGLISH_PRE:	we
+@ENGLISH:	drive
+@ENGLISH_ALT:	we drive
+@POLISH:	zawieziemy
+@POLISH_ALT:	my zawieziemy
+@POLISH_PRE:	my
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 2nd person, plural, 2p, conjugated, dual stem
+@ENGLISH_PRE:	yous
+@ENGLISH:	drive
+@ENGLISH_ALT:	yous drive
+@POLISH:	zawieziecie
+@POLISH_ALT:	wy zawieziecie
+@POLISH_PRE:	wy
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 3rd person, plural, 3p, conjugated, dual stem
+@ENGLISH_PRE:	they
+@ENGLISH:	drive
+@ENGLISH_ALT:	the drive
+@POLISH:	zawiozą
+@POLISH_ALT:	oni zawiozą
+@POLISH_ALT:	one zawiozą
+@POLISH_PRE:	oni/one
+@VERB_CASE:	
+@@END:		CARD
+
+

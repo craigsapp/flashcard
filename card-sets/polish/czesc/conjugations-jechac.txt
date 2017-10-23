@@ -1,0 +1,84 @@
+
+@@@@@ Jechać :: to ride @@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, infinitive, class I infinitives, dual stem
+@ENGLISH:	to go
+@ENGLISH_ALT:	to ride
+@POLISH:	jechać
+@VERB_CASE:	
+@VERB_CLASS:	I jad-/jedzi-
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 1st person, singular, 1s, conjugated, dual stem
+@ENGLISH_PRE:	I
+@ENGLISH:	ride
+@ENGLISH_ALT:	I ride
+@POLISH:	jadę
+@POLISH_ALT:	ja jadę
+@POLISH_PRE:	ja
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 2nd person, singular, 2s, conjugated, dual stem
+@ENGLISH_PRE:	you
+@ENGLISH:	ride
+@ENGLISH_ALT:	you ride
+@POLISH:	jedziesz
+@POLISH_ALT:	ty jedziesz
+@POLISH_PRE:	ty
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 3rd person, singular, 3s, conjugated, dual stem
+@ENGLISH_PRE:	he/she/it
+@ENGLISH:	rides
+@ENGLISH_ALT:	he rides
+@ENGLISH_ALT:	she rides
+@ENGLISH_ALT:	it rides
+@POLISH_PRE:	on/oni/ono
+@POLISH:	jedzie
+@POLISH_ALT:	on jedzie
+@POLISH_ALT:	oni jedzie
+@POLISH_ALT:	ono jedzie
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 1st person, plural, 1p, conjugated, dual stem
+@ENGLISH_PRE:	we
+@ENGLISH:	ride
+@ENGLISH_ALT:	we ride
+@POLISH:	jedzimy
+@POLISH_ALT:	my jedziemy
+@POLISH_PRE:	my
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 2nd person, plural, 2p, conjugated, dual stem
+@ENGLISH_PRE:	yous
+@ENGLISH:	ride
+@ENGLISH_ALT:	yous ride
+@POLISH:	jadziecie
+@POLISH_ALT:	wy jedziecie
+@POLISH_PRE:	wy
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 3rd person, plural, 3p, conjugated, dual stem
+@ENGLISH_PRE:	they
+@ENGLISH:	ride
+@ENGLISH_ALT:	they ride
+@POLISH:	jadą
+@POLISH_ALT:	oni jadą
+@POLISH_ALT:	one jadą
+@POLISH_PRE:	oni/one
+@VERB_CASE:	
+@@END:		CARD
+
+

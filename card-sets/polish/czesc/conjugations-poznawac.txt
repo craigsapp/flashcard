@@ -1,0 +1,83 @@
+
+@@@@@ Poznawać :: to recognize @@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, infinitive, class I infinitives, single stem
+@ENGLISH:	to recognize
+@POLISH:	poznawać
+@VERB_CASE:	
+@VERB_CLASS:	I poznaj-
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 1st person, singular, 1s, conjugated, single stem
+@ENGLISH_PRE:	I
+@ENGLISH:	recognize
+@ENGLISH_ALT:	I recognize
+@POLISH:	poznaję
+@POLISH_ALT:	ja poznaję
+@POLISH_PRE:	ja
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 2nd person, singular, 2s, conjugated, single stem
+@ENGLISH_PRE:	you
+@ENGLISH:	recognize
+@ENGLISH_ALT:	you recognize
+@POLISH:	poznajesz
+@POLISH_ALT:	ty poznajesz
+@POLISH_PRE:	ty
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 3rd person, singular, 3s, conjugated, single stem
+@ENGLISH_PRE:	he/she/it
+@ENGLISH:	recognizes
+@ENGLISH_ALT:	he recognizes
+@ENGLISH_ALT:	she recognizes
+@ENGLISH_ALT:	it recognizes
+@POLISH_PRE:	on/oni/ono
+@POLISH:	poznaje
+@POLISH_ALT:	on poznaje
+@POLISH_ALT:	oni poznaje
+@POLISH_ALT:	ono poznaje
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 1st person, plural, 1p, conjugated, single stem
+@ENGLISH_PRE:	we
+@ENGLISH:	recognize
+@ENGLISH_ALT:	we recognize
+@POLISH:	poznajemy
+@POLISH_ALT:	my poznajemy
+@POLISH_PRE:	my
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 2nd person, plural, 2p, conjugated, single stem
+@ENGLISH_PRE:	yous
+@ENGLISH:	recognize
+@ENGLISH_ALT:	yous recognize
+@POLISH:	poznajecie
+@POLISH_ALT:	wy poznajecie
+@POLISH_PRE:	wy
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 3rd person, plural, 3p, conjugated, single stem
+@ENGLISH_PRE:	they
+@ENGLISH:	recognize
+@ENGLISH_ALT:	they recognize
+@POLISH:	poznają
+@POLISH_ALT:	oni poznają
+@POLISH_ALT:	one poznają
+@POLISH_PRE:	oni/one
+@VERB_CASE:	
+@@END:		CARD
+
+

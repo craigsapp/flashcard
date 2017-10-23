@@ -1,0 +1,83 @@
+
+@@@@@ Studiować :: to study @@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, infinitive, class I infinitives, single stem
+@ENGLISH:	to study
+@POLISH:	studiować
+@VERB_CASE:	
+@VERB_CLASS:	I studiuj-
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 1st person, singular, 1s, conjugated, single stem
+@ENGLISH_PRE:	I
+@ENGLISH:	study
+@ENGLISH_ALT:	I study
+@POLISH:	studiuję
+@POLISH_ALT:	ja studiuję
+@POLISH_PRE:	ja
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 2nd person, singular, 2s, conjugated, single stem
+@ENGLISH_PRE:	you
+@ENGLISH:	study
+@ENGLISH_ALT:	you study
+@POLISH:	studiujesz
+@POLISH_ALT:	ty studiujesz
+@POLISH_PRE:	ty
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 3rd person, singular, 3s, conjugated, single stem
+@ENGLISH_PRE:	he/she/it
+@ENGLISH:	studies
+@ENGLISH_ALT:	he studies
+@ENGLISH_ALT:	she studies
+@ENGLISH_ALT:	it studies
+@POLISH_PRE:	on/oni/ono
+@POLISH:	studiuje
+@POLISH_ALT:	on studiuje
+@POLISH_ALT:	oni studiuje
+@POLISH_ALT:	ono studiuje
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 1st person, plural, 1p, conjugated, single stem
+@ENGLISH_PRE:	we
+@ENGLISH:	study
+@ENGLISH_ALT:	we study
+@POLISH:	studiujemy
+@POLISH_ALT:	my studiujemy
+@POLISH_PRE:	my
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 2nd person, plural, 2p, conjugated, single stem
+@ENGLISH_PRE:	yous
+@ENGLISH:	study
+@ENGLISH_ALT:	yous study
+@POLISH:	studiujecie
+@POLISH_ALT:	wy studiujecie
+@POLISH_PRE:	wy
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 3rd person, plural, 3p, conjugated, single stem
+@ENGLISH_PRE:	they
+@ENGLISH:	study
+@ENGLISH_ALT:	they study
+@POLISH:	studiują
+@POLISH_ALT:	oni studiują
+@POLISH_ALT:	one studiują
+@POLISH_PRE:	oni/one
+@VERB_CASE:	
+@@END:		CARD
+
+

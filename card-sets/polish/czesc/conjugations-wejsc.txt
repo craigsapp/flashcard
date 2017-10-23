@@ -1,0 +1,84 @@
+
+@@@@@ Wejść :: to enter @@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, infinitive, class I infinitives, dual stem
+@ENGLISH:	to enter
+@ENGLISH_ALT:	to input
+@POLISH:	wejść
+@VERB_CASE:	
+@VERB_CLASS:	I wejd-/wejdzi-
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 1st person, singular, 1s, conjugated, dual stem
+@ENGLISH_PRE:	I
+@ENGLISH:	will enter
+@ENGLISH_ALT:	I will enter
+@POLISH:	wejdę
+@POLISH_ALT:	ja wejdę
+@POLISH_PRE:	ja
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 2nd person, singular, 2s, conjugated, dual stem
+@ENGLISH_PRE:	you
+@ENGLISH:	will enter
+@ENGLISH_ALT:	you will enter
+@POLISH:	wejdziesz
+@POLISH_ALT:	ty wejdziesz
+@POLISH_PRE:	ty
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 3rd person, singular, 3s, conjugated, dual stem
+@ENGLISH_PRE:	he/she/it
+@ENGLISH:	will enter
+@ENGLISH_ALT:	he will enter
+@ENGLISH_ALT:	she will enter
+@ENGLISH_ALT:	it will enter
+@POLISH_PRE:	on/oni/ono
+@POLISH:	wejdzie
+@POLISH_ALT:	on wejdzie
+@POLISH_ALT:	oni wejdzie
+@POLISH_ALT:	ono wejdzie
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 1st person, plural, 1p, conjugated, dual stem
+@ENGLISH_PRE:	we
+@ENGLISH:	will enter
+@ENGLISH_ALT:	we will enter
+@POLISH:	wejdziemy
+@POLISH_ALT:	my wejdziemy
+@POLISH_PRE:	my
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 2nd person, plural, 2p, conjugated, dual stem
+@ENGLISH_PRE:	yous
+@ENGLISH:	will enter
+@ENGLISH_ALT:	yous will enter
+@POLISH:	wejdziecie
+@POLISH_ALT:	wy wejdziecie
+@POLISH_PRE:	wy
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 3rd person, plural, 3p, conjugated, dual stem
+@ENGLISH_PRE:	they
+@ENGLISH:	will enter
+@ENGLISH_ALT:	they will enter
+@POLISH:	wejdą
+@POLISH_ALT:	oni wejdą
+@POLISH_ALT:	one wejdą
+@POLISH_PRE:	oni/one
+@VERB_CASE:	
+@@END:		CARD
+
+

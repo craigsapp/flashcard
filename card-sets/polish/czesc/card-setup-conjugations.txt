@@ -185,7 +185,6 @@
 			ABBR@VERBCASE
 			ABBR@CONDITIONAL
 			ABBR@PLNOTE
-			ABBR@PLALT
 			{{{audio AUDIO}}}
 			{{#if VERB_CLASS}}
 				<br>
@@ -229,7 +228,6 @@
 			ABBR@ENPRE
 			{{{ENGLISH}}} 
 			ABBR@ENNOTE
-			ABBR@ENALT
 		</div>
 		{{{quiz this "POLISH" "Polish" QUIZOFF}}}
 @@END:		SIDE

@@ -1,0 +1,55 @@
+---
+layout: cardlist
+permalink: /card-sets/polish/czesc/conjugations.aton
+---
+
+{% include_relative card-setup-conjugations.txt 
+	title="Verb conjugations, lessons 1-3"
+	titleurl=""
+	description="Flashcards for lessons 1-3 verb conjugations"
+	note="present/future perfect conjugations"
+%}
+
+@@@ CLASS I verbs @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+{% include_relative conjugations-chciec.txt %}
+{% include_relative conjugations-dziekowac.txt %}
+{% include_relative conjugations-jechac.txt %}
+{% include_relative conjugations-moc.txt %}
+{% include_relative conjugations-poznawac.txt %}
+{% include_relative conjugations-studiowac.txt %}
+{% include_relative conjugations-wejsc.txt %}
+{% include_relative conjugations-zawiezc.txt %}
+{% include_relative conjugations-zostac.txt %}
+
+@@@ CLASS II verbs @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+{% comment %}
+
+{% include_relative conjugations-cieszyc.txt %}
+{% include_relative conjugations-odwiedzic.txt %}
+{% include_relative conjugations-prosic.txt %}
+{% include_relative conjugations-predstawic.txt %}
+{% include_relative conjugations-zobaczyc.txt %}
+
+@@@ CLASS III verbs @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+{% include_relative conjugations-czekac.txt %}
+{% include_relative conjugations-mieszkac.txt %}
+{% include_relative conjugations-miec.txt %}
+{% include_relative conjugations-pamietac.txt %}
+{% include_relative conjugations-poznac.txt %}
+{% include_relative conjugations-przepraszac.txt %}
+{% include_relative conjugations-rozmawiac.txt %}
+{% include_relative conjugations-slychac.txt %}
+{% include_relative conjugations-wracac.txt %}
+{% include_relative conjugations-znac.txt %}
+
+
+@@@ CLASS IV verbs @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+{% endcomment %}
+
+
+

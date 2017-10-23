@@ -1,0 +1,76 @@
+
+@@@@@ Móc :: to be able @@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, infinitive, class I infinitives, dual stem
+@ENGLISH:	to be able
+@ENGLISH_ALT:	to be able to
+@POLISH:	móc
+@VERB_CASE:	
+@VERB_CLASS:	I mog-/moż-
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 1st person, singular, 1s, conjugated, dual stem
+@ENGLISH_PRE:	I
+@ENGLISH:	am able
+@POLISH:	mogę
+@POLISH_ALT:	ja mogę
+@POLISH_PRE:	ja
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 2nd person, singular, 2s, conjugated, dual stem
+@ENGLISH_PRE:	you
+@ENGLISH:	are able
+@POLISH:	możesz
+@POLISH_ALT:	ty możesz
+@POLISH_PRE:	ty
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 3rd person, singular, 3s, conjugated, dual stem
+@ENGLISH_PRE:	he/she/it
+@ENGLISH:	is able
+@POLISH_PRE:	on/oni/ono
+@POLISH:	może
+@POLISH_ALT:	on może
+@POLISH_ALT:	oni może
+@POLISH_ALT:	ono może
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 1st person, plural, 1p, conjugated, dual stem
+@ENGLISH_PRE:	we
+@ENGLISH:	are able
+@POLISH:	możemy
+@POLISH_ALT:	my możemy
+@POLISH_PRE:	my
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 2nd person, plural, 2p, conjugated, dual stem
+@ENGLISH_PRE:	yous
+@ENGLISH:	are able
+@POLISH:	możecie
+@POLISH_ALT:	wy możecie
+@POLISH_PRE:	wy
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 3rd person, plural, 3p, conjugated, dual stem
+@ENGLISH_PRE:	they
+@ENGLISH:	are able
+@POLISH:	mogą
+@POLISH_ALT:	oni mogą
+@POLISH_ALT:	one mogą
+@POLISH_PRE:	oni/one
+@VERB_CASE:	
+@@END:		CARD
+
+

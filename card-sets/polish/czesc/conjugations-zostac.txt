@@ -1,0 +1,83 @@
+
+@@@@@ Zostać :: to stay @@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, infinitive, class I infinitives, dual stem
+@ENGLISH:	to stay
+@POLISH:	zostać
+@VERB_CASE:	na + A
+@VERB_CLASS:	I zastan-/zastani-
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 1st person, singular, 1s, conjugated, dual stem
+@ENGLISH_PRE:	I
+@ENGLISH:	stay
+@ENGLISH_ALT:	I stay
+@POLISH:	zostanę
+@POLISH_ALT:	ja zostanę
+@POLISH_PRE:	ja
+@VERB_CASE:	na + A
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 2nd person, singular, 2s, conjugated, dual stem
+@ENGLISH_PRE:	you
+@ENGLISH:	stay
+@ENGLISH_ALT:	you stay
+@POLISH:	zostaniesz
+@POLISH_ALT:	ty zostaniesz
+@POLISH_PRE:	ty
+@VERB_CASE:	na + A
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 3rd person, singular, 3s, conjugated, dual stem
+@ENGLISH_PRE:	he/she/it
+@ENGLISH:	stays
+@ENGLISH_ALT:	he stays
+@ENGLISH_ALT:	she stays
+@ENGLISH_ALT:	it stays
+@POLISH_PRE:	on/oni/ono
+@POLISH:	zostanie
+@POLISH_ALT:	on zostanie
+@POLISH_ALT:	oni zostanie
+@POLISH_ALT:	ono zostanie
+@VERB_CASE:	na + A
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 1st person, plural, 1p, conjugated, dual stem
+@ENGLISH_PRE:	we
+@ENGLISH:	stay
+@ENGLISH_ALT:	we stay
+@POLISH:	zostaniemy
+@POLISH_ALT:	my zostaniemy
+@POLISH_PRE:	my
+@VERB_CASE:	na + A
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 2nd person, plural, 2p, conjugated, dual stem
+@ENGLISH_PRE:	yous
+@ENGLISH:	stay
+@ENGLISH_ALT:	yous stay
+@POLISH:	zostaniecie
+@POLISH_ALT:	wy zostaniecie
+@POLISH_PRE:	wy
+@VERB_CASE:	na + A
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 3rd person, plural, 3p, conjugated, dual stem
+@ENGLISH_PRE:	they
+@ENGLISH:	stay
+@ENGLISH_ALT:	they stay
+@POLISH:	zostaną
+@POLISH_ALT:	oni zostaną
+@POLISH_ALT:	one zostaną
+@POLISH_PRE:	oni/one
+@VERB_CASE:	na + A
+@@END:		CARD
+
+

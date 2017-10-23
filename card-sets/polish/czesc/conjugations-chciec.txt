@@ -1,0 +1,83 @@
+
+@@@ Chcieć :: to want @@@
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, infinitive, class I infinitives, single stem
+@ENGLISH:	to want
+@POLISH:	chcieć
+@VERB_CASE:	G
+@VERB_CLASS:	I chc-
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 1st person, singular, 1s, conjugated, single stem
+@ENGLISH_PRE:	I
+@ENGLISH:	want
+@ENGLISH_ALT:	I want
+@POLISH:	chcę
+@POLISH_PRE:	ja
+@POLISH_ALT:	ja chcę
+@VERB_CASE:	G
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 2nd person, singular, 2s, conjugated, single stem
+@ENGLISH_PRE:	you
+@ENGLISH:	want
+@ENGLISH_ALT:	you want
+@POLISH:	chcesz
+@POLISH_ALT:	ty chcesz
+@POLISH_PRE:	ty
+@VERB_CASE:	G
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 3rd person, singular, 3s, conjugated, single stem
+@ENGLISH_PRE:	he/she/it
+@ENGLISH:	wants
+@ENGLISH_ALT:	he wants
+@ENGLISH_ALT:	she wants
+@ENGLISH_ALT:	it wants
+@POLISH_PRE:	on/oni/ono
+@POLISH:	chce
+@POLISH_ALT:	on chce
+@POLISH_ALT:	oni chce
+@POLISH_ALT:	ono chce
+@VERB_CASE:	G
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 1st person, plural, 1p, conjugated, single stem
+@ENGLISH_PRE:	we
+@ENGLISH:	want
+@ENGLISH_ALT:	we want
+@POLISH:	chcemy
+@POLISH_ALT:	my chcemy
+@POLISH_PRE:	my
+@VERB_CASE:	G
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 2nd person, plural, 2p, conjugated, single stem
+@ENGLISH_PRE:	yous
+@ENGLISH:	want
+@ENGLISH_ALT:	yous want
+@POLISH:	chcecie
+@POLISH_ALT:	wy chcecie
+@POLISH_PRE:	wy
+@VERB_CASE:	G
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class I, 3rd person, plural, 3p, conjugated, single stem
+@ENGLISH_PRE:	they
+@ENGLISH:	want
+@ENGLISH_ALT:	they want
+@POLISH:	chcą
+@POLISH_PRE:	oni/one
+@POLISH_ALT:	oni chcą
+@POLISH_ALT:	one chcą
+@VERB_CASE:	G
+@@END:		CARD
+
+
