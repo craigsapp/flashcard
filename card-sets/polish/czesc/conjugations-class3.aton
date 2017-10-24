@@ -1,0 +1,25 @@
+---
+layout: cardlist
+permalink: /card-sets/polish/czesc/conjugations-class3.aton
+---
+
+{% include_relative card-setup-conjugations.txt 
+	title="Verb conjugations for class III verbs, lessons 1-3"
+	titleurl=""
+	description="Flashcards for lessons 1-3 class III verb conjugations"
+	note="present/future perfect conjugations"
+%}
+
+@@@ CLASS III verbs @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+{% include_relative conjugations-czekac.txt %}
+{% include_relative conjugations-mieszkac.txt %}
+{% include_relative conjugations-miec.txt %}
+{% include_relative conjugations-pamietac.txt %}
+{% include_relative conjugations-poznac.txt %}
+{% include_relative conjugations-przepraszac.txt %}
+{% include_relative conjugations-rozmawiac.txt %}
+{% include_relative conjugations-slychac.txt %}
+{% include_relative conjugations-wracac.txt %}
+{% include_relative conjugations-znac.txt %}
+

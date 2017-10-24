@@ -1,0 +1,84 @@
+
+@@@@@ Wracaać :: to return @@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, infinitive, class III infinitives, single stem
+@ENGLISH:	to return
+@ENGLISH_NOTE:	for
+@POLISH:	wracać
+@VERB_CASE:	z + G
+@VERB_CLASS:	III wrac-
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 1st person, singular, 1s, conjugated, single stem
+@ENGLISH_PRE:	I
+@ENGLISH:	return
+@ENGLISH_ALT:	I return
+@POLISH:	wracam
+@POLISH_ALT:	ja wracam
+@POLISH_PRE:	ja
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 2nd person, singular, 2s, conjugated, single stem
+@ENGLISH_PRE:	you
+@ENGLISH:	return
+@ENGLISH_ALT:	you return
+@POLISH:	wracasz
+@POLISH_ALT:	ty wracasz
+@POLISH_PRE:	ty
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 3rd person, singular, 3s, conjugated, single stem
+@ENGLISH_PRE:	he/she/it
+@ENGLISH:	returns
+@ENGLISH_ALT:	he returns
+@ENGLISH_ALT:	she returns
+@ENGLISH_ALT:	it returns
+@POLISH_PRE:	on/oni/ono
+@POLISH:	wraca
+@POLISH_ALT:	on wraca
+@POLISH_ALT:	oni wraca
+@POLISH_ALT:	ono wraca
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 1st person, plural, 1p, conjugated, single stem
+@ENGLISH_PRE:	we
+@ENGLISH:	return
+@ENGLISH_ALT:	we return
+@POLISH:	wracamy
+@POLISH_ALT:	my wracamy
+@POLISH_PRE:	my
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 2nd person, plural, 2p, conjugated, single stem
+@ENGLISH_PRE:	yous
+@ENGLISH:	return
+@ENGLISH_ALT:	yous return
+@POLISH:	wracacie
+@POLISH_ALT:	wy wracacie
+@POLISH_PRE:	wy
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 3rd person, plural, 3p, conjugated, single stem
+@ENGLISH_PRE:	they
+@ENGLISH:	return
+@ENGLISH_ALT:	they return
+@POLISH:	wracają
+@POLISH_ALT:	oni wracają
+@POLISH_ALT:	one wracają
+@POLISH_PRE:	oni/one
+@VERB_CASE:	
+@@END:		CARD
+
+

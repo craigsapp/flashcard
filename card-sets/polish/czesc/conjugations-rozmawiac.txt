@@ -1,0 +1,84 @@
+
+@@@@@ Rozmawiać :: to talk @@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, infinitive, class III infinitives, single stem
+@ENGLISH:	to talk
+@ENGLISH_NOTE:	with
+@POLISH:	rozmawiać
+@VERB_CASE:	z + I (with), o + L (about)
+@VERB_CLASS:	III rozmawi-
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 1st person, singular, 1s, conjugated, single stem
+@ENGLISH_PRE:	I
+@ENGLISH:	talk
+@ENGLISH_ALT:	I talk
+@POLISH:	rozmawiam
+@POLISH_ALT:	ja rozmawiam
+@POLISH_PRE:	ja
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 2nd person, singular, 2s, conjugated, single stem
+@ENGLISH_PRE:	you
+@ENGLISH:	talk
+@ENGLISH_ALT:	you talk
+@POLISH:	rozmawiasz
+@POLISH_ALT:	ty rozmawiasz
+@POLISH_PRE:	ty
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 3rd person, singular, 3s, conjugated, single stem
+@ENGLISH_PRE:	he/she/it
+@ENGLISH:	talks
+@ENGLISH_ALT:	he talks
+@ENGLISH_ALT:	she talks
+@ENGLISH_ALT:	it talks
+@POLISH_PRE:	on/oni/ono
+@POLISH:	rozmawia
+@POLISH_ALT:	on rozmawia
+@POLISH_ALT:	oni rozmawia
+@POLISH_ALT:	ono rozmawia
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 1st person, plural, 1p, conjugated, single stem
+@ENGLISH_PRE:	we
+@ENGLISH:	talk
+@ENGLISH_ALT:	we talk
+@POLISH:	rozmawiamy
+@POLISH_ALT:	my rozmawiamy
+@POLISH_PRE:	my
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 2nd person, plural, 2p, conjugated, single stem
+@ENGLISH_PRE:	yous
+@ENGLISH:	talk
+@ENGLISH_ALT:	yous talk
+@POLISH:	rozmawiacie
+@POLISH_ALT:	wy rozmawiacie
+@POLISH_PRE:	wy
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 3rd person, plural, 3p, conjugated, single stem
+@ENGLISH_PRE:	they
+@ENGLISH:	talk
+@ENGLISH_ALT:	they talk
+@POLISH:	rozmawiają
+@POLISH_ALT:	oni rozmawiają
+@POLISH_ALT:	one rozmawiają
+@POLISH_PRE:	oni/one
+@VERB_CASE:	
+@@END:		CARD
+
+

@@ -1,0 +1,84 @@
+
+@@@@@ Słychać :: to be heard @@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, infinitive, class III infinitives, single stem
+@ENGLISH:	to be heard
+@ENGLISH_NOTE:	for
+@POLISH:	słychać
+@VERB_CASE:	
+@VERB_CLASS:	III słych-
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 1st person, singular, 1s, conjugated, single stem
+@ENGLISH_PRE:	I
+@ENGLISH:	am heard
+@ENGLISH_ALT:	I am heard
+@POLISH:	słycham
+@POLISH_ALT:	ja słycham
+@POLISH_PRE:	ja
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 2nd person, singular, 2s, conjugated, single stem
+@ENGLISH_PRE:	you
+@ENGLISH:	are heard
+@ENGLISH_ALT:	you are heard
+@POLISH:	słychasz
+@POLISH_ALT:	ty słychasz
+@POLISH_PRE:	ty
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 3rd person, singular, 3s, conjugated, single stem
+@ENGLISH_PRE:	he/she/it
+@ENGLISH:	is heard
+@ENGLISH_ALT:	he is heard
+@ENGLISH_ALT:	she is heard
+@ENGLISH_ALT:	it is heard
+@POLISH_PRE:	on/oni/ono
+@POLISH:	słycha
+@POLISH_ALT:	on słycha
+@POLISH_ALT:	oni słycha
+@POLISH_ALT:	ono słycha
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 1st person, plural, 1p, conjugated, single stem
+@ENGLISH_PRE:	we
+@ENGLISH:	are heard
+@ENGLISH_ALT:	we are heard
+@POLISH:	słychamy
+@POLISH_ALT:	my słychamy
+@POLISH_PRE:	my
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 2nd person, plural, 2p, conjugated, single stem
+@ENGLISH_PRE:	yous are
+@ENGLISH:	are heard
+@ENGLISH_ALT:	yous are heard
+@POLISH:	słychacie
+@POLISH_ALT:	wy słychacie
+@POLISH_PRE:	wy
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 3rd person, plural, 3p, conjugated, single stem
+@ENGLISH_PRE:	they
+@ENGLISH:	are heard
+@ENGLISH_ALT:	they are heard
+@POLISH:	słychają
+@POLISH_ALT:	oni słychają
+@POLISH_ALT:	one słychają
+@POLISH_PRE:	oni/one
+@VERB_CASE:	
+@@END:		CARD
+
+

@@ -25,12 +25,12 @@ permalink: /card-sets/polish/czesc/conjugations.aton
 @@@ CLASS II verbs @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 {% comment %}
-
 {% include_relative conjugations-cieszyc.txt %}
 {% include_relative conjugations-odwiedzic.txt %}
 {% include_relative conjugations-prosic.txt %}
 {% include_relative conjugations-predstawic.txt %}
 {% include_relative conjugations-zobaczyc.txt %}
+{% endcomment %}
 
 @@@ CLASS III verbs @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
@@ -50,6 +50,7 @@ permalink: /card-sets/polish/czesc/conjugations.aton
 
 
 {% endcomment %}
+{% comment %}
 
 
 

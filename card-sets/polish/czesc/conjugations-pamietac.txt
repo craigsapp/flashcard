@@ -1,0 +1,84 @@
+
+@@@@@ Pamiętać :: to remember @@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, infinitive, class III infinitives, single stem
+@ENGLISH:	to remember
+@ENGLISH_NOTE:	for
+@POLISH:	pamiętać
+@VERB_CASE:	
+@VERB_CLASS:	III pamięt-
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 1st person, singular, 1s, conjugated, single stem
+@ENGLISH_PRE:	I
+@ENGLISH:	remember
+@ENGLISH_ALT:	I remember
+@POLISH:	pamiętam
+@POLISH_ALT:	ja pamiętam
+@POLISH_PRE:	ja
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 2nd person, singular, 2s, conjugated, single stem
+@ENGLISH_PRE:	you
+@ENGLISH:	remember
+@ENGLISH_ALT:	you remember
+@POLISH:	pamiętasz
+@POLISH_ALT:	ty pamiętasz
+@POLISH_PRE:	ty
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 3rd person, singular, 3s, conjugated, single stem
+@ENGLISH_PRE:	he/she/it
+@ENGLISH:	remembers
+@ENGLISH_ALT:	he remembers
+@ENGLISH_ALT:	she remembers
+@ENGLISH_ALT:	it remembers
+@POLISH_PRE:	on/oni/ono
+@POLISH:	pamięta
+@POLISH_ALT:	on pamięta
+@POLISH_ALT:	oni pamięta
+@POLISH_ALT:	ono pamięta
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 1st person, plural, 1p, conjugated, single stem
+@ENGLISH_PRE:	we
+@ENGLISH:	remember
+@ENGLISH_ALT:	we remember
+@POLISH:	pamiętamy
+@POLISH_ALT:	my pamiętamy
+@POLISH_PRE:	my
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 2nd person, plural, 2p, conjugated, single stem
+@ENGLISH_PRE:	yous
+@ENGLISH:	remember
+@ENGLISH_ALT:	yous remember
+@POLISH:	pamiętacie
+@POLISH_ALT:	wy pamiętacie
+@POLISH_PRE:	wy
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 3rd person, plural, 3p, conjugated, single stem
+@ENGLISH_PRE:	they
+@ENGLISH:	remember
+@ENGLISH_ALT:	they remember
+@POLISH:	pamiętają
+@POLISH_ALT:	oni pamiętają
+@POLISH_ALT:	one pamiętają
+@POLISH_PRE:	oni/one
+@VERB_CASE:	
+@@END:		CARD
+
+

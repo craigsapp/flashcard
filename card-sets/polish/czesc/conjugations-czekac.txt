@@ -1,0 +1,84 @@
+
+@@@@@ Czekać :: to wait @@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, infinitive, class III infinitives, single stem
+@ENGLISH:	to wait
+@ENGLISH_NOTE:	for
+@POLISH:	czekać
+@VERB_CASE:	na + A
+@VERB_CLASS:	III czek-
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 1st person, singular, 1s, conjugated, single stem
+@ENGLISH_PRE:	I
+@ENGLISH:	wait
+@ENGLISH_ALT:	I wait
+@POLISH:	czekam
+@POLISH_ALT:	ja czekam
+@POLISH_PRE:	ja
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 2nd person, singular, 2s, conjugated, single stem
+@ENGLISH_PRE:	you
+@ENGLISH:	wait
+@ENGLISH_ALT:	you wait
+@POLISH:	czekasz
+@POLISH_ALT:	ty czekasz
+@POLISH_PRE:	ty
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 3rd person, singular, 3s, conjugated, single stem
+@ENGLISH_PRE:	he/she/it
+@ENGLISH:	waits
+@ENGLISH_ALT:	he waits
+@ENGLISH_ALT:	she waits
+@ENGLISH_ALT:	it waits
+@POLISH_PRE:	on/oni/ono
+@POLISH:	czeka
+@POLISH_ALT:	on czeka
+@POLISH_ALT:	oni czeka
+@POLISH_ALT:	ono czeka
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 1st person, plural, 1p, conjugated, single stem
+@ENGLISH_PRE:	we
+@ENGLISH:	wait
+@ENGLISH_ALT:	we wait
+@POLISH:	czekamy
+@POLISH_ALT:	my czekamy
+@POLISH_PRE:	my
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 2nd person, plural, 2p, conjugated, single stem
+@ENGLISH_PRE:	yous
+@ENGLISH:	wait
+@ENGLISH_ALT:	yous wait
+@POLISH:	czekacie
+@POLISH_ALT:	wy czekacie
+@POLISH_PRE:	wy
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 3rd person, plural, 3p, conjugated, single stem
+@ENGLISH_PRE:	they
+@ENGLISH:	wait
+@ENGLISH_ALT:	they wait
+@POLISH:	czekają
+@POLISH_ALT:	oni czekają
+@POLISH_ALT:	one czekają
+@POLISH_PRE:	oni/one
+@VERB_CASE:	
+@@END:		CARD
+
+

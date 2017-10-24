@@ -1,0 +1,24 @@
+---
+layout: cardlist
+permalink: /card-sets/polish/czesc/conjugations-class1.aton
+---
+
+{% include_relative card-setup-conjugations.txt 
+	title="Class I Verb conjugations, lessons 1-3"
+	titleurl=""
+	description="Flashcards for lessons 1-3 class I verb conjugations"
+	note="present/future perfect conjugations"
+%}
+
+@@@ CLASS I verbs @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+{% include_relative conjugations-chciec.txt %}
+{% include_relative conjugations-dziekowac.txt %}
+{% include_relative conjugations-jechac.txt %}
+{% include_relative conjugations-moc.txt %}
+{% include_relative conjugations-poznawac.txt %}
+{% include_relative conjugations-studiowac.txt %}
+{% include_relative conjugations-wejsc.txt %}
+{% include_relative conjugations-zawiezc.txt %}
+{% include_relative conjugations-zostac.txt %}
+

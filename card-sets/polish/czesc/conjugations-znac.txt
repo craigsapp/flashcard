@@ -1,0 +1,84 @@
+
+@@@@@ Znać :: to know @@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, infinitive, class III infinitives, single stem
+@ENGLISH:	to know
+@ENGLISH_NOTE:	for
+@POLISH:	znać
+@VERB_CASE:	
+@VERB_CLASS:	III zn-
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 1st person, singular, 1s, conjugated, single stem
+@ENGLISH_PRE:	I
+@ENGLISH:	know
+@ENGLISH_ALT:	I know
+@POLISH:	znam
+@POLISH_ALT:	ja znam
+@POLISH_PRE:	ja
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 2nd person, singular, 2s, conjugated, single stem
+@ENGLISH_PRE:	you
+@ENGLISH:	know
+@ENGLISH_ALT:	you know
+@POLISH:	znasz
+@POLISH_ALT:	ty znasz
+@POLISH_PRE:	ty
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 3rd person, singular, 3s, conjugated, single stem
+@ENGLISH_PRE:	he/she/it
+@ENGLISH:	knows
+@ENGLISH_ALT:	he knows
+@ENGLISH_ALT:	she knows
+@ENGLISH_ALT:	it knows
+@POLISH_PRE:	on/oni/ono
+@POLISH:	zna
+@POLISH_ALT:	on zna
+@POLISH_ALT:	oni zna
+@POLISH_ALT:	ono zna
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 1st person, plural, 1p, conjugated, single stem
+@ENGLISH_PRE:	we
+@ENGLISH:	know
+@ENGLISH_ALT:	we know
+@POLISH:	znamy
+@POLISH_ALT:	my znamy
+@POLISH_PRE:	my
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 2nd person, plural, 2p, conjugated, single stem
+@ENGLISH_PRE:	yous
+@ENGLISH:	know
+@ENGLISH_ALT:	yous know
+@POLISH:	znacie
+@POLISH_ALT:	wy znacie
+@POLISH_PRE:	wy
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 3rd person, plural, 3p, conjugated, single stem
+@ENGLISH_PRE:	they
+@ENGLISH:	know
+@ENGLISH_ALT:	they know
+@POLISH:	znają
+@POLISH_ALT:	oni znają
+@POLISH_ALT:	one znają
+@POLISH_PRE:	oni/one
+@VERB_CASE:	
+@@END:		CARD
+
+

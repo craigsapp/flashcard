@@ -1,0 +1,84 @@
+
+@@@@@ Mieć :: to have @@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, infinitive, class III infinitives, single stem
+@ENGLISH:	to have
+@ENGLISH_NOTE:	for
+@POLISH:	miesczkać
+@VERB_CASE:	
+@VERB_CLASS:	III m-
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 1st person, singular, 1s, conjugated, single stem
+@ENGLISH_PRE:	I
+@ENGLISH:	have
+@ENGLISH_ALT:	I have
+@POLISH:	mam
+@POLISH_ALT:	ja mam
+@POLISH_PRE:	ja
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 2nd person, singular, 2s, conjugated, single stem
+@ENGLISH_PRE:	you
+@ENGLISH:	have
+@ENGLISH_ALT:	you have
+@POLISH:	masz
+@POLISH_ALT:	ty masz
+@POLISH_PRE:	ty
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 3rd person, singular, 3s, conjugated, single stem
+@ENGLISH_PRE:	he/she/it
+@ENGLISH:	has
+@ENGLISH_ALT:	he has
+@ENGLISH_ALT:	she has
+@ENGLISH_ALT:	it has
+@POLISH_PRE:	on/oni/ono
+@POLISH:	ma
+@POLISH_ALT:	on ma
+@POLISH_ALT:	oni ma
+@POLISH_ALT:	ono ma
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 1st person, plural, 1p, conjugated, single stem
+@ENGLISH_PRE:	we
+@ENGLISH:	have
+@ENGLISH_ALT:	we have
+@POLISH:	mamy
+@POLISH_ALT:	my mamy
+@POLISH_PRE:	my
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 2nd person, plural, 2p, conjugated, single stem
+@ENGLISH_PRE:	yous
+@ENGLISH:	have
+@ENGLISH_ALT:	yous have
+@POLISH:	macie
+@POLISH_ALT:	wy macie
+@POLISH_PRE:	wy
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 3rd person, plural, 3p, conjugated, single stem
+@ENGLISH_PRE:	they
+@ENGLISH:	have
+@ENGLISH_ALT:	they have
+@POLISH:	mają
+@POLISH_ALT:	oni mają
+@POLISH_ALT:	one mają
+@POLISH_PRE:	oni/one
+@VERB_CASE:	
+@@END:		CARD
+
+

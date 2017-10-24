@@ -1,0 +1,84 @@
+
+@@@@@ Przepraszać :: to be sorry @@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, infinitive, class III infinitives, single stem
+@ENGLISH:	to be sorry
+@ENGLISH_NOTE:	for
+@POLISH:	przepraszać
+@VERB_CASE:	
+@VERB_CLASS:	III przeprasz-
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 1st person, singular, 1s, conjugated, single stem
+@ENGLISH_PRE:	I
+@ENGLISH:	am sorry
+@ENGLISH_ALT:	I am sorry
+@POLISH:	przepraszam
+@POLISH_ALT:	ja przepraszam
+@POLISH_PRE:	ja
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 2nd person, singular, 2s, conjugated, single stem
+@ENGLISH_PRE:	you
+@ENGLISH:	are sorry
+@ENGLISH_ALT:	you are sorry
+@POLISH:	przepraszasz
+@POLISH_ALT:	ty przepraszasz
+@POLISH_PRE:	ty
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 3rd person, singular, 3s, conjugated, single stem
+@ENGLISH_PRE:	he/she/it
+@ENGLISH:	is sorry
+@ENGLISH_ALT:	he is sorry
+@ENGLISH_ALT:	she is sorry
+@ENGLISH_ALT:	it is sorry
+@POLISH_PRE:	on/oni/ono
+@POLISH:	przeprasza
+@POLISH_ALT:	on przeprasza
+@POLISH_ALT:	oni przeprasza
+@POLISH_ALT:	ono przeprasza
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 1st person, plural, 1p, conjugated, single stem
+@ENGLISH_PRE:	we
+@ENGLISH:	are sorry
+@ENGLISH_ALT:	we are sorry
+@POLISH:	przepraszamy
+@POLISH_ALT:	my przepraszamy
+@POLISH_PRE:	my
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 2nd person, plural, 2p, conjugated, single stem
+@ENGLISH_PRE:	yous are
+@ENGLISH:	are sorry
+@ENGLISH_ALT:	yous are sorry
+@POLISH:	przepraszacie
+@POLISH_ALT:	wy przepraszacie
+@POLISH_PRE:	wy
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 3rd person, plural, 3p, conjugated, single stem
+@ENGLISH_PRE:	they
+@ENGLISH:	are sorry
+@ENGLISH_ALT:	they are sorry
+@POLISH:	przepraszają
+@POLISH_ALT:	oni przepraszają
+@POLISH_ALT:	one przepraszają
+@POLISH_PRE:	oni/one
+@VERB_CASE:	
+@@END:		CARD
+
+

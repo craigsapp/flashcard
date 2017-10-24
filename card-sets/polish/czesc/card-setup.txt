@@ -116,6 +116,9 @@
 				({{{POLISH_NOTE}}})
 			</span>
 		{{/if}}
+@PLCOLOR:	{{#if POLISH_COLOR}}
+			style="color:{{{POLISH_COLOR}}}"
+		{{/if}}
 @CONDITIONAL:	{{#if CONDITIONAL}}
 			<span style="font-size:80%; color:gray">
 				(<i>cond</i>: {{{CONDITIONAL}}})
@@ -168,7 +171,9 @@
 				{{{POLISH}}}
 			</span>
 		{{else}}
-			{{{POLISH}}}
+			<span ABBR@PLCOLOR >
+				{{{POLISH}}}
+			</span>
 		{{/ifEqual}}
 		ABBR@VERBCASE
 		ABBR@ADJGENDER

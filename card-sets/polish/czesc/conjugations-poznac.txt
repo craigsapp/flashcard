@@ -1,0 +1,84 @@
+
+@@@@@ Poznać :: to meet @@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, infinitive, class III infinitives, single stem
+@ENGLISH:	to meet
+@ENGLISH_NOTE:	for
+@POLISH:	poznać
+@VERB_CASE:	
+@VERB_CLASS:	III pozn-
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 1st person, singular, 1s, conjugated, single stem
+@ENGLISH_PRE:	I
+@ENGLISH:	meet
+@ENGLISH_ALT:	I meet
+@POLISH:	poznam
+@POLISH_ALT:	ja poznam
+@POLISH_PRE:	ja
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 2nd person, singular, 2s, conjugated, single stem
+@ENGLISH_PRE:	you
+@ENGLISH:	meet
+@ENGLISH_ALT:	you meet
+@POLISH:	poznasz
+@POLISH_ALT:	ty poznasz
+@POLISH_PRE:	ty
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 3rd person, singular, 3s, conjugated, single stem
+@ENGLISH_PRE:	he/she/it
+@ENGLISH:	meets
+@ENGLISH_ALT:	he meets
+@ENGLISH_ALT:	she meets
+@ENGLISH_ALT:	it meets
+@POLISH_PRE:	on/oni/ono
+@POLISH:	pozna
+@POLISH_ALT:	on pozna
+@POLISH_ALT:	oni pozna
+@POLISH_ALT:	ono pozna
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 1st person, plural, 1p, conjugated, single stem
+@ENGLISH_PRE:	we
+@ENGLISH:	meet
+@ENGLISH_ALT:	we meet
+@POLISH:	poznamy
+@POLISH_ALT:	my poznamy
+@POLISH_PRE:	my
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 2nd person, plural, 2p, conjugated, single stem
+@ENGLISH_PRE:	yous
+@ENGLISH:	meet
+@ENGLISH_ALT:	yous meet
+@POLISH:	poznacie
+@POLISH_ALT:	wy poznacie
+@POLISH_PRE:	wy
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 3rd person, plural, 3p, conjugated, single stem
+@ENGLISH_PRE:	they
+@ENGLISH:	meet
+@ENGLISH_ALT:	they meet
+@POLISH:	poznają
+@POLISH_ALT:	oni poznają
+@POLISH_ALT:	one poznają
+@POLISH_PRE:	oni/one
+@VERB_CASE:	
+@@END:		CARD
+
+

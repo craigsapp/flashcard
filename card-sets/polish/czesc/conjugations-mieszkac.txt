@@ -1,0 +1,84 @@
+
+@@@@@ Mieszkam :: to live @@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, infinitive, class III infinitives, single stem
+@ENGLISH:	to live
+@ENGLISH_NOTE:	for
+@POLISH:	miesczkać
+@VERB_CASE:	w + L
+@VERB_CLASS:	III mieszk-
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 1st person, singular, 1s, conjugated, single stem
+@ENGLISH_PRE:	I
+@ENGLISH:	live
+@ENGLISH_ALT:	I live
+@POLISH:	mieszkam
+@POLISH_ALT:	ja mieszkam
+@POLISH_PRE:	ja
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 2nd person, singular, 2s, conjugated, single stem
+@ENGLISH_PRE:	you
+@ENGLISH:	live
+@ENGLISH_ALT:	you live
+@POLISH:	mieszkasz
+@POLISH_ALT:	ty mieszkasz
+@POLISH_PRE:	ty
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 3rd person, singular, 3s, conjugated, single stem
+@ENGLISH_PRE:	he/she/it
+@ENGLISH:	lives
+@ENGLISH_ALT:	he lives
+@ENGLISH_ALT:	she lives
+@ENGLISH_ALT:	it lives
+@POLISH_PRE:	on/oni/ono
+@POLISH:	mieszka
+@POLISH_ALT:	on mieszka
+@POLISH_ALT:	oni mieszka
+@POLISH_ALT:	ono mieszka
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 1st person, plural, 1p, conjugated, single stem
+@ENGLISH_PRE:	we
+@ENGLISH:	live
+@ENGLISH_ALT:	we live
+@POLISH:	mieszkamy
+@POLISH_ALT:	my mieszkamy
+@POLISH_PRE:	my
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 2nd person, plural, 2p, conjugated, single stem
+@ENGLISH_PRE:	yous
+@ENGLISH:	live
+@ENGLISH_ALT:	yous live
+@POLISH:	mieszkacie
+@POLISH_ALT:	wy mieszkacie
+@POLISH_PRE:	wy
+@VERB_CASE:	
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	class III, 3rd person, plural, 3p, conjugated, single stem
+@ENGLISH_PRE:	they
+@ENGLISH:	live
+@ENGLISH_ALT:	they live
+@POLISH:	mieszkają
+@POLISH_ALT:	oni mieszkają
+@POLISH_ALT:	one mieszkają
+@POLISH_PRE:	oni/one
+@VERB_CASE:	
+@@END:		CARD
+
+

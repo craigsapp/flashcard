@@ -67,6 +67,7 @@
 @ENGLISH_NOTE:	
 @POLISH:	styczeń
 @POLISH_NOTE:	
+@POLISH_COLOR:	aquamarine
 @@END:		CARD
 
 @@BEGIN:	CARD
@@ -75,6 +76,7 @@
 @ENGLISH_NOTE:	
 @POLISH:	luty
 @POLISH_NOTE:	
+@POLISH_COLOR:	aquamarine
 @@END:		CARD
 
 @@BEGIN:	CARD
@@ -83,6 +85,7 @@
 @ENGLISH_NOTE:	
 @POLISH:	marzec
 @POLISH_NOTE:	
+@POLISH_COLOR:	hotpink
 @@END:		CARD
 
 @@BEGIN:	CARD
@@ -91,6 +94,7 @@
 @ENGLISH_NOTE:	flowers
 @POLISH:	kwiecień
 @POLISH_NOTE:	kwiecie
+@POLISH_COLOR:	hotpink
 @@END:		CARD
 
 @@BEGIN:	CARD
@@ -99,6 +103,7 @@
 @ENGLISH_NOTE:	
 @POLISH:	maj
 @POLISH_NOTE:	
+@POLISH_COLOR:	hotpink
 @@END:		CARD
 
 @@BEGIN:	CARD
@@ -107,6 +112,7 @@
 @ENGLISH_NOTE:	insect grub
 @POLISH:	czerwiec
 @POLISH_NOTE:	czerw
+@POLISH_COLOR:	lawngreen
 @@END:		CARD
 
 @@BEGIN:	CARD
@@ -115,6 +121,7 @@
 @ENGLISH_NOTE:	linden tree
 @POLISH:	lipiec
 @POLISH_NOTE:	lipa
+@POLISH_COLOR:	lawngreen
 @@END:		CARD
 
 @@BEGIN:	CARD
@@ -123,6 +130,7 @@
 @ENGLISH_NOTE:	sickle
 @POLISH:	sierpień
 @POLISH_NOTE:	sierp
+@POLISH_COLOR:	lawngreen
 @@END:		CARD
 
 @@BEGIN:	CARD
@@ -131,6 +139,7 @@
 @ENGLISH_NOTE:	heather
 @POLISH:	wrzesień
 @POLISH_NOTE:	wrzosy
+@POLISH_COLOR:	crimson
 @@END:		CARD
 
 @@BEGIN:	CARD
@@ -139,6 +148,7 @@
 @ENGLISH_NOTE:	flax stems
 @POLISH:	październik
 @POLISH_NOTE:	paździerz
+@POLISH_COLOR:	crimson
 @@END:		CARD
 
 @@BEGIN:	CARD
@@ -147,6 +157,7 @@
 @ENGLISH_NOTE:	falling leaves
 @POLISH:	listopad
 @POLISH_NOTE:	padajace liscie
+@POLISH_COLOR:	crimson
 @@END:		CARD
 
 @@BEGIN:	CARD
@@ -155,6 +166,73 @@
 @ENGLISH_NOTE:	frozen earth
 @POLISH:	grudzień
 @POLISH_NOTE:	gruda
+@POLISH_COLOR:	aquamarine
 @@END:		CARD
+
+@@@ Sentences @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	today
+@POLISH:	dzisiaj
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	today
+@ENGLISH_NOTE:	short form
+@POLISH:	dziś
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	What day is today?
+@POLISH:	Jaki dzisiaj jest dzień?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	Today is Tuesday.
+@POLISH:	Dzisiaj jest wtorek.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	tomorrow
+@POLISH:	jutro
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	Tomorrow will be Wednesday.
+@POLISH:	Jutro będzie Czwartek.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	day after tomorrow
+@POLISH:	pojutrze
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	yesterday
+@POLISH:	wczoraj
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	Yesterday was Monday.
+@POLISH:	Wczoraj bym poniedziałek.
+@POLISH_NOTE:	feminine
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	Yesterday was Wednesday.
+@POLISH:	Wczoraj była środa.
+@POLISH_NOTE:	masculine
+@@END:		CARD
+
 
 
