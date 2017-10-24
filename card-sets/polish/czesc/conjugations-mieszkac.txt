@@ -5,7 +5,7 @@
 @CATEGORY:	class III, infinitive, class III infinitives, single stem
 @ENGLISH:	to live
 @ENGLISH_NOTE:	for
-@POLISH:	miesczkać
+@POLISH:	mieszkać
 @VERB_CASE:	w + L
 @VERB_CLASS:	III mieszk-
 @@END:		CARD

@@ -185,7 +185,7 @@
 @@BEGIN:	CARD
 @CATEGORY:	adjective
 @ENGLISH:	Polish
-@POLISH:	poliski
+@POLISH:	polski
 @ADJ_GENDER:	-a/-e
 @@END:		CARD
 
