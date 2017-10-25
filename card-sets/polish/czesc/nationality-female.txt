@@ -1,0 +1,154 @@
+
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, female
+@ENGLISH:	Polish
+@ENGLISH_NOTE:	f
+@POLISH:	Polak
+@POLISH_COLOR:	lightpink
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, female
+@ENGLISH:	German
+@ENGLISH_NOTE:	f
+@POLISH:	Niemka
+@POLISH_COLOR:	lightpink
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, female
+@ENGLISH:	Czech
+@ENGLISH_NOTE:	f
+@POLISH:	Czeszka
+@POLISH_COLOR:	lightpink
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, female
+@ENGLISH:	Slovakian
+@ENGLISH_NOTE:	f
+@POLISH:	Słowaczka
+@POLISH_COLOR:	lightpink
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, female
+@ENGLISH:	Ukranian
+@ENGLISH_NOTE:	f
+@POLISH:	Ukrainka
+@POLISH_COLOR:	lightpink
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, female
+@ENGLISH:	Belarus
+@ENGLISH_NOTE:	f
+@POLISH:	Białorusinka
+@POLISH_COLOR:	lightpink
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, female
+@ENGLISH:	Lithuanian
+@ENGLISH_NOTE:	f
+@POLISH:	Litwinka
+@POLISH_COLOR:	lightpink
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, female
+@ENGLISH:	Russian
+@ENGLISH_NOTE:	f
+@POLISH:	Rosjanka
+@POLISH_COLOR:	lightpink
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, female
+@ENGLISH:	French
+@ENGLISH_NOTE:	f
+@POLISH:	Francuzka
+@POLISH_COLOR:	lightpink
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, female
+@ENGLISH:	Spanish
+@ENGLISH_NOTE:	f
+@POLISH:	Hiszpanka
+@POLISH_COLOR:	lightpink
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, female
+@ENGLISH:	English
+@ENGLISH_NOTE:	f
+@POLISH:	Angielka
+@POLISH_COLOR:	lightpink
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, female
+@ENGLISH:	Italian
+@ENGLISH_NOTE:	f
+@POLISH:	Włoszka
+@POLISH_COLOR:	lightpink
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, female
+@ENGLISH:	Israeli
+@ENGLISH_NOTE:	f
+@POLISH:	Izraelka
+@POLISH_COLOR:	lightpink
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, female
+@ENGLISH:	Canadian
+@ENGLISH_NOTE:	f
+@POLISH:	Kanadyjka
+@POLISH_COLOR:	lightpink
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, female
+@ENGLISH:	American
+@ENGLISH_NOTE:	f
+@POLISH:	Amerykanka
+@POLISH_COLOR:	lightpink
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, female
+@ENGLISH:	Brazilian
+@ENGLISH_NOTE:	f
+@POLISH:	Brazylijka
+@POLISH_COLOR:	lightpink
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, female
+@ENGLISH:	Australian
+@ENGLISH_NOTE:	f
+@POLISH:	Australijka
+@POLISH_COLOR:	lightpink
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, female
+@ENGLISH:	Japanese
+@ENGLISH_NOTE:	f
+@POLISH:	Japonka
+@POLISH_COLOR:	lightpink
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, female
+@ENGLISH:	Chinese
+@ENGLISH_NOTE:	f
+@POLISH:	Chinka
+@POLISH_COLOR:	lightpink
+@@END:		CARD
+

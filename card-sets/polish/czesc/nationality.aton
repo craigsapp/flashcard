@@ -1,0 +1,17 @@
+---
+layout: cardlist
+permalink: /card-sets/polish/czesc/nationality.aton
+---
+
+{% include_relative card-setup.txt 
+	title="Nationality and languages in Polish"
+	titleurl=""
+	description="Flashcards for learning country names, nationalities and languages."
+	note="Page 62 of Cześć, jak się masz?"
+%}
+
+{% include_relative countries.txt %}
+{% include_relative nationality-male.txt %}
+{% include_relative nationality-female.txt %}
+{% include_relative national-adjective.txt %}
+{% include_relative language.txt %}

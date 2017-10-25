@@ -1,0 +1,160 @@
+
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality
+@ENGLISH:	nationality
+@POLISH:	naród
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, male
+@ENGLISH:	Polish
+@ENGLISH_NOTE:	m
+@POLISH:	Polak
+@POLISH_COLOR:	skyblue
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, male
+@ENGLISH:	German
+@ENGLISH_NOTE:	m
+@POLISH:	Niemiec
+@POLISH_COLOR:	skyblue
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, male
+@ENGLISH:	Czech
+@ENGLISH_NOTE:	m
+@POLISH:	Czech
+@POLISH_COLOR:	skyblue
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, male
+@ENGLISH:	Slovakian
+@ENGLISH_NOTE:	m
+@POLISH:	Słowak
+@POLISH_COLOR:	skyblue
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, male
+@ENGLISH:	Ukranian
+@ENGLISH_NOTE:	m
+@POLISH:	Ukrainiec
+@POLISH_COLOR:	skyblue
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, male
+@ENGLISH:	Belarus
+@ENGLISH_NOTE:	m
+@POLISH:	Białorusin
+@POLISH_COLOR:	skyblue
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, male
+@ENGLISH:	Lithuanian
+@ENGLISH_NOTE:	m
+@POLISH:	Litwin
+@POLISH_COLOR:	skyblue
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, male
+@ENGLISH:	Russian
+@ENGLISH_NOTE:	m
+@POLISH:	Rosjanin
+@POLISH_COLOR:	skyblue
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, male
+@ENGLISH:	French
+@ENGLISH_NOTE:	m
+@POLISH:	Francuz
+@POLISH_COLOR:	skyblue
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, male
+@ENGLISH:	Spanish
+@ENGLISH_NOTE:	m
+@POLISH:	Hiszpan
+@POLISH_COLOR:	skyblue
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, male
+@ENGLISH:	English
+@ENGLISH_NOTE:	m
+@POLISH:	Anglik
+@POLISH_COLOR:	skyblue
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, male
+@ENGLISH:	Italian
+@ENGLISH_NOTE:	m
+@POLISH:	Włoch
+@POLISH_COLOR:	skyblue
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, male
+@ENGLISH:	Israeli
+@ENGLISH_NOTE:	m
+@POLISH:	Izraelczyk
+@POLISH_COLOR:	skyblue
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, male
+@ENGLISH:	Canadian
+@ENGLISH_NOTE:	m
+@POLISH:	Kanadyjczyk
+@POLISH_COLOR:	skyblue
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, male
+@ENGLISH:	American
+@ENGLISH_NOTE:	m
+@POLISH:	Amerykanin
+@POLISH_COLOR:	skyblue
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, male
+@ENGLISH:	Brazilian
+@ENGLISH_NOTE:	m
+@POLISH:	Brazylijczyk
+@POLISH_COLOR:	skyblue
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, male
+@ENGLISH:	Australian
+@ENGLISH_NOTE:	m
+@POLISH:	Australijczyk
+@POLISH_COLOR:	skyblue
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, male
+@ENGLISH:	Japanese
+@ENGLISH_NOTE:	m
+@POLISH:	Japończyk
+@POLISH_COLOR:	skyblue
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality, male
+@ENGLISH:	Chinese
+@ENGLISH_NOTE:	m
+@POLISH:	Chińczyk
+@POLISH_COLOR:	skyblue
+@@END:		CARD
+

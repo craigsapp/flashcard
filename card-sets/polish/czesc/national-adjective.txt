@@ -1,0 +1,122 @@
+
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	adjective
+@POLISH:	przymiotnik
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality adjective
+@ENGLISH:	Polish
+@POLISH:	polski
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality adjective
+@ENGLISH:	German
+@POLISH:	niemiecki
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality adjective
+@ENGLISH:	Czech
+@POLISH:	czeski
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality adjective
+@ENGLISH:	Slovakian
+@POLISH:	słowacki
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality adjective
+@ENGLISH:	Ukranian
+@POLISH:	ukraiński
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality adjective
+@ENGLISH:	Belarus
+@POLISH:	białoruski
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality adjective
+@ENGLISH:	Lithuanian
+@POLISH:	litewski
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality adjective
+@ENGLISH:	Russian
+@POLISH:	rosyjski
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality adjective
+@ENGLISH:	French
+@POLISH:	francuski
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality adjective
+@ENGLISH:	Spanish
+@POLISH:	hiszpański
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality adjective
+@ENGLISH:	English
+@POLISH:	angielski
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality adjective
+@ENGLISH:	Italian
+@POLISH:	włoski
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality adjective
+@ENGLISH:	Israeli
+@POLISH:	izraelski
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality adjective
+@ENGLISH:	Canadian
+@POLISH:	kanadyjski
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality adjective
+@ENGLISH:	American
+@POLISH:	amerykański
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality adjective
+@ENGLISH:	Brazilian
+@POLISH:	brazylijski
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality adjective
+@ENGLISH:	Australian
+@POLISH:	audstralijski
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality adjective
+@ENGLISH:	Japanese
+@POLISH:	japoński
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	nationality adjective
+@ENGLISH:	Chinese
+@POLISH:	chiński
+@@END:		CARD
+

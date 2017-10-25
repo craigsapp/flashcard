@@ -1,0 +1,126 @@
+
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	state
+@POLISH:	państwo
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	Poland
+@POLISH:	Polska
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	Germany
+@POLISH:	Niemcy
+@POLISH_NOTE:	plural
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	Czech Republish
+@POLISH:	Czechy
+@POLISH_NOTE:	plural
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	Slovakia
+@POLISH:	Słowacja
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	Ukraine
+@POLISH:	Ukraina
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	Belarus
+@POLISH:	Białoruś
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	Lithuania
+@POLISH:	Litwa
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	Russia
+@POLISH:	Rosja
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	France
+@POLISH:	Francja
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	Spain
+@POLISH:	Hiszpania
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	Great Britain
+@POLISH:	Wielka Brytania
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	Italy
+@POLISH:	Włochy
+@POLISH_NOTE:	plural
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	Israel
+@POLISH:	Izrael
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	Canada
+@POLISH:	Kanada
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	USA
+@POLISH:	USA
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	Brazil
+@POLISH:	Brazylia
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	Australia
+@POLISH:	Australia
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	Japan
+@POLISH:	Japonia
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	China
+@POLISH:	Chiny
+@POLISH_NOTE:	plural
+@@END:		CARD
+

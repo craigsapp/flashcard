@@ -1,0 +1,104 @@
+
+
+@@BEGIN:	CARD
+@CATEGORY:	pharse
+@ENGLISH:	people speak ...
+@POLISH:	ludzie mówią ...
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	language
+@ENGLISH:	in Polish
+@POLISH:	po polsku
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	language
+@ENGLISH:	in German
+@POLISH:	po niemiecku
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	language
+@ENGLISH:	in Czech
+@POLISH:	po czesku
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	language
+@ENGLISH:	in Slovakian
+@POLISH:	po słowacku
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	language
+@ENGLISH:	in Ukrainian
+@POLISH:	po ukraińsku
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	language
+@ENGLISH:	in Belarus
+@POLISH:	po białorusku
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	language
+@ENGLISH:	in Lithuanian
+@POLISH:	po litewsku
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	language
+@ENGLISH:	in Russian
+@POLISH:	po rosyjsku
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	language
+@ENGLISH:	in Fremch
+@POLISH:	po francusku
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	language
+@ENGLISH:	in Spanish
+@POLISH:	po hiszpańsku
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	language
+@ENGLISH:	in English
+@POLISH:	po angielsku
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	language
+@ENGLISH:	in Italian
+@POLISH:	po włosku
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	language
+@ENGLISH:	in Hebrew
+@POLISH:	po hebrajsku
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	language
+@ENGLISH:	in Portuguese
+@POLISH:	po portugalsku
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	language
+@ENGLISH:	in Japanese
+@POLISH:	po japońsku
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	language
+@ENGLISH:	in Chinese
+@POLISH:	po chińsku
+@@END:		CARD
+
