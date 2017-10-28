@@ -215,7 +215,7 @@
 
 @@BEGIN:	CARD
 @CATEGORY:	person, plural
-@ENGLISH:	girl
+@ENGLISH:	girls
 @POLISH:	dziewczyny
 @@END:		CARD
 
@@ -229,7 +229,7 @@
 
 @@BEGIN:	CARD
 @CATEGORY:	person, plural
-@ENGLISH:	neighbor
+@ENGLISH:	neighbors
 @ENGLISH_NOTE:	f
 @POLISH:	sąsiadki
 @@END:		CARD
