@@ -3,7 +3,7 @@ layout: cardlist
 permalink: /card-sets/polish/nutshell/people.aton
 ---
 
-{% include_relative ../czesc/card-setup.txt 
+{% include_relative card-setup.txt 
 	title="People"
 	titleurl="http://www.placedauphine.net/random/PolishGrammar.pdf"
 	description="Flashcards for learning words for people."

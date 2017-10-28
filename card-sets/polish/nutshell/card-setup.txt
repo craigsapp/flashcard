@@ -1,0 +1,244 @@
+{% comment %}
+	vim: ts=3
+
+	Input parameters:
+
+	title:        title of card set
+	titleurl:     hyperlink for title of card set
+	description:  Description of card set
+	note:         Note about card set
+
+	Enclose content with lines:
+		@@BEGIN:	CARDLIST
+		@@END:	CARDLIST
+
+{% endcomment %}
+
+
+@TITLE:       {{ include.title }}
+@TITLEURL:    {{ include.titleurl }}
+@DESCRIPTION: {{ include.description }}
+@NOTE:        {{ include.note }}
+
+{% raw %}
+
+@@BEGIN:	OPTIONS
+@BACKGROUND:		#333333
+@CATEGORY_BACKGROUND:	#2a2a2a
+@DEFAULT_SIDE:		1
+@STYLE:
+	span.verb.perfect           { color: orange;       }
+	span.verb.imperfect         { color: yellow;       }
+	span.adjective              { color: limegreen;    }
+	span.adjective.endings      { color: green;        }
+	span.verb.case              { color: purple;       }
+	span.noun, span.family      { color: darkcyan;     }
+	span.pronoun                { color: deepskyblue;  }
+	span.adverb                 { color: darkred;      }
+	span.preposition            { color: sienna;       }
+	span.verb.class, span.verbclass { color: firebrick; font-size:80%; }
+	span.cardimperfect     {
+		color: goldenrod;
+		font-size: 80%; 
+		display: inline-block; 
+		margin-left: 40px;
+	}
+	span.cardperfect       {
+		color: darkorange; 
+		font-size: 80%; 
+		display: inline-block; 
+		margin-left: 40px;
+	}
+
+	div.button a {
+		display: inline-block;
+		color: white !important;
+		padding:0;
+		margin:0;
+	}
+	div.button {
+   		output += '<div style="position:absolute; right:10px; bottom:0px;">\n';
+		display: inline-block;
+		position: absolute;
+		left: 10px;
+		bottom: 10px;
+		margin-top: 55px;
+		margin-right: 370px;
+		background: firebrick;
+		opacity: 0.6;
+		font-family: Helvetica;
+		height: 30px;
+		font-size: 0.4em;
+		padding-left: 3px;
+		padding-right: 3px;
+		padding-top: -40px;
+		padding-bottom: 25px;
+		border-radius: 10px;
+	}
+
+
+@@END:		OPTIONS
+
+@@BEGIN:	ABBR
+@PONS:		http://en.pons.com/translate/polish-english/
+@VERBCASE:	{{#if VERB_CASE}}
+			<span class="verb case">+ 
+				{{{VERB_CASE}}}
+			</span>
+		{{/if}}
+@ADJGENDER:	{{#if ADJ_GENDER}}
+			<span class="adjective endings">
+				{{{ADJ_GENDER}}}
+			</span>
+		{{/if}}
+@ENPRE:	{{#if ENGLISH_PRE}}
+			<span style="font-size:80%; color:gray">
+				{{{ENGLISH_PRE}}}
+			</span>
+		{{/if}}
+@ENNOTE:	{{#if ENGLISH_NOTE}}
+			<span style="font-size:80%; color:gray">
+				({{{ENGLISH_NOTE}}})
+			</span>
+		{{/if}}
+@ENALT:		{{#if ENGLISH_ALT}}
+			<div style="margin-top:-25px; font-size:80%; color:gray">
+				{{{ENGLISH_ALT}}}
+			</div>
+		{{/if}}
+@PLPRE:	{{#if POLISH_PRE}}
+			<span style="font-size:80%; color:gray">
+				{{{POLISH_PRE}}}
+			</span>
+		{{/if}}
+@PLNOTE:	{{#if POLISH_NOTE}}
+			<span style="font-size:80%; color:gray">
+				({{{POLISH_NOTE}}})
+			</span>
+		{{/if}}
+@PLCOLOR:	{{#if POLISH_COLOR}}
+			style="color:{{{POLISH_COLOR}}}"
+		{{/if}}
+@CONDITIONAL:	{{#if CONDITIONAL}}
+			<span style="font-size:80%; color:gray">
+				(<i>cond</i>: {{{CONDITIONAL}}})
+			</span>
+		{{/if}}
+@PLALT:		{{#if POLISH_ALT}}
+			<div style="margin-top:-25px; font-size:80%; color:gray">
+				{{{POLISH_ALT}}}
+			</div>
+		{{/if}}
+@@END:		ABBR
+
+@@BEGIN:	SIDES
+
+@@BEGIN:	SIDE
+@TITLE:		Polish
+
+@WTEMPLATE:	
+		ABBR@PLPRE
+		{{#ifEqual PERFECT "true"}}
+			<span title="perfect {{#if VERB_CLASS}}class {{VERB_CLASS}}{{/if}}" class="verb perfect">
+				{{{POLISH}}}
+			</span>
+		{{else ifEqual IMPERFECT "true"}}
+			<span title="imperfect {{#if VERB_CLASS}}class {{VERB_CLASS}}{{/if}}" class="verb imperfect">
+				{{{POLISH}}}
+			</span>
+		{{else ifContains CATEGORY "adjective"}}
+			<span class="adjective">
+				{{{POLISH}}}
+			</span>
+		{{else ifContains CATEGORY "noun"}}
+			<span title="{{{GENDER}}}" class="noun">
+				{{{POLISH}}}
+			</span>
+		{{else ifContains CATEGORY "family"}}
+			<span class="family">
+				{{{POLISH}}}
+			</span>
+		{{else ifContains CATEGORY "pronoun"}}
+			<span title="{{{PRONOUN_GENDER}}}" class="pronoun">
+				{{{POLISH}}}
+			</span>
+		{{else ifContains CATEGORY "adverb"}}
+			<span class="adverb">
+				{{{POLISH}}}
+			</span>
+		{{else ifContains CATEGORY "preposition"}}
+			<span class="preposition">
+				{{{POLISH}}}
+			</span>
+		{{else}}
+			<span ABBR@PLCOLOR >
+				{{{POLISH}}}
+			</span>
+		{{/ifEqual}}
+		ABBR@VERBCASE
+		ABBR@ADJGENDER
+		{{#if VERB_CLASS}}
+			<span class="verbclass">
+				{{{VERB_CLASS}}}
+			</span>
+		{{/if}}
+
+@TEMPLATE:	<div style="margin-top: 60px">
+			ABBR@PLPRE
+			{{{hyperlink POLISH "ABBR@PONS" POLISH}}}
+			ABBR@ADJGENDER
+			ABBR@VERBCASE
+			ABBR@CONDITIONAL
+			ABBR@PLNOTE
+			ABBR@PLALT
+			{{{audio AUDIO}}}
+			{{#if VERB_CLASS}}
+				<br>
+				<span class="verbclass">
+					class {{{VERB_CLASS}}}
+				</span>
+			{{/if}}
+			{{#ifEqual IMPERFECT "true"}}
+				<span class="cardimperfect">
+					<i>imperf.</i>
+				</span>
+			{{/ifEqual}}
+
+			{{#ifEqual PERFECT "true"}}
+				<span class="cardperfect">
+					<i>perf.</i>
+				</span>
+			{{/ifEqual}}
+
+		</div>
+		{{{quiz this "ENGLISH" "English" QUIZOFF}}}
+
+		{{#ifContains CATEGORY "verb"}}
+				<div class="button">
+					<a target="cooljugator" href="http://cooljugator.com/pl/{{POLISH}}">conjugations</a>
+				</div>
+		{{/ifContains}}
+
+		{{{forvo POLISH}}}
+
+@@END:		SIDE
+
+@@BEGIN:	SIDE
+@TITLE:		English
+
+@WTEMPLATE:	
+	ABBR@ENPRE
+	{{{ENGLISH}}}
+
+@TEMPLATE:	<div style="margin-top: 60px">
+			ABBR@ENPRE
+			{{{ENGLISH}}} 
+			ABBR@ENNOTE
+			ABBR@ENALT
+		</div>
+		{{{quiz this "POLISH" "Polish" QUIZOFF}}}
+@@END:		SIDE
+
+@@END:		SIDES
+
+{% endraw %}
