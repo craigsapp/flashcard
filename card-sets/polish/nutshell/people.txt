@@ -318,14 +318,14 @@
 
 
 @@BEGIN:	CARD
-@CATEGORY:	person, singular
+@CATEGORY:	person, singular, family
 @ENGLISH:	relative
 @ENGLISH_NOTE:	f
 @POLISH:	krewna
 @@END:		CARD
 
 @@BEGIN:	CARD
-@CATEGORY:	person, plural
+@CATEGORY:	person, plural, family
 @ENGLISH:	relatives
 @ENGLISH_NOTE:	f
 @POLISH:	krewne
