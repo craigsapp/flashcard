@@ -1,0 +1,128 @@
+
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	in Poland
+@POLISH:	w Polsce
+@POLISH_NOTE:	L
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	in Germany
+@POLISH:	w Niemczech
+@POLISH_NOTE:	LL
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	Slovakia
+@POLISH:	na Słowacji
+@POLISH_NOTE:	L
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	in Ukraine
+@POLISH:	na Ukrainie
+@POLISH_NOTE:	L
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	in Belarus
+@POLISH:	na Białorusi
+@POLISH_NOTE:	L
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	in Lithuania
+@POLISH:	na Litwie
+@POLISH_NOTE:	L
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	in Russia
+@POLISH:	w Rosji
+@POLISH_NOTE:	L
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	in France
+@POLISH:	we Francji
+@POLISH_NOTE:	L
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	in Spain
+@POLISH:	w Hiszpanii
+@POLISH_NOTE:	L
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	in Great Britain
+@POLISH:	w Wielkiej Brytanii
+@POLISH_NOTE:	L
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	in Italy
+@POLISH:	we Włoszech
+@POLISH_NOTE:	LL
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	Israel
+@POLISH:	w Izraelu
+@POLISH_NOTE:	L
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	in Canada
+@POLISH:	w Kanadzie
+@POLISH_NOTE:	L
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	in USA
+@POLISH:	w USA
+@POLISH_NOTE:	L
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	in Brazil
+@POLISH:	w Brazylii
+@POLISH_NOTE:	L
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	in Australia
+@POLISH:	w Australii
+@POLISH_NOTE:	L
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	in Japan
+@POLISH:	w Japonii
+@POLISH_NOTE:	L
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	in China
+@POLISH:	w Chinach
+@POLISH_NOTE:	LL
+@@END:		CARD
+

@@ -1,0 +1,445 @@
+
+@@BEGIN:	CARD
+@CATEGORY:	person, singular, family
+@ENGLISH:	grandmother
+@POLISH:	babcia
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person
+@ENGLISH:	grandmothers, plural, family
+@POLISH:	babcie
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	person, singular, family
+@ENGLISH:	husband
+@POLISH:	mąż
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person, plural, family
+@ENGLISH:	husbands
+@POLISH:	mężowie
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	person, singular, family
+@ENGLISH:	brother
+@POLISH:	brat
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person, plural, family
+@ENGLISH:	brothers
+@POLISH:	bracia
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	person, singular
+@ENGLISH:	fiancée
+@ENGLISH_ALT:	fiancee
+@POLISH:	narzeczona
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person, plural
+@ENGLISH:	fiancées
+@ENGLISH_ALT:	fiancees
+@ENGLISH_NOTE:	f
+@POLISH:	narzeczone
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	person, singular
+@ENGLISH:	boy
+@POLISH:	chłopiec
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person, plural
+@ENGLISH:	boys
+@POLISH:	chłopcy
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	person, singular
+@ENGLISH:	fiancé
+@ENGLISH_ALT:	fiance
+@ENGLISH_NOTE:	m
+@POLISH:	narzeczony
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person, plural
+@ENGLISH:	fiancés
+@ENGLISH_ALT:	fiances
+@ENGLISH_NOTE:	m
+@POLISH:	narzeczeni
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	person, singular, family
+@ENGLISH:	aunt
+@POLISH:	ciocia
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person, plural, family
+@ENGLISH:	aunts
+@POLISH:	ciocie
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	person, singular, family
+@ENGLISH:	father
+@POLISH:	ojciec
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person, plural, family
+@ENGLISH:	fathers
+@POLISH:	ojcowie
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	person, singular, family
+@ENGLISH:	daughter
+@POLISH:	córka
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person, plural, family
+@ENGLISH:	daughters
+@POLISH:	córki
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	person, singular
+@ENGLISH:	person
+@POLISH:	osoba
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person, plural
+@ENGLISH:	people
+@POLISH:	osoby
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	person, singular
+@ENGLISH:	friend
+@ENGLISH_NOTE:	m
+@POLISH:	przyjaciel
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person, plural
+@ENGLISH:	friends
+@ENGLISH_NOTE:	m
+@POLISH:	przyjaciele
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	person, singular, family
+@ENGLISH:	grandfather
+@POLISH:	dziadek
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person, plural, family
+@ENGLISH:	grandfathers
+@POLISH:	dziakowie
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	person, singular
+@ENGLISH:	friend
+@ENGLISH_NOTE:	f
+@POLISH:	przyjaciółka
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person, plural
+@ENGLISH:	friends
+@ENGLISH_NOTE:	f
+@POLISH:	przyjaciółki
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	person, singular
+@ENGLISH:	child
+@POLISH:	dziecko
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person, plural
+@ENGLISH:	children
+@POLISH:	dzieci
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	person, singular
+@ENGLISH:	neighbor
+@ENGLISH_NOTE:	m
+@POLISH:	sąsiad
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person, plural
+@ENGLISH:	neighbors
+@ENGLISH_NOTE:	m
+@POLISH:	sąsiedzi
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	person, singular
+@ENGLISH:	girl
+@POLISH:	dziewczyna
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person, plural
+@ENGLISH:	girl
+@POLISH:	dziewczyny
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	person, singular
+@ENGLISH:	neighbor
+@ENGLISH_NOTE:	f
+@POLISH:	sąsiadka
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person, plural
+@ENGLISH:	neighbor
+@ENGLISH_NOTE:	f
+@POLISH:	sąsiadki
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	person, singular
+@ENGLISH:	woman
+@POLISH:	kobieta
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person, plural
+@ENGLISH:	women
+@POLISH:	kobiety
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	person, singular, family
+@ENGLISH:	sister
+@POLISH:	siostra
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person, plural, family
+@ENGLISH:	siostry
+@POLISH:	kobiety
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	person, singular
+@ENGLISH:	colleague
+@ENGLISH_NOTE:	f
+@POLISH:	koleżanka
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person, plural
+@ENGLISH:	colleagues
+@ENGLISH_NOTE:	f
+@POLISH:	koleżanki
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	person, singular, family
+@ENGLISH:	son
+@POLISH:	syn
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person, plural, family
+@ENGLISH:	sons
+@POLISH:	synowie
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	person, singular
+@ENGLISH:	colleague
+@ENGLISH_NOTE:	f
+@POLISH:	kolega
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person, plural
+@ENGLISH:	colleagues
+@ENGLISH_NOTE:	f
+@POLISH:	koledzy
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	person, singular
+@ENGLISH:	that lady
+@POLISH:	ta pani
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person, plural
+@ENGLISH:	those ladies
+@POLISH:	te pani
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	person, singular
+@ENGLISH:	relative
+@ENGLISH_NOTE:	f
+@POLISH:	krewna
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person, plural
+@ENGLISH:	relatives
+@ENGLISH_NOTE:	f
+@POLISH:	krewne
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	person, singular
+@ENGLISH:	that gentleman
+@POLISH:	ten pan
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person, plural
+@ENGLISH:	those gentlemen
+@POLISH:	ci panowie
+@@END:		CARD
+
+
+
+@@BEGIN:	CARD
+@CATEGORY:	person, singular
+@ENGLISH:	relative
+@ENGLISH_NOTE:	m
+@POLISH:	krewny
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person, plural
+@ENGLISH:	relatives
+@ENGLISH_NOTE:	m
+@POLISH:	krewni
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	person, singular, family
+@ENGLISH:	uncle
+@POLISH:	wujek
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person, plural, family
+@ENGLISH:	uncles
+@POLISH:	wujkowie
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	person, singular, family
+@ENGLISH:	mother
+@POLISH:	matka
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person, plural, family
+@ENGLISH:	mothers
+@POLISH:	matki
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	person, singular
+@ENGLISH:	acquaintance
+@ENGLISH_NOTE:	f
+@POLISH:	znajoma
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person, plural
+@ENGLISH:	acquaintances
+@ENGLISH_NOTE:	f
+@POLISH:	znajome
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	person, singular
+@ENGLISH:	man
+@POLISH:	mężczyzna
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person, plural
+@ENGLISH:	men
+@POLISH:	mężczyżni
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	person, singular
+@ENGLISH:	acquaintance
+@ENGLISH_NOTE:	m
+@POLISH:	znajomy
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person, plural
+@ENGLISH:	acquaintances
+@ENGLISH_NOTE:	m
+@POLISH:	znajomi
+@@END:		CARD
+
+
+@@BEGIN:	CARD
+@CATEGORY:	person, singular
+@ENGLISH:	human
+@POLISH:	człowiek
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	person, plural
+@ENGLISH:	humans
+@POLISH:	ludzie
+@@END:		CARD
+
+

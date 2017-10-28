@@ -1,0 +1,135 @@
+
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	from Poland
+@POLISH:	z Polski
+@POLISH_NOTE:	G
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	from Germany
+@POLISH:	z Niemiec
+@POLISH_NOTE:	GG
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	Czech Republic
+@POLISH:	Czechy
+@POLISH_NOTE:	GG
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	Slovakia
+@POLISH:	ze Słowacji
+@POLISH_NOTE:	G
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	from Ukraine
+@POLISH:	z Ukrainy
+@POLISH_NOTE:	G
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	from Belarus
+@POLISH:	z Białorusi
+@POLISH_NOTE:	G
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	from Lithuania
+@POLISH:	z Litwy
+@POLISH_NOTE:	G
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	from Russia
+@POLISH:	z Rosji
+@POLISH_NOTE:	G
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	from France
+@POLISH:	z Francji
+@POLISH_NOTE:	G
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	from Spain
+@POLISH:	z Hiszpanii
+@POLISH_NOTE:	G
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	from Great Britain
+@POLISH:	z Wielkiej Brytanii
+@POLISH_NOTE:	G
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	from Italy
+@POLISH:	z Włoch
+@POLISH_NOTE:	GG
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	Israel
+@POLISH:	z Izraela
+@POLISH_NOTE:	G
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	from Canada
+@POLISH:	z Kanady
+@POLISH_NOTE:	G
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	from USA
+@POLISH:	z USA
+@POLISH_NOTE:	G
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	from Brazil
+@POLISH:	z Brazylii
+@POLISH_NOTE:	G
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	from Australia
+@POLISH:	z Australii
+@POLISH_NOTE:	G
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	from Japan
+@POLISH:	z Japonii
+@POLISH_NOTE:	G
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	country
+@ENGLISH:	from China
+@POLISH:	z Chin
+@POLISH_NOTE:	GG
+@@END:		CARD
+

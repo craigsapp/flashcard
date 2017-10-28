@@ -21,7 +21,7 @@
 
 @@BEGIN:	CARD
 @CATEGORY:	country
-@ENGLISH:	Czech Republish
+@ENGLISH:	Czech Republic
 @POLISH:	Czechy
 @POLISH_NOTE:	plural
 @@END:		CARD

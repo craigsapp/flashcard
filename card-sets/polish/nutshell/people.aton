@@ -1,0 +1,13 @@
+---
+layout: cardlist
+permalink: /card-sets/polish/nutshell/people.aton
+---
+
+{% include_relative card-setup.txt 
+	title="People"
+	titleurl="http://www.placedauphine.net/random/PolishGrammar.pdf"
+	description="Flashcards for learning words for people."
+	note="Page 12 of Polish Grammar in a Nutshell"
+%}
+
+{% include_relative people.txt %}
