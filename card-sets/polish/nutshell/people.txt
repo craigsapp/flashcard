@@ -345,7 +345,6 @@
 @@END:		CARD
 
 
-
 @@BEGIN:	CARD
 @CATEGORY:	person, singular
 @ENGLISH:	relative

@@ -48,6 +48,11 @@ function prepareCards(cardlist) {
 		return;
 	}
 
+	if (!cardlist.CARDLIST) {
+		console.log("Error, no cards in set", carlist);
+		return;
+	}
+
 	for (var i=0; i<cardlist.CARDLIST.CARD.length; i++) {
 		if (!cardlist.CARDLIST.CARD[i]._id) {
 			cardlist.CARDLIST.CARD[i]._id = btoa(Math.random()).substring(0, 16);
