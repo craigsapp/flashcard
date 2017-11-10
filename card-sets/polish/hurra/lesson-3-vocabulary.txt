@@ -1,0 +1,351 @@
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	Who are you?
+@POLISH:	Kim jesteś?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	engineer
+@ENGLISH_NOTE:	m & f
+@POLISH:	inżynier
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	farmer
+@ENGLISH_NOTE:	m & f
+@POLISH:	rolnik
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	architect
+@ENGLISH_NOTE:	m & f
+@POLISH:	architekt
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	teacher
+@ENGLISH_NOTE:	m
+@POLISH:	nauczyciel
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	teacher
+@ENGLISH_NOTE:	f
+@POLISH:	nauczycielka
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	unemployed
+@ENGLISH_NOTE:	m
+@POLISH:	bezrobotny
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	unemployed
+@ENGLISH_NOTE:	f
+@POLISH:	bezrobotna
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	doctor
+@ENGLISH_NOTE:	m
+@POLISH:	lekarz
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	doctor
+@ENGLISH_NOTE:	f
+@POLISH:	lekarka
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	waiter
+@POLISH:	kelner
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	waitress
+@POLISH:	kelnerka
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	actor
+@ENGLISH_NOTE:	m
+@POLISH:	aktor
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	actor
+@ENGLISH_NOTE:	f
+@POLISH:	aktorka
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	musician
+@ENGLISH_NOTE:	m & f
+@POLISH:	muzyk
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	retired
+@ENGLISH_NOTE:	m
+@POLISH:	emeryt
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	retired
+@ENGLISH_NOTE:	m
+@POLISH:	emerytka
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	businessman
+@POLISH:	biznesmen
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	clerk
+@ENGLISH_NOTE:	m
+@POLISH:	urzędnik
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	clerk
+@ENGLISH_NOTE:	f
+@POLISH:	urzędniczka
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	photographer
+@ENGLISH_NOTE:	m & f
+@POLISH:	fotograf
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	dentist
+@ENGLISH_NOTE:	m
+@POLISH:	dentysta
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	dentist
+@ENGLISH_NOTE:	f
+@POLISH:	dentystka
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	poet
+@ENGLISH_NOTE:	m
+@POLISH:	poeta
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	poet
+@ENGLISH_NOTE:	f
+@POLISH:	poetka
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	reporter
+@ENGLISH_NOTE:	m
+@POLISH:	dziennikarz
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	reporter
+@ENGLISH_NOTE:	f
+@POLISH:	dziennikarka
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	driver
+@ENGLISH_NOTE:	m & f
+@POLISH:	kierowca
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	president
+@ENGLISH_NOTE:	m & f
+@POLISH:	prezydent
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	professor
+@ENGLISH_NOTE:	m & f
+@POLISH:	profesor
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	minister
+@ENGLISH_NOTE:	m & f
+@POLISH:	minister
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	artist
+@ENGLISH_NOTE:	m
+@POLISH:	artysta
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	artist
+@ENGLISH_NOTE:	f
+@POLISH:	artystka
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	still not working
+@POLISH:	jeszcze nie pracuje
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	no longer works
+@POLISH:	już nie pracuje
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	now does not work
+@POLISH:	teraz nie pracuje
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	student
+@ENGLISH_NOTE:	m
+@POLISH:	student
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	student
+@ENGLISH_NOTE:	f
+@POLISH:	studentka
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vocabulary
+@ENGLISH:	working
+@POLISH:	pracuje
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	occupation
+@ENGLISH:	IT specialist
+@POLISH:	informatyk
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	profession
+@POLISH:	zawód
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	clinic
+@POLISH:	klinika
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	office
+@POLISH:	gabinet
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adjective
+@ENGLISH:	private
+@POLISH:	prywatny
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	conjunction
+@ENGLISH:	because
+@POLISH:	bo
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adverb
+@ENGLISH:	poorly
+@POLISH:	słabo
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adverb
+@ENGLISH:	a little
+@POLISH:	trochę
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adverb
+@ENGLISH:	well
+@POLISH:	dobrze
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to speak
+@POLISH:	mówić
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to like
+@POLISH:	lubić
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to do
+@POLISH:	robić
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to learn
+@POLISH:	uczyć się
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to dance
+@POLISH:	tańczyć
+@@END:		CARD
+
+

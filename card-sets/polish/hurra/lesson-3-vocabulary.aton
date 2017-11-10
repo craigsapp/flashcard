@@ -1,0 +1,14 @@
+---
+layout: cardlist
+permalink: /card-sets/polish/hurra/lesson-3-vocabulary.aton
+---
+
+{% include_relative ../czesc/card-setup.txt 
+	title="Lesson 3 vocabulary"
+	titleurl=""
+	description="Flashcards for lesson 1 vocabulary"
+	note="Page 24 of Hurra"
+%}
+
+{% include_relative lesson-3-vocabulary.txt %}
+
