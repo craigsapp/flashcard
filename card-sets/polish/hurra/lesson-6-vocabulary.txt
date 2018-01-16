@@ -1,0 +1,303 @@
+
+
+@@ Strona 50
+
+@@BEGIN:	CARD
+@CATEGORY:	food
+@ENGLISH:	bread
+@POLISH:	chleb
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	food
+@ENGLISH:	roll
+@POLISH:	buka
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	food
+@ENGLISH:	butter
+@POLISH:	masło
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	food
+@ENGLISH:	ham
+@POLISH:	szynka
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	food
+@ENGLISH:	yellow cheese
+@POLISH:	ser żółty
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	food
+@ENGLISH:	jam
+@POLISH:	dżem
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	food
+@ENGLISH:	egg
+@POLISH:	jajko
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	drink
+@ENGLISH:	tea
+@POLISH:	herbata
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	drink
+@ENGLISH:	coffee
+@POLISH:	kawa
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	drink
+@ENGLISH:	milk
+@POLISH:	mleko
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	food
+@ENGLISH:	sugar
+@POLISH:	cukier
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	food
+@ENGLISH:	salt
+@POLISH:	sól
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	food
+@ENGLISH:	soup
+@POLISH:	zupa
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	food
+@ENGLISH:	cutlet
+@POLISH:	kotlet
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	food
+@ENGLISH:	meat
+@POLISH:	mięso
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	food
+@ENGLISH:	fish
+@POLISH:	ryba
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	food
+@ENGLISH:	fries
+@POLISH:	frytki
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	food
+@ENGLISH:	salad
+@POLISH:	sałata
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	drink
+@ENGLISH:	wine
+@POLISH:	wino
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	drink
+@ENGLISH:	beer
+@POLISH:	piwo
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	drink
+@ENGLISH:	mineral water
+@POLISH:	woda mineralna
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	drink
+@ENGLISH:	juice
+@POLISH:	sok
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	food
+@ENGLISH:	ice cream
+@POLISH:	lody
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	food
+@ENGLISH:	cake
+@POLISH:	ciaso
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	fruit
+@ENGLISH:	fruit
+@POLISH:	owoce
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	fruit
+@ENGLISH:	banana
+@POLISH:	banan
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	fruit
+@ENGLISH:	apple
+@POLISH:	jabłko
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	fruit
+@ENGLISH:	pear
+@POLISH:	gruszka
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	fruit
+@ENGLISH:	orange
+@POLISH:	pomarańcza
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	fruit
+@ENGLISH:	lemon
+@POLISH:	cytryna
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vegetable
+@ENGLISH:	vegetable
+@POLISH:	warzywa
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vegetable
+@ENGLISH:	cabbage
+@POLISH:	kapusta
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vegetable
+@ENGLISH:	pomidor
+@POLISH:	tomato
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vegetable
+@ENGLISH:	ogórek
+@POLISH:	cucumber
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vegetable
+@ENGLISH:	potatoes
+@POLISH:	ziemniaki
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	vegetable
+@ENGLISH:	onion
+@POLISH:	cebula
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	meals
+@POLISH:	potrawy
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	groceries
+@POLISH:	produkty spożywcze
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to fit
+@POLISH:	pasować
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	conjunction
+@ENGLISH:	because
+@POLISH:	ponieważ
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	adverb
+@ENGLISH:	without
+@POLISH:	bez
+@@END:		CARD
+
+@@ Strona 51
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	What do you eat for breakfast?
+@POLISH:	Co jesz na śnadanie?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	For breakfast I eat bread, ham and cheese.
+@POLISH:	Na śnadanie jem chleb, szynkę i ser.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	What do you like to eat for dinner?
+@POLISH:	Co lubisz jeść na obiad?
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	phrase
+@ENGLISH:	For dinner I like to eat tomato soup, potatos, cutlet and salad.
+@POLISH:	Na obiad lubię jeść zupę pomidorową, ziemniaki, kotlet i sałatę.
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to eat
+@POLISH:	jeść
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	verb
+@ENGLISH:	to drink
+@POLISH:	pić
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	dishes
+@POLISH:	dania
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	noun
+@ENGLISH:	beverages
+@POLISH:	napoje
+@@END:		CARD
+
+
+
+
