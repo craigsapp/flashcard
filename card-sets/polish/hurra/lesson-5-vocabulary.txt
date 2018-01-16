@@ -1,0 +1,101 @@
+
+
+@@ Strona 42
+
+@@BEGIN:	CARD
+@CATEGORY:	hobby
+@ENGLISH:	to play the guitar
+@POLISH:	{grać}vIII na {gitarze}nfL
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	hobby
+@ENGLISH:	to watch television
+@POLISH:	{oglądać}vIII {telewizję}nfA
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	hobby
+@ENGLISH:	to go to the theater
+@POLISH:	{chodzić}vII do {teatru}nmiG
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	hobby
+@ENGLISH:	to play tennis
+@POLISH:	{grać}vIII w {tenisa}nma
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	hobby
+@ENGLISH:	to hang out with friends
+@ENGLISH_ALT:	to meet with friends
+@POLISH:	{spotykać}vIII się z {kolegami}nmpII
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	hobby
+@ENGLISH:	to go to a restaurant
+@POLISH:	{chodzić}vII do {restauracji}nfG
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	hobby
+@ENGLISH:	to listen to music
+@POLISH:	{słuchać}vIII {muzyki}nfG
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	hobby
+@ENGLISH:	to dance
+@POLISH:	{tańczyć}vII
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	hobby
+@ENGLISH:	to take photos
+@POLISH:	robić {zdjęcia}nAA
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	hobby
+@ENGLISH:	to travel
+@POLISH:	podróżować
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	hobby
+@ENGLISH:	to read books
+@POLISH:	{czytać}vIII książki
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	hobby
+@ENGLISH:	to go to a cafe
+@POLISH:	chodzić do kawiarni
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	hobby
+@ENGLISH:	to ride a bicycle
+@POLISH:	jeżdzić na rowerze
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	hobby
+@ENGLISH:	to read newspapers
+@POLISH:	czytać gazety
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	hobby
+@ENGLISH:	to go to the cinema
+@POLISH:	chodzić do kina
+@@END:		CARD
+
+@@BEGIN:	CARD
+@CATEGORY:	hobby
+@ENGLISH:	to play sports
+@POLISH:	uprawiać sport
+@@END:		CARD
+

@@ -1,0 +1,14 @@
+---
+layout: cardlist
+permalink: /card-sets/polish/hurra/lesson-5-vocabulary.aton
+---
+
+{% include_relative card-setup.txt 
+	title="Lesson 5 vocabulary"
+	titleurl=""
+	description="Flashcards for lesson 5 vocabulary"
+	note="Chapter 5 of Hurra"
+%}
+
+{% include_relative lesson-5-vocabulary.txt %}
+
